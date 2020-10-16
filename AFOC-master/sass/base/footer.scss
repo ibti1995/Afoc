@@ -1,0 +1,24 @@
+footer {
+	flex-shrink: 0;
+	background-color: #25282a;
+	height: auto;
+	width: 100%;
+	color: white;
+	padding: 0;
+	margin: 0;
+}
+footer div {
+	font-family: rossanova;
+}
+footer div div {
+	padding: 0px 0px 0px 30px;
+}
+.footerlist {
+	list-style: none;
+	margin-left: 10%;
+	padding-top: 3%;
+    padding-bottom: 3%;
+    li {
+        margin-bottom: 3%;
+    }
+}
