@@ -1,87 +1,42 @@
+.catering {
+  background-image: url("assets/Groupe 2252.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 754px;
+  display: flex;
+  max-width: 1932px;
+  background-size:100%;
+  text-align: center;
 
-.headerI {
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	height: auto;
-}
-
-.headerII {
-	margin: 0;
-	padding: 0;
-	height: auto;
-}
-
-#layer {
-	position: absolute;
-	top: 0;
-	z-index: 10;
-	width: 100%;
-	max-width: 1932px;
 }
 
 #logo {
-	z-index: 20;
-	position: relative;
-	top: 0;
-	position: absolute;
-	height: auto;
-	width: 7%;
-	left: 47%;
-	margin-top: 4%;
+  align-self: flex-start;
+  order: 5;
+  height: auto;
+  width: 7%;
+  margin-top: 65px;
+  margin-left: 210px;
 }
-
-.words {
-	text-align: center;
-	position: absolute;
-	color: white;
-	left: 0;
-	right: 0;
-	top: 60%;
-	z-index: 999;
-	width: 40%;
-}
-
-.box {
-	position: relative;
-	display: inline-block;
-}
-
-.invisble {
-	left: 50%;
-	position: absolute;
-	top: 20%;
-	z-index: 50;
-	height: auto;
-	width: 40%;
-	max-width: 950px;
-}
-
-#Groupe_522, #Groupe_525, #Groupe_520 {
-	display: block;
-	margin: auto;
-}
-
-#Groupe_525 {
-	margin-top: 15%;
-	margin-bottom: 8%;
-}
-
-.title {
-	background-image: url("../assets/Image1.png");
-	border-style: solid;
-	height: 105.58px;
-	width: 148.88px;
-}
-
 .custom-select {
-	z-index: 15;
-	margin-left: 8%;
-	margin-top: 6%;
-	border: 0px;
-	outline: 0px;
-	background: transparent;
-	color: white;
-	position: absolute;
-	top: 0;
+  border: 0px;
+  outline: 0px;
+  background: transparent;
+  color: white;
+  align-self: flex-start;
+  order: 1;
+  margin-top: 100px;
+  margin-left: 106px;
+  font-size: 11px;
+}
+.words {
+  align-self: flex-end;
+  text-align: center;
+  color: white;
+  margin-bottom: 9%;
+  order: 3;
+  height: auto;
+  width: 19%;
+ 
+  margin-left: -30px;
 }
