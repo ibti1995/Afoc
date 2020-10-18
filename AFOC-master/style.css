@@ -146,11 +146,12 @@ h3 {
 }
 
 h4 {
-  font-size: 25px;
+  font-size: 15px;
 }
 
 p {
   font-size: 13px;
+  line-height: 35px;
 }
 
 body {
@@ -178,6 +179,7 @@ body {
   margin-top: 20px;
   margin-left: 106px;
   margin-right: 160px;
+  order: 1;
 }
 
 .box-title {
@@ -230,6 +232,7 @@ body {
   border-color: #926D39;
   text-decoration: none;
   font-size: 11px;
+  letter-spacing: 2px;
 }
 
 .l-height-30 {
@@ -257,10 +260,25 @@ body {
 }
 
 section {
-  flex: 1 0 auto;
+  display: flex;
   height: auto;
   width: 100%;
   margin-bottom: 50px;
+}
+
+.divisions {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 106px;
+  margin-right: 160px;
+  order: 2;
+}
+
+.variety {
+  margin-top: 100px;
+  float: left;
+  width: 100%;
+  padding: 50px 50px;
 }
 
 /* Media Queries: Tablet Landscape */
