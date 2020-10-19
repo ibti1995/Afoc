@@ -130,6 +130,25 @@ footer div {
   text-align: center;
 }
 
+.gold-btn {
+  margin-top: 29px;
+  border-style: solid;
+  border-width: 1px;
+  background-color: #926D39;
+  padding: 19px 39px 18px;
+  width: fit-content;
+  color: #ffffff;
+}
+
+.white-btn {
+  margin-top: 29px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #926D39;
+  padding: 19px 39px 18px;
+  width: fit-content;
+}
+
 h1 {
   font-size: 60px;
   font-weight: unset !important;
@@ -314,6 +333,15 @@ section {
   max-width: 1932px;
   background-size: auto;
   text-align: center;
+}
+
+.offerTitle {
+  background-image: url("assets/sigleOfferImg/Rectangle 1745.png");
+  display: flex;
+  margin-top: 56px;
+  margin-left: 152px;
+  margin-right: 162px;
+  order: 1;
 }
 
 /*# sourceMappingURL=style.css.map */
