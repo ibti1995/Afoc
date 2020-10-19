@@ -1,16 +1,10 @@
-.catering {
-  background-image: url("assets/Groupe 2252.png");
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 1080px;
-  display: flex;
-  max-width: 1932px;
-  background-size:auto;
-  text-align: center;
 
-
+.small-word-header{
+	letter-spacing: 6px; font-size: 12px;line-height: 25px;
 }
-
+.big-word-header{
+	font-size: 44px; line-height: 64px; margin-top: 4.9px;
+}
 #logo {
   align-self: flex-start;
   order: 5;
@@ -27,9 +21,9 @@
   color: white;
   align-self: flex-start;
   order: 1;
-  margin-top: 100px;
-  margin-left: 106px;
-  font-size: 11px;
+  margin-top: 108px;
+  margin-left: 214px;
+  font-size: 17px;
 }
 .words {
   align-self: flex-end;

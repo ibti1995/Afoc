@@ -22,15 +22,16 @@
   font-family: poppins-medium;
   src: url(assets/font/Poppins/Poppins-Medium.ttf);
 }
-.catering {
-  background-image: url("assets/Groupe 2252.png");
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 1080px;
-  display: flex;
-  max-width: 1932px;
-  background-size: auto;
-  text-align: center;
+.small-word-header {
+  letter-spacing: 6px;
+  font-size: 12px;
+  line-height: 25px;
+}
+
+.big-word-header {
+  font-size: 44px;
+  line-height: 64px;
+  margin-top: 4.9px;
 }
 
 #logo {
@@ -49,9 +50,9 @@
   color: white;
   align-self: flex-start;
   order: 1;
-  margin-top: 100px;
-  margin-left: 106px;
-  font-size: 11px;
+  margin-top: 108px;
+  margin-left: 214px;
+  font-size: 17px;
 }
 
 .words {
@@ -165,6 +166,17 @@ body {
   flex-direction: column;
   height: 100%;
   font: size 20px;
+}
+
+.catering {
+  background-image: url("assets/Groupe 2252.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 1080px;
+  display: flex;
+  max-width: 1932px;
+  background-size: auto;
+  text-align: center;
 }
 
 .box {
@@ -284,38 +296,24 @@ section {
   display: flex;
 }
 .variety-imgs img {
-  width: 206px;
+  width: 203px;
   height: 688px;
   object-fit: cover;
 }
 
 .simple:focus {
-  width: 637px !important;
-  border-style: none;
+  width: 637px;
 }
 
-/* Media Queries: Tablet Landscape */
-@media screen and (max-width: 1060px) {
-  #primary {
-    width: 67%;
-  }
-
-  #secondary {
-    width: 30%;
-    margin-left: 3%;
-  }
-}
-/* Media Queries: Tabled Portrait */
-@media screen and (max-width: 768px) {
-  #primary {
-    width: 100%;
-  }
-
-  #secondary {
-    width: 100%;
-    margin: 0;
-    border: none;
-  }
+.offer {
+  background-image: url("assets/sigleOfferImg/Groupe 2252.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 1080px;
+  display: flex;
+  max-width: 1932px;
+  background-size: auto;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
