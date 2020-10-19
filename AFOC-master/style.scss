@@ -238,10 +238,6 @@ body {
   line-height: 20px;
 }
 
-.l-height-10 {
-  line-height: 3px;
-}
-
 .list-elem-icon {
   width: 20px;
   float: left;
@@ -273,6 +269,12 @@ section {
   order: 2;
 }
 
+.variety {
+  margin-top: 100px;
+  width: 100%;
+  padding: 50px 50px;
+}
+
 /* Media Queries: Tablet Landscape */
 @media screen and (max-width: 1060px) {
   #primary {
@@ -297,4 +299,4 @@ section {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.scss.map */
