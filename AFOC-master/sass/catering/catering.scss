@@ -154,10 +154,13 @@ section {
 // }
 .variety-imgs{
 	display: flex;
-	img{width: 206px;
-		height: 688px;
-		object-fit: cover;}
+	img{width: 203px;
+    height: 688px;
+   
+    object-fit: cover;}
+    
 }
 .simple:focus {
 	width:637px !important;
  }
+
