@@ -38,8 +38,8 @@
   order: 5;
   height: auto;
   width: 7%;
-  margin-top: 65px;
-  margin-left: 215px;
+  margin-top: 60px;
+  margin-left: 410px;
 }
 
 .custom-select {
@@ -70,10 +70,15 @@ footer {
   color: white;
 }
 footer img {
-  height: 20px;
-  width: 20px;
-  margin-right: 8px;
+  height: 31px;
+  width: 31px;
+  margin-right: 14px;
   margin-top: 40px;
+}
+footer li {
+  font-family: rossanova;
+  margin-bottom: 40px;
+  font-size: 25px;
 }
 
 footer div {
@@ -146,51 +151,58 @@ h4 {
 
 p {
   font-size: 20px;
-  line-height: 35px;
+  line-height: 45px;
 }
 
 body {
   max-width: 1932px;
   margin: 0 auto;
-  background-color: #FCFCFC;
+  background-color: #fcfcfc;
   font-family: poppins;
   line-height: 45px;
   color: #000000;
   display: flex;
-  background-color: white;
   flex-direction: column;
   height: 100%;
   font: size 20px;
 }
 
-#boxShadow {
-  -webkit-box-shadow: -2px 10px 30px 0px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: -2px 10px 30px 0px rgba(0, 0, 0, 0.05);
-  box-shadow: -2px 10px 30px 0px rgba(0, 0, 0, 0.05);
+.box {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.08);
+  display: flex;
+  margin-top: 56px;
+  margin-left: 152px;
+  margin-right: 162px;
+  order: 1;
+  background-color: white;
 }
 
-.box {
+.box-foot {
+  margin: 90px 162px 56px 152px;
   display: flex;
-  margin-top: 20px;
-  margin-left: 106px;
-  margin-right: 140px;
   order: 1;
 }
 
 .box-title {
-  margin-left: 68px;
+  padding-bottom: 79px;
+  padding-left: 78px;
   line-height: 30px;
-  margin-top: 40px;
-  width: 60%;
-  margin-right: 68px;
+  margin-top: 67px;
+  width: 50%;
+  padding-right: 62px;
 }
 
 .box-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("assets/food2.png");
+  width: 60%;
   order: 2;
 }
 
 .icon-under-h {
-  width: 70px;
+  width: 118px;
 }
 
 .text-under-h1 {
@@ -216,17 +228,12 @@ body {
 
 .img {
   width: 100%;
-  height: auto;
 }
 
 .request-btn {
-  padding: 10px 25px;
-  margin-bottom: 20px;
-  border-style: solid;
-  border-width: 1px;
   border-color: #926D39;
   text-decoration: none;
-  font-size: 11px;
+  font-size: 20px;
   letter-spacing: 2px;
 }
 
@@ -249,13 +256,13 @@ body {
 }
 
 .info-icon {
-  height: 70px;
+  height: 60px;
   float: left;
   margin: 0px 30px 0px 0px;
 }
 
 .info-size {
-  font: size 17px;
+  font-size: 17px;
 }
 
 section {
@@ -271,6 +278,19 @@ section {
   margin-left: 106px;
   margin-right: 160px;
   order: 2;
+}
+
+.variety-imgs {
+  display: flex;
+}
+.variety-imgs img {
+  width: 206px;
+  height: 688px;
+  object-fit: cover;
+}
+
+.simple:focus {
+  width: 637px;
 }
 
 /* Media Queries: Tablet Landscape */
