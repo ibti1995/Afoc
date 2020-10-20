@@ -40,10 +40,11 @@
   height: auto;
   width: 7%;
   margin-top: 60px;
-  margin-left: 410px;
+  margin-left: 250px;
 }
 
 .custom-select {
+  font-family: poppins;
   border: 0px;
   outline: 0px;
   background: transparent;
@@ -53,6 +54,10 @@
   margin-top: 108px;
   margin-left: 214px;
   font-size: 17px;
+}
+
+.item-select {
+  color: black;
 }
 
 .words {
