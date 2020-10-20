@@ -139,8 +139,7 @@ footer div {
   margin-top: 29px;
   border-width: 1px;
   background-color: #926D39;
-  padding: 19px 39px 18px;
-  width: fit-content;
+  color: #ffffff;
 }
 
 .white-btn {
@@ -148,8 +147,8 @@ footer div {
   border-style: solid;
   border-width: 1px;
   border-color: #926D39;
-  padding: 19px 39px 18px;
-  width: fit-content;
+  background-color: #ffffff;
+  color: #926D39;
 }
 
 .flex-column {
@@ -358,6 +357,15 @@ section {
   margin-top: 56px;
   margin-left: 152px;
   margin-right: 162px;
+}
+
+.offert-request-btn {
+  border-color: #926D39;
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing: 2px;
+  padding: 16px 54px 16px;
+  width: fit-content;
 }
 
 .history {
