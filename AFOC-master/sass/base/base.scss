@@ -36,14 +36,23 @@
 	text-align: center;
 }
 .gold-btn{
-	margin-top: 29px; border-style: solid;
+	margin-top: 29px; 
 	border-width: 1px;
 	background-color: #926D39 ; padding: 19px 39px 18px; width: fit-content;
-	color: #ffffff;
+	
 }
 .white-btn{
-	margin-top: 29px; border-style: solid;
+	margin-top: 29px;
+	 border-style: solid;
 	border-width: 1px;
 	border-color: #926D39 ; padding: 19px 39px 18px; width: fit-content;
 
 }
+.offer-flex-column{
+    display: flex;
+    flex-direction: column;
+  }
+  .offer-flex-row{
+    display: flex;
+    flex-direction: row;
+  }

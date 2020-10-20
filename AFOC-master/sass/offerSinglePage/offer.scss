@@ -1,3 +1,9 @@
+.offer-section{
+    display: flex;
+    flex-direction: column;
+    background-image: url("assets/sigleOfferImg/Rectangle 1745.png");
+}
+
 .offer {
     background-image: url("assets/sigleOfferImg/Groupe 2252.png");
     background-repeat: no-repeat;
@@ -7,15 +13,10 @@
     max-width: 1932px;
     background-size:auto;
     text-align: center;
-  
-  
   }
-  .offerTitle{
-      background-image: url("assets/sigleOfferImg/Rectangle 1745.png");
-    display: flex;
+
+  .offer-margin{
     margin-top: 56px;
     margin-left: 152px;
     margin-right: 162px;
-    order: 1;
-
   }
