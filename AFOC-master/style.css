@@ -147,12 +147,12 @@ footer div {
   width: fit-content;
 }
 
-.offer-flex-column {
+.flex-column {
   display: flex;
   flex-direction: column;
 }
 
-.offer-flex-row {
+.flex-row {
   display: flex;
   flex-direction: row;
 }
