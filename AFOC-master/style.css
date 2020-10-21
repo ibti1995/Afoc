@@ -534,13 +534,13 @@ section {
 .gallery {
   background: #FFFF;
   margin-bottom: 100px;
-  height: 516px;
+  height: 520px;
 }
 
 .gallery-cell {
-  margin-top: 10px;
+  margin-top: 20px;
   width: 30%;
-  height: 500px;
+  height: 470px;
   margin-right: 10px;
   background: white;
   counter-increment: gallery-cell;
