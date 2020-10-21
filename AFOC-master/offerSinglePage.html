@@ -51,20 +51,22 @@
           enim ad minim veniam, quis nostrud exercitation ullamco laboris
           nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
         </p>
-        <h4 class="poppins-M"> Features and Services: </h4>
+        <h4 class="poppins-M" style="margin-top: 40px;"> Features and Services: </h4>
         <div class="flex-row">
           <div style="width: 270px; margin-right: 147.5px;line-height: 11px" >
         <img class="list-elem-icon" src="assets/svg/Tracé 8474.svg" />
-        <p class="">nvidunt ut labore et dolore </p>
+        <p class="">nvidunt ut labore  </p>
         <img class="list-elem-icon" src="assets/svg/Tracé 8474.svg" />
-        <p class="">nvidunt ut labore et dolore  </p>
+        <p class="">nvidunt ut labore </p>
         <img class="list-elem-icon" src="assets/svg/Tracé 8474.svg" />
-        <p class="">nvidunt ut labore et dolore </p> </div>
+        <p class="">nvidunt ut labore  </p> </div>
         <div style="width: 270px;" >
         <img class="list-elem-icon" src="assets/svg/Tracé 8474.svg" />
-        <p class="">nvidunt ut labore et dolore </p>
+        <p class="">nvidunt ut labore </p>
         <img class="list-elem-icon" src="assets/svg/Tracé 8474.svg" />
-        <p class="">nvidunt ut labore et dolore </p>
+        <p class="">nvidunt ut labore</p>
+        <img class="list-elem-icon" src="assets/svg/Tracé 8474.svg" />
+        <p class="">nvidunt ut labore</p>
       </div>
       </div>
       </div>
@@ -73,19 +75,19 @@
 
         <div class="mySlides fade">
        
-          <img src="assets/history/AT-Guidelines-Beach-Bag.png" style="width:100%">
+          <img src="assets/food2.png" style="width:100%">
 
         </div>
         
         <div class="mySlides fade">
 
-          <img src="assets/history/Away-Lands-Hot-Air-Balloon-Falcon-Dubai-Desert-Camp-009.png" style="width:100%">
+          <img src="assets/food2.png" style="width:100%">
      
         </div>
         
         <div class="mySlides fade">
         
-          <img src="assets/history/1.png" style="width:100%">
+          <img src="assets/food2.png" style="width:100%">
   
         </div>
         
@@ -193,34 +195,7 @@
   </footer>
   </div>
   </div>
-  <script>
-    var slideIndex = 1;
-    showSlides(slideIndex);
-    
-    function plusSlides(n) {
-      showSlides(slideIndex += n);
-    }
-    
-    function currentSlide(n) {
-      showSlides(slideIndex = n);
-    }
-    
-    function showSlides(n) {
-      var i;
-      var slides = document.getElementsByClassName("mySlides");
-      var dots = document.getElementsByClassName("dot");
-      if (n > slides.length) {slideIndex = 1}    
-      if (n < 1) {slideIndex = slides.length}
-      for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";  
-      }
-      for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[slideIndex-1].style.display = "block";  
-      dots[slideIndex-1].className += " active";
-    }
-    </script>
+  <script src="sass/offerSinglePage/offerSinglaPage.js"></script>
     
 </body>
 
