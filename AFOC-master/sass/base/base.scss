@@ -1,69 +1,75 @@
-
 .gold {
-	color: $primary-color;
+  color: $primary-color;
 }
 .white {
-    color: #ffffff;
+  color: #ffffff;
 }
 .black {
-    color: #000000;
+  color: #000000;
 }
 
 .rossanova {
-	font-family: rossanova;
+  font-family: rossanova;
 }
 .rossanova-L {
-	font-family: rossanova-light;
+  font-family: rossanova-light;
 }
 .rossanova-M {
-	font-family: rossanova-bold;
+  font-family: rossanova-bold;
 }
 
 .poppins {
-	font-family: poppins;
+  font-family: poppins;
 }
 
 .poppins-L {
-	font-family: poppins-light;
+  font-family: poppins-light;
 }
 
-
 .poppins-M {
-	font-family: poppins-medium;
+  font-family: poppins-medium;
 }
 
 .center {
-	text-align: center;
+  text-align: center;
 }
-.gold-btn{
-	margin-top: 29px; 
-	border-width: 1px;
-	background-color: #926D39 ;
-	 color: #ffffff;
-	
+.gold-btn {
+  margin-top: 29px;
+  border-width: 1px;
+  background-color: #926d39;
+  color: #ffffff;
 }
 
-.white-btn{
-	margin-top: 29px;
-	 border-style: solid;
-	border-width: 1px;
-	border-color: #926D39 ;
-	background-color: #ffffff;
- color: $primary-color;
-
+.white-btn {
+  margin-top: 29px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #926d39;
+  background-color: #ffffff;
+  color: $primary-color;
 }
-.flex-column{
-    display: flex;
-    flex-direction: column;
-  }
-  .flex-row{
-    display: flex;
-    flex-direction: row;
-  }
-  .ourfans-box{
-	-webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.5);
-	-moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.5);
-	box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.5);
-
-  }
-  
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.ourfans-box {
+	-webkit-box-shadow: 0px 0px 30px -17px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 30px -17px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 30px -17px rgba(0,0,0,0.5);
+}
+.parag-in-ourfans {
+  width: 395.75px;
+  //white-space: nowrap;
+// overflow: hidden;
+//  text-overflow: ellipsis ;
+  height: 309.43px;
+  color: #D6D6D6;
+  margin-bottom: 47.3px;
+  background-image: url("assets/sigleOfferImg/Groupe 1980.png");
+  background-repeat: no-repeat;
+  background-size:380px 310px ;
+}
