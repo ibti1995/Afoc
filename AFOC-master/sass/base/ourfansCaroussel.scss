@@ -3,26 +3,25 @@
 
     background-image: url("assets/sigleOfferImg/Groupe 1980.png");
     background-repeat: no-repeat;
-    z-index: 500;
+    
 }
 
 .gallery {
-    background: rgb(255, 255, 255);
-    height:516px ;
-    width: 1618px;
+    background: #EEE;
+    margin-bottom: 100px;
+    height: 516px;
   }
   
   .gallery-cell {
-    width: 50%;
-    height: 50px;
+    width: 30%;
+    height: 500px;
     margin-right: 10px;
-  
+    background: #8C8;
     counter-increment: gallery-cell;
   }
   
   /* cell number */
   .gallery-cell:before {
-      
     display: block;
     text-align: center;
     content: counter(gallery-cell);
@@ -30,6 +29,7 @@
     font-size: 80px;
     color: white;
   }
+  
   /*************************************************/
 
   /*! Flickity v1.0.0
