@@ -908,4 +908,11 @@ http://flickity.metafizzy.co
   display: inline;
 }
 
+.flex-row ul {
+  font-size: 20px;
+}
+.flex-row ul li {
+  list-style-image: url("assets/svg/single room/square.svg");
+}
+
 /*# sourceMappingURL=style.css.map */
