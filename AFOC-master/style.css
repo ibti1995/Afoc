@@ -894,4 +894,18 @@ http://flickity.metafizzy.co
   width: 305.75px;
 }
 
+.singleRoommenu {
+  width: 819px;
+  font-size: 17px;
+}
+.singleRoommenu ul {
+  list-style-type: none;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.singleRoommenu ul li {
+  margin-left: 40px;
+  display: inline;
+}
+
 /*# sourceMappingURL=style.css.map */
