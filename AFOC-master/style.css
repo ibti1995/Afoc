@@ -427,6 +427,36 @@ section {
   width: fit-content;
 }
 
+.offer-get-in-touch {
+  background-image: url("assets/sigleOfferImg/Intersection 10.png");
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-bottom: -80px;
+}
+
+.offer-get-in-touch-box {
+  position: relative;
+  height: 591px;
+  width: 534px;
+  background-color: white;
+  margin-top: 100px;
+  margin-right: 66px;
+}
+
+.offer-get-in-touch-values {
+  margin-top: 81.5px;
+  margin-left: 53px;
+}
+
+.offer-get-in-touch-title {
+  width: fit-content;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  margin-left: 35px;
+}
+
 .history {
   background-image: url("assets/history/Groupe 2252.png");
   background-repeat: no-repeat;
