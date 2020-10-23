@@ -791,4 +791,12 @@ http://flickity.metafizzy.co
   color: #926D39;
 }
 
+.gold-search-btn {
+  width: 80px;
+  border-width: 1px;
+  background-color: #926d39;
+  color: #ffffff;
+  padding: 5px 10px 5px;
+}
+
 /*# sourceMappingURL=style.css.map */
