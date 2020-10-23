@@ -319,11 +319,23 @@ body {
   width: 100%;
 }
 
+.cat-white-btn {
+  margin-top: 29px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #926d39;
+  background-color: #ffffff;
+  color: #926D39;
+  width: 302px;
+}
+
 .request-btn {
   border-color: #926D39;
   text-decoration: none;
   font-size: 20px;
   letter-spacing: 2px;
+  padding: 19px 39px 19px;
+  width: fit-content;
 }
 
 .l-height-30 {
@@ -642,7 +654,7 @@ http://flickity.metafizzy.co
 
 /* ---- previous/next buttons ---- */
 .flickity-prev-next-button {
-  margin-bottom: -10px;
+  margin-bottom: -12px;
   width: 44px;
   height: 44px;
   border: none;
