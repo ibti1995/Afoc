@@ -14,17 +14,7 @@
     background: rgb(255, 255, 255);
     counter-increment: gallery-cell;
   }
-  
-  /* cell number */
-  .gallery-cell:before {
-    display: block;
-    text-align: center;
-    //content: counter(gallery-cell);
- 
-    font-size: 80px;
-    color: white;
-  }
-  
+
   /*************************************************/
 
   /*! Flickity v1.0.0
@@ -72,8 +62,7 @@ http://flickity.metafizzy.co
   /* ---- previous/next buttons ---- */
   
   .flickity-prev-next-button {
-    position: absolute;
-    bottom: 0;
+margin-bottom: -12px;
     width: 44px;
     height: 44px;
     border: none;
@@ -100,7 +89,7 @@ http://flickity.metafizzy.co
   }
   
   .flickity-prev-next-button.previous { left: 10px; }
-  .flickity-prev-next-button.next { right: 10px; }
+  .flickity-prev-next-button.next { left: 50px; }
   /* right to left */
   .flickity-rtl .flickity-prev-next-button.previous {
     left: auto;
@@ -120,7 +109,7 @@ http://flickity.metafizzy.co
   .flickity-prev-next-button svg {
     position: absolute;
     left: 20%;
-    top: 20%;
+    top: 10%;
     width: 60%;
     height: 60%;
   }
