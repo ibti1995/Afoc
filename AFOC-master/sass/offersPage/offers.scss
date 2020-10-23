@@ -54,6 +54,9 @@
     color: #ffffff;
     padding: 5px 10px 5px;
   }
+  .menu-size{
+    margin-bottom: 50px; font-size: 20px;
+  }
 .right-menu{
   margin-left: 440px; background-color: white; height:79px ;width: 351px; font-size: 20px;
 }
@@ -75,4 +78,13 @@
 .offers-name{
   width: 20% ; margin-bottom:0px; margin-left:16px; margin-top:15px;
 
+}
+.offers-cont{
+  width: 520px; height: 406px
+}
+.offers-name-title{
+  font-size: 20px; line-height: 15px;
+}
+.offers-name-parag{
+  margin-left: 20px; line-height: 20px; font-size: 12px; width: 305.75px;
 }
