@@ -915,4 +915,15 @@ http://flickity.metafizzy.co
   list-style-image: url("assets/svg/single room/square.svg");
 }
 
+.meetings {
+  background-image: url("assets/meetings/Groupe 2252.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 1080px;
+  display: flex;
+  max-width: 1932px;
+  background-size: auto;
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */
