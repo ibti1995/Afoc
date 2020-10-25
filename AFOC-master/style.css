@@ -427,6 +427,36 @@ section {
   width: fit-content;
 }
 
+.offer-get-in-touch {
+  background-image: url("assets/sigleOfferImg/Intersection 10.png");
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-bottom: -80px;
+}
+
+.offer-get-in-touch-box {
+  position: relative;
+  height: 591px;
+  width: 534px;
+  background-color: white;
+  margin-top: 100px;
+  margin-right: 66px;
+}
+
+.offer-get-in-touch-values {
+  margin-top: 81.5px;
+  margin-left: 53px;
+}
+
+.offer-get-in-touch-title {
+  width: fit-content;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  margin-left: 35px;
+}
+
 .history {
   background-image: url("assets/history/Groupe 2252.png");
   background-repeat: no-repeat;
@@ -845,6 +875,103 @@ http://flickity.metafizzy.co
   background-color: #926d39;
   color: #ffffff;
   padding: 5px 10px 5px;
+}
+
+.menu-size {
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+.right-menu {
+  margin-left: 440px;
+  background-color: white;
+  height: 79px;
+  width: 351px;
+  font-size: 20px;
+}
+
+.right-menu-occ {
+  margin-top: 20px;
+  margin-left: 17px;
+  margin-right: 17px;
+}
+
+.right-menu-select {
+  border-style: none;
+  margin-right: 24px;
+  font-size: 23px;
+  width: 80px;
+  color: #B2B4B2;
+}
+
+.occ-opt {
+  color: #B2B4B2;
+  font-size: 23px;
+}
+
+.slides-box {
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+
+.offers-icon-under-h {
+  width: 50px;
+}
+
+.offers-name {
+  width: 20%;
+  margin-bottom: 0px;
+  margin-left: 16px;
+  margin-top: 15px;
+}
+
+.offers-cont {
+  width: 520px;
+  height: 406px;
+}
+
+.offers-name-title {
+  font-size: 20px;
+  line-height: 15px;
+}
+
+.offers-name-parag {
+  margin-left: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  width: 305.75px;
+}
+
+.singleRoommenu {
+  width: 819px;
+  font-size: 17px;
+}
+.singleRoommenu ul {
+  list-style-type: none;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.singleRoommenu ul li {
+  margin-left: 40px;
+  display: inline;
+}
+
+.flex-row ul {
+  font-size: 20px;
+}
+.flex-row ul li {
+  list-style-image: url("assets/svg/single room/square.svg");
+}
+
+.meetings {
+  background-image: url("assets/meetings/Groupe 2252.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 1080px;
+  display: flex;
+  max-width: 1932px;
+  background-size: auto;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
