@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: rossanova;
   src: url(assets/font/Rossanova/Rossanova-Regular.otf);
@@ -455,6 +456,19 @@ section {
   margin-top: 50px;
   margin-bottom: 10px;
   margin-left: 35px;
+}
+
+.flex-row .list-class-offer {
+  margin-right: 50.5px;
+  line-height: 11px;
+}
+.flex-row .list-class-offer ul {
+  width: 323, 15px;
+  line-height: 16px;
+}
+.flex-row .list-class-offer ul li {
+  list-style-image: url("assets/svg/Tracé 8474.svg");
+  margin-bottom: 16px;
 }
 
 .history {
@@ -924,6 +938,78 @@ http://flickity.metafizzy.co
   max-width: 1932px;
   background-size: auto;
   text-align: center;
+}
+
+.request-btn-act {
+  border-color: #926D39;
+  text-decoration: none;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  line-height: 10px;
+  padding: 6px 10px 6px;
+}
+
+.gold-btn-act {
+  margin-top: 10px;
+  border-width: 1px;
+  background-color: #926d39;
+  color: #ffffff;
+  width: 241px;
+}
+
+.white-btn-act {
+  margin-top: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #926d39;
+  background-color: #ffffff;
+  color: #926D39;
+  width: 241px;
+}
+
+.list-class {
+  margin-right: 147.5px;
+  line-height: 11px;
+}
+.list-class ul {
+  width: 323, 15px;
+  line-height: 16px;
+}
+.list-class ul li {
+  list-style-image: url("assets/svg/Tracé 8474.svg");
+  margin-bottom: 16px;
+}
+
+.multiRooms {
+  background-image: url("assets/multiRooms/Groupe 2252.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 1080px;
+  display: flex;
+  background-size: auto;
+  text-align: center;
+}
+
+.rooms-num {
+  color: #926D39;
+  font-size: 60px;
+}
+
+.caract {
+  width: 144px;
+  margin-right: 168px;
+}
+
+.rooms-menu-size {
+  width: 451px;
+}
+
+.rooms-right-menu {
+  margin-left: 816px;
+  background-color: white;
+  height: 79px;
+  width: 351px;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
