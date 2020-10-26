@@ -119,15 +119,14 @@ flex-direction: column;
   border-width: 1px;
   border-color: #926d39;
   background-color: #ffffff;
-  color: $primary-color;
-  width: 302px;
+  color: $primary-color; width: 320px;
+
 }
 .request-btn {
-  border-color: $primary-color;
   text-decoration: none;
   font-size: 20px;
   letter-spacing: 2px; 
-  padding: 19px 39px 19px; width: fit-content;
+  padding: 19px 39px 19px; width: 302px;
 }
 
 .l-height-30 {
