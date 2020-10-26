@@ -1,12 +1,61 @@
 .weddings-text-title {
-font-family: poppins-L  !important;
+
 font-size: 19px  !important;
 line-height: 40px  !important;
 text-align: left !important;
-margin: 0px 200px 0px 200px;
+margin: 0px 360px 0px 350px;
 
 }
 .wedding-section {
     margin-left: 152px;
     margin-right: 152px;
 }
+.wedding-getintouch{
+    margin-right: 280px !important;
+    margin-left: 290px !important;
+}
+.weddings {
+        background-image: url("assets/weddings/Composant 1 – 1.png");
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 1080px;
+      display: flex;
+      flex-direction: column;
+        max-width: 1932px;
+        background-size:auto;
+        text-align: center;
+      
+      
+      
+
+}
+.wedd-ballroom-img{
+  flex-basis: 30%;
+  order: 2;
+}
+.wedd-box-ballroom {
+
+  display: flex;
+  margin-top: 56px;
+  margin-left: 152px;
+
+  order: 1;
+  align-items: center;
+   margin-right: 0px !important;
+}
+.wedd-exclusive{
+  margin-top: 50px;
+}
+.wedd-box-brital{
+  padding-bottom: 79px;
+    padding-left: 78px;
+    padding-right: 170px;
+    line-height: 30px;
+    margin-top: 67px;
+   
+  
+}
+.wedd-list-elem-icon
+{width: 20px;
+float: left;
+margin: 10px 70px 0px 0px;}
