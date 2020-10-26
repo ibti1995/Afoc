@@ -36,14 +36,15 @@ body {
 }
 .catering {
 	background-image: url("assets/Groupe 2252.png");
-	background-repeat: no-repeat;
-	width: 100%;
-	height: 1080px;
-	display: flex;
-	max-width: 1932px;
-	background-size:auto;
-	text-align: center;
-  
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 1080px;
+display: flex;
+flex-direction: column;
+ 
+  background-size:auto;
+  text-align: center;
+
   
   }
 
@@ -118,11 +119,10 @@ body {
   border-width: 1px;
   border-color: #926d39;
   background-color: #ffffff;
-  color: $primary-color;
-  width: 302px;
+  color: $primary-color; width: 320px;
+
 }
 .request-btn {
-  border-color: $primary-color;
   text-decoration: none;
   font-size: 20px;
   letter-spacing: 2px; 
@@ -177,14 +177,14 @@ section {
   display: flex;
   flex-wrap: nowrap;
 	img{
-    width: 265px;
+    width: 230px;
     height: 688px;
    
     object-fit: cover;
-  transition: all 1.3s;}
+  transition: all 0.3s;}
     
 }
-.simple:hover {
-	width:637px ; 
+.simple:hover {flex: 4 !important;
+	
  }
 

@@ -7,12 +7,13 @@
 }
 
 .offer {
-    background-image: url("assets/sigleOfferImg/Groupe 2252.png");
+    background-image: url("assets/sigleOfferImg/Composant 3 – 1.png");
     background-repeat: no-repeat;
     width: 100%;
     height: 1080px;
-    display: flex;
-    max-width: 1932px;
+  display: flex;
+  flex-direction: column;
+   
     background-size:auto;
     text-align: center;
   }
