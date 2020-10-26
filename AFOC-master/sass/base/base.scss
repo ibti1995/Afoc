@@ -82,7 +82,21 @@
   height: 309.43px;
   color: #D6D6D6;
   margin-bottom: 47.3px;
-  background-image: url("assets/sigleOfferImg/Groupe 1980.png");
+ 
   background-repeat: no-repeat;
   background-size:380px 310px ;
+}
+ //***** cotte 
+ .content {
+  position: relative;
+  .ribbon1 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+  .ribbon2 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+ }
 }
