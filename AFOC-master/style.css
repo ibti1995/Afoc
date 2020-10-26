@@ -202,9 +202,22 @@ footer div {
   height: 309.43px;
   color: #D6D6D6;
   margin-bottom: 47.3px;
-  background-image: url("assets/sigleOfferImg/Groupe 1980.png");
   background-repeat: no-repeat;
   background-size: 380px 310px;
+}
+
+.content {
+  position: relative;
+}
+.content .ribbon1 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.content .ribbon2 {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
 }
 
 h1 {
@@ -382,14 +395,16 @@ section {
 
 .variety-imgs {
   display: flex;
+  flex-wrap: nowrap;
 }
 .variety-imgs img {
   width: 265px;
   height: 688px;
   object-fit: cover;
+  transition: all 1.3s;
 }
 
-.simple:focus {
+.simple:hover {
   width: 637px;
 }
 
@@ -646,7 +661,7 @@ section {
 .gallery-cell {
   margin-top: 20px;
   width: 30%;
-  height: 470px;
+  height: auto;
   margin-right: 10px;
   background: white;
   counter-increment: gallery-cell;
@@ -667,7 +682,7 @@ http://flickity.metafizzy.co
 .flickity-viewport {
   overflow: hidden;
   position: relative;
-  height: 100%;
+  height: 100% !important;
 }
 
 .flickity-slider {
@@ -793,7 +808,6 @@ http://flickity.metafizzy.co
   height: 1080px;
   display: flex;
   flex-direction: column;
-  max-width: 1932px;
   background-size: auto;
   text-align: center;
 }
@@ -819,7 +833,7 @@ http://flickity.metafizzy.co
 .wedd-box-brital {
   padding-bottom: 79px;
   padding-left: 78px;
-  padding-right: 170px;
+  padding-right: 60px;
   line-height: 30px;
   margin-top: 67px;
 }
@@ -828,6 +842,277 @@ http://flickity.metafizzy.co
   width: 20px;
   float: left;
   margin: 10px 70px 0px 0px;
+}
+
+.getoffre-btn {
+  background-color: #926D39;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 5px;
+}
+
+.packages {
+  height: 700px !important;
+  background-color: transparent !important;
+}
+.packages .flickity-slider {
+  margin-left: -524px;
+}
+.packages button {
+  display: none !important;
+}
+
+.gallery {
+  height: 580px;
+  background-color: transparent !important;
+}
+.gallery .flickity-slider {
+  margin-left: -400px;
+}
+
+.boxShadow {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container3 {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides3 {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor3 {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev3,
+.next3 {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next3 {
+  right: 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev3:hover,
+.next3:hover {
+  background-color: #926D39;
+}
+
+/* Number text (1/3 etc) */
+.numbertext3 {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container3 {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column3 {
+  padding: 10px;
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo3 {
+  opacity: 0.6;
+}
+
+.active3,
+.demo3:hover {
+  opacity: 1;
+}
+
+/* Slideshow container */
+.slideshow-container4 {
+  position: relative;
+  margin: 0px 162px 0px 172px;
+}
+
+/* Hide the images by default */
+.mySlides4 {
+  display: none;
+  width: fit-content;
+}
+
+/* Next & previous buttons */
+.prev4, .next4 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #926D39;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next4 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev4:hover, .next4:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text4 {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext4 {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot4 {
+  cursor: pointer;
+  margin: 0 2px;
+}
+.dot4 svg {
+  fill: #B2B4B2 !important;
+  width: 10px;
+  height: 10px;
+}
+
+.active4 svg, .dot4:hover svg {
+  fill: #926d39 !important;
+  width: 20px;
+  height: 20px;
+}
+
+.item-service {
+  height: 698px;
+  margin: 66px 80px 0px 80px;
+  border-radius: 15px;
+}
+
+/* Fading animation */
+.fade4 {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade4;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+.slideshow-container5 {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides5 {
+  display: none;
+  width: fit-content;
+}
+
+/* Next & previous buttons */
+.prev5, .next5 {
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  width: auto;
+  height: 50px;
+  padding-left: 16px;
+  padding-right: 16px;
+  color: #926D39;
+  background-color: rgba(255, 255, 255, 0.59);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  margin-bottom: 20px;
+}
+
+/* Position the "next button" to the right */
+.next5 {
+  right: 1px;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev5 {
+  right: 50px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev5:hover, .next5:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .offers {
@@ -1027,48 +1312,41 @@ http://flickity.metafizzy.co
   margin-bottom: 16px;
 }
 
-.multiRooms {
-  background-image: url("assets/multiRooms/Groupe 2252.png");
+.activities {
+  background-image: url("assets/activities/Composant 2 – 1.png");
   background-repeat: no-repeat;
   width: 100%;
   height: 1080px;
   display: flex;
+  flex-direction: column;
   background-size: auto;
   text-align: center;
 }
 
-.rooms-num {
-  color: #926D39;
-  font-size: 60px;
+.activitie-icon {
+  width: 30px;
+  float: left;
+  margin: 0px 20px 0px 0px;
 }
 
-.caract {
-  width: 144px;
-  margin-right: 168px;
+.activities-img {
+  flex-basis: 60%;
+  order: 2;
 }
 
-.rooms-menu-size {
-  width: 451px;
+.activities-text-title {
+  font-size: 16px !important;
+  line-height: 25px !important;
+  margin: 0px 152px 0px 162px;
 }
 
-.rooms-right-menu {
-  margin-left: 816px;
-  background-color: white;
-  height: 79px;
-  width: 351px;
-  font-size: 20px;
+.textact {
+  font-size: 30px;
+  font-family: rossanova;
 }
 
-.home {
-  background-image: url("assets/homePage/Groupe 2252.png");
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 1080px;
-  display: flex;
-  max-width: 1932px;
-  background-size: auto;
-  text-align: center;
-  color: #926D39;
+.textact:focus {
+  text-decoration: underline !important;
 }
 
 /*# sourceMappingURL=style.css.map */

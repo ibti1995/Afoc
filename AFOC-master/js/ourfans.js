@@ -3806,7 +3806,7 @@
     
       var element = this.element = document.createElement('button');
       element.className = 'flickity-prev-next-button';
-      element.className += this.isPrevious ? ' previous' : ' next';
+      element.className += this.isPrevious ? ' prev' : ' next';
       // prevent button from submitting form http://stackoverflow.com/a/10836076/182183
       element.setAttribute( 'type', 'button' );
       Flickity.setUnselectable( element );
