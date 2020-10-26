@@ -36,14 +36,15 @@ body {
 }
 .catering {
 	background-image: url("assets/Groupe 2252.png");
-	background-repeat: no-repeat;
-	width: 100%;
-	height: 1080px;
-	display: flex;
-	max-width: 1932px;
-	background-size:auto;
-	text-align: center;
-  
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 1080px;
+display: flex;
+flex-direction: column;
+ 
+  background-size:auto;
+  text-align: center;
+
   
   }
 
