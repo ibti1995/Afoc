@@ -124,3 +124,9 @@ width: 1618px;
 	font-size: 25px;
   width: 87px; height: 57px;margin-top: 17px;
 }
+input[type=text]:focus {
+	border-color: $primary-color;
+  }
+  input[type=number]:focus {
+	border-color: $primary-color;
+  }

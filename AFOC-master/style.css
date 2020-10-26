@@ -1411,6 +1411,14 @@ input[type=number] {
   margin-top: 17px;
 }
 
+input[type=text]:focus {
+  border-color: #926D39;
+}
+
+input[type=number]:focus {
+  border-color: #926D39;
+}
+
 .activities {
   background-image: url("assets/activities/Composant 2 – 1.png");
   background-repeat: no-repeat;
