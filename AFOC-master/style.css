@@ -348,7 +348,7 @@ body {
   font-size: 20px;
   letter-spacing: 2px;
   padding: 19px 39px 19px;
-  width: fit-content;
+  width: 302px;
 }
 
 .l-height-30 {
@@ -1347,6 +1347,17 @@ http://flickity.metafizzy.co
 
 .textact:focus {
   text-decoration: underline !important;
+}
+
+.home {
+  background-image: url("assets/homePage/Groupe 2252.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 1080px;
+  display: flex;
+  flex-direction: column;
+  background-size: auto;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
