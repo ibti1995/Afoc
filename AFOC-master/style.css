@@ -551,6 +551,10 @@ section {
   display: none;
 }
 
+.mySlides1 {
+  display: none;
+}
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
@@ -1180,7 +1184,7 @@ http://flickity.metafizzy.co
 }
 
 .gold-search-btn {
-  width: 80px;
+  width: 95px;
   border-width: 1px;
   background-color: #926d39;
   color: #ffffff;
@@ -1196,7 +1200,7 @@ http://flickity.metafizzy.co
   margin-left: 440px;
   background-color: white;
   height: 79px;
-  width: 351px;
+  width: 350px;
   font-size: 20px;
 }
 
@@ -1236,7 +1240,7 @@ http://flickity.metafizzy.co
 }
 
 .offers-cont {
-  width: 520px;
+  width: 500px;
   height: 406px;
 }
 
@@ -1281,6 +1285,42 @@ http://flickity.metafizzy.co
   display: flex;
   flex-direction: column;
   background-size: auto;
+  text-align: center;
+}
+
+.flex-row .list-class ul {
+  font-size: 20px;
+}
+.flex-row .list-class ul li {
+  list-style-image: url("assets/svg/Tracé 8474.svg");
+}
+
+.request-btn-act {
+  border-color: #926D39;
+  text-decoration: none;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  line-height: 10px;
+  padding: 6px 10px 6px;
+}
+
+.gold-btn-act {
+  margin-top: 10px;
+  border-width: 1px;
+  background-color: #926d39;
+  color: #ffffff;
+  width: 241px;
+  text-align: center;
+}
+
+.white-btn-act {
+  margin-top: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #926d39;
+  background-color: #ffffff;
+  color: #926D39;
+  width: 241px;
   text-align: center;
 }
 
