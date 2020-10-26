@@ -415,15 +415,17 @@ section {
 
 .variety-imgs {
   display: flex;
+  flex-wrap: nowrap;
 }
 .variety-imgs img {
-  width: 265px;
+  width: 230px;
   height: 688px;
   object-fit: cover;
+  transition: all 0.3s;
 }
 
-.simple:focus {
-  width: 637px;
+.simple:hover {
+  flex: 4 !important;
 }
 
 .offer-section {
@@ -488,6 +490,19 @@ section {
   margin-top: 50px;
   margin-bottom: 10px;
   margin-left: 35px;
+}
+
+.flex-row .list-class-offer {
+  margin-right: 50.5px;
+  line-height: 11px;
+}
+.flex-row .list-class-offer ul {
+  width: 323, 15px;
+  line-height: 16px;
+}
+.flex-row .list-class-offer ul li {
+  list-style-image: url("assets/svg/Tracé 8474.svg");
+  margin-bottom: 16px;
 }
 
 .history {

@@ -175,14 +175,17 @@ section {
 // 	background: transparent;
 // }
 .variety-imgs{
-	display: flex;
-	img{width: 265px;
+  display: flex;
+  flex-wrap: nowrap;
+	img{
+    width: 230px;
     height: 688px;
    
-    object-fit: cover;}
+    object-fit: cover;
+  transition: all 0.3s;}
     
 }
-.simple:focus {
-	width:637px ;
+.simple:hover {flex: 4 !important;
+	
  }
 
