@@ -1012,4 +1012,16 @@ http://flickity.metafizzy.co
   font-size: 20px;
 }
 
+.home {
+  background-image: url("assets/homePage/Groupe 2252.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 1080px;
+  display: flex;
+  max-width: 1932px;
+  background-size: auto;
+  text-align: center;
+  color: #926D39;
+}
+
 /*# sourceMappingURL=style.css.map */
