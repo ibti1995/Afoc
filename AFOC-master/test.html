@@ -6,37 +6,41 @@
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="HandheldFriendly" content="true">
+  <style>
+   .image-carou{
+     width: 100px;
+   }
+    </style>
 </head>
 
 <body>
+<div class="flex-row image-cassou" style=" align-items: center; justify-content: space-between;"> 
+ <img class="image-carou"  src="assets/homePage/Image (1).png"  onclick="imagetothemidle(0)" >
+ <img class="image-carou" src="assets/homePage/Image (2).png"  onclick="imagetothemidle(1)">
+ <img class="image-carou"  src="assets/homePage/Image (3).png"  onclick="imagetothemidle(2)">
+</div>
+<script >
+imagetothemidle(0);
+var  slide = [0,1,2]
+var index = 0
+function imagetothemidle(n) {
+  if (n==0) {  }
+  if (n==2) {   }
+  var i=0;
+  var x = document.getElementsByClassName("image-carou");
+ // var dots = document.getElementsByClassName("dot");
 
-    <header class="catering2">
-   
-       <div style="display: flex;">   
-        <img id="logo-2" src="assets/svg/logo.svg" />
-        <select class="custom-select" name="lang" id="lang">
-          <option  value="volvo">LANGUAGE</option>
-          <option class="item-select" value="saab">English</option>
-          <option class="item-select" value="mercedes">Frensh</option>
-          <option  value="audi">Arabic</option>
-          <option    value="audi">Arabic</option>
-        </select>
-    </div>
-       <div>  
-           
-        <div class=" words2">
-        <div class="poppins small-word-header center">WEDDING<br>
-          <svg xmlns="http://www.w3.org/2000/svg" width="4%" height="3.5%" viewBox="0 0 14.142 14.142">
-            <rect id="Rectangle_1939" data-name="Rectangle 1939" width="10" height="10"
-              transform="translate(0 7.071) rotate(-45)" fill="#fff" />
-          </svg></div>
-        <div class="rossanova big-word-header center">
-          MAKE EVERY MOMENT <br />
-          UNFORGETTABLE
-        </div>
-      </div>
-    </div>
-    
+  for (i = 0; i < x.length; i++) {
+    console.log(x[i] ," length", x.length);
+    x[i].style.width = "100px";
+    x[i].style.width = "80px";
+    x[n].style.order = (i+1).toString();
+  }
+  x[n].style.width = "200px";
+    x[n].style.width = "150px";
+    x[n].style.order = "3";
+  //dots[slideIndex[no]-1].className += " active";
+}
 
-  </header>
+</script>
 </body>
