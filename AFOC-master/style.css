@@ -1616,6 +1616,53 @@ input[type=number]:focus {
   border-top: none;
 }
 
+.request-btn-home {
+  border-color: #926D39;
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing: 5px;
+  line-height: 10px;
+  padding: 25px 70px 20px;
+  letter-spacing: 6px;
+}
+
+.white-btn-home {
+  margin-top: 19px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #926d39;
+  background-color: #ffffff;
+  color: #926D39;
+  height: 69px;
+  width: 329px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.request-btn-home2 {
+  border-color: #926D39;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 5px;
+  line-height: 10px;
+  padding: 17px 30px 17px;
+  letter-spacing: 6px;
+}
+
+.white-btn-home2 {
+  margin-top: 164px;
+  margin-left: 250px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #926d39;
+  background-color: #ffffff;
+  color: #926D39;
+  height: 55px;
+  width: 236px;
+  text-align: center;
+  margin-top: 5px;
+}
+
 .multiRooms {
   background-image: url("assets/multiRooms/Groupe 2252.png");
   background-repeat: no-repeat;
