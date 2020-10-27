@@ -1,22 +1,75 @@
-.singleRoommenu{
-    width: 819px;
-    font-size: 17px;
-    ul {
-        list-style-type: none;
-        margin-top: 25px;
-        margin-bottom: 25px;
-   
-        li {
-            margin-left: 40px;
-            display: inline;
-          }
-      }
+.singleRoommenu {
+  width: 819px;
+  font-size: 17px;
+  ul {
+    list-style-type: none;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    li {
+      margin-left: 40px;
+      display: inline;
+    }
   }
-  .flex-row{
-      ul{ font-size: 20px;
-          li{
-            list-style-image: url('assets/svg/single room/square.svg');
-            
-          }
-      }
+}
+.flex-row {
+  ul {
+    font-size: 20px;
+    li {
+      list-style-image: url("assets/svg/single room/square.svg");
+    }
   }
+}
+
+input[type="date"] {
+  font-size: 25px;
+  width: 150px;
+  height: 57px;
+  margin-top: 17px;
+  border-style: none;
+}
+
+.white-search-btn {
+  width: 95px;
+  border-width: 1px;
+  background-color: white;
+
+  padding: 5px 10px 5px;
+}
+.menu-box {
+  width: 600px;
+  margin-left: 70.7px;
+  border: 1px solid #b2b4b2;
+  height: 78px;
+  width: 592px;margin-top: 32px;border-radius: 5px 5px;
+}
+.flex-row .input-menu{
+   input{
+    width: 165px;
+   }
+}
+/******************************  galary   ****************************************/
+
+
+.single-room-gallery {
+    margin-bottom: 100px;
+    height:791px;
+    margin-top: 75px;
+  }
+  
+  .single-room-gallery-cell {
+      margin-top: 20px;
+    width: 526px;
+    height: auto;
+    margin-right: 32px;
+
+    counter-increment: gallery-cell;
+  }
+  .first-single-room-gallery-cell {
+    margin-top: 20px;
+  width: 1060px;
+  height: auto;
+  margin-right: 32px;
+
+  counter-increment: gallery-cell;
+}
