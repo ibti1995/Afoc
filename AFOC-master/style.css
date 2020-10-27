@@ -1422,6 +1422,14 @@ input[type=number] {
   text-align: center;
 }
 
+.activities-box {
+  display: flex;
+  margin-top: 56px;
+  order: 1;
+  align-items: center;
+  margin-right: 0px !important;
+}
+
 .activitie-icon {
   width: 30px;
   float: left;
@@ -1446,6 +1454,81 @@ input[type=number] {
 
 .textact:focus {
   text-decoration: underline !important;
+}
+
+.slideshow-container6 {
+  position: relative;
+}
+
+/* Hide the images by default */
+.slides6 {
+  display: none;
+  width: fit-content;
+}
+
+.slides5 {
+  display: none;
+  width: fit-content;
+}
+
+.slides4 {
+  display: none;
+  width: fit-content;
+}
+
+.slides3 {
+  display: none;
+  width: fit-content;
+}
+
+.slides2 {
+  display: none;
+  width: fit-content;
+}
+
+.slides1 {
+  display: none;
+  width: fit-content;
+}
+
+/* Next & previous buttons */
+.prev6, .next6 {
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  width: auto;
+  height: 50px;
+  padding-left: 16px;
+  padding-right: 16px;
+  color: #926D39;
+  background-color: rgba(255, 255, 255, 0.59);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  margin-bottom: 20px;
+}
+
+/* Position the "next button" to the right */
+.next6 {
+  right: 1px;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev6 {
+  right: 50px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev6:hover, .next6:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.active6 {
+  opacity: 1;
+  text-decoration: underline;
 }
 
 .home {
@@ -1489,6 +1572,10 @@ input[type=number] {
   height: 79px;
   width: 351px;
   font-size: 20px;
+}
+
+.dinning {
+  background-image: url("assets/dinning/Composant 1 – 1.png");
 }
 
 /*# sourceMappingURL=style.css.map */
