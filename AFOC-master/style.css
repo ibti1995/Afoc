@@ -1652,4 +1652,39 @@ input[type=number]:focus {
   background-image: url("assets/dinning/Composant 1 – 1.png");
 }
 
+.dinning-btn {
+  margin-top: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #926d39;
+  color: #926D39;
+  width: 196px;
+  text-align: center;
+  height: 51px;
+}
+
+.prev-dinning, .next-dinning {
+  cursor: pointer;
+  position: absolute;
+  bottom: 0px;
+  width: 81px;
+  height: 81px;
+  padding-top: 15px;
+  padding-left: 31px;
+  padding-right: 31px;
+  color: #926D39;
+  background-color: #F7F7F7;
+  font-weight: bold;
+  font-size: 25px;
+  transition: 0.6s ease;
+  border-radius: 3px;
+  user-select: none;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.prev-dinning:hover, .next-dinning:hover {
+  background-color: rgba(0, 0, 0, 0.309);
+}
+
 /*# sourceMappingURL=style.css.map */
