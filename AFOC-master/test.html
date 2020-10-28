@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="HandheldFriendly" content="true">
   <style>
- /*! Flickity v2.2.1
+/*! Flickity v2.2.1
 https://flickity.metafizzy.co
 ---------------------------------------------- */
 
@@ -20,13 +20,15 @@ https://flickity.metafizzy.co
 .flickity-viewport {
   overflow: hidden;
   position: relative;
-  height: 100%;
+  height: 370px !important;
+
 }
 
 .flickity-slider {
   position: absolute;
   width: 100%;
   height: 100%;
+  left: 20px !important ;
 }
 
 /* draggable */
@@ -95,8 +97,10 @@ https://flickity.metafizzy.co
   transform: translateY(-50%);
 }
 
-.flickity-prev-next-button.previous { left: 10px; }
-.flickity-prev-next-button.next { right: 10px; }
+.flickity-prev-next-button.previous { left: -80px; }
+.flickity-prev-next-button.next { 
+  left: auto;
+  right: -80px; }
 /* right to left */
 .flickity-rtl .flickity-prev-next-button.previous {
   left: auto;
@@ -144,99 +148,147 @@ https://flickity.metafizzy.co
 .flickity-page-dots .dot.is-selected {
   opacity: 1;
 }
-
-  * { box-sizing: border-box; }
+/* external css: flickity.css */
+* { box-sizing: border-box; }
 
 body { font-family: sans-serif; }
 
 .carousel {
-  background: #FAFAFA;
-}
-
-.carousel-cell {
-  width: 66%;
-  height: 400px;
- 
   background: transparent;
 }
 
-.carousel-cell-image {
-  background-color: transparent;
-  display: block;
-  max-height: 100%;
+.carousel-cell {
+  width: 50%;
+  height: 370px;
+  margin-right: 10px;
+
+  border-radius: 5px;
  
-  max-width: 100%;
-  width: -webkit-fill-available;
-  opacity: 1;
-  -webkit-transition: opacity 0.4s;
-          transition: opacity 0.4s;
 }
 
-/* fade in lazy loaded image */
-.carousel-cell-image.flickity-lazyloaded,
-.carousel-cell-image.flickity-lazyerror {
-  opacity: 1;
+.carousel-cell.is-selected {
+  background: transparent;
 }
-.flickity-prev-next-button.previous {
-    left: 390px;
-}
-.flickity-prev-next-button.next {
-    right:  390px;
-}
-.is-selected {
-height: 700px ;
-top: -150px;
-padding-right: 200px;
-padding-left: 200px;
-background-color: transparent;
 
-overflow: visible !important;
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
 }
-.flickity-viewport{
-  padding-top: 150px;
-  height: 636px !important;
+.padding-right{
+  padding-right: 40px;
+   background-color: transparent;
 }
-.flickity-page-dots .is-selected{
-  padding-right: 0px !important;
-padding-left: 0px !important;
+.decoration-content{
+  display: flex;
+   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.08);
+  background-color: white; border-color: #808080; 
+   border-width: 1px; border-radius: 5px; 
+   border-style: solid ; border-width: 0.3px;
+
 }
+
     </style>
 </head>
 
 <body>
   <h1 style="margin-bottom: 150px;">Flickity - lazyLoad</h1>
 
-
-  <div class="carousel" style=""
-     data-flickity='{ "lazyLoad": false ,"draggable": false , "wrapAround": true }'>
+<div style="margin: 10px 142px 10px 132px;">
+  <div class="carousel"
+     data-flickity='{ "lazyLoad": false ,"draggable": false , "groupCells": 2  }'>
     <div class="carousel-cell">
-      <img class="carousel-cell-image"
-      src="assets/homePage/Image (3).png" alt="grapes" />
+      <div class="padding-right">
+      <div class="flex-row decoration-content" >
+        <img  style="width: 40%;"
+        src="assets/homePage/Imageexp.png" alt="grapes" />
+        <div class="flex-column">
+        <div> Top Booke Package</div>  
+        <div> Culture and Heritage</div> 
+        <div> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna </div> 
+        <div> Book now</div> 
+        </div>
+      </div>
+    </div>
     </div>
     <div class="carousel-cell">
-      <img class="carousel-cell-image"
-      src="assets/homePage/Image (1).png" alt="grapes" />
+      <div class="padding-right">
+      <div class="flex-row decoration-content" >
+        <img  style="width: 40%;"
+        src="assets/homePage/Imageexp2.png" alt="grapes" />
+        <div class="flex-column">
+        <div> Top Booke Package</div>  
+        <div> Culture and Heritage</div> 
+        <div> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna </div> 
+        <div> Book now</div> 
+        </div>
+      </div>
+    </div>
     </div>
     <div class="carousel-cell">
-      <img class="carousel-cell-image"
-      src="assets/homePage/Image (2).png" alt="raspberries" />
+      <div class="padding-right">
+      <div class="flex-row decoration-content" >
+        <img  style="width: 40%;"
+        src="assets/homePage/Imageexp.png" alt="grapes" />
+        <div class="flex-column">
+        <div> Top Booke Package</div>  
+        <div> Culture and Heritage</div> 
+        <div> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna </div> 
+        <div> Book now</div> 
+        </div>
+      </div>
+    </div>
     </div>
     <div class="carousel-cell">
-      <img class="carousel-cell-image"
-      src="assets/homePage/Image (3).png"  alt="wolf" />
+      <div class="padding-right">
+      <div class="flex-row decoration-content" >
+        <img  style="width: 40%;"
+        src="assets/homePage/Imageexp2.png" alt="grapes" />
+        <div class="flex-column">
+        <div> Top Booke Package</div>  
+        <div> Culture and Heritage</div> 
+        <div> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna </div> 
+        <div> Book now</div> 
+        </div>
+      </div>
+    </div>
     </div>
     <div class="carousel-cell">
-      <img class="carousel-cell-image"
-      src="assets/homePage/Image (1).png" alt="sea" />
+      <div class="padding-right">
+      <div class="flex-row decoration-content" >
+        <img  style="width: 40%;"
+        src="assets/homePage/Imageexp.png" alt="grapes" />
+        <div class="flex-column">
+        <div> Top Booke Package</div>  
+        <div> Culture and Heritage</div> 
+        <div> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna </div> 
+        <div> Book now</div> 
+        </div>
+      </div>
+    </div>
     </div>
     <div class="carousel-cell">
-      <img class="carousel-cell-image"
-      src="assets/homePage/Image (2).png" alt="leaf droplets" />
+      <div class="padding-right">
+      <div class="flex-row decoration-content" >
+        <img  style="width: 40%;"
+        src="assets/homePage/Imageexp.png" alt="grapes" />
+        <div class="flex-column">
+        <div> Top Booke Package</div>  
+        <div> Culture and Heritage</div> 
+        <div> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna </div> 
+        <div> Book now</div> 
+        </div>
+      </div>
+    </div>
     </div>
    
   </div>
   
-
+</div>
 <!-- Flickity HTML init -->
 
 <script src="js/slidehomepage.js"></script>
