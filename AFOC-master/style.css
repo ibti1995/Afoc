@@ -240,6 +240,11 @@ footer div {
   left: 0px;
 }
 
+.offer-section {
+  display: flex;
+  flex-direction: column;
+}
+
 h1 {
   font-size: 60px;
   font-weight: unset !important;
@@ -1274,6 +1279,11 @@ http://flickity.metafizzy.co
   line-height: 20px;
   font-size: 12px;
   width: 305.75px;
+}
+
+.single-room-section {
+  display: flex;
+  flex-direction: column;
 }
 
 .singleRoommenu {
@@ -3003,6 +3013,14 @@ body {
   flex-direction: column;
   background-size: auto;
   text-align: center;
+}
+
+.multi-rooms-section {
+  display: flex;
+  flex-direction: column;
+  background-image: url("assets/sigleOfferImg/Rectangle 1745.png");
+  background-repeat: no-repeat;
+  background-size: 1930px 5850px;
 }
 
 .rooms-num {
