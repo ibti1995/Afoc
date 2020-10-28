@@ -1,9 +1,9 @@
-.offer-section{
+.single-offer-section{
     display: flex;
     flex-direction: column;
     background-image: url("assets/sigleOfferImg/Rectangle 1745.png");
     background-repeat: no-repeat;
-    background-size: 1617px;
+    background-size: 1930px 1560px;
 }
 
 .offer {
@@ -59,3 +59,15 @@
           }
         }
       }}
+
+
+      .single-offer-list{
+ul{
+
+ li{
+  font-size: 20px;line-height: 24px;
+  list-style-image: url("assets/svg/Tracé 8474.svg");
+  margin-top: 18px;
+ }
+}
+      }
