@@ -1591,6 +1591,23 @@ input[type=number]:focus {
   text-decoration: underline;
 }
 
+body {
+  background-color: white !important;
+}
+
+.home-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-title {
+  font-size: 109px;
+  margin-bottom: 45px;
+  font-family: ressanova;
+  color: #926D39;
+  text-align: center;
+}
+
 .home {
   background-image: url("assets/homePage/Groupe 2252.png");
   background-repeat: no-repeat;
@@ -1791,7 +1808,7 @@ input[type=number]:focus {
   font-family: sans-serif;
 }
 .firstcarou .carousel {
-  background: #FAFAFA;
+  background: transparent;
 }
 .firstcarou .carousel-cell {
   width: 66%;
@@ -1964,7 +1981,7 @@ input[type=number]:focus {
   font-family: sans-serif;
 }
 .finding-balance-carou .carousel {
-  background: #FAFAFA;
+  background: transparent;
 }
 .finding-balance-carou .carousel-cell {
   width: 66%;
