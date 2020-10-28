@@ -427,12 +427,12 @@ section {
   flex: 4 !important;
 }
 
-.offer-section {
+.single-offer-section {
   display: flex;
   flex-direction: column;
   background-image: url("assets/sigleOfferImg/Rectangle 1745.png");
   background-repeat: no-repeat;
-  background-size: 1617px;
+  background-size: 1930px 1560px;
 }
 
 .offer {
@@ -1149,6 +1149,14 @@ http://flickity.metafizzy.co
   background-image: url("assets/offersPage/Groupe 2253.png");
 }
 
+.offers-section {
+  display: flex;
+  flex-direction: column;
+  background-image: url("assets/sigleOfferImg/Rectangle 1745.png");
+  background-repeat: no-repeat;
+  background-size: 1930px 3221px;
+}
+
 .offersmenu {
   width: 784px;
   height: 79px;
@@ -1156,12 +1164,15 @@ http://flickity.metafizzy.co
 }
 .offersmenu ul {
   list-style-type: none;
-  margin-top: 25px;
+  margin-top: 20px;
   margin-bottom: 25px;
 }
 .offersmenu ul li {
   margin-left: 50px;
   display: inline;
+}
+.offersmenu ul li:hover {
+  color: #926D39;
 }
 
 .request-btn-sm {

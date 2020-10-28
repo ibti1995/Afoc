@@ -3,16 +3,30 @@
   
   
   }
+
+
+  .offers-section{
+    display: flex;
+    flex-direction: column;
+    background-image: url("assets/sigleOfferImg/Rectangle 1745.png");
+    background-repeat: no-repeat;
+    background-size: 1930px 3221px;
+}
+
   .offersmenu{
     width: 784px;height: 79px; background-color: white;
     ul {
         list-style-type: none;
  
-        margin-top: 25px;
+        margin-top: 20px;
         margin-bottom: 25px;
         li {
             margin-left: 50px;
             display: inline;
+          }
+          li:hover{
+            color: $primary-color;
+            
           }
       }
   }
