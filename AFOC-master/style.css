@@ -677,7 +677,7 @@ section {
 
 .gallery {
   background: #FFFF;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   height: 520px;
 }
 
@@ -1221,6 +1221,8 @@ http://flickity.metafizzy.co
 .occ-opt {
   color: #B2B4B2;
   font-size: 23px;
+  padding: 20px;
+  text-align: center;
 }
 
 .slides-box {
@@ -1277,12 +1279,13 @@ http://flickity.metafizzy.co
   list-style-image: url("assets/svg/single room/square.svg");
 }
 
-input[type=date] {
+.date input[type=text] {
   font-size: 25px;
   width: 150px;
   height: 57px;
   margin-top: 17px;
   border-style: none;
+  padding: 20px;
 }
 
 .white-search-btn {
@@ -1327,6 +1330,15 @@ input[type=date] {
   height: auto;
   margin-right: 32px;
   counter-increment: gallery-cell;
+}
+
+.rooms-menu-box {
+  margin-top: 25px;
+  border-style: solid;
+  border-color: #d3d3d3;
+  height: 80px;
+  margin-left: 140px;
+  border-width: 0.5px;
 }
 
 .meetings {
@@ -1447,6 +1459,7 @@ input[type=date] {
 
 input[type=text] {
   font-size: 25px;
+  padding: 25px;
   width: 250px;
   border: 1px solid #B2B4B2;
   border-radius: 5px 5px;
@@ -1461,6 +1474,7 @@ input[type=number] {
   width: 87px;
   height: 57px;
   margin-top: 17px;
+  padding: 20px;
 }
 
 input[type=text]:focus {
@@ -2377,6 +2391,7 @@ input[type=number]:focus {
   width: 100%;
   height: 1080px;
   display: flex;
+  flex-direction: column;
   background-size: auto;
   text-align: center;
 }
@@ -2401,6 +2416,61 @@ input[type=number]:focus {
   height: 79px;
   width: 351px;
   font-size: 20px;
+}
+
+/************slides*************/
+/* Hide the images by default */
+.mySlides7 {
+  display: none;
+}
+
+.mySlides8 {
+  display: none;
+}
+
+.mySlides9 {
+  display: none;
+}
+
+/*****************************************/
+.rooms-parag {
+  margin-left: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  width: 305.75px;
+  margin-top: 0px;
+}
+
+.rooms-cont {
+  width: 500px;
+  height: 460px;
+}
+
+.rooms-margin {
+  margin-left: 152px;
+  margin-right: 162px;
+}
+
+/******************************************/
+.roomsmenu {
+  width: 784px;
+  height: 79px;
+  background-color: white;
+}
+.roomsmenu ul {
+  list-style-type: none;
+  padding-inline-start: 20px;
+  margin-bottom: 25px;
+}
+.roomsmenu ul li {
+  margin-left: 50px;
+  display: inline;
+}
+.roomsmenu ul li:hover::after {
+  content: url("assets/svg/multiRooms/demi-cercle.svg");
+  color: #926D39;
+  transform: scaleX(1);
+  transform-origin: left;
 }
 
 .dinning {

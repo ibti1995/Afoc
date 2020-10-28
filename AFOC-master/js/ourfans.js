@@ -2023,7 +2023,7 @@
       // how many frames slider has been in same position
       this.restingFrames = 0;
       // initial physics properties
-      this.x = 0;
+      this.x = -10;
       this.velocity = 0;
       this.accel = 0;
       this.originSide = this.options.rightToLeft ? 'right' : 'left';

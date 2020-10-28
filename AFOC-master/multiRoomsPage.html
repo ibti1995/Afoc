@@ -13,31 +13,37 @@
 <body>
 
 
-    <div class="container">
+
+
         <header class="multiRooms">
-            <div class=" words">
-                <div class="poppins small-word-header">EXPRESSION OF ELEGANCE<br>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="4%" height="3.5%" viewBox="0 0 14.142 14.142">
-                        <rect id="Rectangle_1939" data-name="Rectangle 1939" width="10" height="10"
-                            transform="translate(0 7.071) rotate(-45)" fill="#fff" />
-                    </svg></div>
-                <div class="Rossanova big-word-header">
-                    ROOMS, SUITS
-                    <br />
-                    AND VILLAS
-                </div>
-            </div>
-            <img id="logo" src="assets/svg/logo.svg" />
-            <select class="custom-select" name="lang" id="lang">
-                <option value="eng" style="color: black;">ENGLISH</option>
-                <option class="item-select" style="color: black;" value="chinese">CHINESE</option>
+   
+            <div style="display: flex;">   
+             <img id="logo-2" src="assets/svg/logo.svg" />
+             <select class="custom-select" name="lang" id="lang">
+            
+               <option class="item-select" value="saab">English</option>
+               <option class="item-select" value="mercedes">Frensh</option>
+               <option class="item-select" value="mercedes">Chinease</option>
+             </select>
+         </div>
+            <div>  
+             <div class=" words2">
+             <div class="poppins small-word-header center">EXPRESSION OF ELEGANCE<br>
+               <svg xmlns="http://www.w3.org/2000/svg" width="4%" height="3.5%" viewBox="0 0 14.142 14.142">
+                 <rect id="Rectangle_1939" data-name="Rectangle 1939" width="10" height="10"
+                   transform="translate(0 7.071) rotate(-45)" fill="#fff" />
+               </svg></div>
+             <div class="rossanova big-word-header center">
+                ROOMS, SUITS<br />
+                AND VILLAS
+             </div>
+           </div>
+         
+           <div>  
+         
+     
+       </header>
 
-
-                <option style="color: black;" value="arab">ARABIC</option>
-            </select>
-
-        </header>
-    </div>
     <section class="offer-section">
         <div class="flex-column offer-margin">
             <div style="width: 20% ; margin-bottom:42.9px; margin-top:56px;">
@@ -126,9 +132,11 @@
                     </div>
                 </div>
             </div>
+            <!--************************  menu ************************************-->
+
             <div class="flex-row" style="margin-bottom: 70px;">
 
-                <div class=" flex-row offersmenu ourfans-box rooms-menu-size">
+                <div class=" flex-row roomsmenu ourfans-box rooms-menu-size">
                     <div> <img src="assets/svg/menu rect.svg"> </div>
 
                     <div>
@@ -155,24 +163,25 @@
                     </div>
                 </div>
             </div>
+            <!--************** three offers here **********************-->
             <div class="flex-row" style="flex-wrap: wrap;">
                 <div class="slides-box">
-                    <div class="ourfans-box offers-cont">
+                    <div class="ourfans-box rooms-cont">
                         <div class="slideshow-container">
 
-                            <div class="mySlides fade">
+                            <div class="mySlides7 fade">
 
                                 <img src="assets/offersPage/room1 (3).png" style="width:100%;">
 
                             </div>
 
-                            <div class="mySlides fade">
+                            <div class="mySlides7 fade">
 
                                 <img src="assets/offersPage/room2 (3).png" style="width:100%;">
 
                             </div>
 
-                            <div class="mySlides fade">
+                            <div class="mySlides7 fade">
 
                                 <img src="assets/offersPage/room3 (4).png" style="width:100%;">
 
@@ -183,21 +192,39 @@
                                     <span class="dot" onclick="currentSlide(3)"></span>
                                   </div> 
                                 -->
-                            <a class="prev1" onclick="plusSlides(-1, 0)">&#10094;</a>
-                            <a class="next1" onclick="plusSlides(1, 0)">&#10095;</a>
+                            <a class="prev1" onclick="plusSlides6(-1, 6)">&#10094;</a>
+                            <a class="next1" onclick="plusSlides6(1, 6)">&#10095;</a>
 
                         </div>
 
                         <div>
                             <div class="offers-name">
                                 <div class="rossanova gold center offers-name-title">
-                                    Offer Name<br />
+                                    Room Name<br />
                                     <img class="offers-icon-under-h" src="assets/svg/Groupe 2164.svg" />
                                 </div>
                             </div>
                             <div class="flex-row">
+                                <div style=" margin-left: 50px; margin-right: 30px;">
+                                    <img src="assets/svg/multiRooms/smallAmenities/wifi.svg">
+                                </div>
+                                <div style=" margin-right: 30px;">
+                                    <img src="assets/svg/multiRooms/smallAmenities/sec.svg">
+                                </div>
+                                <div style=" margin-right: 30px;">
+                                    <img src="assets/svg/multiRooms/smallAmenities/pet.svg">
+
+                                </div>
+                                <div style=" margin-right: 30px;">
+                                    <img src="assets/svg/multiRooms/smallAmenities/diner.svg">
+                                </div>
                                 <div>
-                                    <p class="offers-name-parag">
+                                    <img src="assets/svg/multiRooms/smallAmenities/champo.svg">
+                                </div>
+                            </div>
+                            <div class="flex-row">
+                                <div>
+                                    <p class="rooms-parag">
                                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
                                         eirmod
                                     </p>
@@ -215,41 +242,68 @@
                         </div>
                     </div>
                 </div>
+
+                <!--******************* offer room ************************-->
                 <div class="slides-box">
-                    <div class="ourfans-box offers-cont">
+                    <div class="ourfans-box rooms-cont">
                         <div class="slideshow-container">
 
-                            <div class="mySlides2 fade">
+                            <div class="mySlides8 fade">
 
                                 <img src="assets/offersPage/room1 (3).png" style="width:100%;">
 
                             </div>
 
-                            <div class="mySlides2 fade">
+                            <div class="mySlides8 fade">
 
                                 <img src="assets/offersPage/room2 (3).png" style="width:100%;">
 
                             </div>
 
-                            <div class="mySlides2 fade">
+                            <div class="mySlides8 fade">
 
                                 <img src="assets/offersPage/room3 (4).png" style="width:100%;">
 
                             </div>
-                            <a class="prev1" onclick="plusSlides(-1, 1)">&#10094;</a>
-                            <a class="next1" onclick="plusSlides(1, 1)">&#10095;</a>
+                            <!--  <div class="center numbertext" >
+                                    <span class="dot" onclick="currentSlide(1)"></span>
+                                    <span class="dot" onclick="currentSlide(2)"></span>
+                                    <span class="dot" onclick="currentSlide(3)"></span>
+                                  </div> 
+                                -->
+                            <a class="prev1" onclick="plusSlides6(-1, 7)">&#10094;</a>
+                            <a class="next1" onclick="plusSlides6(1, 7)">&#10095;</a>
 
                         </div>
+
                         <div>
                             <div class="offers-name">
                                 <div class="rossanova gold center offers-name-title">
-                                    Offer Name<br />
+                                    Room Name<br />
                                     <img class="offers-icon-under-h" src="assets/svg/Groupe 2164.svg" />
                                 </div>
                             </div>
                             <div class="flex-row">
+                                <div style=" margin-left: 50px; margin-right: 30px;">
+                                    <img src="assets/svg/multiRooms/smallAmenities/wifi.svg">
+                                </div>
+                                <div style=" margin-right: 30px;">
+                                    <img src="assets/svg/multiRooms/smallAmenities/sec.svg">
+                                </div>
+                                <div style=" margin-right: 30px;">
+                                    <img src="assets/svg/multiRooms/smallAmenities/pet.svg">
+
+                                </div>
+                                <div style=" margin-right: 30px;">
+                                    <img src="assets/svg/multiRooms/smallAmenities/diner.svg">
+                                </div>
                                 <div>
-                                    <p class="offers-name-parag">
+                                    <img src="assets/svg/multiRooms/smallAmenities/champo.svg">
+                                </div>
+                            </div>
+                            <div class="flex-row">
+                                <div>
+                                    <p class="rooms-parag">
                                         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
                                         eirmod
                                     </p>
@@ -268,43 +322,61 @@
                     </div>
                 </div>
                 <div>
-
+                    <!--************ offer room ****************-->
                     <div class="slides-box">
-                        <div class="ourfans-box offers-cont">
+                        <div class="ourfans-box rooms-cont">
                             <div class="slideshow-container">
 
-                                <div class="mySlides3 fade">
+                                <div class="mySlides9 fade">
 
                                     <img src="assets/offersPage/room1 (3).png" style="width:100%;">
 
                                 </div>
 
-                                <div class="mySlides3 fade">
+                                <div class="mySlides9 fade">
 
                                     <img src="assets/offersPage/room2 (3).png" style="width:100%;">
 
                                 </div>
 
-                                <div class="mySlides3 fade">
+                                <div class="mySlides9 fade">
 
                                     <img src="assets/offersPage/room3 (4).png" style="width:100%;">
 
                                 </div>
 
-                                <a class="prev1" onclick="plusSlides(-1, 2)">&#10094;</a>
-                                <a class="next1" onclick="plusSlides(1, 2)">&#10095;</a>
+                                <a class="prev1" onclick="plusSlides6(-1, 8)">&#10094;</a>
+                                <a class="next1" onclick="plusSlides6(1, 8)">&#10095;</a>
 
                             </div>
                             <div>
                                 <div class="offers-name">
                                     <div class="rossanova gold center offers-name-title">
-                                        Offer Name<br />
+                                        Room Name<br />
                                         <img class="offers-icon-under-h" src="assets/svg/Groupe 2164.svg" />
                                     </div>
                                 </div>
                                 <div class="flex-row">
+                                    <div style=" margin-left: 50px; margin-right: 30px;">
+                                        <img src="assets/svg/multiRooms/smallAmenities/wifi.svg">
+                                    </div>
+                                    <div style=" margin-right: 30px;">
+                                        <img src="assets/svg/multiRooms/smallAmenities/sec.svg">
+                                    </div>
+                                    <div style=" margin-right: 30px;">
+                                        <img src="assets/svg/multiRooms/smallAmenities/pet.svg">
+    
+                                    </div>
+                                    <div style=" margin-right: 30px;">
+                                        <img src="assets/svg/multiRooms/smallAmenities/diner.svg">
+                                    </div>
                                     <div>
-                                        <p class="offers-name-parag">
+                                        <img src="assets/svg/multiRooms/smallAmenities/champo.svg">
+                                    </div>
+                                </div>
+                                <div class="flex-row">
+                                    <div>
+                                        <p class="rooms-parag">
                                             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
                                             eirmod
                                         </p>
@@ -318,13 +390,15 @@
                                         </div>
                                     </div>
                                 </div>
-
+    
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!--   *************************   good vibes  ****************************-->
         <div>
             <div style="background-image: url('assets/singleRoom/Rectangle 1874.png'); height: auto">
                 <div style="width: 20% ; margin-bottom:42.9px; margin-left:75px; margin-top:56px;">
@@ -335,7 +409,7 @@
                 </div>
                 <div class="flex-row" style="flex-wrap: wrap; margin-left: 152px;">
 
-                    <div style="width: 273px; margin-right: 136px;">
+                    <div style="width: 273px; margin-right: 116px;">
                         <h4 class="poppins-M" style="font-size: 25px;"> <img src="assets/svg/single room/med.svg"
                                 style="margin-right: 25px;"> Our Pride </h4>
                         <ul>
@@ -370,7 +444,7 @@
 
                         </ul>
                     </div>
-                    <div style="width: 318px;margin-right: 130px;">
+                    <div style="width: 318px;margin-right: 120px;">
                         <h4 class="poppins-M" style="font-size: 25px;"> <img src="assets/svg/single room/med.svg"
                                 style="margin-right: 25px;"> For who Loves Food</h4>
                         <ul>
@@ -397,7 +471,7 @@
 
                         </ul>
                     </div>
-                    <div style="width:332px;margin-right: 136px;">
+                    <div style="width:332px;margin-right: 57px;">
                         <h4 class="poppins-M" style="font-size: 25px;"> <img src="assets/svg/single room/med.svg"
                                 style="margin-right: 25px;"> To Relax</h4>
                         <ul>
@@ -412,7 +486,8 @@
                         </ul>
                     </div>
                     <div style="width:360px;margin-right: 136px;">
-                        <h4 class="poppins-M" style="font-size: 25px;">Finding Balance</h4>
+                        <h4 class="poppins-M" style="font-size: 25px;"> <img src="assets/svg/single room/med.svg"
+                                style="margin-right: 25px;">Finding Balance</h4>
                         <ul>
                             <li>Detox Draining Body Treatment </li>
                             <li>Slimming & Firming</li>
@@ -426,9 +501,9 @@
                 </div>
             </div>
         </div>
-        <div class="flex-column offer-margin">
-
-            <div>
+        <div class="flex-column ">
+            <!--  ----------------*************  special offer******************* --->
+            <div class="offer-margin">
                 <div class="offerTitle ">
                     <div>
                         <div style="width: fit-content;">
@@ -524,10 +599,15 @@
                     </div>
                 </div>
 
+           
+           
             </div>
+          
+          <!--******************** jouurney****************** -->
+          
             <div>
 
-                <div>
+                <div class="rooms-margin">
                     <div class="center">
                         <h2 class="rossanova gold">
                             A Culinary Journey<br />
@@ -550,147 +630,759 @@
                     </div>
                 </div>
 
+                <div>
+
+
+
+                    <!--  **********************menu with slides from activity page *************************-->
+
+
+                    <div class="page-marg" style="margin-top: 57px; margin-right: 162px; margin-left: 152px;">
+                        <div class="row3 " style="display: flex; justify-content: space-between;">
+                            <div class="column3">
+                                <div class="demo3 cursor3 textact" onclick="showSlidesac(1)  ">Outlet1</div>
+                            </div>
+                            <div class="column3">
+                                <div class="demo3 cursor3 textact" onclick="showSlidesac(2)  ">Outlet2</div>
+                            </div>
+                            <div class="column3">
+                                <div class="demo3 cursor3 textact" onclick="showSlidesac(3) ">Outlet3</div>
+                            </div>
+                            <div class="column3">
+                                <div class="demo3 cursor3 textact" onclick="showSlidesac(4)  ">Outlet4</div>
+                            </div>
+                            <div class="column3">
+                                <div class="demo3 cursor3 textact" onclick="showSlidesac(5)  ">Outlet5</div>
+                            </div>
+                            <div class="column3">
+                                <div class="demo3 cursor3 textact" onclick="showSlidesac(6)  ">Outlet6</div>
+                            </div>
+                        </div>
+                        <div class="mySlides3">
+                            <div class="numbertext3"></div>
+                            <div class="activities-box ">
+
+                                <div class="box-title boxShadow"
+                                    style="margin-top: 0px !important ;background-color:white ; margin-right: -125px; z-index: 10; padding: 80px 50px 50px 50px;">
+
+                                    <div style="margin-bottom: 50px;">
+                                        <div style="float: left;">
+                                            <div class="rossanova-L center l-height-30 "
+                                                style="font-size: 31px; color: black;">
+                                                Arabic Cuisine <br />
+                                                <img class="icon-under-h" src="assets/svg/Groupe 2164.svg" />
+                                            </div>
+                                        </div>
+                                        <div style="float: right; font-size: 15px; " class="poppins-M ">
+                                            <div>
+                                                <img src="assets/svg/star.svg">
+                                                <img src="assets/svg/star.svg">
+                                                <img src="assets/svg/star.svg">
+                                                <img src="assets/svg/star.svg">
+                                                <img style="padding-right: 20px;" src="assets/svg/star.svg"> 4.5
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br />
+                                    <p class="poppins-L" style="font-size: 15px; line-height: 30px;">
+                                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                        tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+                                        vero eos et
+                                    <div style="padding-top: 11px;">
+                                        <div class="poppins-M" style="font-size: 17px;">Our Specials</div>
+                                    </div>
+                                    <div class="flex-row">
+                                        <div>
+                                            <ul style="font-size: 15px; line-height: 40px;">
+                                                <li>Spicy Shrimp</li>
+                                                <li>Spicy Shrimp</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <ul
+                                                style="font-size: 15px;margin-left: 20px; margin-right: 20px; line-height: 40px;">
+                                                <li>Walleye</li>
+                                                <li>Spicy Shrimp</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <ul style="font-size: 15px; line-height: 40px;">
+                                                <li>Walleye</li>
+                                                <li>Spicy Shrimp</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="flex-row">
+                                        <div class="white-btn" style="margin-right: 16px;">
+                                            <div class="poppins-M gold request-btn-act">KNOW MORE</div>
+                                        </div>
+                                        <div class="white-btn">
+                                            <div class="poppins-M gold request-btn-act">VIEW MENU</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="activities-img">
+                                    <div class="slideshow-container6">
+
+                                        <div class="slides1 fade">
+
+                                            <img src="assets/multiRooms/food1.png" />
+
+                                        </div>
+
+                                        <div class="slides1 fade">
+
+                                            <img src="assets/multiRooms/food1.png" />
+
+                                        </div>
+
+                                        <div class="slides1 fade">
+
+                                            <img src="assets/multiRooms/food1.png" />
+
+                                        </div>
+
+                                        <a class="prev6" onclick="plusSlides6(-1, 0)">&#10094;</a>
+                                        <a class="next6" onclick="plusSlides6(1, 0)">&#10095;</a>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="mySlides3">
+                            <div class="numbertext3"></div>
+                            <div class="activities-box ">
+
+                                <div class="box-title boxShadow"
+                                    style="margin-top: 0px !important ;background-color:white ; margin-right: -125px; z-index: 10; padding: 80px 50px 50px 50px;">
+
+                                    <div style="margin-bottom: 50px;">
+                                        <div style="float: left;">
+                                            <div class="rossanova-L center l-height-30 "
+                                                style="font-size: 31px; color: black;">
+                                                Russian Cuisine <br />
+                                                <img class="icon-under-h" src="assets/svg/Groupe 2164.svg" />
+                                            </div>
+                                        </div>
+                                        <div style="float: right; font-size: 15px; " class="poppins-M ">
+                                            <div>
+                                                <img src="assets/svg/star.svg">
+                                                <img src="assets/svg/star.svg">
+                                                <img src="assets/svg/star.svg">
+                                                <img src="assets/svg/star.svg">
+                                                <img style="padding-right: 20px;" src="assets/svg/star.svg"> 4.5
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br />
+                                    <p class="poppins-L" style="font-size: 15px; line-height: 30px;">
+                                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                        tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+                                        vero eos et
+                                    <div style="padding-top: 11px;">
+                                        <div class="poppins-M" style="font-size: 17px;">Our Specials</div>
+                                    </div>
+                                    <div class="flex-row">
+                                        <div>
+                                            <ul style="font-size: 15px; line-height: 40px;">
+                                                <li>Spicy Shrimp</li>
+                                                <li>Spicy Shrimp</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <ul
+                                                style="font-size: 15px;margin-left: 20px; margin-right: 20px; line-height: 40px;">
+                                                <li>Walleye</li>
+                                                <li>Spicy Shrimp</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <ul style="font-size: 15px; line-height: 40px;">
+                                                <li>Walleye</li>
+                                                <li>Spicy Shrimp</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="flex-row">
+                                        <div class="white-btn" style="margin-right: 16px;">
+                                            <div class="poppins-M gold request-btn-act">KNOW MORE</div>
+                                        </div>
+                                        <div class="white-btn">
+                                            <div class="poppins-M gold request-btn-act">VIEW MENU</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="activities-img">
+                                    <div class="slideshow-container6">
+
+                                        <div class="slides2 fade">
+
+                                            <img src="assets/multiRooms/food1.png" />
+
+                                        </div>
+
+                                        <div class="slides2 fade">
+
+                                            <img src="assets/multiRooms/food1.png" />
+
+                                        </div>
+
+                                        <div class="slides2 fade">
+
+                                            <img src="assets/multiRooms/food1.png" />
+
+                                        </div>
+
+                                        <a class="prev6" onclick="plusSlides6(-1, 1)">&#10094;</a>
+                                        <a class="next6" onclick="plusSlides6(1, 1)">&#10095;</a>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="mySlides3">
+                            <div class="numbertext3"></div>
+                            <div class="activities-box ">
+
+                                <div class="box-title boxShadow"
+                                    style="margin-top: 0px !important ;background-color:white ; margin-right: -125px; z-index: 10; padding: 80px 50px 50px 50px;">
+
+                                    <div style="margin-bottom: 50px;">
+                                        <div style="float: left;">
+                                            <div class="rossanova-L center l-height-30 "
+                                                style="font-size: 31px; color: black;">
+                                                Chinease Cuisine <br />
+                                                <img class="icon-under-h" src="assets/svg/Groupe 2164.svg" />
+                                            </div>
+                                        </div>
+                                        <div style="float: right; font-size: 15px; " class="poppins-M ">
+                                            <div>
+                                                <img src="assets/svg/star.svg">
+                                                <img src="assets/svg/star.svg">
+                                                <img src="assets/svg/star.svg">
+                                                <img src="assets/svg/star.svg">
+                                                <img style="padding-right: 20px;" src="assets/svg/star.svg"> 4.5
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br />
+                                    <p class="poppins-L" style="font-size: 15px; line-height: 30px;">
+                                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                        tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+                                        vero eos et
+                                    <div style="padding-top: 11px;">
+                                        <div class="poppins-M" style="font-size: 17px;">Our Specials</div>
+                                    </div>
+                                    <div class="flex-row">
+                                        <div>
+                                            <ul style="font-size: 15px; line-height: 40px;">
+                                                <li>Spicy Shrimp</li>
+                                                <li>Spicy Shrimp</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <ul
+                                                style="font-size: 15px;margin-left: 20px; margin-right: 20px; line-height: 40px;">
+                                                <li>Walleye</li>
+                                                <li>Spicy Shrimp</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <ul style="font-size: 15px; line-height: 40px;">
+                                                <li>Walleye</li>
+                                                <li>Spicy Shrimp</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="flex-row">
+                                        <div class="white-btn" style="margin-right: 16px;">
+                                            <div class="poppins-M gold request-btn-act">KNOW MORE</div>
+                                        </div>
+                                        <div class="white-btn">
+                                            <div class="poppins-M gold request-btn-act">VIEW MENU</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="activities-img">
+                                    <div class="slideshow-container6">
+
+                                        <div class="slides3 fade">
+
+                                            <img src="assets/multiRooms/food1.png" />
+                                        </div>
+
+                                        <div class="slides3 fade">
+
+                                            <img src="assets/multiRooms/food1.png" />
+
+                                        </div>
+
+                                        <div class="slides3 fade">
+
+                                            <img src="assets/multiRooms/food1.png" />
+
+                                        </div>
+
+                                        <a class="prev6" onclick="plusSlides6(-1, 2)">&#10094;</a>
+                                        <a class="next6" onclick="plusSlides6(1, 2)">&#10095;</a>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="mySlides3">
+                            <div class="numbertext3"></div>
+                            <div class="activities-box ">
+
+                                <div class="box-title boxShadow"
+                                    style="margin-top: 0px !important ;background-color:white ; margin-right: -125px; z-index: 10; padding: 80px 50px 50px 50px;">
+
+                                    <div style="margin-bottom: 50px;">
+                                        <div style="float: left;">
+                                            <div class="rossanova-L center l-height-30 "
+                                                style="font-size: 31px; color: black;">
+                                                Turkish Cuisine <br />
+                                                <img class="icon-under-h" src="assets/svg/Groupe 2164.svg" />
+                                            </div>
+                                        </div>
+                                        <div style="float: right; font-size: 15px; " class="poppins-M ">
+                                            <div>
+                                                <img src="assets/svg/star.svg">
+                                                <img src="assets/svg/star.svg">
+                                                <img src="assets/svg/star.svg">
+                                                <img src="assets/svg/star.svg">
+                                                <img style="padding-right: 20px;" src="assets/svg/star.svg"> 4.5
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br />
+                                    <p class="poppins-L" style="font-size: 15px; line-height: 30px;">
+                                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                        tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+                                        vero eos et
+                                    <div style="padding-top: 11px;">
+                                        <div class="poppins-M" style="font-size: 17px;">Our Specials</div>
+                                    </div>
+                                    <div class="flex-row">
+                                        <div>
+                                            <ul style="font-size: 15px; line-height: 40px;">
+                                                <li>Spicy Shrimp</li>
+                                                <li>Spicy Shrimp</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <ul
+                                                style="font-size: 15px;margin-left: 20px; margin-right: 20px; line-height: 40px;">
+                                                <li>Walleye</li>
+                                                <li>Spicy Shrimp</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <ul style="font-size: 15px; line-height: 40px;">
+                                                <li>Walleye</li>
+                                                <li>Spicy Shrimp</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="flex-row">
+                                        <div class="white-btn" style="margin-right: 16px;">
+                                            <div class="poppins-M gold request-btn-act">KNOW MORE</div>
+                                        </div>
+                                        <div class="white-btn">
+                                            <div class="poppins-M gold request-btn-act">VIEW MENU</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="activities-img">
+                                    <div class="slideshow-container6">
+
+                                        <div class="slides4 fade">
+
+                                            <img src="assets/multiRooms/food1.png" />
+                                        </div>
+
+                                        <div class="slides4 fade">
+
+                                            <img src="assets/multiRooms/food1.png" />
+
+                                        </div>
+
+                                        <div class="slides4 fade">
+
+                                            <img src="assets/multiRooms/food1.png" />
+
+                                        </div>
+
+                                        <a class="prev6" onclick="plusSlides6(-1,3)">&#10094;</a>
+                                        <a class="next6" onclick="plusSlides6(1,3)">&#10095;</a>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="mySlides3">
+                            <div class="numbertext3"></div>
+                            <div class="activities-box ">
+
+                                <div class="box-title boxShadow"
+                                    style="margin-top: 0px !important ;background-color:white ; margin-right: -125px; z-index: 10; padding: 80px 50px 50px 50px;">
+
+                                    <div style="margin-bottom: 50px;">
+                                        <div style="float: left;">
+                                            <div class="rossanova-L center l-height-30 "
+                                                style="font-size: 31px; color: black;">
+                                                Arabic Cuisine <br />
+                                                <img class="icon-under-h" src="assets/svg/Groupe 2164.svg" />
+                                            </div>
+                                        </div>
+                                        <div style="float: right; font-size: 15px; " class="poppins-M ">
+                                            <div>
+                                                <img src="assets/svg/star.svg">
+                                                <img src="assets/svg/star.svg">
+                                                <img src="assets/svg/star.svg">
+                                                <img src="assets/svg/star.svg">
+                                                <img style="padding-right: 20px;" src="assets/svg/star.svg"> 4.5
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br />
+                                    <p class="poppins-L" style="font-size: 15px; line-height: 30px;">
+                                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                        tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+                                        vero eos et
+                                    <div style="padding-top: 11px;">
+                                        <div class="poppins-M" style="font-size: 17px;">Our Specials</div>
+                                    </div>
+                                    <div class="flex-row">
+                                        <div>
+                                            <ul style="font-size: 15px; line-height: 40px;">
+                                                <li>Spicy Shrimp</li>
+                                                <li>Spicy Shrimp</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <ul
+                                                style="font-size: 15px;margin-left: 20px; margin-right: 20px; line-height: 40px;">
+                                                <li>Walleye</li>
+                                                <li>Spicy Shrimp</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <ul style="font-size: 15px; line-height: 40px;">
+                                                <li>Walleye</li>
+                                                <li>Spicy Shrimp</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="flex-row">
+                                        <div class="white-btn" style="margin-right: 16px;">
+                                            <div class="poppins-M gold request-btn-act">KNOW MORE</div>
+                                        </div>
+                                        <div class="white-btn">
+                                            <div class="poppins-M gold request-btn-act">VIEW MENU</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="activities-img">
+                                    <div class="slideshow-container6">
+
+                                        <div class="slides5 fade">
+
+                                            <img src="assets/multiRooms/food1.png" />
+                                        </div>
+
+                                        <div class="slides5 fade">
+
+                                            <img src="assets/multiRooms/food1.png" />
+
+                                        </div>
+
+                                        <div class="slides5 fade">
+
+                                            <img src="assets/multiRooms/food1.png" />
+
+                                        </div>
+
+                                        <a class="prev6" onclick="plusSlides6(-1, 4)">&#10094;</a>
+                                        <a class="next6" onclick="plusSlides6(1, 4)">&#10095;</a>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="mySlides3">
+                            <div class="numbertext3"></div>
+                            <div class="activities-box ">
+
+                                <div class="box-title boxShadow"
+                                    style="margin-top: 0px !important ;background-color:white ; margin-right: -125px; z-index: 10; padding: 80px 50px 50px 50px;">
+
+                                    <div style="margin-bottom: 50px;">
+                                        <div style="float: left;">
+                                            <div class="rossanova-L center l-height-30 "
+                                                style="font-size: 31px; color: black;">
+                                                Arabic Cuisine <br />
+                                                <img class="icon-under-h" src="assets/svg/Groupe 2164.svg" />
+                                            </div>
+                                        </div>
+                                        <div style="float: right; font-size: 15px; " class="poppins-M ">
+                                            <div>
+                                                <img src="assets/svg/star.svg">
+                                                <img src="assets/svg/star.svg">
+                                                <img src="assets/svg/star.svg">
+                                                <img src="assets/svg/star.svg">
+                                                <img style="padding-right: 20px;" src="assets/svg/star.svg"> 4.5
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br />
+                                    <p class="poppins-L" style="font-size: 15px; line-height: 30px;">
+                                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                        tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+                                        vero eos et
+                                    <div style="padding-top: 11px;">
+                                        <div class="poppins-M" style="font-size: 17px;">Our Specials</div>
+                                    </div>
+                                    <div class="flex-row">
+                                        <div>
+                                            <ul style="font-size: 15px; line-height: 40px;">
+                                                <li>Spicy Shrimp</li>
+                                                <li>Spicy Shrimp</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <ul
+                                                style="font-size: 15px;margin-left: 20px; margin-right: 20px; line-height: 40px;">
+                                                <li>Walleye</li>
+                                                <li>Spicy Shrimp</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <ul style="font-size: 15px; line-height: 40px;">
+                                                <li>Walleye</li>
+                                                <li>Spicy Shrimp</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="flex-row">
+                                        <div class="white-btn" style="margin-right: 16px;">
+                                            <div class="poppins-M gold request-btn-act">KNOW MORE</div>
+                                        </div>
+                                        <div class="white-btn">
+                                            <div class="poppins-M gold request-btn-act">VIEW MENU</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="activities-img">
+                                    <div class="slideshow-container6">
+
+                                        <div class="slides6 fade">
+
+                                            <img src="assets/multiRooms/food1.png" />
+                                        </div>
+
+                                        <div class="slides6 fade">
+
+                                            <img src="assets/multiRooms/food1.png" />
+
+                                        </div>
+
+                                        <div class="slides6 fade">
+
+                                            <img src="assets/multiRooms/food1.png" />
+
+                                        </div>
+
+                                        <a class="prev6" onclick="plusSlides6(-1, 5)">&#10094;</a>
+                                        <a class="next6" onclick="plusSlides6(1, 5)">&#10095;</a>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+
+                </div>
+
+
+
+
             </div>
-            
+
+            <!--*********************our fans****************************-->
+
             <div>
-                <div>
-                    <div style="width: fit-content;">
-                        <h2 class="rossanova gold center ">
-                            Our Fans<br />
-                            <img class="icon-under-h" src="assets/svg/Groupe 2164.svg" />
-                            </h3>
+                <div class="offerTitle offer-margin">
+                    <div>
+                        <div style="width: fit-content;">
+                            <h2 class="rossanova gold center ">
+                                Our Fans<br />
+                                <img class="icon-under-h" src="assets/svg/Groupe 2164.svg" />
+                                </h3>
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <div class="gallery js-flickity">
-                        <div class="gallery-cell ourfans-box">
-                            <div class="flex-column" style="padding:40px ;">
-                                <div class="flex-row">
-                                    <div>
-                                        <img src="assets/sigleOfferImg/Na06-Mousa.png">
-                                    </div>
-                                    <div class="flex-column" style="margin-left: 34.9px;">
-                                        <div class="poppins-M"> Mohamed Salem</div>
+                    <div>
+                        <div class="gallery js-flickity">
+                            <div class="gallery-cell ourfans-box">
+                                <div class="flex-column" style="padding:40px ;">
+                                    <div class="flex-row">
                                         <div>
-                                            <img src="assets/svg/star.svg">
-                                            <img src="assets/svg/star.svg">
-                                            <img src="assets/svg/star.svg">
-                                            <img src="assets/svg/star.svg">
-                                            <img src="assets/svg/star.svg">
+                                            <img src="assets/sigleOfferImg/Na06-Mousa.png">
+                                        </div>
+                                        <div class="flex-column" style="margin-left: 34.9px;">
+                                            <div class="poppins-M"> Mohamed Salem</div>
+                                            <div>
+                                                <img src="assets/svg/star.svg">
+                                                <img src="assets/svg/star.svg">
+                                                <img src="assets/svg/star.svg">
+                                                <img src="assets/svg/star.svg">
+                                                <img src="assets/svg/star.svg">
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="parag-in-ourfans">
-                                    <p>
-                                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                        accusantium
-                                        doloremque laudantium,
-                                        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                                        architecto beatae vitae
-                                        dicta
-                                        sunt
-                                    </p>
+                                    <div class="parag-in-ourfans content">
+                                        <img src="assets/svg/Icon awesome-quote-right.svg" class="ribbon1" />
+                                        <p>
+                                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                            doloremque laudantium,
+                                            totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                                            architecto beatae vitae
+                                            dicta
+                                            sunt
+                                        </p>
+                                        <img src="assets/svg/Icon awesome-quote-left.svg" class="ribbon2" />
 
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="gallery-cell ourfans-box">
-                            <div class="flex-column" style="padding:40px ;">
-                                <div class="flex-row">
-                                    <div>
-                                        <img src="assets/sigleOfferImg/Na06-Mousa.png">
-                                    </div>
-                                    <div class="flex-column" style="margin-left: 34.9px;">
-                                        <div class="poppins-M"> Mohamed Salem</div>
+                            <div class="gallery-cell ourfans-box">
+                                <div class="flex-column" style="padding:40px ;">
+                                    <div class="flex-row">
                                         <div>
-                                            <img src="assets/svg/star.svg">
-                                            <img src="assets/svg/star.svg">
-                                            <img src="assets/svg/star.svg">
-                                            <img src="assets/svg/star.svg">
-                                            <img src="assets/svg/star.svg">
+                                            <img src="assets/sigleOfferImg/Na06-Mousa.png">
+                                        </div>
+                                        <div class="flex-column" style="margin-left: 34.9px;">
+                                            <div class="poppins-M"> Mohamed Salem</div>
+                                            <div>
+                                                <img src="assets/svg/star.svg">
+                                                <img src="assets/svg/star.svg">
+                                                <img src="assets/svg/star.svg">
+                                                <img src="assets/svg/star.svg">
+                                                <img src="assets/svg/star.svg">
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="parag-in-ourfans">
-                                    <p>
-                                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                        accusantium
-                                        doloremque laudantium,
-                                        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                                        architecto beatae vitae
-                                        dicta
-                                        sunt
-                                    </p>
+                                    <div class="parag-in-ourfans content">
+                                        <img src="assets/svg/Icon awesome-quote-right.svg" class="ribbon1" />
+                                        <p>
+                                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                            doloremque laudantium,
+                                            totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                                            architecto beatae vitae
+                                            dicta
+                                            sunt
+                                        </p>
+                                        <img src="assets/svg/Icon awesome-quote-left.svg" class="ribbon2" />
 
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="gallery-cell ourfans-box">
-                            <div class="flex-column" style="padding:40px ;">
-                                <div class="flex-row">
-                                    <div>
-                                        <img src="assets/sigleOfferImg/Na06-Mousa.png">
-                                    </div>
-                                    <div class="flex-column" style="margin-left: 34.9px; ">
-                                        <div class="poppins-M"> Mohamed Salem</div>
+                            <div class="gallery-cell ourfans-box">
+                                <div class="flex-column" style="padding:40px ;">
+                                    <div class="flex-row">
                                         <div>
-                                            <img src="assets/svg/star.svg">
-                                            <img src="assets/svg/star.svg">
-                                            <img src="assets/svg/star.svg">
-                                            <img src="assets/svg/star.svg">
-                                            <img src="assets/svg/star.svg">
+                                            <img src="assets/sigleOfferImg/Na06-Mousa.png">
+                                        </div>
+                                        <div class="flex-column" style="margin-left: 34.9px; ">
+                                            <div class="poppins-M"> Mohamed Salem</div>
+                                            <div>
+                                                <img src="assets/svg/star.svg">
+                                                <img src="assets/svg/star.svg">
+                                                <img src="assets/svg/star.svg">
+                                                <img src="assets/svg/star.svg">
+                                                <img src="assets/svg/star.svg">
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="parag-in-ourfans">
-                                    <p>
-                                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                        accusantium
-                                        doloremque laudantium,
-                                        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                                        architecto beatae vitae
-                                        dicta
-                                        sunt
+                                    <div class="parag-in-ourfans content">
+                                        <img src="assets/svg/Icon awesome-quote-right.svg" class="ribbon1" />
+                                        <p>
+                                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                            doloremque laudantium,
+                                            totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                                            architecto beatae vitae
+                                            dicta
+                                            sunt
+                                        </p>
+                                        <img src="assets/svg/Icon awesome-quote-left.svg" class="ribbon2" />
 
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="gallery-cell ourfans-box">
-                            <div class="flex-column" style="padding:40px ;">
-                                <div class="flex-row">
-                                    <div>
-                                        <img src="assets/sigleOfferImg/Na06-Mousa.png">
-                                    </div>
-                                    <div class="flex-column" style="margin-left: 34.9px; ">
-                                        <div class="poppins-M"> Mohamed Salem</div>
+                            <div class="gallery-cell ourfans-box">
+                                <div class="flex-column" style="padding:40px ;">
+                                    <div class="flex-row">
                                         <div>
-                                            <img src="assets/svg/star.svg">
-                                            <img src="assets/svg/star.svg">
-                                            <img src="assets/svg/star.svg">
-                                            <img src="assets/svg/star.svg">
-                                            <img src="assets/svg/star.svg">
+                                            <img src="assets/sigleOfferImg/Na06-Mousa.png">
+                                        </div>
+                                        <div class="flex-column" style="margin-left: 34.9px; ">
+                                            <div class="poppins-M"> Mohamed Salem</div>
+                                            <div>
+                                                <img src="assets/svg/star.svg">
+                                                <img src="assets/svg/star.svg">
+                                                <img src="assets/svg/star.svg">
+                                                <img src="assets/svg/star.svg">
+                                                <img src="assets/svg/star.svg">
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="parag-in-ourfans">
-                                    <p>
-                                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                        accusantium
-                                        doloremque laudantium,
-                                        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                                        architecto beatae vitae
-                                        dicta
-                                        sunt
-                                    </p>
+                                    <div class="parag-in-ourfans content">
+                                        <img src="assets/svg/Icon awesome-quote-right.svg" class="ribbon1" />
+                                        <p>
+                                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                            doloremque laudantium,
+                                            totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                                            architecto beatae vitae
+                                            dicta
+                                            sunt
+                                        </p>
+                                        <img src="assets/svg/Icon awesome-quote-left.svg" class="ribbon2" />
 
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
+                        </div>
                     </div>
                 </div>
             </div>
 
+
+
+            <!-- *******************************get in touch********************************** -->
 
             <div style="margin-bottom: 103px;">
                 <div style="margin-top: 50px; margin-bottom: 10px;font-size: 59px;">
@@ -699,7 +1391,7 @@
 
                     </h2>
                 </div>
-                <div class="flex-row">
+                <div class="flex-row offer-margin ">
                     <div class="l-height-30"
                         style="margin-top: 48px; margin-left: 174px; margin-right: 58.5; width: 452px;  ">
                         <img class="info-icon" src="assets/svg/Groupe 400.svg" />
@@ -766,9 +1458,12 @@
     </footer>
 
 
-    <script src="js/offerSinglaPage.js"></script>
     <script src="js/ourfans.js"></script>
-    
+
+    <script src="js/services.js"></script>
+
+    <script src="js/activity2.js"></script>
+
 </body>
 
 </html>
