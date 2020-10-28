@@ -1,3 +1,17 @@
+body{
+  background-color: white !important;
+}
+.home-section {
+  display: flex;
+  flex-direction: column;
+
+}
+.home-title {
+  font-size: 109px; margin-bottom:45px ;
+  font-family: ressanova;
+  color: $primary-color;
+  text-align: center;
+}
 .home {
   background-image: url("assets/homePage/Groupe 2252.png");
   background-repeat: no-repeat;
@@ -208,7 +222,7 @@
   body { font-family: sans-serif; }
   
   .carousel {
-    background: #FAFAFA;
+    background: transparent;
   }
   
   .carousel-cell {
@@ -409,7 +423,7 @@
   body { font-family: sans-serif; }
   
   .carousel {
-    background: #FAFAFA;
+    background: transparent;
   }
   
   .carousel-cell {
