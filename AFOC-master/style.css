@@ -504,6 +504,13 @@ section {
   margin-bottom: 16px;
 }
 
+.single-offer-list ul li {
+  font-size: 20px;
+  line-height: 24px;
+  list-style-image: url("assets/svg/Tracé 8474.svg");
+  margin-top: 18px;
+}
+
 .history {
   background-image: url("assets/history/Composant 2 – 1.png");
   background-repeat: no-repeat;
