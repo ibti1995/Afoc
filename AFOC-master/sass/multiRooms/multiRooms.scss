@@ -77,12 +77,14 @@ font-size: 60px;
           display: inline;
         }
 
-        li:hover::after{
-          content: url("assets/svg/multiRooms/demi-cercle.svg") ;
-    
-       color: $primary-color;
-         transform: scaleX(1);
-         transform-origin: left;
+        li {
+          div:hover::after{
+            content: url("assets/svg/multiRooms/demi-cercle.svg") ;
+      
+         color: $primary-color;
+           transform: scaleX(1);
+           transform-origin: left;
+          }
         }
       
 

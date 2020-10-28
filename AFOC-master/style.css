@@ -152,6 +152,58 @@ footer div {
   font-family: poppins;
 }
 
+.poppins-20-43-70 {
+  color: #707070;
+  font-size: 20px;
+  font-family: poppins;
+  line-height: 43px;
+}
+
+.poppins-19-30-70 {
+  color: #707070;
+  font-size: 19px;
+  font-family: poppins;
+  line-height: 43px;
+}
+
+.poppins-20-30-70 {
+  color: #707070;
+  font-size: 20px;
+  font-family: poppins;
+  line-height: 30px;
+}
+
+.poppins-17-43-70 {
+  color: #707070;
+  font-size: 17px;
+  font-family: poppins;
+  line-height: 43px;
+}
+
+.poppins-20-43- {
+  font-size: 20px;
+  font-family: poppins;
+  line-height: 43px;
+}
+
+.poppins-19-30 {
+  font-size: 19px;
+  font-family: poppins;
+  line-height: 30px;
+}
+
+.poppins-20-30 {
+  font-size: 20px;
+  font-family: poppins;
+  line-height: 30px;
+}
+
+.poppins-17-43 {
+  font-size: 17px;
+  font-family: poppins;
+  line-height: 43px;
+}
+
 .poppins-L {
   font-family: poppins-light;
 }
@@ -1341,6 +1393,120 @@ http://flickity.metafizzy.co
   border-width: 0.5px;
 }
 
+.room-cass {
+  /*************************************************/
+  /*! Flickity v1.0.0
+  http://flickity.metafizzy.co
+  ---------------------------------------------- */
+  /* draggable */
+  /* ---- previous/next buttons ---- */
+  /* right to left */
+  /* color & size if no SVG - IE8 and Android 2.3 */
+}
+.room-cass .gallery {
+  background: #FFFF;
+  margin-bottom: 50px;
+  height: 520px;
+}
+.room-cass .gallery-cell {
+  margin-top: 20px;
+  width: 30%;
+  height: auto;
+  margin-right: 10px;
+  background: white;
+  counter-increment: gallery-cell;
+}
+.room-cass .flickity-enabled {
+  position: relative;
+}
+.room-cass .flickity-enabled:focus {
+  outline: none;
+}
+.room-cass .flickity-viewport {
+  overflow: hidden;
+  position: relative;
+  height: 100% !important;
+}
+.room-cass .flickity-slider {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.room-cass .flickity-enabled.is-draggable {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.room-cass .flickity-enabled.is-draggable .flickity-viewport {
+  cursor: move;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+.room-cass .flickity-enabled.is-draggable .flickity-viewport.is-pointer-down {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+.room-cass .flickity-prev-next-button {
+  margin-bottom: -12px;
+  width: 44px;
+  height: 44px;
+  border: none;
+  background: white;
+  background: rgba(255, 255, 255, 0.75);
+  cursor: pointer;
+  /* vertically center */
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.room-cass .flickity-prev-next-button:hover {
+  background: white;
+}
+.room-cass .flickity-prev-next-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 5px #09F;
+}
+.room-cass .flickity-prev-next-button:active {
+  filter: alpha(opacity=60);
+  /* IE8 */
+  opacity: 0.6;
+}
+.room-cass .flickity-prev-next-button.previous {
+  left: 10px;
+}
+.room-cass .flickity-prev-next-button.next {
+  left: 50px;
+}
+.room-cass .flickity-rtl .flickity-prev-next-button.previous {
+  left: auto;
+  right: 10px;
+}
+.room-cass .flickity-rtl .flickity-prev-next-button.next {
+  right: auto;
+  left: 10px;
+}
+.room-cass .flickity-prev-next-button:disabled {
+  filter: alpha(opacity=30);
+  /* IE8 */
+  opacity: 0.3;
+  cursor: auto;
+}
+.room-cass .flickity-prev-next-button svg {
+  position: absolute;
+  left: 20%;
+  top: 10%;
+  width: 60%;
+  height: 60%;
+}
+.room-cass .flickity-prev-next-button .arrow {
+  fill: #926D39;
+}
+.room-cass .flickity-prev-next-button.no-svg {
+  color: #926D39;
+  font-size: 26px;
+}
+
 .meetings {
   background-image: url("assets/meetings/Composant 4 – 1.png");
   background-repeat: no-repeat;
@@ -1617,9 +1783,34 @@ body {
 .home-title {
   font-size: 109px;
   margin-bottom: 45px;
-  font-family: ressanova;
+  font-family: rossanova;
   color: #926D39;
   text-align: center;
+  line-height: 50px;
+}
+.home-title .icon-under-h {
+  width: 250px;
+  height: 27px;
+}
+
+.active-stay-home {
+  color: #926D39;
+}
+
+.stay-elemnt {
+  flex-basis: 20%;
+}
+.stay-elemnt div {
+  font-size: 40px;
+  font-family: rossanova;
+}
+.stay-elemnt div:hover {
+  color: #926D39;
+}
+
+.page-margin {
+  margin-right: 162px;
+  margin-left: 152px;
 }
 
 .home {
@@ -2176,7 +2367,7 @@ body {
   height: 100%;
 }
 .flavor-cass .gallery .flickity-slider {
-  margin-left: -500px !important;
+  margin-left: -520px !important;
 }
 .flavor-cass .flickity-enabled.is-draggable {
   -webkit-tap-highlight-color: transparent;
@@ -2184,6 +2375,9 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+.flavor-cass .prev {
+  left: -90px;
 }
 .flavor-cass .flickity-enabled.is-draggable .flickity-viewport {
   cursor: move;
@@ -2363,7 +2557,7 @@ body {
 }
 .exclu-cass .flickity-rtl .flickity-prev-next-button.previous {
   left: auto;
-  right: 10px;
+  right: -80px;
 }
 .exclu-cass .flickity-rtl .flickity-prev-next-button.next {
   right: auto;
@@ -3057,7 +3251,7 @@ body {
   margin-left: 50px;
   display: inline;
 }
-.roomsmenu ul li:hover::after {
+.roomsmenu ul li div:hover::after {
   content: url("assets/svg/multiRooms/demi-cercle.svg");
   color: #926D39;
   transform: scaleX(1);

@@ -6,11 +6,35 @@ body{
   flex-direction: column;
 
 }
+
 .home-title {
   font-size: 109px; margin-bottom:45px ;
-  font-family: ressanova;
+  font-family: rossanova;
   color: $primary-color;
   text-align: center;
+  line-height: 50px;
+  .icon-under-h{
+    width: 250px;
+    height: 27px;
+  }
+}
+.active-stay-home{
+  color: $primary-color;
+  
+}
+.stay-elemnt{
+flex-basis: 20%;
+   div{
+     font-size: 40px;
+     font-family: rossanova;
+   
+   }
+   div:hover{
+     color: $primary-color;
+   }
+}
+.page-margin{
+ margin-right: 162px; margin-left: 152px;
 }
 .home {
   background-image: url("assets/homePage/Groupe 2252.png");
@@ -631,7 +655,7 @@ body{
   
   /* draggable */
   .gallery .flickity-slider {
-    margin-left: -500px !important;
+    margin-left: -520px !important;
   }
   .flickity-enabled.is-draggable {
     -webkit-tap-highlight-color: transparent;
@@ -639,6 +663,9 @@ body{
        -moz-user-select: none;
         -ms-user-select: none;
             user-select: none;
+  }
+  .prev{
+    left: -90px  ;
   }
   
   .flickity-enabled.is-draggable .flickity-viewport {
@@ -847,7 +874,7 @@ body{
   /* right to left */
   .flickity-rtl .flickity-prev-next-button.previous {
     left: auto;
-    right: 10px;
+    right: -80px;
   }
   .flickity-rtl .flickity-prev-next-button.next {
     right: auto;
@@ -874,6 +901,7 @@ body{
     text-align: center;
     line-height: 1;
   }
+
   
   .flickity-rtl .flickity-page-dots { direction: rtl; }
   
