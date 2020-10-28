@@ -116,13 +116,13 @@ width: 1618px;
   }
   input[type=text]{
 
-	  font-size: 25px;
+	  font-size: 25px;padding: 25px;
 	width: 250px;border: 1px solid #B2B4B2;border-radius:5px 5px;height: 57px; margin-top: 17px;
   }
   input[type=number]{
 	border: 1px solid #B2B4B2;border-radius:5px 5px;
 	font-size: 25px;
-  width: 87px; height: 57px;margin-top: 17px;
+  width: 87px; height: 57px;margin-top: 17px;padding: 20px;
 }
 input[type=text]:focus {
 	border-color: $primary-color;
