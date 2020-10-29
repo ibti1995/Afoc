@@ -1,98 +1,93 @@
- .multiRooms {
-    background-image: url("assets/multiRooms/Groupe 2252.png");
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 1080px;
+.multiRooms {
+  background-image: url("assets/multiRooms/Groupe 2252.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 1080px;
   display: flex;
   flex-direction: column;
-   
-    background-size:auto;
-    text-align: center;
 
+  background-size: auto;
+  text-align: center;
 }
-.multi-rooms-section{
+.multi-rooms-section {
   display: flex;
   flex-direction: column;
   background-image: url("assets/sigleOfferImg/Rectangle 1745.png");
   background-repeat: no-repeat;
   background-size: 1930px 5950px;
 }
-  .rooms-num{
-color: $primary-color;
-font-size: 60px;
-  }
-  .caract {
-	width: 144px; margin-right: 168px;
-  }
-  .rooms-menu-size{
-
-	width: 451px;
-  }
-  .rooms-right-menu
-{
-	margin-left: 816px;background-color: white; height:79px ;width: 351px; font-size: 20px;
+.rooms-num {
+  color: $primary-color;
+  font-size: 60px;
+}
+.caract {
+  width: 144px;
+  margin-right: 168px;
+}
+.rooms-menu-size {
+  width: 451px;
+}
+.rooms-right-menu {
+  margin-left: 816px;
+  background-color: white;
+  height: 79px;
+  width: 351px;
+  font-size: 20px;
 }
 
-
 /************slides*************/
-
-
 
 /* Hide the images by default */
 .mySlides7 {
   display: none;
-
 }
 
 .mySlides8 {
   display: none;
-
 }
 .mySlides9 {
   display: none;
-
 }
 
 /*****************************************/
 
-.rooms-parag{
-  margin-left: 20px; line-height: 20px; font-size: 12px; width: 305.75px; margin-top: 0px;
+.rooms-parag {
+  margin-left: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  width: 305.75px;
+  margin-top: 0px;
 }
 
-
-.rooms-cont{
-  width: 500px; height: 460px
+.rooms-cont {
+  width: 500px;
+  height: 460px;
 }
 
-
-.rooms-margin{
+.rooms-margin {
   margin-left: 152px;
   margin-right: 162px;
 }
 
-
 /******************************************/
-.roomsmenu{
-  width: 784px;height: 79px; background-color: white;
+.roomsmenu {
+  width: 784px;
+  height: 79px;
+  background-color: white;
   ul {
-      list-style-type: none;
-      padding-inline-start: 20px;
-      margin-bottom: 25px;
-      li {
-          margin-left: 50px;
-          display: inline;
-        }
-
-        li {
-          div:hover::after{
-            content: url("assets/svg/multiRooms/demi-cercle.svg") ;
-      
-         color: $primary-color;
-           transform: scaleX(1);
-           transform-origin: left;
-          }
-        }
-      
-
+    list-style-type: none;
+    padding-inline-start: 20px;
+    margin-bottom: 25px;
+    li {
+      margin-left: 50px;
+      display: inline;
+      cursor: pointer;
     }
+
+    li :hover {
+      color: $primary-color;
+      transform: scaleX(1);
+      transform-origin: left;
+    }
+  }
 }
