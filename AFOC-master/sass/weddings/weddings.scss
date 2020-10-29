@@ -58,7 +58,7 @@ margin: 0px 360px 0px 350px;
 .wedd-list-elem-icon
 {width: 20px;
 float: left;
-margin: 10px 70px 0px 0px;}
+margin: 4px 70px 0px 0px;}
 
 .getoffre-btn{
   background-color:  $primary-color;
@@ -117,28 +117,34 @@ margin: 10px 70px 0px 0px;}
 .next3 {
   cursor: pointer;
   position: absolute;
-  top: 40%;
-  width: auto;
+  top: 34%;
+  width: 40px;
 
-  margin-top: -50px;
-  color: white;
+ padding: 10px;
+  color: $primary-color;
   font-weight: bold;
-  font-size: 20px;
-
+  font-size: 40px;
+  background-color: white;
+  opacity: 50%;
   user-select: none;
   -webkit-user-select: none;
 }
 
 /* Position the "next button" to the right */
 .next3 {
-  right: 0;
+  right: 10px;
+
+}
+.prev3 {
+  left: 10px;
 
 }
 
 /* On hover, add a black background color with a little bit see-through */
 .prev3:hover,
 .next3:hover {
-  background-color: $primary-color;
+  
+  opacity: 1;
 }
 
 /* Number text (1/3 etc) */

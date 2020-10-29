@@ -1,10 +1,19 @@
 
 .small-word-header{
-	letter-spacing: 6px; font-size: 12px;line-height: 25px;
+	letter-spacing: 6px; font-size: 20px;line-height: 25px;
 }
 .big-word-header{
-	font-size: 44px; line-height: 64px; margin-top: 4.9px;
+	font-size: 64px; line-height: 64px; margin-top: 4.9px;
 }
+.small-word-header2{
+	letter-spacing: 6px; font-size: 20px;line-height: 30px;
+}
+.big-word-header2{
+	font-size: 64px; line-height: 64px; margin-top: 4.9px;
+}
+
+
+
 #logo {
   align-self: flex-start;
   order: 5;
@@ -23,6 +32,16 @@
   margin-left: 570px;
   
 }
+.plus-span{
+  color: #787878 ; background-color: white; border-radius: 50%;
+  margin-right: 24px;
+
+}
+.minus-span{
+  color: #787878 ; background-color: white; border-radius: 50%;
+  margin-right: 4px;
+
+}
 .words2{
   text-align: left;
   flex: 1;
@@ -31,6 +50,15 @@
   color: white;
   width: fit-content;
 
+}
+.words3{
+  align-self: flex-end;
+  text-align: left;
+  flex: 1;
+  margin-bottom: 200px;
+
+  color: white;
+  width: fit-content;
 }
 
 .header{

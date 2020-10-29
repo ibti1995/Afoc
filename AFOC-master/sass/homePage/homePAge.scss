@@ -37,7 +37,7 @@ flex-basis: 20%;
  margin-right: 162px; margin-left: 152px;
 }
 .home {
-  background-image: url("assets/homePage/Groupe 2252.png");
+  background-image: url("assets/homePage/Screen.png");
   background-repeat: no-repeat;
   width: 100%;
   height: 1080px;
@@ -45,6 +45,7 @@ flex-basis: 20%;
   flex-direction: column;
   background-size: auto;
   text-align: center;
+  justify-content: space-between;
 }
 
 /* Style the tab */

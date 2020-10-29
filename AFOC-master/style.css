@@ -23,14 +23,30 @@
   font-family: poppins-medium;
   src: url(assets/font/Poppins/Poppins-Medium.ttf);
 }
+@font-face {
+  font-family: poppins-semi-bold;
+  src: url(assets/font/Poppins/Poppins-SemiBold.ttf);
+}
 .small-word-header {
   letter-spacing: 6px;
-  font-size: 12px;
+  font-size: 20px;
   line-height: 25px;
 }
 
 .big-word-header {
-  font-size: 44px;
+  font-size: 64px;
+  line-height: 64px;
+  margin-top: 4.9px;
+}
+
+.small-word-header2 {
+  letter-spacing: 6px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.big-word-header2 {
+  font-size: 64px;
   line-height: 64px;
   margin-top: 4.9px;
 }
@@ -53,11 +69,34 @@
   margin-left: 570px;
 }
 
+.plus-span {
+  color: #787878;
+  background-color: white;
+  border-radius: 50%;
+  margin-right: 24px;
+}
+
+.minus-span {
+  color: #787878;
+  background-color: white;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
 .words2 {
   text-align: left;
   flex: 1;
   margin-top: 600px;
   margin-left: 155px;
+  color: white;
+  width: fit-content;
+}
+
+.words3 {
+  align-self: flex-end;
+  text-align: left;
+  flex: 1;
+  margin-bottom: 200px;
   color: white;
   width: fit-content;
 }
@@ -549,23 +588,23 @@ section {
 }
 
 .flex-row .list-class-offer {
-  margin-right: 50.5px;
+  margin-right: 100.5px;
   line-height: 11px;
 }
 .flex-row .list-class-offer ul {
   width: 323, 15px;
-  line-height: 16px;
+  line-height: 20px;
 }
 .flex-row .list-class-offer ul li {
   list-style-image: url("assets/svg/Tracé 8474.svg");
-  margin-bottom: 16px;
+  margin-bottom: 23px;
 }
 
 .single-offer-list ul li {
   font-size: 20px;
   line-height: 24px;
   list-style-image: url("assets/svg/Tracé 8474.svg");
-  margin-top: 18px;
+  margin-top: 23px;
 }
 
 .history {
@@ -928,7 +967,7 @@ http://flickity.metafizzy.co
 .wedd-list-elem-icon {
   width: 20px;
   float: left;
-  margin: 10px 70px 0px 0px;
+  margin: 4px 70px 0px 0px;
 }
 
 .getoffre-btn {
@@ -986,25 +1025,31 @@ http://flickity.metafizzy.co
 .next3 {
   cursor: pointer;
   position: absolute;
-  top: 40%;
-  width: auto;
-  margin-top: -50px;
-  color: white;
+  top: 34%;
+  width: 40px;
+  padding: 10px;
+  color: #926D39;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 40px;
+  background-color: white;
+  opacity: 50%;
   user-select: none;
   -webkit-user-select: none;
 }
 
 /* Position the "next button" to the right */
 .next3 {
-  right: 0;
+  right: 10px;
+}
+
+.prev3 {
+  left: 10px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
 .prev3:hover,
 .next3:hover {
-  background-color: #926D39;
+  opacity: 1;
 }
 
 /* Number text (1/3 etc) */
@@ -1329,8 +1374,9 @@ http://flickity.metafizzy.co
 .offers-name-parag {
   margin-left: 20px;
   line-height: 20px;
-  font-size: 12px;
+  font-size: 12px !important;
   width: 305.75px;
+  color: #25282A;
 }
 
 .single-room-section {
@@ -1842,7 +1888,7 @@ body {
 }
 
 .home {
-  background-image: url("assets/homePage/Groupe 2252.png");
+  background-image: url("assets/homePage/Screen.png");
   background-repeat: no-repeat;
   width: 100%;
   height: 1080px;
@@ -1850,6 +1896,7 @@ body {
   flex-direction: column;
   background-size: auto;
   text-align: center;
+  justify-content: space-between;
 }
 
 /* Style the tab */
