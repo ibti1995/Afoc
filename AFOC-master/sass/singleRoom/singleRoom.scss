@@ -16,6 +16,33 @@
      
   }
 
+  .single-room-second-menu {
+    width:380px;
+    height: 79px; margin-left: 80px;
+    background-color: white;
+    ul {
+      list-style-type: none;
+      padding-inline-start: 20px;
+      margin-bottom: 25px;
+      border-radius: 50px 50px;
+      li {
+       
+        display: inline;
+        cursor: pointer;
+        padding: 10px;
+      }
+  
+      li:hover {
+       background-color: $primary-color;
+        transform: scaleX(1);
+        transform-origin: left;
+        border-radius: 50px 50px;
+        color: white;
+      }
+    }
+  }
+
+
 .singleRoommenu {
   width: 819px;
   font-size: 17px;

@@ -1395,6 +1395,31 @@ http://flickity.metafizzy.co
   height: 42px;
 }
 
+.single-room-second-menu {
+  width: 380px;
+  height: 79px;
+  margin-left: 80px;
+  background-color: white;
+}
+.single-room-second-menu ul {
+  list-style-type: none;
+  padding-inline-start: 20px;
+  margin-bottom: 25px;
+  border-radius: 50px 50px;
+}
+.single-room-second-menu ul li {
+  display: inline;
+  cursor: pointer;
+  padding: 10px;
+}
+.single-room-second-menu ul li:hover {
+  background-color: #926D39;
+  transform: scaleX(1);
+  transform-origin: left;
+  border-radius: 50px 50px;
+  color: white;
+}
+
 .singleRoommenu {
   width: 819px;
   font-size: 17px;
