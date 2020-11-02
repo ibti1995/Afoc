@@ -212,6 +212,10 @@ footer div {
   line-height: 30px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .poppins-17-43-70 {
   color: #707070;
   font-size: 17px;
@@ -521,6 +525,35 @@ section {
 
 .simple:hover {
   flex: 4 !important;
+}
+
+.requ-cat-dialog {
+  width: 60rem;
+  height: auto;
+}
+
+.vertical {
+  margin-right: 50px;
+  border-right: 2px solid #d5d3d3;
+  height: 400px;
+}
+
+dialog {
+  border-style: none;
+  border-radius: 10px;
+}
+
+.request form input[type=text] {
+  border-style: none;
+  height: 50px;
+  font-size: 20px;
+}
+.request form input[type=radio]:checked ~ .checkmark {
+  background-color: #926D39;
+}
+.request form hr.solid {
+  border-top: 2px solid #707070;
+  opacity: 100%;
 }
 
 .single-offer-section {

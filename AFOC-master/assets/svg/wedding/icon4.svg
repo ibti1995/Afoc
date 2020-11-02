@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="32" viewBox="0 0 50 32">
+  <g id="Groupe_744" data-name="Groupe 744" transform="translate(-28.788 -0.5)">
+    <g id="Rectangle_1756" data-name="Rectangle 1756" transform="translate(51.788 0.5)" fill="none" stroke="#707070" stroke-width="2">
+      <rect width="5" height="6" rx="2.5" stroke="none"/>
+      <rect x="1" y="1" width="3" height="4" rx="1.5" fill="none"/>
+    </g>
+    <g id="Rectangle_1757" data-name="Rectangle 1757" transform="translate(28.788 6.5)" fill="none" stroke="#707070" stroke-width="3">
+      <rect width="25" height="9" rx="4.5" stroke="none"/>
+      <rect x="1.5" y="1.5" width="22" height="6" rx="3" fill="none"/>
+    </g>
+    <g id="Rectangle_1758" data-name="Rectangle 1758" transform="translate(54.788 6.5)" fill="none" stroke="#707070" stroke-width="3">
+      <rect width="24" height="9" rx="4.5" stroke="none"/>
+      <rect x="1.5" y="1.5" width="21" height="6" rx="3" fill="none"/>
+    </g>
+    <rect id="Rectangle_1759" data-name="Rectangle 1759" width="3" height="3" transform="translate(34.788 15.5)" fill="#707070"/>
+    <rect id="Rectangle_1764" data-name="Rectangle 1764" width="2" height="3" transform="translate(59.788 15.5)" fill="#707070"/>
+    <rect id="Rectangle_1767" data-name="Rectangle 1767" width="2" height="2" transform="translate(59.788 30.5)" fill="#707070"/>
+    <rect id="Rectangle_1770" data-name="Rectangle 1770" width="2" height="2" transform="translate(40.788 30.5)" fill="#707070"/>
+    <rect id="Rectangle_1771" data-name="Rectangle 1771" width="3" height="2" transform="translate(34.788 30.5)" fill="#707070"/>
+    <rect id="Rectangle_1760" data-name="Rectangle 1760" width="2" height="3" transform="translate(40.788 15.5)" fill="#707070"/>
+    <rect id="Rectangle_1763" data-name="Rectangle 1763" width="3" height="3" transform="translate(65.788 15.5)" fill="#707070"/>
+    <rect id="Rectangle_1766" data-name="Rectangle 1766" width="3" height="2" transform="translate(65.788 30.5)" fill="#707070"/>
+    <rect id="Rectangle_1769" data-name="Rectangle 1769" width="2" height="2" transform="translate(47.788 30.5)" fill="#707070"/>
+    <rect id="Rectangle_1761" data-name="Rectangle 1761" width="2" height="3" transform="translate(47.788 15.5)" fill="#707070"/>
+    <rect id="Rectangle_1762" data-name="Rectangle 1762" width="2" height="3" transform="translate(71.788 15.5)" fill="#707070"/>
+    <rect id="Rectangle_1765" data-name="Rectangle 1765" width="2" height="2" transform="translate(71.788 30.5)" fill="#707070"/>
+    <rect id="Rectangle_1768" data-name="Rectangle 1768" width="3" height="2" transform="translate(53.788 30.5)" fill="#707070"/>
+    <g id="Rectangle_1772" data-name="Rectangle 1772" transform="translate(28.788 20.5)" fill="none" stroke="#707070" stroke-width="3">
+      <rect width="50" height="9" rx="4.5" stroke="none"/>
+      <rect x="1.5" y="1.5" width="47" height="6" rx="3" fill="none"/>
+    </g>
+  </g>
+</svg>

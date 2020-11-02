@@ -89,7 +89,7 @@
 
           </p>
           <div class="cat-white-btn">
-          <a class="poppins-M gold request-btn" href="#">REQUEST CATERING</a>
+          <a class="poppins-M gold request-btn" onclick="window.dialog.showModal();">REQUEST CATERING</a>
         </div></div>
         <div class="box-img">
           
@@ -271,6 +271,74 @@
   </footer>
   </div>
   </div>
+  <dialog class="requ-cat-dialog ourfans-box" id="dialog">
+    <div class="center" style="width: fit-content; margin-top: 50px; margin-bottom: 10px; margin-left: 20%;">
+      <h2 class="rossanova black ">
+        Request for Catering<br />
+        <img class="icon-under-h" src="assets/svg/Groupe 2164.svg" />
+      </h3>
+    </div>
+   
+    <div class="flex-row">
+      <div class="vertical">
+        <div class="l-height-30" style="margin: 10px 50px 20px">
+          <img class="info-icon" src="assets/svg/Groupe 400.svg" />
+          <div class="rossanova gold" style="font-size: 25px; margin-bottom: 6px;">Address </div>
+          <div class="rossanova info-size">Khor Al Maqta, Al Khaleej Al Arabi - Road - Abu Dhabi </div>
+        </div>
+        <div style="margin: 48px 50px 20px" class="l-height-30">
+          <img class="info-icon" src="assets/svg/Groupe 400.svg" />
+          <div class="rossanova gold" style="font-size: 25px; margin-bottom: 6px;">Email </div>
+          <div class="rossanova info-size">ahlan@alturath.ae </div>
+        </div>
+        <div style="margin:  48px 50px 20px;" class="l-height-30">
+          <img class="info-icon" src="assets/svg/Groupe 400.svg" />
+         
+          <div class="rossanova gold" style="font-size: 25px; margin-bottom: 6px;">Phone Number </div>
+          <div class=" info-size">8003784 </div>
+      </div>
+      </div>
+      <div class="request">
+        <form method="dialog">
+          <input type="radio" checked="checked" name="radio">
+          <label class="gold poppins">Meetings
+          
+            <span class="checkmark"></span>
+          </label>
+           <input type="radio" name="radio">
+          <label class="gold poppins">Weddings
+           
+            <span class="checkmark"></span>
+          </label>
+           <input type="radio" name="radio">
+          <label class="gold poppins">Events
+           
+            <span class="checkmark"></span>
+          </label>
+       
+         <br>
+          <input type="text" id="fname" name="fname" placeholder="Name"><br>
+          <hr>
+     
+          <input type="text" id="lname" name="lname"  placeholder="E-mail"><br>
+          <hr>
+        
+          <input type="text" id="lphone" name="lphone" placeholder="Phone Number" ><br>
+     <hr>
+          <input type="text" id="lmessage" name="lmessage" placeholder="Message" ><br>
+          <hr>
+          <div class="cat-white-btn center" style="margin-bottom: 7vh;">
+            <a class="poppins-M gold request-btn center" >Submit</a>
+          </div>
+     
+        </form>
+      </div>
+            </div>
+  </dialog>
+  <script>
+    var dialog = document.querySelector('dialog');
+    dialogPolyfill.registerDialog(dialog);
+  </script>
 </body>
 
 </html>
