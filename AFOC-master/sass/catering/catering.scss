@@ -191,11 +191,11 @@ section {
  .requ-cat-dialog {
 width: 60rem;
 height: auto;
+position: fixed;
 }
 .vertical{
   margin-right: 50px;
   border-right:2px solid #d5d3d3;
-
   height: 400px;
 }
 dialog{

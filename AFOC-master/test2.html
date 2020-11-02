@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./style.css" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+</head>
+
+<body>
+
+    <section>
+
+        <div class="white-btn-home center"
+            style="width: 258px; height: 59px !important; cursor: pointer !important;  margin-right: 50px; ">
+            <div class="poppins-M gold request-btn-home" style="padding: 22px 0px 0px 0px !important;"
+                onclick="emergency()" id="emergencybtn">Emergency</div>
+        </div>
+        <div class="white-btn-home center"
+            style="width: 258px; height: 59px !important; cursor: pointer !important;  margin-right: 50px;">
+            <div class="poppins-M gold request-btn-home" style="padding: 22px 0px 0px 0px !important; "
+                onclick="maintenance()" id="Maintenancebtn">Maintenance</div>
+        </div>
+        <div class="white-btn-home center"
+            style="width: 258px; height: 59px !important; cursor: pointer !important;  margin-right: 50px; ">
+            <div class="poppins-M gold request-btn-home" style="padding: 22px 0px 0px 0px !important; "
+                onclick="closure()" id="Closurebtn">
+                Closure</div>
+        </div>
+        <div class="white-btn-home center"
+            style="width: 258px; height: 59px !important; cursor: pointer !important;  margin-right: 50px; ">
+            <div class="poppins-M gold request-btn-home" style="padding: 22px 0px 0px 0px !important; "
+                onclick="booking()" id="BookingDownbtn">Booking Down</div>
+        </div>
+
+
+    </section>
+
+
+    <!-- The Modal -->
+    <div id="emergency" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close1">&times;</span>
+            <div class="center" style="width: fit-content; margin-top: 50px; margin-bottom: 10px; color: #385542;">
+                <h2 class="rossanova black ">
+                    Emergency Announcement<br />
+
+                </h2>
+               
+            </div>
+            <p style="font-size: 25px; color: #808080;opacity: 80%;">Subtitle here</p>
+            <div class="center">
+                <img src="assets/svg/dialogs/emergency.svg">
+            </div>
+
+            <div class="center" style="width: 246erm; margin-top: 5rem; padding-right: 2rem; margin-right: 10px;">
+
+                <p>
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                </p>
+            </div>
+            <div class="white-btn-home"
+                style="width: 18rem; height: 59px !important; cursor: pointer !important;margin-left: 8rem; margin-top: 5rem;">
+                <div class="poppins-M gold request-btn-home" style="padding: 22px 0px 0px 0px !important;">Got it</div>
+            </div>
+        </div>
+
+    </div>
+    <div id="Maintenance" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close2">&times;</span>
+            <div class="center" style="width: fit-content; margin-top: 50px; margin-bottom: 10px; color: #385542;">
+                <h2 class="rossanova black ">
+                    Maintenance Notice<br />
+
+                </h2>
+            </div>
+            <p style="font-size: 25px; color: #808080;opacity: 80%;">Subtitle here</p>
+            <div class="center">
+                <img src="assets/svg/dialogs/maintenance.svg">
+            </div>
+
+           
+            <div class="center" style="width: 246erm; margin-top: 5rem; padding-right: 2rem;">
+
+                <p>
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                </p>
+            </div>
+
+            <div class="white-btn-home"
+            style="width: 18rem; height: 59px !important; cursor: pointer !important;margin-left: 8rem; margin-top: 5rem;">
+            <div class="poppins-M gold request-btn-home" style="padding: 22px 0px 0px 0px !important;">Got it</div>
+        </div>
+        </div>
+
+    </div>
+    <div id="Closure" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close3">&times;</span>
+            <div class="center" style="width: fit-content; margin-top: 50px; margin-bottom: 10px; color: #385542;">
+                <h2 class="rossanova">
+                    Temporary Closure </h2>
+            </div>
+            <p style="font-size: 25px; color: #808080;opacity: 80%;">Subtitle here</p>
+            <div class="center">
+                <img src="assets/svg/dialogs/closed.svg">
+            </div>
+
+            <div class="center" style="width: 246erm; margin-top: 5rem; padding-right: 2rem;">
+
+                <p>
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                </p>
+            </div>
+
+            <div class="white-btn-home"
+                style="width: 18rem; height: 59px !important; cursor: pointer !important;margin-left: 8rem; margin-top: 5rem;">
+                <div class="poppins-M gold request-btn-home" style="padding: 22px 0px 0px 0px !important;">Got it</div>
+            </div>
+        </div>
+
+    </div>
+    <div id="BookibnDown" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close4">&times;</span>
+            <div class="center" style="width: fit-content; margin-top: 50px; margin-bottom: 10px; color: #385542;">
+                <h2 class="rossanova black ">
+                    Booking is Down<br />
+
+                </h2>
+            </div>
+            <p style="font-size: 25px; color: #808080;opacity: 80%;">Subtitle here</p>
+            <div class="center">
+                <img src="assets/svg/dialogs/bookingDown.svg">
+            </div>
+
+            <div class="center" style="width: 446erm;">
+
+                <p>
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                </p>
+            </div>
+            <div class="white-btn-home"
+            style="width: 18rem; height: 59px !important; cursor: pointer !important;margin-left: 8rem; margin-top: 5rem;">
+            <div class="poppins-M gold request-btn-home" style="padding: 22px 0px 0px 0px !important;">Got it</div>
+        </div>
+        </div>
+
+    </div>
+    <script src="js/dialogs/emergency.js"></script>
+    <script src="js/dialogs/maintenance.js"></script>
+    <script src="js/dialogs/closure.js"></script>
+    <script src="js/dialogs/bookingdown.js"></script>
+
+
+</body>
+
+</html>
