@@ -161,6 +161,8 @@ footer div {
 
 .footerlist {
   list-style: none;
+  margin: 0px 103px 0px 0px;
+  padding: 0px 0px 0px 90px;
 }
 
 .gold {
@@ -557,6 +559,90 @@ dialog {
   opacity: 100%;
 }
 
+/********************first slide*****************/
+.slide1 {
+  margin-bottom: 60px;
+  /* Hide the images by default */
+  /* Next & previous buttons */
+  /* Position the "next button" to the right */
+  /* On hover, add a black background color with a little bit see-through */
+}
+.slide1 .item-service {
+  height: 698px;
+  margin: 66px 80px 0px 80px;
+  border-radius: 15px;
+}
+.slide1 .slideshow-container4 {
+  position: relative;
+  margin: 0px 0px 0px 80px;
+}
+.slide1 .mySlides4 {
+  display: none;
+  width: fit-content;
+}
+.slide1 .prev4, .slide1 .next4 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #926D39;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.slide1 .next4 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.slide1 .prev4:hover, .slide1 .next4:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.catering-getintouch {
+  margin-right: 280px;
+  margin-left: 290px;
+}
+
+/********************* media query************/
+@media only screen and (max-width: 1620px) {
+  .mySlides4 .flex-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .slide1 {
+    margin-bottom: 60px;
+  }
+  .slide1 .item-service {
+    height: 1398px;
+    margin: 66px 80px 0px 80px;
+    border-radius: 15px;
+  }
+  .slide1 .mySlides4 {
+    display: none;
+    width: 800px;
+    height: 1400px;
+  }
+  .slide1 .slideshow-container4 {
+    width: 800px;
+    position: relative;
+    margin: 0px 0px 0px 20px;
+  }
+
+  .catering-getintouch {
+    margin-left: 90px;
+  }
+
+  .footerlist {
+    list-style: none;
+    margin: 0px 103px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+}
 .single-offer-section {
   display: flex;
   flex-direction: column;
