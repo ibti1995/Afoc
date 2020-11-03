@@ -9,48 +9,75 @@
 </head>
 
 <body>
-    <header class="history">
-   
-        <div style="display: flex;">   
-         <img id="logo-2" src="assets/svg/logo.svg" />
-         <select class="custom-select" name="lang" id="lang">
-           <option class="item-select" value="volvo">LANGUAGE</option>
-           <option class="item-select" value="saab">English</option>
-           <option class="item-select" value="mercedes">Frensh</option>
-           <option class="item-select" value="audi">Arabic</option>
-          
-         </select>
-         <div style="order: 6;  margin-top: 73px; margin-right: 162px; align-items: flex-end;justify-content: flex-end;">
-            <div style="align-items: flex-end;justify-content: flex-end; color: white; "
-                class="singleRoommenu poppins">
-                <ul>
-                    <li > <a href="index.html" class="white" style="text-decoration:none;">Home </a> </li>
-                    <li> <a href="multiRoomsPage.html"class="white"  style="text-decoration:none;"> Rooms </a></li>
-                    <li><a href="dinning.html" class="white"  style="text-decoration:none;">Dining </a> </li>
-                    <li><a href="weddings.html" class="white"  style="text-decoration:none;">Wedding </a></li>
-                    <li><a href="meetingsAndActivities.html" class="white"  style="text-decoration:none;"> Events </a></li>
-                    <li><a href="activities.html" class="white"  style="text-decoration:none;"> Fitness </a></li>
-                    <li><a href="#getIntouch" class="white"  style="text-decoration:none;">Contact </a></li>
-                </ul>
-            </div>
+      <!-- header -->
+
+      <header class="history header">
+        <div class="topnav">
+          <a href="#home" class=""><img class="" src="assets/svg/Component 2 – 1.svg" /></a>
+          <!-- Navigation links (hidden by default) -->
+          <div id="myLinks">
+            <a href="index.html" class="black" style="text-decoration:none;">Home </a>
+            <a href="multiRoomsPage.html" class="black" style="text-decoration:none;"> Rooms </a>
+            <a href="dinning.html" class="black" style="text-decoration:none;">Dining </a>
+            <a href="weddings.html" class="black" style="text-decoration:none;">Wedding </a>
+            <a href="meetingsAndActivities.html" class="black" style="text-decoration:none;"> Events </a>
+            <a href="activities.html" class="black" style="text-decoration:none;"> Fitness </a></li>
+            <a href="#getIntouch" class="black" style="text-decoration:none;">Contact </a>
+          </div>
+          <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+          <a style="background-color: white;" href=" javascript:void(0);" class="icon" onclick="myFunction()">
+            <img src="assets/svg/Icon ionic-ios-menu.svg" />
+          </a>
         </div>
-         </div>
-        <div>  
-            
-         <div class=" words2">
-         <div class="poppins small-word-header center">OUR STORY<br>
-           <svg xmlns="http://www.w3.org/2000/svg" width="4%" height="3.5%" viewBox="0 0 14.142 14.142">
-             <rect id="Rectangle_1939" data-name="Rectangle 1939" width="10" height="10"
-               transform="translate(0 7.071) rotate(-45)" fill="#fff" />
-           </svg></div>
-         <div class="rossanova big-word-header center">MANY YEARS OF<br />
-            HERITAGE
-          
-         </div>
-       </div>
-      </div>
-       
-      </header>  
+    
+        <div class="flex-row header-simple">
+    
+          <img class="logo-header" src="assets/svg/logo.svg" />
+          <select class=" custom-select-language-index" style="color: white !important;" name="lang" id="lang">
+    
+            <option class=" item-select-language-index" value="saab">English</option>
+            <option class=" item-select-language-index" value="mercedes">Frensh</option>
+            <option class=" item-select-language-index" value="audi">Arabic</option>
+    
+          </select>
+    
+          <div class="poppins menu-home-container">
+            <ul class="ul-menu-home">
+              <li> <a href="index.html" style="color: white !important;" style="text-decoration:none;">Home </a> </li>
+              <li> <a href="multiRoomsPage.html" style="color: white !important;" style="text-decoration:none;"> Rooms </a>
+              </li>
+              <li><a href="dinning.html" class="white" style="text-decoration:none;">Dining </a> </li>
+              <li><a href="weddings.html" style="color: white !important;" style="text-decoration:none;">Wedding </a></li>
+              <li><a href="meetingsAndActivities.html" style="color: white !important;" style="text-decoration:none;">
+                  Events </a></li>
+              <li><a href="activities.html" style="color: white !important;" style="text-decoration:none;"> Fitness </a>
+              </li>
+              <li><a href="#getIntouch" style="color: white !important;" style="text-decoration:none;">Contact </a></li>
+            </ul>
+          </div>
+    
+    
+        </div>
+        <div class="flex-row bottom-header-container">
+    
+          <div class=" title-header-gold title-header-gold-other-pages">
+            <div class="poppins-L small-word-header2 center " style="font-size: 20px; color: white !important;">OUR STORY<br>
+              <svg xmlns="http://www.w3.org/2000/svg" width="1%" viewBox="0 0 14.142 14.142">
+                <rect id="Rectangle_1939" data-name="Rectangle 1939" width="10" height="10"
+                  transform="translate(0 7.071) rotate(-45)" fill="#fff" />
+              </svg></div>
+            <div class="rossanova big-word-header2 center" style="color: white !important;">
+                MANY YEARS OF<br />
+                HERITAGE
+            </div>
+          </div>
+    
+    
+    
+          <div>
+    
+    
+      </header>
     <section class="offer-section">
         <div class="flex-column offer-margin">
             <div class="center" style="margin-top: 40.3px; margin-bottom: 89.1px;">
@@ -155,44 +182,53 @@
       </div>
     </div>
     </section>
-    <footer >
-        <div class="box-foot " style="font-family:rossanova ;">
+    <footer>
+        <div class="box-foot " style="font-family: rossanova ;">
+          <div>
+            <ul class="footerlist" style="margin: 0px 103px 0px 0px  ; padding: 0px 0px 0px 90px  ;">
+              <li><a>About al turath</a></li>
+              <li><a>Catering and hospitality</a></li>
+    
+              <li><a>Our presence beyond</a></li>
+    
+              <li><a>Privacy Policy</a></li>
+    
+              <li><a>T&Cs</a></li>
+            </ul>
+          </div>
+          <div style="flex-grow: 5;">
+            <ul class="footerlist" style="margin: 0px 103px 0px 0px  ; padding: 0px ;">
+              <li><a>Press Centre</a></li>
+              <li><a>Careers</a></li>
+              <li> <a>FAQS</a></li>
+            </ul>
+          </div>
+          <div style="	line-height: 10px;">
+            <h2 class="rossanova" style="line-height: 30px;"> Social Media</h2>
+            <div class="rossanova" style="font-size: 20px; line-height: 20px;">Get to us through our social media<br></div>
             <div>
-                <ul class="footerlist" style="margin: 0px 103px 0px 0px  ; padding: 0px 0px 0px 90px  ;">
-                    <li><a>About al turath</a></li>
-                    <li><a>Catering and hospitality</a></li>
-
-                    <li><a>Our presence beyond</a></li>
-
-                    <li><a>Privacy Policy</a></li>
-
-                    <li><a>T&Cs</a></li>
-                </ul>
+              <img src="assets/svg/socialMedia/fb.svg" />
+              <img src="assets/svg/socialMedia/twitter.svg" />
+              <img src="assets/svg/socialMedia/insta.svg" />
+              <img src="assets/svg/socialMedia/youtube.svg" />
+              <img src="assets/svg/socialMedia/likedin.svg" />
+              <img src="assets/svg/socialMedia/telegram.svg" />
             </div>
-            <div style="flex-grow: 5;">
-                <ul class="footerlist" style="margin: 0px 103px 0px 0px  ; padding: 0px ;">
-                    <li><a>Press Centre</a></li>
-                    <li><a>Careers</a></li>
-                    <li> <a>FAQS</a></li>
-                </ul>
-            </div>
-            <div style="	line-height: 10px;">
-                <h2 class="rossanova"> Social Media</h2>
-                <div class="rossanova" style="font-size: 20px;">Get to us through our social media<br></div>
-                <div>
-                    <img src="assets/svg/socialMedia/fb.svg" />
-                    <img src="assets/svg/socialMedia/twitter.svg" />
-                    <img src="assets/svg/socialMedia/insta.svg" />
-                    <img src="assets/svg/socialMedia/youtube.svg" />
-                    <img src="assets/svg/socialMedia/likedin.svg" />
-                    <img src="assets/svg/socialMedia/telegram.svg" />
-                </div>
-
-            </div>
+    
+          </div>
         </div>
-    </footer>
+      </footer>
     </div>
     </div>
+    <script>function myFunction(x) {
+    
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      } </script>
 </body>
 
 </html>

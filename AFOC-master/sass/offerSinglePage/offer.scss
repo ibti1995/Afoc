@@ -1,66 +1,70 @@
-.single-offer-section{
-    display: flex;
-    flex-direction: column;
-    background-image: url("assets/sigleOfferImg/Rectangle 1745.png");
-    background-repeat: no-repeat;
-    background-size: 1930px 100%;
+.single-offer-section {
+  display: flex;
+  flex-direction: column;
+  background-image: url("assets/sigleOfferImg/Rectangle 1745.png");
+  background-repeat: no-repeat;
+  background-size: 1930px 100%;
 }
 
 .offer {
-    background-image: url("assets/sigleOfferImg/Composant 3 – 1.png");
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 1080px;
-  display: flex;
-  flex-direction: column;
-   
-    background-size:auto;
-    text-align: center;
-  }
-
-  .offer-margin{
-    margin-top: 56px;
-    margin-left: 152px;
-    margin-right: 162px;
-  }
-
-    .offer-get-in-touch{
-      background-image: url('assets/sigleOfferImg/Intersection 10.png');
-       background-size: cover; display: flex;align-items: flex-end;
-       justify-content: flex-end;margin-bottom: -80px;
-    }
-    .offer-get-in-touch-box{
-      position: relative;
-       height: 591px;width: 534px; 
-       background-color: white;
-       margin-top: 100px; margin-right: 66px;
-    }
-    .offer-get-in-touch-values{
-      margin-top: 81.5px; margin-left: 53px;
-    }
-    .offer-get-in-touch-title{
-      width: fit-content; margin-top: 50px; margin-bottom: 10px; margin-left: 35px;
-    }
-
-    .flex-row{   .list-class-offer{
-      margin-right: 100.5px;line-height: 11px;
-        ul{width: 323,15px; 
-          line-height: 20px;
-          li{
-            list-style-image: url('assets/svg/Tracé 8474.svg');
-          margin-bottom: 23px;
-          }
-        }
-      }}
-
-
-      .single-offer-list{
-ul{
-
- li{
-  font-size: 20px;line-height: 24px;
-  list-style-image: url("assets/svg/Tracé 8474.svg");
-  margin-top: 23px;
- }
+  background-image: url("assets/sigleOfferImg/Composant 3 – 1.png");
 }
+
+.offer-margin {
+  margin-top: 56px;
+  margin-left: 152px;
+  margin-right: 162px;
+}
+
+.offer-get-in-touch {
+  background-image: url("assets/sigleOfferImg/Intersection 10.png");
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-bottom: -80px;
+}
+.offer-get-in-touch-box {
+  position: relative;
+  height: 591px;
+  width: 534px;
+  background-color: white;
+  margin-top: 100px;
+  margin-right: 66px;
+}
+.offer-get-in-touch-values {
+  margin-top: 81.5px;
+  margin-left: 53px;
+}
+.offer-get-in-touch-title {
+  width: fit-content;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  margin-left: 35px;
+}
+
+.flex-row {
+  .list-class-offer {
+    margin-right: 100.5px;
+    line-height: 11px;
+    ul {
+      width: 323, 15px;
+      line-height: 20px;
+      li {
+        list-style-image: url("assets/svg/Tracé 8474.svg");
+        margin-bottom: 23px;
       }
+    }
+  }
+}
+
+.single-offer-list {
+  ul {
+    li {
+      font-size: 20px;
+      line-height: 24px;
+      list-style-image: url("assets/svg/Tracé 8474.svg");
+      margin-top: 23px;
+    }
+  }
+}
