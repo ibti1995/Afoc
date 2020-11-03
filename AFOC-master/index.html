@@ -3,7 +3,7 @@
 
 <head>
   <link rel="stylesheet" href="./style.css" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="HandheldFriendly" content="true">
 </head>
@@ -11,20 +11,36 @@
 <body>
 
   <header class="home">
+    <div class="topnav">
+      <a href="#home" class=""><img class=""   src="assets/svg/Component 2 – 1.svg" /></a>
+      <!-- Navigation links (hidden by default) -->
+      <div id="myLinks">
+        <a href="index.html" class="gold"  style="text-decoration:none; color:#926D39 !important ;">Home </a> 
+         <a href="multiRoomsPage.html" class="black"  style="text-decoration:none;"> Rooms </a>
+        <a href="dinning.html" class="black"  style="text-decoration:none;">Dining </a> 
+        <a href="weddings.html" class="black"  style="text-decoration:none;">Wedding </a>
+        <a href="meetingsAndActivities.html" class="black"  style="text-decoration:none;"> Events </a>       <a href="activities.html" class="black"  style="text-decoration:none;"> Fitness </a></li>
+        <a href="#getIntouch" class="black"  style="text-decoration:none;">Contact </a>
+      </div>
+      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+      <a style="background-color: white;" href=" javascript:void(0);" class="icon" onclick="myFunction()">
+         <img src="assets/svg/Icon ionic-ios-menu.svg"/>
+      </a>
+    </div>
 
-    <div style="display: flex;">
+    <div class="flex-row header-simple">
 
-      <img id="logo-2" src="assets/svg/gold logo.svg" />
-      <select class="custom-select" style="color: #926D39;" name="lang" id="lang">
+      <img class="logo-header"   src="assets/svg/gold logo.svg" />
+      <select class=" custom-select-language-index"  name="lang" id="lang">
 
-        <option class="item-select" value="saab">English</option>
-        <option class="item-select" value="mercedes">Frensh</option>
-        <option value="audi">Arabic</option>
+        <option class=" item-select-language-index" value="saab">English</option>
+        <option class=" item-select-language-index" value="mercedes">Frensh</option>
+        <option  class=" item-select-language-index"  value="audi">Arabic</option>
 
       </select>
-      <div style="order: 6;  margin-top: 73px; margin-right: 162px; align-items: flex-end;justify-content: flex-end;">
-        <div style="align-items: flex-end;justify-content: flex-end; color: #25282A; " class="singleRoommenu poppins">
-          <ul>
+  
+        <div class="poppins menu-home-container" >
+          <ul  class="ul-menu-home">
             <li > <a href="index.html" class="gold"  style="text-decoration:none;">Home </a> </li>
             <li> <a href="multiRoomsPage.html" class="black"  style="text-decoration:none;"> Rooms </a></li>
             <li><a href="dinning.html" class="black"  style="text-decoration:none;">Dining </a> </li>
@@ -34,14 +50,14 @@
             <li><a href="#getIntouch" class="black"  style="text-decoration:none;">Contact </a></li>
           </ul>
         </div>
-      </div>
+      
 
     </div>
-    <div class="flex-row" style="justify-content: space-between;">
+    <div class="flex-row bottom-header-container">
 
-      <div class=" words3" style="color: #926D39;">
+      <div class=" title-header-gold">
         <div class="poppins-L small-word-header2 center " style="font-size: 20px;">WELCOME TO AL TURATH<br>
-          <svg xmlns="http://www.w3.org/2000/svg" width="4%" height="3.5%" viewBox="0 0 14.142 14.142">
+          <svg xmlns="http://www.w3.org/2000/svg" width="2%"  viewBox="0 0 14.142 14.142">
             <rect id="Rectangle_1939" data-name="Rectangle 1939" width="10" height="10"
               transform="translate(0 7.071) rotate(-45)" fill="#926D39" />
           </svg></div>
@@ -49,9 +65,8 @@
           STAY WITH A STORY
         </div>
       </div>
-      <div style=" margin-top: 583px;
-        margin-right: 155px;">
-        <div style="width: 600px; height: 325px; background-color: rgba(95, 90, 96, 0.3)">
+      
+        <div class="formul-book" >
           <div class="flex-column" style="justify-content: space-between; height: 100%;">
             <div class="poppins" style="background-image: url('assets/homepage/Groupe 430.png'); text-align: center; font-size: 20px; font-weight: bold; color: white;  height: 68px;
             padding-top: 12px;">BOOK YOUR STAY</div>
@@ -88,7 +103,7 @@
           </div>
 
 
-        </div>
+       
 
       </div>
 
@@ -99,7 +114,7 @@
 
 
   <section class="home-section">
-    <div class="offer-margin">
+    <div class="margin-stand">
       <div class="flex-column">
         <div style=" margin-top: 90px;      margin-left: 282px; width: fit-content;">
           <div class="home-title">
@@ -109,7 +124,7 @@
         </div>
 
         <div class="flex-row">
-          <div style="width: 496px; margin-right: 90px; margin-top: 60px; line-height: 43px; ">
+          <div style="flex-basis: 40%; margin-right: 90px; margin-top: 60px; line-height: 43px; ">
             <div class="poppins" style="color: #707070;  font-size: 17px; margin-bottom: 25px;">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
               sed diam nonumy eirmod tempor invidunt ut labore
@@ -124,7 +139,7 @@
 
 
           </div>
-          <div style="align-content: flex-end; flex: 2;">
+          <div style="align-content: flex-end; flex: 2; flex-basis: 40%">
             <img style="width: 100%" src="assets/homePage/02.ENTRANCE_AL TURATH_DUAL.png">
           </div>
         </div>
@@ -132,7 +147,7 @@
 
     </div>
     <!-- ****************** first caroussel  ************* -->
-    <div class="firstcarou">
+    <!-- <div class="firstcarou">
       <div class="carousel" data-flickity='{ "lazyLoad": false ,"draggable": false , "wrapAround": true }'>
         <div class="carousel-cell">
           <img class="carousel-cell-image" src="assets/homePage/Image (3).png" alt="grapes" />
@@ -156,9 +171,9 @@
       </div>
 
 
-    </div>
+    </div> -->
     <!--      ************************* Always honorable****************    -->
-    <div class="flex-row"
+    <!-- <div class="flex-row"
       style="margin-top: 82px; margin-right: 100px; margin-left: 90px; justify-content: space-between;">
       <div style="flex-basis: 32%; text-align: center;">
         <div style="margin-bottom:10;  ">
@@ -199,9 +214,9 @@
           principled, reliable, and trustworthy , reliable, and trustworthy
         </div>
       </div>
-    </div>
+    </div> -->
     <!--      ************************* stay with a story  ****************    -->
-    <div class="flex-column  page-margin" style="margin-top: 105px; justify-content: space-between;">
+    <!-- <div class="flex-column  page-margin" style="margin-top: 105px; justify-content: space-between;">
       <div style=" margin-top: 90px;      margin-left: 114px; width: fit-content;">
         <div class="home-title" style="margin-bottom: 0px !important;">
           Stay with a Story<br>
@@ -238,8 +253,8 @@
           <img style="width: 100% ;" src="assets/homePage/story main.png">
         </div>
       </div>
-    </div>
-    <div class="slides-story">
+    </div> -->
+    <!-- <div class="slides-story">
       <div class="myslidestory">
         <div class="story-R-cass" style="margin: 10px 162px 10px 152px;">
           <div class="carousel" data-flickity='{ "lazyLoad": false ,"draggable": false , "groupCells": 2  }'>
@@ -408,17 +423,17 @@
 
         </div>
       </div>
-      </div>
-      <div style="    align-items: center;
+    </div> -->
+    <!-- <div style="    align-items: center;
     justify-content: center;
     display: flex; margin-top: 80px;">
       <div class="white-btn-home center" style="width: 258px; height: 59px !important; cursor: pointer !important;">
         <div class="poppins-M gold request-btn-home" style="padding: 22px 0px 0px 0px !important; ">SEE MORE</div>
       </div>
-    </div>
+    </div> -->
 
     <!-- ****************************Exclusive Experiences -->
-    <div class="flex-column" style="margin-top: 105px;">
+    <!-- <div class="flex-column" style="margin-top: 105px;">
 
       <div>
         <div style="margin-top: 62px;">
@@ -431,8 +446,8 @@
 
       </div>
 
-    </div>
-    <div class="exclu-cass" style="margin: 10px 142px 10px 132px;">
+    </div> -->
+    <!-- <div class="exclu-cass" style="margin: 10px 142px 10px 132px;">
       <div class="carousel" data-flickity='{ "lazyLoad": false ,"draggable": false , "groupCells": 2  }'>
         <div class="carousel-cell">
           <div class="padding-right">
@@ -551,17 +566,17 @@
 
       </div>
 
-    </div>
-    <div style="    align-items: center;
+    </div> -->
+    <!-- <div style="    align-items: center;
     justify-content: center;
     display: flex; margin-top: 70px;">
       <div class="white-btn-home center" style="width: 258px; height: 59px !important; cursor: pointer !important;">
         <div class="poppins-M gold request-btn-home" style="padding: 22px 0px 0px 0px !important; ">VIEW ALL</div>
       </div>
-    </div>
+    </div> -->
 
     <!--  *****************  world of flavour   ******************    -->
-    <div class="flex-column  " style="margin-top: 150px;">
+    <!-- <div class="flex-column  " style="margin-top: 150px;">
 
 
       <div style="    margin-left: -300px;">
@@ -679,14 +694,14 @@
         </div>
       </div>
 
-    </div>
-    <div style="    align-items: center;
+    </div> -->
+    <!-- <div style="    align-items: center;
     justify-content: center;
     display: flex; margin-top: 80px;">
       <div class="white-btn-home center" style="width: 258px; height: 59px !important; cursor: pointer !important;">
         <div class="poppins-M gold request-btn-home" style="padding: 22px 0px 0px 0px !important; ">VIEW ALL</div>
       </div>
-    </div>
+    </div> -->
     <!-- <div class="flavor-cass">
     <div class="carousel" data-flickity='{ "groupCells": "20%" }'>
       <div class="carousel-cell">  <img style="border-radius: 5px; margin-bottom: 30px;" src="assets/dinning/Image2.png"/></div>
@@ -698,7 +713,7 @@
     </div>
   </div> -->
     <!--  *****************  finding balance   ******************    -->
-    <div class="flex-column" style="margin-top: 105px;">
+    <!-- <div class="flex-column" style="margin-top: 105px;">
 
 
       <div style="    margin-left: -400px;">
@@ -719,9 +734,9 @@
         </div>
       </div>
 
-    </div>
+    </div> -->
 
-    <div class="finding-balance-carou">
+    <!-- <div class="finding-balance-carou">
       <div class="carousel" data-flickity='{ "lazyLoad": false ,"draggable": false , "wrapAround": true }'>
         <div class="carousel-cell">
           <img class="carousel-cell-image" src="assets/homePage/WhatsApp Image 2020-09-08 at 19.50.27.png"
@@ -746,8 +761,8 @@
       </div>
 
 
-    </div>
-    <div class="page-margin">
+    </div> -->
+    <!-- <div class="page-margin">
       <div class=" poppins-20-43-70" style="margin-top: 30px; margin-left: 350px; margin-right: 330px;">
 
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
@@ -755,18 +770,18 @@
         magna aliquyam erat, sed diam voluptua. At vero eos et
 
       </div>
-    </div>
+    </div> -->
 
 
-    <div style="    align-items: center;
+    <!-- <div style="    align-items: center;
   justify-content: center;
   display: flex; margin-top: 70px;">
       <div class="white-btn-home center" style="width: 258px; height: 59px !important; cursor: pointer !important;">
         <div class="poppins-M gold request-btn-home" style="padding: 22px 0px 0px 0px !important; ">LEARN MORE</div>
       </div>
-    </div>
+    </div> -->
     <!--  *****************   celebrate  ******************    -->
-    <div class="flex-column" style="margin-top: 105px;">
+    <!-- <div class="flex-column" style="margin-top: 105px;">
 
       <div class="flex-row" style=" margin-left: 152px; justify-content: space-between;">
 
@@ -801,11 +816,11 @@
         </div>
 
 
-      </div>
+      </div>-->
 
       <!--  ***************** two  pictures  ******************    -->
 
-      <div class="flex-row page-margin" style="margin-bottom: 167px;margin-top: 92px; justify-content: space-between;">
+      <!-- <div class="flex-row page-margin" style="margin-bottom: 167px;margin-top: 92px; justify-content: space-between;">
 
         <div style="flex-basis: 42%;">
           <img style="height: auto; width: 100%;" src="assets/homePage/AFOC ROOF.png">
@@ -813,10 +828,10 @@
         <div style="flex-basis: 50%; margin-right: 20px;">
           <img style=" width:100%;" src="assets/homePage/Image6.png">
         </div>
-      </div>
+      </div> -->
 
       <!--  ***************** the art of gathering    ******************    -->
-      <div class="flex-row" style="justify-content: space-between;">
+      <!-- <div class="flex-row" style="justify-content: space-between;">
         <div style="flex-basis: 50%;">
           <img width="100%" src="assets/homePage/Image3.png">
         </div>
@@ -847,9 +862,7 @@
               sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
               Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy </p>
-            <!-- <div class="white-btn-home2" style="align-content: flex-end;">
-              <div class="poppins-M gold request-btn-home2">EQUIRE NOW</div>
-            </div> -->
+         
             <div class="white-btn-home2" style=" align-self: flex-end; margin-right: 77px; margin-bottom: 50px;">
               <div class="poppins-M gold request-btn-home2" style="font-size: 14px !important;"><a href="meetingsAndActivities.html" class="gold" style="text-decoration: none;">ENQUIRE NOW</a></div>
             </div>
@@ -858,10 +871,10 @@
 
 
 
-      </div>
+      </div> -->
 
       <!--  ***************** gallery    ******************    -->
-      <div class="page-margin" style="margin-bottom: 105px;">
+      <!-- <div class="page-margin" style="margin-bottom: 105px;">
 
         <div style="margin-top: 92px;">
           <div class="home-title">
@@ -907,12 +920,12 @@
 
               <img src="assets/homePage/hotels galary/OASIS V04.png">
             </div>
-          </div>
+          </div> -->
 
           <!--
   second
 -->
-          <div class="flex-column" style="width: 428px;margin-right: 35px;">
+          <!-- <div class="flex-column" style="width: 428px;margin-right: 35px;">
             <div><img src="assets/homePage/hotels galary/AT-Guidelines-Beach-Bag.png"></div>
             <div>
 
@@ -922,13 +935,13 @@
 
               <img src="assets/homePage/hotels galary/M-1.png">
             </div>
-          </div>
+          </div> -->
 
 
           <!--
   third
 -->
-          <div class="flex-column" style="width: 338px;margin-right: 35px;">
+          <!-- <div class="flex-column" style="width: 338px;margin-right: 35px;">
             <div><img src="assets/homePage/hotels galary/AT-Guidelines-Keycard.png"></div>
             <div>
 
@@ -939,7 +952,7 @@
               <img src="assets/homePage/hotels galary/LOUNGE.png">
             </div>
           </div>
-
+ -->
 
 
           <!--
@@ -947,7 +960,7 @@
 -->
 
 
-          <div class="flex-column" style="width: 398px">
+          <!-- <div class="flex-column" style="width: 398px">
             <div><img src="assets/homePage/hotels galary/Away-Lands-Hot-Air-Balloon-Falcon-Dubai-Desert-Camp-009.png">
             </div>
             <div>
@@ -983,7 +996,7 @@
 
               <img src="assets/homePage/hotels galary/OASIS V04.png">
             </div>
-          </div>
+          </div> -->
 
           <!--
       second
@@ -992,7 +1005,7 @@
 
 
 
-          <div class="flex-column" style="width: 398px; margin-right: 35px;">
+          <!-- <div class="flex-column" style="width: 398px; margin-right: 35px;">
             <div><img src="assets/homePage/hotels galary/Away-Lands-Hot-Air-Balloon-Falcon-Dubai-Desert-Camp-009.png">
             </div>
             <div>
@@ -1007,12 +1020,12 @@
 
               <img src="assets/homePage/hotels galary/Guest Room Reception.png">
             </div>
-          </div>
+          </div> -->
 
           <!--
       third
     -->
-          <div class="flex-column" style="width: 338px;margin-right: 35px;">
+          <!-- <div class="flex-column" style="width: 338px;margin-right: 35px;">
             <div><img src="assets/homePage/hotels galary/AT-Guidelines-Keycard.png"></div>
             <div>
 
@@ -1022,7 +1035,7 @@
 
               <img src="assets/homePage/hotels galary/LOUNGE.png">
             </div>
-          </div>
+          </div> -->
 
 
 
@@ -1030,7 +1043,7 @@
       fourth
     -->
 
-          <div class="flex-column" style="width: 428px;margin-right: 35px;">
+          <!-- <div class="flex-column" style="width: 428px;margin-right: 35px;">
             <div><img src="assets/homePage/hotels galary/AT-Guidelines-Beach-Bag.png"></div>
             <div>
 
@@ -1040,11 +1053,11 @@
 
               <img src="assets/homePage/hotels galary/M-1.png">
             </div>
-          </div>
+          </div> -->
 
 
 
-        </div>
+        <!-- </div>
 
         <div id="Fitness" class="tabcontent">
           <div class="flex-column" style="width: 343px;margin-right: 35px;">
@@ -1062,7 +1075,7 @@
 
               <img src="assets/homePage/hotels galary/OASIS V04.png">
             </div>
-          </div>
+          </div> -->
 
           <!--
       second
@@ -1071,7 +1084,7 @@
 
 
 
-          <div class="flex-column" style="width: 398px;margin-right: 35px;">
+          <!-- <div class="flex-column" style="width: 398px;margin-right: 35px;">
             <div><img src="assets/homePage/hotels galary/Away-Lands-Hot-Air-Balloon-Falcon-Dubai-Desert-Camp-009.png">
             </div>
             <div>
@@ -1086,12 +1099,12 @@
 
               <img src="assets/homePage/hotels galary/Guest Room Reception.png">
             </div>
-          </div>
+          </div> -->
 
           <!--
       third
     -->
-          <div class="flex-column" style="width: 338px;margin-right: 35px;">
+          <!-- <div class="flex-column" style="width: 338px;margin-right: 35px;">
             <div><img src="assets/homePage/hotels galary/AT-Guidelines-Keycard.png"></div>
             <div>
 
@@ -1101,7 +1114,7 @@
 
               <img src="assets/homePage/hotels galary/LOUNGE.png">
             </div>
-          </div>
+          </div> -->
 
 
 
@@ -1109,7 +1122,7 @@
       fourth
     -->
 
-          <div class="flex-column" style="width: 428px;margin-right: 35px;">
+          <!-- <div class="flex-column" style="width: 428px;margin-right: 35px;">
             <div><img src="assets/homePage/hotels galary/AT-Guidelines-Beach-Bag.png"></div>
             <div>
 
@@ -1138,12 +1151,12 @@
 
               <img src="assets/homePage/hotels galary/OASIS V04.png">
             </div>
-          </div>
+          </div> -->
 
           <!--
       second
     -->
-          <div class="flex-column" style="width: 428px;margin-right: 35px;">
+          <!-- <div class="flex-column" style="width: 428px;margin-right: 35px;">
             <div><img src="assets/homePage/hotels galary/AT-Guidelines-Beach-Bag.png"></div>
             <div>
 
@@ -1153,13 +1166,13 @@
 
               <img src="assets/homePage/hotels galary/M-1.png">
             </div>
-          </div>
+          </div> -->
 
 
           <!--
       third
     -->
-          <div class="flex-column" style="width: 338px;margin-right: 35px;">
+          <!-- <div class="flex-column" style="width: 338px;margin-right: 35px;">
             <div><img src="assets/homePage/hotels galary/AT-Guidelines-Keycard.png"></div>
             <div>
 
@@ -1169,7 +1182,7 @@
 
               <img src="assets/homePage/hotels galary/LOUNGE.png">
             </div>
-          </div>
+          </div> -->
 
 
 
@@ -1178,7 +1191,7 @@
     -->
 
 
-          <div class="flex-column" style="width: 398px">
+          <!-- <div class="flex-column" style="width: 398px">
             <div><img src="assets/homePage/hotels galary/Away-Lands-Hot-Air-Balloon-Falcon-Dubai-Desert-Camp-009.png">
             </div>
             <div>
@@ -1211,7 +1224,7 @@
 
               <img src="assets/homePage/hotels galary/OASIS V04.png">
             </div>
-          </div>
+          </div> -->
 
           <!--
       second
@@ -1220,7 +1233,7 @@
 
 
 
-          <div class="flex-column" style="width: 398px ;margin-right: 35px;">
+          <!-- <div class="flex-column" style="width: 398px ;margin-right: 35px;">
             <div><img src="assets/homePage/hotels galary/Away-Lands-Hot-Air-Balloon-Falcon-Dubai-Desert-Camp-009.png">
             </div>
             <div>
@@ -1235,12 +1248,12 @@
 
               <img src="assets/homePage/hotels galary/Guest Room Reception.png">
             </div>
-          </div>
+          </div> -->
 
           <!--
       third
     -->
-          <div class="flex-column" style="width: 338px;margin-right: 35px;">
+          <!-- <div class="flex-column" style="width: 338px;margin-right: 35px;">
             <div><img src="assets/homePage/hotels galary/AT-Guidelines-Keycard.png"></div>
             <div>
 
@@ -1250,14 +1263,14 @@
 
               <img src="assets/homePage/hotels galary/LOUNGE.png">
             </div>
-          </div>
+          </div> -->
 
 
 
           <!--
       fourth
     -->
-
+<!-- 
           <div class="flex-column" style="width: 428px;margin-right: 35px;">
             <div><img src="assets/homePage/hotels galary/AT-Guidelines-Beach-Bag.png"></div>
             <div>
@@ -1288,12 +1301,12 @@
 
               <img src="assets/homePage/hotels galary/OASIS V04.png">
             </div>
-          </div>
+          </div> -->
 
           <!--
       second
     -->
-          <div class="flex-column" style="width: 428px;margin-right: 35px;">
+          <!-- <div class="flex-column" style="width: 428px;margin-right: 35px;">
             <div><img src="assets/homePage/hotels galary/AT-Guidelines-Beach-Bag.png"></div>
             <div>
 
@@ -1303,13 +1316,13 @@
 
               <img src="assets/homePage/hotels galary/M-1.png">
             </div>
-          </div>
+          </div> -->
 
 
           <!--
       third
     -->
-          <div class="flex-column" style="width: 338px;margin-right: 35px;">
+          <!-- <div class="flex-column" style="width: 338px;margin-right: 35px;">
             <div><img src="assets/homePage/hotels galary/AT-Guidelines-Keycard.png"></div>
             <div>
 
@@ -1319,7 +1332,7 @@
 
               <img src="assets/homePage/hotels galary/LOUNGE.png">
             </div>
-          </div>
+          </div> -->
 
 
 
@@ -1328,7 +1341,7 @@
     -->
 
 
-          <div class="flex-column" style="width: 398px">
+          <!-- <div class="flex-column" style="width: 398px">
             <div><img src="assets/homePage/hotels galary/Away-Lands-Hot-Air-Balloon-Falcon-Dubai-Desert-Camp-009.png">
             </div>
             <div>
@@ -1352,7 +1365,7 @@
 
     </div>
 
-    </div>
+    </div> 
 
     <div id="getIntouch" class="offer-section offer-get-in-touch">
       <div class="ourfans-box offer-get-in-touch-box">
@@ -1385,7 +1398,7 @@
       </div>
 
 
-    </div>
+    </div> -->
   </section>
   <footer>
     <div class="box-foot " style="font-family: rossanova ;">
@@ -1448,6 +1461,15 @@
   <script src="js/firsthome.js"></script>
   <script src="js/slidehomepage.js"></script>
   <script src="js/story-home.js"></script>
+  <script>function myFunction(x) {
+    
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  } </script>
 </body>
 
 
