@@ -990,7 +990,7 @@ dialog {
 }
 
 .image {
-  width: 100%;
+  align-self: center;
 }
 
 @media screen and (max-width: 1050px) {
