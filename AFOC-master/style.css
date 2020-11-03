@@ -1584,7 +1584,7 @@ http://flickity.metafizzy.co
 }
 
 .offersmenu {
-  width: 50vw;
+  width: 650px;
   height: 79px;
   background-color: white;
 }
@@ -1608,10 +1608,8 @@ http://flickity.metafizzy.co
 }
 
 .right-menu {
-  margin-left: 30%;
   background-color: white;
   height: 79px;
-  width: 350px;
   font-size: 20px;
 }
 
@@ -1682,7 +1680,7 @@ http://flickity.metafizzy.co
 
 @media screen and (max-width: 1050px) {
   .offersmenu {
-    width: 60vw;
+    margin-bottom: 30px;
   }
 
   .offers-margin {
@@ -1695,7 +1693,6 @@ http://flickity.metafizzy.co
     margin-left: 0;
     background-color: white;
     height: 79px;
-    width: 250px;
     font-size: 20px;
   }
 
