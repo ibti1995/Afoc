@@ -39,10 +39,17 @@
 .margin2{
   margin-left: 10%;
 }
+.image{
+  width: 100%;
+}
 @media screen and (max-width: 1050px){
   .story-title{
  justify-content: center;
  width: 10%;
+  }
+  .image{
+    width: 100%;
+    margin-left: 0;
   }
   .story-parag{
    text-align: center;

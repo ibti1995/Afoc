@@ -302,12 +302,12 @@ dialog {
     }
     .mySlides4 {
       display: none;
-      width: 90%;
+   
       height: 1400px;
    
     }
     .slideshow-container4 {
-      width: 90%;
+      //width: 90%;
       position: relative;
       margin: 0px 0px 0px 10px;
     }
@@ -331,7 +331,7 @@ dialog {
   }
     /* Position the "next button" to the right */
     .next4 {
-      right: 20%;
+      right: 10%;
       border-radius: 3px 0 0 3px;
     }
   }
