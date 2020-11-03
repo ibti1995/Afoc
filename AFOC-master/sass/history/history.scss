@@ -11,3 +11,62 @@
 .story-info-size {
   font-size: 19px;
 }
+.story-img{
+  flex-basis: 40%;
+}
+.flex1{
+  order: 1;
+}
+.flex2{
+  order: 2;
+}
+.story-parag{
+  margin-right:10%;
+}
+
+.story-margin {
+  margin-top: 56px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.story-title{
+  width: fit-content;
+}
+.title2{
+  width: fit-content;
+  margin-left: 10%;
+}
+.margin2{
+  margin-left: 10%;
+}
+@media screen and (max-width: 1050px){
+  .story-title{
+ justify-content: center;
+ width: 10%;
+  }
+  .story-parag{
+   text-align: center;
+   width: 100%;
+  }
+  .title2{
+    width: fit-content;
+    margin-left: 0;
+  }
+  .margin2{
+    margin-left: 0;
+  }
+  .flex1{
+    order: 2;
+  }
+  .flex2{
+    order: 1;
+  }
+  
+.parag-img{
+  .flex-row{
+display: flex;
+flex-direction: column;
+  }
+}
+
+}
