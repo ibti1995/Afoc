@@ -1,6 +1,22 @@
-.dinning{
-    background-image: url("assets/dinning/Composant 1 – 1.png");
-} 
+
+@media screen and (max-width: 1050px){
+  
+    }
+
+@media screen and (min-width: 1050px){
+.title-header-gold-other-pages {
+    align-self: flex-end;
+    text-align: left;
+    flex: 1;
+    margin-bottom: 200px;
+     margin-left: -383px; 
+    width: fit-content;
+    color: #926D39;
+}
+}
+    .dinning{
+        background-image: url("assets/dinning/Composant 1 – 1.png");
+    } 
 .dinning-btn{
 margin-top: 10px;
     border-style: solid;
