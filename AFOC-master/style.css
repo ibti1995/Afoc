@@ -2823,15 +2823,24 @@ http://flickity.metafizzy.co
   margin: 0px 20px 0px 0px;
 }
 
+.act-box-title {
+  margin-top: 0px !important;
+  background-color: white;
+  margin-right: -125px;
+  z-index: 10;
+  padding: 80px 50px 50px 50px;
+}
+
 .activities-img {
-  flex-basis: 60%;
+  flex-basis: 80%;
   order: 2;
 }
 
 .activities-text-title {
   font-size: 16px !important;
   line-height: 25px !important;
-  margin: 0px 152px 0px 162px;
+  margin: 0px 10% 0px 10%;
+  width: 80%;
 }
 
 .textact {
@@ -2920,6 +2929,56 @@ http://flickity.metafizzy.co
   text-decoration: underline;
 }
 
+.activities1-box-title {
+  padding-bottom: 79px;
+  padding-left: 78px;
+  line-height: 30px;
+  margin-top: 67px;
+  width: 50%;
+  padding-right: 62px;
+}
+
+@media screen and (max-width: 1050px) {
+  .activities-img {
+    flex-basis: 80%;
+    order: 1;
+  }
+
+  .activities-box {
+    display: flex;
+    margin-top: 56px;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0px !important;
+    flex-basis: 100%;
+  }
+
+  .activities1-box-title {
+    padding-bottom: 79px;
+    padding-left: 78px;
+    line-height: 30px;
+    margin-top: -30px;
+    width: 80%;
+    padding-right: 62px;
+    order: 2;
+    z-index: 50000 !important;
+    background-color: white;
+  }
+
+  .act-box-title {
+    margin-top: 0px !important;
+    background-color: white;
+    margin-right: -125px;
+    z-index: 10;
+    padding: 80px 50px 50px 50px;
+    order: 2;
+  }
+
+  .textact {
+    font-size: 20px;
+    font-family: rossanova;
+  }
+}
 @media screen and (max-width: 1050px) {
   .flav-title, .balance-title {
     margin-left: 0px !important;
