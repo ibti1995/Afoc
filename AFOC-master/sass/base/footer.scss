@@ -18,6 +18,11 @@ footer div {
 
 .footerlist {
 	list-style: none;
-	margin: 0px 103px 0px 0px  ; padding: 0px 0px 0px 90px  ;
+	margin: 0px 103px 0px 0px  ; padding: 0px 0px 0px 50px  ;
 }
 
+.box-foot-responsive {
+    margin: 90px 8% 56px 7%;
+    display: flex;
+    order: 1;
+}

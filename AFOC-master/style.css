@@ -315,7 +315,13 @@ footer div {
 .footerlist {
   list-style: none;
   margin: 0px 103px 0px 0px;
-  padding: 0px 0px 0px 90px;
+  padding: 0px 0px 0px 50px;
+}
+
+.box-foot-responsive {
+  margin: 90px 8% 56px 7%;
+  display: flex;
+  order: 1;
 }
 
 .gold {
@@ -2818,9 +2824,22 @@ http://flickity.metafizzy.co
 }
 
 @media screen and (max-width: 1050px) {
-  .flav-title {
+  .flav-title, .balance-title {
     margin-left: 0px !important;
     text-align: center;
+  }
+
+  .art-responsive-title1 {
+    display: block;
+    width: auto !important;
+  }
+
+  .art-responsive-title2 {
+    display: none;
+  }
+
+  .celebrate-title-responsivce {
+    align-self: center;
   }
 
   .title-respnsive {
@@ -2903,6 +2922,18 @@ http://flickity.metafizzy.co
   }
 }
 @media screen and (min-width: 1050px) {
+  .art-responsive-title2 {
+    display: block;
+  }
+
+  .art-responsive-title1 {
+    display: none;
+  }
+
+  .celebrate-title-responsivce {
+    align-self: flex-end;
+  }
+
   .story-S-cass .flickity-slider {
     position: absolute;
     width: 100%;
@@ -3288,6 +3319,12 @@ body {
   width: 100%;
   height: 100%;
 }
+.finding-balance-carou .flickity-slider .is-selected {
+  display: flex;
+  align-items: center;
+  place-items: center;
+  min-width: 600px;
+}
 .finding-balance-carou .flickity-enabled.is-draggable {
   -webkit-tap-highlight-color: transparent;
   -webkit-user-select: none;
@@ -3414,23 +3451,23 @@ body {
   opacity: 1;
 }
 .finding-balance-carou .flickity-prev-next-button.previous {
-  left: 390px !important;
+  left: 22% !important;
 }
 .finding-balance-carou .flickity-prev-next-button.next {
   left: auto !important;
-  right: 390px !important;
+  right: 22% !important;
 }
 .finding-balance-carou .is-selected {
-  height: 700px;
-  top: -75px;
-  padding-right: 200px;
-  padding-left: 200px;
+  height: 100%;
+  top: -50px;
+  padding-right: 5%;
+  padding-left: 5%;
   background-color: transparent;
   overflow: visible !important;
 }
 .finding-balance-carou .flickity-viewport {
   padding-top: 150px;
-  height: 693px !important;
+  height: 750px !important;
 }
 .finding-balance-carou .flickity-page-dots .is-selected {
   padding-right: 0px !important;
