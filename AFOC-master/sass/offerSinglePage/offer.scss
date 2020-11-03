@@ -3,7 +3,7 @@
     flex-direction: column;
     background-image: url("assets/sigleOfferImg/Rectangle 1745.png");
     background-repeat: no-repeat;
-    background-size: 1930px 1560px;
+    background-size: 1930px 100%;
 }
 
 .offer {
@@ -23,14 +23,7 @@
     margin-left: 152px;
     margin-right: 162px;
   }
-  .offert-request-btn {
-    border-color: $primary-color;
-    text-decoration: none;
-    font-size: 20px;
-    letter-spacing: 2px;
-    padding: 16px 54px 16px; width: fit-content;
-    
-    }
+
     .offer-get-in-touch{
       background-image: url('assets/sigleOfferImg/Intersection 10.png');
        background-size: cover; display: flex;align-items: flex-end;

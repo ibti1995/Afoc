@@ -105,7 +105,7 @@ body {
 }
 
 .container1 {
-  margin: 0px 162px 0px 162px;
+  margin: 0px 5% 0px 5%;
 }
 
 .img {
@@ -274,9 +274,25 @@ dialog {
   margin-left: 152px;
   margin-right: 162px;
 }
-
+.size60{
+  font-size: 3vw; line-height: 2.5vw;
+}
+.cat-slide-img{
+  width: 100% ;height: 698px ;min-width: 100px;
+}
 /********************* media query************/
 @media screen and (max-width: 1050px) {
+  .cat-slide-img{
+    width: 100% ;height: 698px ;min-width: 100px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 10px;
+  }
+  .size60{
+    font-size: 4vw; line-height: 3.8vw;
+  }
+  .container1 {
+    margin: 0px 2% 0px 2%;
+  }
   .mySlides4 {
     .flex-row {
       display: flex;

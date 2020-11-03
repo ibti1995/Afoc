@@ -1,0 +1,40 @@
+.offert-request-btn {
+    border-color: $primary-color;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 16px 54px 16px; width: fit-content;
+    
+    }
+    /********offers*****/
+    .request-btn-sm {
+        border-color: $primary-color;
+        text-decoration: none;
+        font-size: 10px;
+        letter-spacing: 0.5px;
+        line-height: 10px;
+        padding: 6px 10px 6px; width: fit-content;
+      }
+    
+      .gold-btn-sm {
+        margin-top: 10px;
+        border-width: 1px;
+        background-color: #926d39;
+        color: #ffffff;
+      }
+      
+      .white-btn-sm {
+        margin-top: 10px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #926d39;
+        background-color: #ffffff;
+        color: $primary-color;
+      }
+      .gold-search-btn{
+        width: 95px;
+        border-width: 1px;
+        background-color: #926d39;
+        color: #ffffff;
+        padding: 5px 10px 5px;
+      }

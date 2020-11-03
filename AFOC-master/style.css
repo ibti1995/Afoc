@@ -600,7 +600,7 @@ body {
 }
 
 .container1 {
-  margin: 0px 162px 0px 162px;
+  margin: 0px 5% 0px 5%;
 }
 
 .img {
@@ -767,8 +767,36 @@ dialog {
   margin-right: 162px;
 }
 
+.size60 {
+  font-size: 3vw;
+  line-height: 2.5vw;
+}
+
+.cat-slide-img {
+  width: 100%;
+  height: 698px;
+  min-width: 100px;
+}
+
 /********************* media query************/
 @media screen and (max-width: 1050px) {
+  .cat-slide-img {
+    width: 100%;
+    height: 698px;
+    min-width: 100px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .size60 {
+    font-size: 4vw;
+    line-height: 3.8vw;
+  }
+
+  .container1 {
+    margin: 0px 2% 0px 2%;
+  }
+
   .mySlides4 .flex-row {
     display: flex;
     flex-direction: column;
@@ -827,7 +855,7 @@ dialog {
   flex-direction: column;
   background-image: url("assets/sigleOfferImg/Rectangle 1745.png");
   background-repeat: no-repeat;
-  background-size: 1930px 1560px;
+  background-size: 1930px 100%;
 }
 
 .offer {
@@ -845,15 +873,6 @@ dialog {
   margin-top: 56px;
   margin-left: 152px;
   margin-right: 162px;
-}
-
-.offert-request-btn {
-  border-color: #926D39;
-  text-decoration: none;
-  font-size: 20px;
-  letter-spacing: 2px;
-  padding: 16px 54px 16px;
-  width: fit-content;
 }
 
 .offer-get-in-touch {
@@ -1559,55 +1578,22 @@ http://flickity.metafizzy.co
 }
 
 .offersmenu {
-  width: 784px;
+  width: 50%;
   height: 79px;
   background-color: white;
 }
 .offersmenu ul {
   list-style-type: none;
+  width: 100%;
   margin-top: 20px;
   margin-bottom: 25px;
 }
 .offersmenu ul li {
-  margin-left: 50px;
+  margin-left: 5%;
   display: inline;
 }
 .offersmenu ul li:hover {
   color: #926D39;
-}
-
-.request-btn-sm {
-  border-color: #926D39;
-  text-decoration: none;
-  font-size: 10px;
-  letter-spacing: 0.5px;
-  line-height: 10px;
-  padding: 6px 10px 6px;
-  width: fit-content;
-}
-
-.gold-btn-sm {
-  margin-top: 10px;
-  border-width: 1px;
-  background-color: #926d39;
-  color: #ffffff;
-}
-
-.white-btn-sm {
-  margin-top: 10px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #926d39;
-  background-color: #ffffff;
-  color: #926D39;
-}
-
-.gold-search-btn {
-  width: 95px;
-  border-width: 1px;
-  background-color: #926d39;
-  color: #ffffff;
-  padding: 5px 10px 5px;
 }
 
 .menu-size {
@@ -1616,7 +1602,7 @@ http://flickity.metafizzy.co
 }
 
 .right-menu {
-  margin-left: 440px;
+  margin-left: 20%;
   background-color: white;
   height: 79px;
   width: 350px;
@@ -4552,6 +4538,50 @@ body {
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+
+.offert-request-btn {
+  border-color: #926D39;
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing: 2px;
+  padding: 16px 54px 16px;
+  width: fit-content;
+}
+
+/********offers*****/
+.request-btn-sm {
+  border-color: #926D39;
+  text-decoration: none;
+  font-size: 10px;
+  letter-spacing: 0.5px;
+  line-height: 10px;
+  padding: 6px 10px 6px;
+  width: fit-content;
+}
+
+.gold-btn-sm {
+  margin-top: 10px;
+  border-width: 1px;
+  background-color: #926d39;
+  color: #ffffff;
+}
+
+.white-btn-sm {
+  margin-top: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #926d39;
+  background-color: #ffffff;
+  color: #926D39;
+}
+
+.gold-search-btn {
+  width: 95px;
+  border-width: 1px;
+  background-color: #926d39;
+  color: #ffffff;
+  padding: 5px 10px 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
