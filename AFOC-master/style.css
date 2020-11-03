@@ -1311,11 +1311,16 @@ http://flickity.metafizzy.co
   font-size: 26px;
 }
 
+@media screen and (max-width: 1050px) {
+  .responsive-box-wedding {
+    margin-right: 3% !important;
+  }
+}
 .weddings-text-title {
   font-size: 19px !important;
   line-height: 40px !important;
   text-align: left !important;
-  margin: 0px 360px 0px 350px;
+  margin: 0px 10% 0px 10%;
 }
 
 .wedding-section {
@@ -1345,16 +1350,15 @@ http://flickity.metafizzy.co
 }
 
 .wedd-box-ballroom {
-  display: flex;
   margin-top: 56px;
-  margin-left: 152px;
+  margin-left: 3%;
   order: 1;
   align-items: center;
   margin-right: 0px !important;
 }
 
 .wedd-exclusive {
-  margin-top: 50px;
+  margin-top: 80px;
 }
 
 .wedd-box-brital {
@@ -1496,7 +1500,7 @@ http://flickity.metafizzy.co
 /* Slideshow container */
 .slideshow-container4 {
   position: relative;
-  margin: 0px 162px 0px 172px;
+  margin: 0px 3% px 0px 4% px;
 }
 
 /* Hide the images by default */
