@@ -4657,7 +4657,7 @@ body {
 .carraux {
   justify-content: space-between;
   width: 100%;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   margin-top: 37px;
   margin-bottom: 10%;
 }
