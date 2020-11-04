@@ -11,52 +11,86 @@
 </head>
 
 <body>
-        <header class="multiRooms">
-   
-            <div style="display: flex;">   
-             <img id="logo-2" src="assets/svg/logo.svg" />
-             <select class="custom-select" name="lang" id="lang">
-            
-               <option class="item-select" value="saab">English</option>
-               <option class="item-select" value="mercedes">Frensh</option>
-               <option class="item-select" value="mercedes">Chinease</option>
-             </select>
-             <div style="order: 6;  margin-top: 73px; margin-right: 162px; align-items: flex-end;justify-content: flex-end;">
-                <div style="align-items: flex-end;justify-content: flex-end; color: white; "
-                    class="singleRoommenu poppins">
-                    <ul>
-                        <li > <a href="index.html" class="white" style="text-decoration:none;">Home </a> </li>
-                        <li> <a href="multiRoomsPage.html"class="gold"  style="text-decoration:none;"> Rooms </a></li>
-                        <li><a href="dinning.html" class="white"  style="text-decoration:none;">Dining </a> </li>
-                        <li><a href="weddings.html" class="white"  style="text-decoration:none;">Wedding </a></li>
-                        <li><a href="meetingsAndActivities.html" class="white"  style="text-decoration:none;"> Events </a></li>
-                        <li><a href="activities.html" class="white"  style="text-decoration:none;"> Fitness </a></li>
-                        <li><a href="#getIntouch" class="white"  style="text-decoration:none;">Contact </a></li>
-                    </ul>
+    <!-- header here -->
+
+
+    <header class="multiRooms header">
+        <div class="topnav">
+            <a href="#home" class=""><img class="" src="assets/svg/Component 2 – 1.svg" /></a>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+                <a href="index.html" class="black" style="text-decoration:none;">Home </a>
+                <a href="multiRoomsPage.html" style="text-decoration:none; color:#926D39 !important"> Rooms </a>
+                <a href="dinning.html" class="black" style="text-decoration:none;">Dining </a>
+                <a href="weddings.html" class="black" style="text-decoration:none; ">Wedding </a>
+                <a href="meetingsAndActivities.html" class="black" style="text-decoration:none;"> Events </a>
+                <a href="activities.html" style="text-decoration:none;"> Fitness </a></li>
+                <a href="#getIntouch" class="black" style="text-decoration:none;">Contact </a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a style="background-color: white;" href=" javascript:void(0);" class="icon" onclick="myFunction()">
+                <img src="assets/svg/Icon ionic-ios-menu.svg" />
+            </a>
+        </div>
+
+        <div class="flex-row header-simple">
+
+            <img class="logo-header" src="assets/svg/logo.svg" />
+            <select class=" custom-select-language-index" style="color: white !important;" name="lang" id="lang">
+
+                <option class=" item-select-language-index" value="saab">English</option>
+                <option class=" item-select-language-index" value="mercedes">Frensh</option>
+                <option class=" item-select-language-index" value="audi">Arabic</option>
+
+            </select>
+
+            <div class="poppins menu-home-container">
+                <ul class="ul-menu-home">
+                    <li> <a href="index.html" style="color: white !important;" style="text-decoration:none;">Home </a>
+                    </li>
+                    <li> <a href="multiRoomsPage.html" style="color:#926D39 !important" style="text-decoration:none;">
+                            Rooms </a>
+                    </li>
+                    <li><a href="dinning.html" class="white" style="text-decoration:none;">Dining </a> </li>
+                    <li><a href="weddings.html" class="white" style="text-decoration:none;">Wedding </a></li>
+                    <li><a href="meetingsAndActivities.html" style="color: white !important;"
+                            style="text-decoration:none;">
+                            Events </a></li>
+                    <li><a href="activities.html" class="white" style="text-decoration:none; "> Fitness </a></li>
+                    <li><a href="#getIntouch" style="color: white !important;" style="text-decoration:none;">Contact
+                        </a></li>
+                </ul>
+            </div>
+
+
+        </div>
+        <div class="flex-row bottom-header-container">
+
+            <div class=" title-header-gold title-header-gold-other-pages">
+                <div class="poppins-L small-word-header2 center " style="font-size: 20px; color: white !important;">
+                    EXPRESSION OF ELEGANCE<br>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1%" viewBox="0 0 14.142 14.142">
+                        <rect id="Rectangle_1939" data-name="Rectangle 1939" width="10" height="10"
+                            transform="translate(0 7.071) rotate(-45)" fill="#fff" />
+                    </svg></div>
+                <div class="rossanova big-word-header2 center" style="color: white !important;">
+                    ROOMS, SUITS<br />
+                    AND VILLAS
                 </div>
             </div>
-         </div>
-            <div>  
-             <div class=" words2">
-             <div class="poppins small-word-header center">EXPRESSION OF ELEGANCE<br>
-               <svg xmlns="http://www.w3.org/2000/svg" width="4%" height="3.5%" viewBox="0 0 14.142 14.142">
-                 <rect id="Rectangle_1939" data-name="Rectangle 1939" width="10" height="10"
-                   transform="translate(0 7.071) rotate(-45)" fill="#fff" />
-               </svg></div>
-             <div class="rossanova big-word-header center">
-                ROOMS, SUITS<br />
-                AND VILLAS
-             </div>
-           </div>
-         
-           <div>  
-         
-     
-       </header>
 
-    <section class="multi-rooms-section">
-        <div class="flex-column offer-margin">
-            <div style="width: 20% ; margin-bottom:42.9px; margin-top:56px;">
+
+
+            <div>
+
+
+    </header>
+
+
+    <section >
+        <div>
+        <div class="flex-column offers-margin">
+            <div style="width: 30% ; ">
                 <div class="rossanova gold center l-height-30 " style="font-size: 40px;">
                     Title Here<br />
                     <img class="icon-under-h" src="assets/svg/Groupe 2164.svg" />
@@ -79,63 +113,63 @@
 
             </p>
 
-            <div class="flex-row" style="margin-top: 37px; margin-bottom: 90px;">
-                <div class="flex-column poppins caract">
+            <div class="flex-row carraux">
+                <div class="flex-column poppins caract" style="margin-top: 10%;">
                     <div style="align-self: flex-end;">
                         <img src="assets/svg/multiRooms/plus.svg">
                     </div>
                     <div class="rooms-num">
                         155
                     </div>
-                    <div style="font-size: 25px; margin-top: 25px;">
+                    <div style="font-size: 2em; margin-top: 25px;">
                         Suites &
                         Rooms
                     </div>
                 </div>
-                <div class="flex-column poppins caract">
+                <div class="flex-column poppins caract" style="margin-top: 10%;">
                     <div style="align-self: flex-end;">
                         <img src="assets/svg/multiRooms/plus.svg">
                     </div>
                     <div class="rooms-num">
                         20
                     </div>
-                    <div style="font-size: 25px; margin-top: 25px;">
+                    <div style="font-size: 2em; margin-top: 25px;">
                         Years of
                         Hertiage
                     </div>
                 </div>
-                <div class="flex-column poppins caract" style="width: 275px;">
+                <div class="flex-column poppins caract" style="margin-top: 10%;">
                     <div style="align-self: flex-end;">
                         <img src="assets/svg/multiRooms/plus.svg">
                     </div>
                     <div class="rooms-num">
                         150,213
                     </div>
-                    <div style="font-size: 25px; margin-top: 25px;">
+                    <div style="font-size: 2em; margin-top: 25px;">
                         Bookings with
                         Memories
                     </div>
                 </div>
-                <div class="flex-column poppins caract">
+                <div class="flex-column poppins caract" style="margin-top: 10%;">
                     <div style="align-self: flex-end;">
                         <img src="assets/svg/multiRooms/plus.svg">
                     </div>
                     <div class="rooms-num">
                         9,850
                     </div>
-                    <div style="font-size: 25px; margin-top: 25px;">
+                    <div style="font-size: 2em; margin-top: 25px;">
                         Sq.m Hotel
                         Area
                     </div>
                 </div>
-                <div class="flex-column poppins caract">
+                <div class="flex-column poppins caract" style="margin-top: 10%;">
                     <div style="align-self: flex-end;">
                         <img src="assets/svg/multiRooms/plus.svg">
                     </div>
                     <div class="rooms-num">
                         55
                     </div>
-                    <div style="font-size: 25px; margin-top: 25px;">
+                    <div style="font-size: 2em; margin-top: 25px;">
                         Gourmet
                         Dishes
 
@@ -144,37 +178,41 @@
             </div>
             <!--************************  menu ************************************-->
 
-            <div class="flex-row" style="margin-bottom: 70px;">
 
-                <div class=" flex-row roomsmenu ourfans-box rooms-menu-size">
-                    <div> <img src="assets/svg/menu rect.svg"> </div>
+            <div class="menu1">
+                <div class="flex-reponsive-home"
+                    style=" margin-bottom: 50px; align-items: center;    justify-content: space-between;">
 
-                    <div>
-                        <ul>
-                            <li class="flex-column">Rooms</li>
-                            <li  class="flex-column">Suites</li>
-                            <li  class="flex-column">Villas</li>
+                    <div class=" flex-row poppins rooms-menu ourfans-box ">
+                        <div> <img src="assets/svg/menu rect.svg"> </div>
 
-                        </ul>
+                        <div style="width: 100%;">
+                            <ul style="flex-wrap: nowrap;">
+                                <li style="cursor: pointer;"> Rooms</li>
+                                <li style="cursor: pointer;">Suites</li>
+                                <li style="cursor: pointer;">Villas</li>
+
+                            </ul>
+                        </div>
+
                     </div>
-
-                </div>
-                <div class="flex-row ourfans-box rooms-right-menu">
-                    <div class="flex-row">
-                        <div class="right-menu-occ"> Occupancy </div>
-                        <select name="occ" id="occ" class="right-menu-select">
-                            <option value="v1" class="occ-opt">1</option>
-                            <option class="occ-opt" value="v2">2</option>
-                            <option class="occ-opt" value="v3">3</option>
-                        </select>
-                    </div>
-                    <div class="gold-search-btn">
-                        <img style="margin: 24px;" src="assets/svg/search.svg">
+                    <div class="flex-row ourfans-box right-menu">
+                        <div class="flex-row">
+                            <div class="right-menu-occ"> Occupancy </div>
+                            <select name="occ" id="occ" class="right-menu-select">
+                                <option value="v1" class="occ-opt">1</option>
+                                <option class="occ-opt" value="v2">2</option>
+                                <option class="occ-opt" value="v3">3</option>
+                            </select>
+                        </div>
+                        <div class="gold-search-btn">
+                            <img style="margin: 18px;" src="assets/svg/search.svg">
+                        </div>
                     </div>
                 </div>
             </div>
             <!--************** three offers here **********************-->
-            <div class="flex-row" style="flex-wrap: wrap;">
+            <div class="flex-row" style="flex-wrap: wrap; justify-content: center;">
                 <div class="slides-box">
                     <div class="ourfans-box rooms-cont">
                         <div class="slideshow-container">
@@ -373,7 +411,7 @@
                                     </div>
                                     <div style=" margin-right: 30px;">
                                         <img src="assets/svg/multiRooms/smallAmenities/pet.svg">
-    
+
                                     </div>
                                     <div style=" margin-right: 30px;">
                                         <img src="assets/svg/multiRooms/smallAmenities/diner.svg">
@@ -398,7 +436,7 @@
                                         </div>
                                     </div>
                                 </div>
-    
+
                             </div>
                         </div>
                     </div>
@@ -409,7 +447,7 @@
         <!--   *************************   good vibes  ****************************-->
         <div>
             <div style="background-image: url('assets/singleRoom/Rectangle 1874.png'); height: auto">
-                <div style="width: 20% ; margin-bottom:42.9px; margin-left:75px; margin-top:56px;">
+                <div style="width: 30% ; margin-bottom:42.9px; margin-left:75px; margin-top:56px;">
                     <div class="rossanova gold center l-height-30 " style="font-size: 40px;padding-top: 50px;">
                         Good Vibes<br />
                         <img class="icon-under-h" src="assets/svg/Groupe 2164.svg" />
@@ -509,81 +547,101 @@
                 </div>
             </div>
         </div>
-        <div class="flex-column ">
+   
             <!--  ----------------*************  special offer******************* --->
-            <div >
-                <div class="offerTitle meeting-margin">
-                  <div>
-                    <div style="width: fit-content;">
-                      <h2 class="rossanova gold center ">
-                        Special Offers<br />
-                        <img class="icon-under-h" src="assets/svg/Groupe 2164.svg" />
-                        </h3>
+            <div>
+                <div class="offerTitle offers-margin">
+                    <div>
+                        <div style="width: fit-content;">
+                            <h2 class="rossanova gold center ">
+                                Special Offers<br />
+                                <img class="icon-under-h" src="assets/svg/Groupe 2164.svg" />
+                                </h3>
+                        </div>
                     </div>
-                  </div>
-                  <div>
-                    <div class="gallery js-flickity packages">
-                      <div class="gallery-cell ourfans-box">
-                        <div class="flex-column" style="padding:40px ;">
-                         
-                         <img style="border-radius: 5px; margin-bottom: 30px;" src="assets/singleRoom/Imageoffre.png"/>
-                          <div class="poppins-M " style="font-size: 20px; margin-bottom: 10px;"> Offer Name </div>
-                          <div class="poppins-M" style="opacity: 50%; font-size: 15px;">  Subtitle</div>
-                          <div class="center getoffre-btn " style="margin-top: 15px; border-radius: 5px; font-family: poppins-semi-bold; font-size: 20px;"> BOOK NOW</div>
-                          
-                          
+                    <div>
+                        <div class="gallery js-flickity packages">
+                            <div class="gallery-cell ourfans-box">
+                                <div class="flex-column" style="padding:40px ;">
+
+                                    <img style="border-radius: 5px; margin-bottom: 30px;"
+                                        src="assets/singleRoom/Imageoffre.png" />
+                                    <div class="poppins-M " style="font-size: 20px; margin-bottom: 10px;"> Offer Name
+                                    </div>
+                                    <div class="poppins-M" style="opacity: 50%; font-size: 15px;"> Subtitle</div>
+                                    <div class="center getoffre-btn "
+                                        style="margin-top: 15px; border-radius: 5px; font-family: poppins-semi-bold; font-size: 20px;">
+                                        BOOK NOW</div>
+
+
+                                </div>
+                            </div>
+                            <div class="gallery-cell ourfans-box">
+                                <div class="flex-column" style="padding:40px;border-radius: 5px;">
+                                    <img style="border-radius: 5px; margin-bottom: 30px;"
+                                        src="assets/singleRoom/Imageoffre.png" />
+                                    <div class="poppins-M " style="font-size: 20px; margin-bottom: 10px;"> Offer Name
+                                    </div>
+                                    <div class="poppins-M" style="opacity: 50%; font-size: 15px;"> Subtitle</div>
+                                    <div class="center getoffre-btn "
+                                        style="margin-top: 15px; border-radius: 5px; font-family: poppins-semi-bold; font-size: 20px;">
+                                        BOOK NOW</div>
+
+                                </div>
+                            </div>
+                            <div class="gallery-cell ourfans-box">
+                                <div class="flex-column" style="padding:40px ;">
+                                    <img style="border-radius: 5px; margin-bottom: 30px;"
+                                        src="assets/singleRoom/Imageoffre.png" />
+                                    <div class="poppins-M " style="font-size: 20px; margin-bottom: 10px;"> Offer Name
+                                    </div>
+                                    <div class="poppins-M" style="opacity: 50%; font-size: 15px;"> Subtitle</div>
+                                    <div class="center getoffre-btn "
+                                        style="margin-top: 15px; border-radius: 5px; font-family: poppins-semi-bold; font-size: 20px;">
+                                        BOOK NOW</div>
+
+
+                                </div>
+                            </div>
+                            <div class="gallery-cell ourfans-box">
+                                <div class="flex-column" style="padding:40px ;">
+                                    <img style="border-radius: 5px; margin-bottom: 30px;"
+                                        src="assets/singleRoom/Imageoffre.png" />
+                                    <div class="poppins-M " style="font-size: 20px; margin-bottom: 10px;"> Offer Name
+                                    </div>
+                                    <div class="poppins-M" style="opacity: 50%; font-size: 15px;"> Subtitle</div>
+                                    <div class="center getoffre-btn "
+                                        style="margin-top: 15px; border-radius: 5px; font-family: poppins-semi-bold; font-size: 20px;">
+                                        BOOK NOW</div>
+
+
+                                </div>
+                            </div>
+                            <div class="gallery-cell ourfans-box">
+                                <div class="flex-column" style="padding:40px ;">
+                                    <img style="border-radius: 5px; margin-bottom: 30px;"
+                                        src="assets/singleRoom/Imageoffre.png" />
+                                    <div class="poppins-M " style="font-size: 20px; margin-bottom: 10px;"> Offer Name
+                                    </div>
+                                    <div class="poppins-M" style="opacity: 50%; font-size: 15px;"> Subtitle</div>
+                                    <div class="center getoffre-btn "
+                                        style="margin-top: 15px; border-radius: 5px; font-family: poppins-semi-bold; font-size: 20px;">
+                                        BOOK NOW</div>
+
+
+                                </div>
+                            </div>
+
                         </div>
-                      </div>
-                      <div class="gallery-cell ourfans-box">
-                        <div class="flex-column" style="padding:40px;border-radius: 5px;">
-                       <img style="border-radius: 5px; margin-bottom: 30px;" src="assets/singleRoom/Imageoffre.png"/>
-                          <div class="poppins-M " style="font-size: 20px; margin-bottom: 10px;"> Offer Name </div>
-                          <div class="poppins-M" style="opacity: 50%; font-size: 15px;">  Subtitle</div>
-                          <div class="center getoffre-btn " style="margin-top: 15px; border-radius: 5px; font-family: poppins-semi-bold; font-size: 20px;"> BOOK NOW</div>
-                          
-                        </div>
-                      </div>
-                      <div class="gallery-cell ourfans-box">
-                        <div class="flex-column" style="padding:40px ;">
-                      <img style="border-radius: 5px; margin-bottom: 30px;" src="assets/singleRoom/Imageoffre.png"/>
-                          <div class="poppins-M " style="font-size: 20px; margin-bottom: 10px;"> Offer Name </div>
-                          <div class="poppins-M" style="opacity: 50%; font-size: 15px;">  Subtitle</div>
-                          <div class="center getoffre-btn " style="margin-top: 15px; border-radius: 5px; font-family: poppins-semi-bold; font-size: 20px;"> BOOK NOW</div>
-                          
-                          
-                        </div>
-                      </div>
-                      <div class="gallery-cell ourfans-box">
-                        <div class="flex-column" style="padding:40px ;">
-                      <img style="border-radius: 5px; margin-bottom: 30px;" src="assets/singleRoom/Imageoffre.png"/>
-                          <div class="poppins-M " style="font-size: 20px; margin-bottom: 10px;"> Offer Name </div>
-                          <div class="poppins-M" style="opacity: 50%; font-size: 15px;">  Subtitle</div>
-                          <div class="center getoffre-btn " style="margin-top: 15px; border-radius: 5px; font-family: poppins-semi-bold; font-size: 20px;"> BOOK NOW</div>
-                          
-                          
-                        </div>
-                      </div>
-                      <div class="gallery-cell ourfans-box">
-                        <div class="flex-column" style="padding:40px ;">
-                      <img style="border-radius: 5px; margin-bottom: 30px;" src="assets/singleRoom/Imageoffre.png"/>
-                          <div class="poppins-M " style="font-size: 20px; margin-bottom: 10px;"> Offer Name </div>
-                          <div class="poppins-M" style="opacity: 50%; font-size: 15px;">  Subtitle</div>
-                          <div class="center getoffre-btn " style="margin-top: 15px; border-radius: 5px; font-family: poppins-semi-bold; font-size: 20px;"> BOOK NOW</div>
-                          
-                          
-                        </div>
-                      </div>
-              
                     </div>
-                  </div>
                 </div>
-              </div>
-          
-          <!--******************** jouurney****************** -->
-          
+            </div>
+
+            <!--******************** jouurney****************** -->
+
             <div>
 
-                <div class="rooms-margin">
+                <div class="offers-margin">
                     <div class="center">
                         <h2 class="rossanova gold">
                             A Culinary Journey<br />
@@ -613,7 +671,7 @@
                     <!--  **********************menu with slides from activity page *************************-->
 
 
-                    <div class="page-marg" style="margin-top: 57px; margin-right: 162px; margin-left: 152px;">
+                    <div class="page-marg" style="margin-right: 10%; margin-left: 10%;">
                         <div class="row3 " style="display: flex; justify-content: space-between;">
                             <div class="column3">
                                 <div class="demo3 cursor3 textact" onclick="showSlidesac(1)  ">Outlet1</div>
@@ -638,10 +696,8 @@
                             <div class="numbertext3"></div>
                             <div class="activities-box ">
 
-                                <div class="box-title boxShadow"
-                                    style="margin-top: 0px !important ;background-color:white ; margin-right: -125px; z-index: 10; padding: 80px 50px 50px 50px;">
-
-                                    <div style="margin-bottom: 50px;">
+                                <div class="activities1-box-title boxShadow act-box-styles">
+                                    <div style="margin-bottom: 50px; padding-top: 50px;">
                                         <div style="float: left;">
                                             <div class="rossanova-L center l-height-30 "
                                                 style="font-size: 31px; color: black;">
@@ -688,6 +744,7 @@
                                             </ul>
                                         </div>
                                     </div>
+                                  <div class="multi-rooms-btn-slide">
                                     <div class="flex-row">
                                         <div class="white-btn" style="margin-right: 16px;">
                                             <div class="poppins-M gold request-btn-act">KNOW MORE</div>
@@ -696,6 +753,7 @@
                                             <div class="poppins-M gold request-btn-act">VIEW MENU</div>
                                         </div>
                                     </div>
+                                  </div>
 
                                 </div>
                                 <div class="activities-img">
@@ -703,19 +761,19 @@
 
                                         <div class="slides1 fade">
 
-                                            <img src="assets/multiRooms/food1.png" />
+                                            <img width="100%" src="assets/multiRooms/food1.png" />
 
                                         </div>
 
                                         <div class="slides1 fade">
 
-                                            <img src="assets/multiRooms/food1.png" />
+                                            <img width="100%" src="assets/multiRooms/food1.png" />
 
                                         </div>
 
                                         <div class="slides1 fade">
 
-                                            <img src="assets/multiRooms/food1.png" />
+                                            <img width="100%" src="assets/multiRooms/food1.png" />
 
                                         </div>
 
@@ -733,10 +791,8 @@
                             <div class="numbertext3"></div>
                             <div class="activities-box ">
 
-                                <div class="box-title boxShadow"
-                                    style="margin-top: 0px !important ;background-color:white ; margin-right: -125px; z-index: 10; padding: 80px 50px 50px 50px;">
-
-                                    <div style="margin-bottom: 50px;">
+                                <div class="activities1-box-title boxShadow act-box-styles">
+                                    <div style="margin-bottom: 50px; padding-top: 50px;">
                                         <div style="float: left;">
                                             <div class="rossanova-L center l-height-30 "
                                                 style="font-size: 31px; color: black;">
@@ -798,19 +854,19 @@
 
                                         <div class="slides2 fade">
 
-                                            <img src="assets/multiRooms/food1.png" />
+                                            <img width="100%" src="assets/multiRooms/food1.png" />
 
                                         </div>
 
                                         <div class="slides2 fade">
 
-                                            <img src="assets/multiRooms/food1.png" />
+                                            <img width="100%" src="assets/multiRooms/food1.png" />
 
                                         </div>
 
                                         <div class="slides2 fade">
 
-                                            <img src="assets/multiRooms/food1.png" />
+                                            <img width="100%" src="assets/multiRooms/food1.png" />
 
                                         </div>
 
@@ -827,10 +883,8 @@
                             <div class="numbertext3"></div>
                             <div class="activities-box ">
 
-                                <div class="box-title boxShadow"
-                                    style="margin-top: 0px !important ;background-color:white ; margin-right: -125px; z-index: 10; padding: 80px 50px 50px 50px;">
-
-                                    <div style="margin-bottom: 50px;">
+                                <div class="activities1-box-title boxShadow act-box-styles">
+                                    <div style="margin-bottom: 50px; padding-top: 50px;">
                                         <div style="float: left;">
                                             <div class="rossanova-L center l-height-30 "
                                                 style="font-size: 31px; color: black;">
@@ -892,18 +946,18 @@
 
                                         <div class="slides3 fade">
 
-                                            <img src="assets/multiRooms/food1.png" />
+                                            <img width="100%" src="assets/multiRooms/food1.png" />
                                         </div>
 
                                         <div class="slides3 fade">
 
-                                            <img src="assets/multiRooms/food1.png" />
+                                            <img width="100%" src="assets/multiRooms/food1.png" />
 
                                         </div>
 
                                         <div class="slides3 fade">
 
-                                            <img src="assets/multiRooms/food1.png" />
+                                            <img width="100%" src="assets/multiRooms/food1.png" />
 
                                         </div>
 
@@ -920,10 +974,8 @@
                             <div class="numbertext3"></div>
                             <div class="activities-box ">
 
-                                <div class="box-title boxShadow"
-                                    style="margin-top: 0px !important ;background-color:white ; margin-right: -125px; z-index: 10; padding: 80px 50px 50px 50px;">
-
-                                    <div style="margin-bottom: 50px;">
+                                <div class="activities1-box-title boxShadow act-box-styles">
+                                    <div style="margin-bottom: 50px; padding-top: 50px;">
                                         <div style="float: left;">
                                             <div class="rossanova-L center l-height-30 "
                                                 style="font-size: 31px; color: black;">
@@ -985,18 +1037,18 @@
 
                                         <div class="slides4 fade">
 
-                                            <img src="assets/multiRooms/food1.png" />
+                                            <img width="100%" src="assets/multiRooms/food1.png" />
                                         </div>
 
                                         <div class="slides4 fade">
 
-                                            <img src="assets/multiRooms/food1.png" />
+                                            <img width="100%" src="assets/multiRooms/food1.png" />
 
                                         </div>
 
                                         <div class="slides4 fade">
 
-                                            <img src="assets/multiRooms/food1.png" />
+                                            <img width="100%" src="assets/multiRooms/food1.png" />
 
                                         </div>
 
@@ -1013,10 +1065,8 @@
                             <div class="numbertext3"></div>
                             <div class="activities-box ">
 
-                                <div class="box-title boxShadow"
-                                    style="margin-top: 0px !important ;background-color:white ; margin-right: -125px; z-index: 10; padding: 80px 50px 50px 50px;">
-
-                                    <div style="margin-bottom: 50px;">
+                                <div class="activities1-box-title boxShadow act-box-styles">
+                                    <div style="margin-bottom: 50px; padding-top: 50px;">
                                         <div style="float: left;">
                                             <div class="rossanova-L center l-height-30 "
                                                 style="font-size: 31px; color: black;">
@@ -1078,18 +1128,18 @@
 
                                         <div class="slides5 fade">
 
-                                            <img src="assets/multiRooms/food1.png" />
+                                            <img width="100%" src="assets/multiRooms/food1.png" />
                                         </div>
 
                                         <div class="slides5 fade">
 
-                                            <img src="assets/multiRooms/food1.png" />
+                                            <img width="100%" src="assets/multiRooms/food1.png" />
 
                                         </div>
 
                                         <div class="slides5 fade">
 
-                                            <img src="assets/multiRooms/food1.png" />
+                                            <img width="100%" src="assets/multiRooms/food1.png" />
 
                                         </div>
 
@@ -1106,10 +1156,8 @@
                             <div class="numbertext3"></div>
                             <div class="activities-box ">
 
-                                <div class="box-title boxShadow"
-                                    style="margin-top: 0px !important ;background-color:white ; margin-right: -125px; z-index: 10; padding: 80px 50px 50px 50px;">
-
-                                    <div style="margin-bottom: 50px;">
+                                <div class="activities1-box-title boxShadow act-box-styles">
+                                    <div style="margin-bottom: 50px; padding-top: 50px;">
                                         <div style="float: left;">
                                             <div class="rossanova-L center l-height-30 "
                                                 style="font-size: 31px; color: black;">
@@ -1171,18 +1219,18 @@
 
                                         <div class="slides6 fade">
 
-                                            <img src="assets/multiRooms/food1.png" />
+                                            <img width="100%" src="assets/multiRooms/food1.png" />
                                         </div>
 
                                         <div class="slides6 fade">
 
-                                            <img src="assets/multiRooms/food1.png" />
+                                            <img width="100%" src="assets/multiRooms/food1.png" />
 
                                         </div>
 
                                         <div class="slides6 fade">
 
-                                            <img src="assets/multiRooms/food1.png" />
+                                            <img width="100%" src="assets/multiRooms/food1.png" />
 
                                         </div>
 
@@ -1357,33 +1405,26 @@
             </div>
 
 
-
-            <!-- *******************************get in touch********************************** -->
-
-            <div id="getIntouch"  style="margin-bottom: 103px;">
-                <div style="margin-top: 50px; margin-bottom: 10px;font-size: 59px;">
-                    <h2 class="rossanova center ">
-                        Get in Touch<br />
-
-                    </h2>
-                </div>
-                <div class="flex-row offer-margin ">
-                    <div class="l-height-30"
-                        style="margin-top: 48px; margin-left: 174px; margin-right: 58.5; width: 452px;  ">
+            <!-- get in touch *************************** -->
+            <div id="getIntouch"
+                style="margin-top: 80px ; background-color: rgba(0, 0, 0, 0.01); padding-bottom: 40px;">
+                <div class="rossanova center" style="font-size: 59px; padding-top: 86px;">Get in touch</div>
+                <div class="flex-reponsive-home" style="justify-content: space-between;  margin-top: 70px; padding-bottom: 15px;     margin-right: 8% !important; 
+        margin-left:8% !important;">
+                    <div class="l-height-30" style="flex-basis: 39% ;margin-bottom: 30px;">
                         <img class="info-icon" src="assets/svg/Groupe 400.svg" />
-                        <div class="rossanova gold" style="font-size: 28px; width: 420;">Address </div>
+                        <div class="rossanova gold" style="font-size: 28px; ">Address </div>
                         <div class="rossanova story-info-size">Khor Al Maqta, Al Khaleej Al Arabi-Road-Abu Dhabi
                         </div>
                     </div>
-                    <div class="l-height-30"
-                        style="margin-top: 48px ;width: 300px;  margin-left: 58.5px; margin-right: 300.5px; width: 152px;">
+                    <div class="l-height-30" style=" flex-basis: 34% ;margin-bottom: 30px;">
                         <img class="info-icon" src="assets/svg/Groupe 400.svg" />
                         <div class="rossanova gold" style="font-size: 28px; width: 300px; ">Email</div>
                         <div class=" rossanova story-info-size" style="width: 300px;"> ahlan@alturath.ae </div>
 
 
                     </div>
-                    <div class="l-height-30" style="margin-top: 48px; margin-right: 174.5px;">
+                    <div class="l-height-30" style="flex-basis: 24%; margin-bottom: 30px;">
                         <img class="info-icon" src="assets/svg/Groupe 400.svg" />
                         <div class="rossanova gold" style="font-size: 28px;width: 255px; ">Phone Number </div>
                         <div class=" story-info-size">8003784
@@ -1392,12 +1433,11 @@
                     </div>
                 </div>
             </div>
-
-
         </div>
+   
     </section>
     <footer>
-        <div class="box-foot " style="font-family: rossanova ;">
+        <div class="box-foot-responsive " style="font-family: rossanova ;">
             <div>
                 <ul class="footerlist" style="margin: 0px 103px 0px 0px  ; padding: 0px 0px 0px 90px  ;">
                     <li><a>About al turath</a></li>
@@ -1417,8 +1457,8 @@
                     <li> <a>FAQS</a></li>
                 </ul>
             </div>
-            <div style="	line-height: 10px;">
-                <h2 class="rossanova"> Social Media</h2>
+            <div>
+                <div class="rossanova" style="font-size: 40px;"> Social Media</div>
                 <div class="rossanova" style="font-size: 20px;">Get to us through our social media<br></div>
                 <div>
                     <img src="assets/svg/socialMedia/fb.svg" />
@@ -1434,11 +1474,21 @@
     </footer>
 
 
+
     <script src="js/ourfans.js"></script>
 
     <script src="js/services.js"></script>
 
     <script src="js/rooms.js"></script>
+    <script>function myFunction(x) {
+
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        } </script>
 
 </body>
 
