@@ -2777,11 +2777,10 @@ http://flickity.metafizzy.co
 }
 
 .meetings-menu {
-  margin-left: 152px;
+  margin-left: 3%;
   margin-top: 100px;
   background-color: white;
-  height: 85px;
-  width: 1107px;
+  width: fit-content;
   font-size: 20px;
 }
 .meetings-menu input[type=text] {
