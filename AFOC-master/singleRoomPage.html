@@ -14,17 +14,36 @@
 
 
     <header>
-        <div class="flex-row ourfans-box" style="background-color: white;">
+        <div class="topnav ourfans-box">
+            <a href="#home" class=""><img class="" src="assets/svg/Component 2 – 1.svg" /></a>
+            <!-- Navigation links (hidden by default) -->
+            <div id="myLinks">
+                <a href="index.html" class="black" style="text-decoration:none;">Home </a>
+                <a href="multiRoomsPage.html" style="text-decoration:none; color:#926D39 !important"> Rooms </a>
+                <a href="dinning.html" class="black" style="text-decoration:none;">Dining </a>
+                <a href="weddings.html" class="black" style="text-decoration:none; ">Wedding </a>
+                <a href="meetingsAndActivities.html" class="black" style="text-decoration:none;"> Events </a>
+                <a href="activities.html" style="text-decoration:none;"> Fitness </a></li>
+                <a href="#getIntouch" class="black" style="text-decoration:none;">Contact </a>
+            </div>
+            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a style="background-color: white;" href=" javascript:void(0);" class="icon" onclick="myFunction()">
+                <img src="assets/svg/Icon ionic-ios-menu.svg" />
+            </a>
+        </div>
+        <div class="flex-row ourfans-box header-simple" style="background-color: white; justify-content: space-between;">
 
-            <div style="margin-left: 152px; display: flex; align-items: center;" > 
-                <img  width="82px" src="assets/svg/gold logo.svg" /> </div>
-            <div class="flex-row rooms-menu-bo " style="display: flex; align-items: center;">
-                <input class="input-date-text" type="date" data-role="calendarpicker" data-input-format="%d-%m" placeholder="21-12">
+            <div style="margin-left: 5%; display: flex; align-items: center;" > 
+                <img  width="82px" src="assets/svg/gold logo.svg" /> 
+            </div>
+            <div class="flex-row rooms-menu-bo display-inputs " style="display: flex; align-items: center;">
+                <input class="input-date-text" type="text"  placeholder="13-dec">
+                <!-- <input class="input-date-text" type="date" data-role="calendarpicker" data-input-format="%d-%m" placeholder="21-12"> -->
                 <svg xmlns="http://www.w3.org/2000/svg" width="20.188" height="1" viewBox="0 0 20.188 1">
                     <line id="Ligne_38" data-name="Ligne 38" x2="20.188" transform="translate(0 0.5)" fill="none" stroke="#707070" stroke-width="1"/>
                   </svg>
-                  
-                <input class="input-date-text"type="date" data-role="calendarpicker" data-input-format="%d-%m" placeholder="21-12">
+                  <input class="input-date-text" type="text"  placeholder="17-dec">
+                <!-- <input class="input-date-text"type="date" data-role="calendarpicker" data-input-format="%d-%m" placeholder="21-12"> -->
                 <input class="input-text-menu" type="text"  placeholder="2rooms, 3 adults, 1children" width="100%">
                 <!-- <div class="flex-row date ">
 
@@ -43,7 +62,24 @@
                 </div>
             </div>
             <div>
-                <div style="align-items: flex-end;justify-content: flex-end;width: 850px;"
+                <div class="poppins menu-home-container" style="margin-top: 34px;">
+                    <ul class="ul-menu-home">
+                        <li> <a href="index.html" style="color:black  !important;" style="text-decoration:none;">Home </a>
+                        </li>
+                        <li> <a href="multiRoomsPage.html" style="color:#926D39 !important" style="text-decoration:none;">
+                                Rooms </a>
+                        </li>
+                        <li><a href="dinning.html" class="black" style="text-decoration:none;">Dining </a> </li>
+                        <li><a href="weddings.html" class="black" style="text-decoration:none;">Wedding </a></li>
+                        <li><a href="meetingsAndActivities.html" style="color: black !important;"
+                                style="text-decoration:none;">
+                                Events </a></li>
+                        <li><a href="activities.html" class="black" style="text-decoration:none; "> Fitness </a></li>
+                        <li><a href="#getIntouch" style="color:black !important;" style="text-decoration:none;">Contact
+                            </a></li>
+                    </ul>
+                </div>
+                <!-- <div style="align-items: flex-end;justify-content: flex-end;width: 850px;"
                     class="singleRoommenu poppins">
                     <ul>
                         <li > <a href="index.html"  style="text-decoration:none; color: black; font-size: 17px;">Home </a> </li>
@@ -54,13 +90,39 @@
                   <li><a href="activities.html"   style="text-decoration:none;  color: black;  font-size: 17px;"> Fitness </a></li>
                   <li><a href="#getIntouch"  style="text-decoration:none;  color: black;  font-size: 17px;" >Contact </a></li>
                     </ul>
-                </div>
+                </div> -->
             </div>
         </div>
 
     </header>
     <section class="single-room-section">
-        <div class="flex-column offer-margin">
+        <div class="flex-column margin-stand" style="padding-top: 30px;">
+            <div class="flex-row rooms-menu-bo display-inputs2 " style="display: flex; align-items: center; margin-left: 10px;    width: fit-content; margin-bottom: 50px;">
+                <input class="input-date-text" type="text"  placeholder="13-dec">
+                <!-- <input class="input-date-text" type="date" data-role="calendarpicker" data-input-format="%d-%m" placeholder="21-12"> -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="20.188" height="1" viewBox="0 0 20.188 1">
+                    <line id="Ligne_38" data-name="Ligne 38" x2="20.188" transform="translate(0 0.5)" fill="none" stroke="#707070" stroke-width="1"/>
+                  </svg>
+                  <input class="input-date-text" type="text"  placeholder="17-dec">
+                <!-- <input class="input-date-text"type="date" data-role="calendarpicker" data-input-format="%d-%m" placeholder="21-12"> -->
+                <input class="input-text-menu" type="text"  placeholder="2rooms, 3 adults, 1children" width="100%">
+                <!-- <div class="flex-row date ">
+
+                    <input type="text" data-role="calendarpicker" data-input-format="%d-%m" placeholder="21-12">
+                </div>
+                <div class="flex-row date" style="margin-right: 15px;">
+
+                    <input type="text" data-role="calendarpicker" data-input-format="%d-%m" placeholder="21-12">
+                </div>
+                <div class="flex-row input-menu">
+
+                    <input type="text">
+                </div> -->
+                <div class="white-search-btn">
+                    <img style="margin: 24px; " src="assets/svg/single room/white-search.svg">
+                </div>
+            </div> 
+
             <div class="flex-row">
                 <div class="flex-column" style="flex-grow: 2; color: #18191b;">
                     <div>
@@ -136,13 +198,13 @@
             </div>
         </div>
 
-        <div class="flex-column  offer-margin">
+        <div class="flex-column  margin-stand" style="margin-top: 50px;">
 
             <div class="rossanova gold " style="font-size: 60px; float: left;">
                 Room name
             </div>
-            <div class="flex-row" style="justify-content: space-between;">
-                <div style="flex-basis: 42%; margin-right: 93px;">
+            <div class="flex-reponsive-home" style="justify-content: space-between;">
+                <div style="flex-basis: 42%; margin-right: 93px; margin-bottom: 30px;">
                     <p style="font-size: 20px ;color: #707070;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
                         sed diam nonumy eirmod
                         tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
@@ -209,28 +271,28 @@
                 <div class="rossanova center " style="font-size: 30px; letter-spacing: 20px; margin-top: 77px;">
                     Room Amenities
                 </div>
-                <div style="margin-top: 90.5px; margin-left: 100px;">
-                    <div>
-                        <img style="margin-right: 120px;" src="assets/svg/single room/amenities/wifi.svg">
-                        <img style="margin-right: 120px;" src="assets/svg/single room/amenities/weather.svg">
-                        <img style="margin-right: 120px;" src="assets/svg/single room/amenities/paw.svg">
-                        <img style="margin-right: 120px;" src="assets/svg/single room/amenities/cofe.svg">
-                        <img style="margin-right: 120px;" src="assets/svg/single room/amenities/hotelsign.svg">
-                        <img style="margin-right: 120px;" src="assets/svg/single room/amenities/receprion.svg">
-                        <img style="margin-right: 120px;" src="assets/svg/single room/amenities/shampo.svg">
-                        <img style="margin-right: 120px;" src="assets/svg/single room/amenities/towel.svg">
+                <div class="flex-column" style="margin-top: 90.5px; margin-left: 3%; margin-right: 3%;">
+                    <div class="flex-row" style="justify-content: space-between; margin-bottom: 30px;">
+                        <img src="assets/svg/single room/amenities/wifi.svg">
+                        <img src="assets/svg/single room/amenities/weather.svg">
+                        <img src="assets/svg/single room/amenities/paw.svg">
+                        <img src="assets/svg/single room/amenities/cofe.svg">
+                        <img src="assets/svg/single room/amenities/hotelsign.svg">
+                        <img src="assets/svg/single room/amenities/receprion.svg">
+                        <img src="assets/svg/single room/amenities/shampo.svg">
+                        <img src="assets/svg/single room/amenities/towel.svg">
                     </div>
 
-                    <br>
+                   
 
-                    <div style="margin-left: 110px;">
-                        <img style="margin-right: 120px;" src="assets/svg/single room/amenities/weather.svg">
-                        <img style="margin-right: 120px;" src="assets/svg/single room/amenities/paw.svg">
-                        <img style="margin-right: 120px;" src="assets/svg/single room/amenities/cofe.svg">
-                        <img style="margin-right: 120px;" src="assets/svg/single room/amenities/hotelsign.svg">
-                        <img style="margin-right: 120px;" src="assets/svg/single room/amenities/receprion.svg">
-                        <img style="margin-right: 120px;" src="assets/svg/single room/amenities/shampo.svg">
-                        <img style="margin-right: 120px;" src="assets/svg/single room/amenities/towel.svg">
+                    <div  class="flex-row" style="justify-content: space-around;">
+                        <img src="assets/svg/single room/amenities/weather.svg">
+                        <img src="assets/svg/single room/amenities/paw.svg">
+                        <img src="assets/svg/single room/amenities/cofe.svg">
+                        <img src="assets/svg/single room/amenities/hotelsign.svg">
+                        <img src="assets/svg/single room/amenities/receprion.svg">
+                        <img src="assets/svg/single room/amenities/shampo.svg">
+                        <img src="assets/svg/single room/amenities/towel.svg">
                     </div>
                 </div>
 
@@ -242,13 +304,13 @@
         </div>
 
         <div style="background-color: rgba(178, 180, 178, 0.5); height: auto">
-            <div style="width: 20% ; margin-bottom:42.9px; margin-left:75px; margin-top:56px;">
+            <div style="width: fit-content ; margin-bottom:42.9px; margin-left:2%; margin-top:56px;">
                 <div class="rossanova gold center l-height-30 " style="font-size: 40px;">
                     Good Vibes<br />
                     <img class="icon-under-h" src="assets/svg/Groupe 2164.svg" />
                 </div>
             </div>
-            <div class="flex-row" style="flex-wrap: wrap; margin-left: 152px;">
+            <div class="flex-row" style="flex-wrap: wrap; margin-left: 4%">
 
                 <div style="width: 273px; margin-right: 136px;">
                     <h4 class="poppins-M" style="font-size: 25px;"> <img src="assets/svg/single room/med.svg"
@@ -341,7 +403,7 @@
             </div>
         </div>
         <!--***************************** Special offers *********************************-->
-        <div class="offerTitle meeting-margin">
+        <div class="margin-stand" style="margin-top: 50px;">
             <div>
                 <div style="width: fit-content;">
                     <h2 class="rossanova gold center ">
@@ -476,7 +538,7 @@
       
           <div class="slides-story " style="height: 750px !important;">
             <div class="myslidestory">
-              <div class="room-R-cass" style="margin: 10px 0px 10px 152px;">
+              <div class="room-R-cass" style="margin: 10px 0px 10px 3%;">
                 <div>
                     <div class="offerTitle ">
         
@@ -685,7 +747,7 @@
               </div>
             </div>
             <div class="myslidestory">
-              <div class="room-S-cass" style="margin: 10px 0px 10px 152px;">
+              <div class="room-S-cass" style="margin: 10px 0px 10px 3%;">
                 <div>
                     <div class="offerTitle">
         
@@ -894,7 +956,7 @@
               </div>
             </div>
             <div class="myslidestory">
-              <div class="room-V-cass" style="margin: 10px 0px 10px 152px;">
+              <div class="room-V-cass" style="margin: 10px 0px 10px 3%;">
                 <div>
                     <div class="offerTitle ">
         
@@ -1108,7 +1170,7 @@
 
         <!--**********************      our fans   ********************************************-->
         <div>
-            <div class="offerTitle offer-margin">
+            <div class="margin-stand" style="margin-top: 50px;">
                 <div>
                     <div style="width: fit-content;">
                         <h2 class="rossanova gold center ">
@@ -1255,72 +1317,82 @@
         <!--******************* Get in touch *********************-->
         <div id="getIntouch"  style="margin-top: 80px ; background-color: rgba(0, 0, 0, 0.01); padding-bottom: 40px;">
             <div class="rossanova center" style="font-size: 59px; padding-top: 86px;">Get in touch</div>
-            <div class="flex-row wedding-getintouch" style="margin-top: 70px; padding-bottom: 48px;">
-                <div class="l-height-30" style=" width: 40% ">
-                    <img class="info-icon" src="assets/svg/Groupe 400.svg" />
-                    <div class="rossanova gold" style="font-size: 28px; ">Address </div>
-                    <div class="rossanova story-info-size">Khor Al Maqta, Al Khaleej Al Arabi-Road-Abu Dhabi
-                    </div>
-                </div>
-                <div class="l-height-30" style=" width: 35%">
-                    <img class="info-icon" src="assets/svg/Groupe 400.svg" />
-                    <div class="rossanova gold" style="font-size: 28px; width: 300px; ">Email</div>
-                    <div class=" rossanova story-info-size" style="width: 300px;"> ahlan@alturath.ae </div>
-
-
-                </div>
-                <div class="l-height-30" style=" width: 25%;">
-                    <img class="info-icon" src="assets/svg/Groupe 400.svg" />
-                    <div class="rossanova gold" style="font-size: 28px;width: 255px; ">Phone Number </div>
-                    <div class=" story-info-size">8003784
-                    </div>
-
-                </div>
-            </div>
+            <div class="flex-reponsive-home" style="justify-content: space-between;  margin-top: 70px; padding-bottom: 15px;     margin-right: 8% !important; 
+            margin-left:8% !important;">
+              <div class="l-height-30" style="flex-basis: 39% ;margin-bottom: 30px;">
+                  <img class="info-icon" src="assets/svg/Groupe 400.svg" />
+                  <div class="rossanova gold" style="font-size: 28px; ">Address </div>
+                  <div class="rossanova story-info-size">Khor Al Maqta, Al Khaleej Al Arabi-Road-Abu Dhabi
+                  </div>
+              </div>
+              <div class="l-height-30" style=" flex-basis: 34% ;margin-bottom: 30px;" >
+                  <img class="info-icon" src="assets/svg/Groupe 400.svg" />
+                  <div class="rossanova gold" style="font-size: 28px; width: 300px; ">Email</div>
+                  <div class=" rossanova story-info-size" style="width: 300px;"> ahlan@alturath.ae </div>
+              
+                 
+              </div>
+              <div class="l-height-30" style="flex-basis: 24%; margin-bottom: 30px;" >
+                  <img class="info-icon" src="assets/svg/Groupe 400.svg" />
+                  <div class="rossanova gold" style="font-size: 28px;width: 255px; ">Phone Number </div>
+                  <div class=" story-info-size">8003784
+                  </div>
+        
+              </div>
+          </div>
         </div>
-    </section>
-    <footer>
-        <div class="box-foot " style="font-family: rossanova ;">
+        </section>
+        <footer>
+          <div class="box-foot-responsive " style="font-family: rossanova ;">
             <div>
-                <ul class="footerlist" style="margin: 0px 103px 0px 0px  ; padding: 0px 0px 0px 90px  ;">
-                    <li><a>About al turath</a></li>
-                    <li><a>Catering and hospitality</a></li>
-
-                    <li><a>Our presence beyond</a></li>
-
-                    <li><a>Privacy Policy</a></li>
-
-                    <li><a>T&Cs</a></li>
-                </ul>
+              <ul class="footerlist" style="margin: 0px 103px 0px 0px  ; padding: 0px 0px 0px 90px  ;">
+                <li><a>About al turath</a></li>
+                <li><a>Catering and hospitality</a></li>
+      
+                <li><a>Our presence beyond</a></li>
+      
+                <li><a>Privacy Policy</a></li>
+      
+                <li><a>T&Cs</a></li>
+              </ul>
             </div>
             <div style="flex-grow: 5;">
-                <ul class="footerlist" style="margin: 0px 103px 0px 0px  ; padding: 0px ;">
-                    <li><a>Press Centre</a></li>
-                    <li><a>Careers</a></li>
-                    <li> <a>FAQS</a></li>
-                </ul>
+              <ul class="footerlist" style="margin: 0px 103px 0px 0px  ; padding: 0px ;">
+                <li><a>Press Centre</a></li>
+                <li><a>Careers</a></li>
+                <li> <a>FAQS</a></li>
+              </ul>
             </div>
-            <div style="	line-height: 10px;">
-                <h2 class="rossanova"> Social Media</h2>
-                <div class="rossanova" style="font-size: 20px;">Get to us through our social media<br></div>
-                <div>
-                    <img src="assets/svg/socialMedia/fb.svg" />
-                    <img src="assets/svg/socialMedia/twitter.svg" />
-                    <img src="assets/svg/socialMedia/insta.svg" />
-                    <img src="assets/svg/socialMedia/youtube.svg" />
-                    <img src="assets/svg/socialMedia/likedin.svg" />
-                    <img src="assets/svg/socialMedia/telegram.svg" />
-                </div>
-
+            <div >
+              <div class="rossanova" style="font-size: 40px;"> Social Media</div>
+              <div class="rossanova" style="font-size: 20px;">Get to us through our social media<br></div>
+              <div>
+                <img src="assets/svg/socialMedia/fb.svg" />
+                <img src="assets/svg/socialMedia/twitter.svg" />
+                <img src="assets/svg/socialMedia/insta.svg" />
+                <img src="assets/svg/socialMedia/youtube.svg" />
+                <img src="assets/svg/socialMedia/likedin.svg" />
+                <img src="assets/svg/socialMedia/telegram.svg" />
+              </div>
+      
             </div>
-        </div>
-    </footer>
+          </div>
+        </footer>
 
 
 
     <script src="js/ourfans.js"></script>
    
     <script src="js/type-rooms.js"></script>
+    <script>function myFunction(x) {
+
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    } </script>
 </body>
 
 </html>

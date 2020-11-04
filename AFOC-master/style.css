@@ -45,6 +45,7 @@
     text-decoration: none;
     font-size: 17px;
     display: block;
+    text-align: center;
   }
 
   /* Style the hamburger menu */
@@ -1783,6 +1784,24 @@ http://flickity.metafizzy.co
     z-index: 50;
   }
 }
+@media screen and (max-width: 1660px) {
+  .display-inputs2 {
+    display: flex;
+  }
+
+  .display-inputs {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 1660px) {
+  .display-inputs {
+    display: flex !important;
+  }
+
+  .display-inputs2 {
+    display: none !important;
+  }
+}
 .single-room-section {
   display: flex;
   flex-direction: column;
@@ -1807,7 +1826,7 @@ http://flickity.metafizzy.co
 .single-room-second-menu {
   width: 380px;
   height: 79px;
-  margin-left: 152px;
+  margin-left: 4%;
   background-color: white;
 }
 .single-room-second-menu ul {
@@ -1927,6 +1946,7 @@ http://flickity.metafizzy.co
   border-width: thin;
 }
 .rooms-menu-bo .input-date-text {
+  width: 100px !important;
   border: none;
   border-radius: 5px;
   margin-left: 5px;
@@ -1934,6 +1954,7 @@ http://flickity.metafizzy.co
   color: #676767;
   font-family: poppins;
   font-size: 17px;
+  text-align: center;
 }
 .rooms-menu-bo input[type=text] {
   height: 70px;
@@ -2254,10 +2275,12 @@ http://flickity.metafizzy.co
   left: -80px;
 }
 .room-R-cass .flickity-prev-next-button.next {
+  display: none;
   left: auto;
   right: -80px;
 }
 .room-R-cass .flickity-rtl .flickity-prev-next-button.previous {
+  display: none;
   left: auto;
   right: 10px;
 }
@@ -2418,10 +2441,12 @@ http://flickity.metafizzy.co
   left: -80px;
 }
 .room-S-cass .flickity-prev-next-button.next {
+  display: none;
   left: auto;
   right: -80px;
 }
 .room-S-cass .flickity-rtl .flickity-prev-next-button.previous {
+  display: none;
   left: auto;
   right: 10px;
 }
@@ -2582,10 +2607,12 @@ http://flickity.metafizzy.co
   left: -80px;
 }
 .room-V-cass .flickity-prev-next-button.next {
+  display: none;
   left: auto;
   right: -80px;
 }
 .room-V-cass .flickity-rtl .flickity-prev-next-button.previous {
+  display: none;
   left: auto;
   right: 10px;
 }
