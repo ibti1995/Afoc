@@ -2936,9 +2936,12 @@ http://flickity.metafizzy.co
   padding-bottom: 79px;
   padding-left: 78px;
   line-height: 30px;
-  margin-top: 67px;
+  margin-top: 50px;
   width: 50%;
   padding-right: 62px;
+  margin-right: -90px;
+  z-index: 400;
+  background-color: white;
 }
 
 @media screen and (max-width: 1050px) {
@@ -2960,7 +2963,7 @@ http://flickity.metafizzy.co
     padding-bottom: 79px;
     padding-left: 78px;
     line-height: 30px;
-    margin-top: -30px;
+    margin-top: -40px;
     width: 80%;
     padding-right: 62px;
     order: 2;
@@ -4543,13 +4546,6 @@ body {
 
 .multiRooms {
   background-image: url("assets/multiRooms/Groupe 2252.png");
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 1080px;
-  display: flex;
-  flex-direction: column;
-  background-size: auto;
-  text-align: center;
 }
 
 .multi-rooms-section {
@@ -4566,12 +4562,27 @@ body {
 }
 
 .caract {
-  width: 144px;
+  width: 10%;
   margin-right: 168px;
 }
 
-.rooms-menu-size {
-  width: 451px;
+.rooms-menu {
+  width: 350px;
+  height: 79px;
+  background-color: white;
+}
+.rooms-menu ul {
+  list-style-type: none;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.rooms-menu ul li {
+  margin-left: 5%;
+  display: inline;
+}
+.rooms-menu ul li:hover {
+  color: #926D39;
 }
 
 .rooms-right-menu {
@@ -4611,8 +4622,16 @@ body {
 }
 
 .rooms-margin {
-  margin-left: 152px;
-  margin-right: 162px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.carraux {
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: nowrap;
+  margin-top: 37px;
+  margin-bottom: 10%;
 }
 
 /******************************************/
@@ -4637,6 +4656,21 @@ body {
   transform-origin: left;
 }
 
+@media screen and (max-width: 1050px) {
+  .carraux {
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 37px;
+    margin-bottom: 10%;
+  }
+
+  .multi-rooms-btn-slide .flex-row {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+  }
+}
 @media screen and (max-width: 1050px) {
   .responsive-restaurant {
     order: 1;
