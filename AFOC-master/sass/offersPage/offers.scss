@@ -9,7 +9,14 @@
   background-repeat: no-repeat;
   background-size: 1930px 3221px;
 }
-
+.offers-full-menu{
+  margin-bottom: 50px;
+   align-items: center;  
+     justify-content: space-between;
+}
+.offers-margin-left{
+  margin-left: 34.9px;
+}
 .offersmenu {
   width: 650px;
   height: 79px;
@@ -22,11 +29,15 @@
     li {
       margin-left: 5%;
       display: inline;
+      cursor: pointer;
     }
     li:hover {
       color: $primary-color;
     }
   }
+}
+.offers-justify-slides{
+  flex-wrap: wrap; justify-content: center;
 }
 .menu-size {
   margin-bottom: 50px;
@@ -90,6 +101,9 @@
   margin-top: 10%;
   margin-left: 10%;
   margin-right: 10%;
+}
+.margin-right-35{
+  margin-right: 35px;
 }
 .flex-row1{
   display: flex;
