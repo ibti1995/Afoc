@@ -21,54 +21,52 @@
 .poppins {
   font-family: poppins;
 }
-.poppins-20-43-70{
+.poppins-20-43-70 {
   color: #707070;
   font-size: 20px;
   font-family: poppins;
   line-height: 43px;
 }
-.poppins-19-30-70{
+.poppins-19-30-70 {
   color: #707070;
   font-size: 19px;
   font-family: poppins;
   line-height: 43px;
 }
-.poppins-20-30-70{
+.poppins-20-30-70 {
   color: #707070;
   font-size: 20px;
   font-family: poppins;
   line-height: 30px;
 }
-a { text-decoration: none; }
-.poppins-17-43-70{
+a {
+  text-decoration: none;
+}
+.poppins-17-43-70 {
   color: #707070;
   font-size: 17px;
   font-family: poppins;
   line-height: 43px;
 }
-.poppins-20-43-{
-
+.poppins-20-43- {
   font-size: 20px;
   font-family: poppins;
   line-height: 43px;
 }
-.poppins-19-30{  
+.poppins-19-30 {
   font-size: 19px;
   font-family: poppins;
   line-height: 30px;
-  
 }
-.poppins-20-30{  
+.poppins-20-30 {
   font-size: 20px;
   font-family: poppins;
   line-height: 30px;
-  
 }
-.poppins-17-43{ 
+.poppins-17-43 {
   font-size: 17px;
   font-family: poppins;
   line-height: 43px;
-
 }
 .poppins-L {
   font-family: poppins-light;
@@ -81,33 +79,7 @@ a { text-decoration: none; }
 .center {
   text-align: center;
 }
-.gold-btn {
-  margin-top: 29px;
-  border-width: 1px;
-  background-color: #926d39;
-  color: #ffffff;
-}
 
-.white-btn {
-  margin-top: 29px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #926d39;
-  background-color: #ffffff;
-  color: $primary-color;
-  padding: 19px 39px 18px;
-  width: fit-content;
-
-}
-.normale-btn {
-  margin-top: 29px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #926d39;
-  background-color: #ffffff;
-  color: $primary-color;
-
-}
 .flex-column {
   display: flex;
   flex-direction: column;
@@ -117,35 +89,34 @@ a { text-decoration: none; }
   flex-direction: row;
 }
 .ourfans-box {
-	-webkit-box-shadow: 0px 0px 30px -17px rgba(0,0,0,0.5);
-	-moz-box-shadow: 0px 0px 30px -17px rgba(0,0,0,0.5);
-	box-shadow: 0px 0px 30px -17px rgba(0,0,0,0.5);
-	
+  -webkit-box-shadow: 0px 0px 30px -17px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 30px -17px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 30px -17px rgba(0, 0, 0, 0.5);
 }
-.header{
+.header {
   background-repeat: no-repeat;
   width: 100%;
   height: 1080px;
-display: flex;
-flex-direction: column;
- 
-  background-size:auto;
+  display: flex;
+  flex-direction: column;
+
+  background-size: auto;
   text-align: center;
 }
 .parag-in-ourfans {
   width: 395.75px;
   //white-space: nowrap;
-// overflow: hidden;
-//  text-overflow: ellipsis ;
+  // overflow: hidden;
+  //  text-overflow: ellipsis ;
   height: 309.43px;
-  color: #D6D6D6;
+  color: #d6d6d6;
   margin-bottom: 47.3px;
- 
+
   background-repeat: no-repeat;
-  background-size:380px 310px ;
+  background-size: 380px 310px;
 }
- //***** cotte 
- .content {
+//***** cotte
+.content {
   position: relative;
   .ribbon1 {
     position: absolute;
@@ -156,9 +127,75 @@ flex-direction: column;
     position: absolute;
     bottom: 0px;
     left: 0px;
- }
+  }
 }
-.offer-section{
+.offer-section {
   display: flex;
   flex-direction: column;
+}
+.font-25 {
+  font-size: 25px;
+}
+.poppin-semi-bold {
+  font-family: poppins-semi-bold;
+}
+.font-40 {
+  font-size: 40px;
+  line-height: 50px;
+}
+.font-19 {
+  font-size: 19px;
+}
+.font-20{
+  font-size: 20px;
+}
+.font-17{
+  font-size: 17px;
+}
+.font-28{
+  font-size: 28px;
+}
+.font-59 {
+  font-size: 59px;
+}
+
+.padding-top-18 {
+  padding-top: 18px;
+}
+.width100 {
+  width: 100%;
+}
+
+/*********************get in touch component*************************/
+
+
+
+.get-in-touch-box {
+  margin-top: 80px;
+  background-color: rgba(0, 0, 0, 0.01);
+  padding-bottom: 40px;
+}
+.align-get-in-touch {
+  justify-content: space-between;
+  margin-top: 70px;
+  padding-bottom: 15px;
+  margin-right: 8% !important;
+  margin-left: 8% !important;
+}
+.adr{
+  flex-basis: 39% ;
+  margin-bottom: 30px;
+}
+.mail{
+  flex-basis: 34% ;margin-bottom: 30px; width: 300px;
+}
+
+.phone{
+  flex-basis: 24%; margin-bottom: 30px;width: 255px
+}
+.width300{
+  width: 300px;
+}
+.decoration-none{
+  text-decoration:none;
 }

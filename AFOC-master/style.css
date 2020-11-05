@@ -422,33 +422,6 @@ a {
   text-align: center;
 }
 
-.gold-btn {
-  margin-top: 29px;
-  border-width: 1px;
-  background-color: #926d39;
-  color: #ffffff;
-}
-
-.white-btn {
-  margin-top: 29px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #926d39;
-  background-color: #ffffff;
-  color: #926D39;
-  padding: 19px 39px 18px;
-  width: fit-content;
-}
-
-.normale-btn {
-  margin-top: 29px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #926d39;
-  background-color: #ffffff;
-  color: #926D39;
-}
-
 .flex-column {
   display: flex;
   flex-direction: column;
@@ -478,7 +451,7 @@ a {
 .parag-in-ourfans {
   width: 395.75px;
   height: 309.43px;
-  color: #D6D6D6;
+  color: #d6d6d6;
   margin-bottom: 47.3px;
   background-repeat: no-repeat;
   background-size: 380px 310px;
@@ -501,6 +474,87 @@ a {
 .offer-section {
   display: flex;
   flex-direction: column;
+}
+
+.font-25 {
+  font-size: 25px;
+}
+
+.poppin-semi-bold {
+  font-family: poppins-semi-bold;
+}
+
+.font-40 {
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.font-19 {
+  font-size: 19px;
+}
+
+.font-20 {
+  font-size: 20px;
+}
+
+.font-17 {
+  font-size: 17px;
+}
+
+.font-28 {
+  font-size: 28px;
+}
+
+.font-59 {
+  font-size: 59px;
+}
+
+.padding-top-18 {
+  padding-top: 18px;
+}
+
+.width100 {
+  width: 100%;
+}
+
+/*********************get in touch component*************************/
+.get-in-touch-box {
+  margin-top: 80px;
+  background-color: rgba(0, 0, 0, 0.01);
+  padding-bottom: 40px;
+}
+
+.align-get-in-touch {
+  justify-content: space-between;
+  margin-top: 70px;
+  padding-bottom: 15px;
+  margin-right: 8% !important;
+  margin-left: 8% !important;
+}
+
+.adr {
+  flex-basis: 39%;
+  margin-bottom: 30px;
+}
+
+.mail {
+  flex-basis: 34%;
+  margin-bottom: 30px;
+  width: 300px;
+}
+
+.phone {
+  flex-basis: 24%;
+  margin-bottom: 30px;
+  width: 255px;
+}
+
+.width300 {
+  width: 300px;
+}
+
+.decoration-none {
+  text-decoration: none;
 }
 
 h1 {
@@ -533,16 +587,20 @@ body {
   margin: 0 auto;
   background-color: #fcfcfc;
   font-family: poppins;
-  line-height: 45px;
   color: #000000;
   display: flex;
   flex-direction: column;
   height: 100%;
-  font: size 20px;
 }
 
 .catering {
   background-image: url("assets/Groupe 2252.png");
+}
+
+.catering-sub-title {
+  width: fit-content;
+  margin-bottom: 30px;
+  margin-top: 88px;
 }
 
 .box {
@@ -606,24 +664,6 @@ body {
 
 .img {
   width: 100%;
-}
-
-.cat-white-btn {
-  margin-top: 29px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #926d39;
-  background-color: #ffffff;
-  color: #926D39;
-  width: 320px;
-}
-
-.request-btn {
-  text-decoration: none;
-  font-size: 20px;
-  letter-spacing: 2px;
-  padding: 19px 39px 19px;
-  width: 302px;
 }
 
 .l-height-30 {
@@ -871,6 +911,11 @@ dialog {
     width: 500px;
   }
 }
+.alin-dots {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
 .single-offer-section {
   display: flex;
   flex-direction: column;
@@ -4887,13 +4932,41 @@ body {
   cursor: pointer;
 }
 
+/*****************general buttons************************/
+.gold-btn {
+  margin-top: 29px;
+  border-width: 1px;
+  background-color: #926d39;
+  color: #ffffff;
+}
+
+.white-btn {
+  margin-top: 29px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #926d39;
+  background-color: #ffffff;
+  color: #926D39;
+  padding: 19px 39px 18px;
+  width: fit-content;
+}
+
+.normale-btn {
+  margin-top: 29px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #926d39;
+  background-color: #ffffff;
+  color: #926D39;
+}
+
 .offert-request-btn {
   border-color: #926D39;
   text-decoration: none;
-  font-size: 20px;
   letter-spacing: 2px;
   padding: 16px 54px 16px;
   width: fit-content;
+  line-height: 60px;
 }
 
 /********offers*****/
@@ -4929,6 +5002,25 @@ body {
   background-color: #926d39;
   color: #ffffff;
   padding: 5px 10px 5px;
+}
+
+/**********catering buttons********************/
+.cat-white-btn {
+  margin-top: 29px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #926d39;
+  background-color: #ffffff;
+  color: #926D39;
+  width: 320px;
+}
+
+.request-btn {
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing: 2px;
+  padding: 19px 39px 19px;
+  width: 302px;
 }
 
 /*# sourceMappingURL=style.css.map */

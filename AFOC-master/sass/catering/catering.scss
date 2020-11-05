@@ -26,20 +26,23 @@ body {
   margin: 0 auto;
   background-color: #fcfcfc;
   font-family: poppins;
-  line-height: 45px;
+
   color: #000000;
   display: flex;
-
   flex-direction: column;
   height: 100%;
-  font: size 20px;
+
 }
 .catering {
   background-image: url("assets/Groupe 2252.png");
 
 
 }
-
+.catering-sub-title{
+  width: fit-content ;
+   margin-bottom:30px;  
+   margin-top:88px;
+}
 // #boxShadow{
 // // 	-webkit-box-shadow: -2px 10px 30px 0px rgba(0,0,0,0.05);
 // // -moz-box-shadow: -2px 10px 30px 0px rgba(0,0,0,0.05);
@@ -104,22 +107,6 @@ body {
 
 .img {
   width: 100%;
-}
-.cat-white-btn {
-  margin-top: 29px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #926d39;
-  background-color: #ffffff;
-  color: $primary-color;
-  width: 320px;
-}
-.request-btn {
-  text-decoration: none;
-  font-size: 20px;
-  letter-spacing: 2px;
-  padding: 19px 39px 19px;
-  width: 302px;
 }
 
 .l-height-30 {
@@ -358,4 +345,7 @@ dialog {
   }
   .gold-btn,
   .normale-btn{width: 500px;}
+}
+.alin-dots{
+  text-align:center; margin-bottom: 80px;
 }
