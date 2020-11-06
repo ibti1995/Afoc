@@ -15,8 +15,6 @@
   color: $primary-color;
   padding: 19px 39px 18px;
   width: fit-content;
-
-
 }
 .normale-btn {
   margin-top: 29px;
@@ -25,70 +23,95 @@
   border-color: #926d39;
   background-color: #ffffff;
   color: $primary-color;
-
 }
 
-
-
-
-
 .offert-request-btn {
-    border-color: $primary-color;
-    text-decoration: none;
-    letter-spacing: 2px;
-    padding: 16px 54px 16px; width: fit-content;
-    line-height: 60px;
-    
-    }
-    /********offers*****/
-    .request-btn-sm {
-        border-color: $primary-color;
-        text-decoration: none;
-        font-size: 10px;
-        letter-spacing: 0.5px;
-        line-height: 10px;
-        padding: 6px 10px 6px; width: fit-content;
-      }
-    
-      .gold-btn-sm {
-        margin-top: 10px;
-        border-width: 1px;
-        background-color: #926d39;
-        color: #ffffff;
-      }
-      
-      .white-btn-sm {
-        margin-top: 10px;
-        border-style: solid;
-        border-width: 1px;
-        border-color: #926d39;
-        background-color: #ffffff;
-        color: $primary-color;
-      }
-      .gold-search-btn{
-        width: 95px;
-        border-width: 1px;
-        background-color: #926d39;
-        color: #ffffff;
-        padding: 5px 10px 5px;
-      }
+  border-color: $primary-color;
+  text-decoration: none;
+  letter-spacing: 2px;
+  padding: 0px 54px 0px;
+  width: fit-content;
+  line-height: 60px;
+}
+/********offers*****/
+.request-btn-sm {
+  border-color: $primary-color;
+  text-decoration: none;
+  font-size: 10px;
+  letter-spacing: 0.5px;
+  line-height: 10px;
+  padding: 6px 10px 6px;
+  width: fit-content;
+}
 
+.gold-btn-sm {
+  margin-top: 10px;
+  border-width: 1px;
+  background-color: #926d39;
+  color: #ffffff;
+}
 
-      /**********catering buttons********************/
-      .cat-white-btn {
-        margin-top: 29px;
-        border-style: solid;
-        border-width: 1px;
-        border-color: #926d39;
-        background-color: #ffffff;
-        color: $primary-color;
-        width: 320px;
-      }
-      .request-btn {
-        text-decoration: none;
-        font-size: 20px;
-        letter-spacing: 2px;
-        padding: 19px 39px 19px;
-        width: 302px;
-      }
-      
+.white-btn-sm {
+  margin-top: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #926d39;
+  background-color: #ffffff;
+  color: $primary-color;
+}
+.gold-search-btn {
+  width: 95px;
+  border-width: 1px;
+  background-color: #926d39;
+  color: #ffffff;
+  padding: 5px 10px 5px;
+}
+
+/**********catering buttons********************/
+.cat-white-btn {
+  margin-top: 29px;
+  background-color: transparent;
+
+  padding: 16px 20px 15px 20px;
+  border-color: $primary-color;
+border-style: solid;
+  text-decoration: none;
+}
+
+.cat-gold-btn{
+  margin-top: 29px;
+  margin-right: 30px;
+  background-color: $primary-color;
+  width: 360px;
+  padding: 16px 20px 15px 20px;
+  border-color: $primary-color;
+  text-decoration: none;
+  border-style: solid;
+}
+.dining-gold-btn{
+  margin-top: 29px;
+  margin-right: 30px;
+  background-color: $primary-color;
+  width:390px;
+  padding: 16px 20px 15px 20px;
+  border-color: $primary-color;
+  text-decoration: none;
+  border-style: solid;
+  border-radius: 5px;
+}
+.dining-white-btn {
+  margin-top: 29px;
+  background-color: transparent;
+
+  padding: 16px 50px 15px 50px;
+  border-color: $primary-color;
+border-style: solid;
+  text-decoration: none;
+}
+.request-btn {
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing: 2px;
+  padding: 19px 39px 19px;
+  width: 302px;
+}
