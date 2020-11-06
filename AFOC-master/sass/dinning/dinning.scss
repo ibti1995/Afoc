@@ -1,109 +1,146 @@
+@media screen and (max-width: 1050px) {
+  .responsive-restaurant {
+    order: 1;
+  }
+  .img-responsive-restaurant {
+    order: 2;
+    width: 80%;
+    align-self: center;
+  }
+  .responsive-restaurant2 {
+    order: 1;
+  }
+  .img-responsive-restaurant2 {
+    order: 2;
+    width: 80%;
+    align-self: center;
+  }
+  //  .responsive-container{
 
-@media screen and (max-width: 1050px){
-    .responsive-restaurant{
-        order: 1;
-        }
-        .img-responsive-restaurant{
-            order :2 ;
-            width: 80%;
-            align-self: center;
-             }
-             .responsive-restaurant2{
-                order: 1;
-                }
-                .img-responsive-restaurant2{
-                    order :2 ;
-                    width: 80%;
-                    align-self: center;
-                     }
-            //  .responsive-container{
-
-            //  }
-    }
-    .carousel-cell{
-        ul {
-            font-size: 15px;
-            li {
-              list-style-image: url("assets/svg/single room/square.svg");
-            }
-          }
-    }
-.dining-btn{
-    align-items: center;
-    justify-content: center;
-    display: flex; margin-top: 5px
+  //  }
 }
-@media screen and (min-width: 1050px){
-    .responsive-background{
-        height: 721px;
+.carousel-cell {
+  ul {
+    font-size: 15px;
+    li {
+      list-style-image: url("assets/svg/single room/square.svg");
     }
-    .responsive-container{
-        height: 999px;
-    }
-    .responsive-restaurant{
-        order: 2;
-        width: 40%;
-
-    }
-    .img-responsive-restaurant{
-        order :1 ;
-        width: 40%;
-        margin: 50px 0px -100px 5%;
-    }
-    .responsive-restaurant2{
-        order: 1;
-        width: 40%;
-
-    }
-    .img-responsive-restaurant2{
-        order :2 ;
-        width: 40%;
-        margin: 50px 0px -100px 5%;
-    }
-.title-header-gold-other-pages {
+  }
+}
+.dining-btn {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 5px;
+}
+.dining-select-box {
+  background-color: white;
+  padding: 16px 20px 16px 48px;
+  width: 300px;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.08);
+}
+.dining-select {
+  width: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: none;
+  color: #25282a;
+  font-size: 20px;
+}
+.dining-slide-box{
+    justify-content: space-around; margin-left: 0px !important;  background-color: #F6F6F6;
+}
+.dining-white-box{
+    margin-top: 0px !important ;padding: 50px 2% 50px 2%;
+}
+.title-line-width{
+    width: 240px;
+}
+.dining-align-button{
+    text-align: center;  margin-top: 40px;   display: flex; justify-content: center;
+}
+.dining-img-style{
+    width: 453px;height: 80px;
+}
+.dinning-right-title{
+  margin: 0px 162px 40px 152px; float: right;
+}
+.dining-right-parag{
+  margin-left: 152px; margin-bottom: 40px; color: #707070;
+}
+.dining-box-padding{
+  padding: 25px 25px 25px 25px;
+}
+@media screen and (min-width: 1050px) {
+  .responsive-background {
+    height: 721px;
+  }
+  .responsive-container {
+    height: 999px;
+  }
+  .responsive-restaurant {
+    order: 2;
+    width: 40%;
+  }
+  .img-responsive-restaurant {
+    order: 1;
+    width: 40%;
+    margin: 50px 0px -100px 5%;
+  }
+  .responsive-restaurant2 {
+    order: 1;
+    width: 40%;
+  }
+  .img-responsive-restaurant2 {
+    order: 2;
+    width: 40%;
+    margin: 50px 0px -100px 5%;
+  }
+  .title-header-gold-other-pages {
     align-self: flex-end;
     text-align: left;
     flex: 1;
     margin-bottom: 200px;
-     margin-left: -383px;
+    margin-left: -383px;
     width: fit-content;
-    color: #926D39;
-}
-}
-    .dinning{
-        background-image: url("assets/dinning/Composant 1 – 1.png");
-    }
-.dinning-btn{
-margin-top: 10px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #926d39;
-
-    color: #926D39;
-    width: 196px;
-    text-align: center;
-    height: 51px;
-
-}
-.prev-dinning, .next-dinning{
-    cursor: pointer;
-    position: absolute;
-    bottom: 0px;
-    width: 81px;
-    height: 81px;
-    padding-top: 15px;
-    padding-left: 31px;
-    padding-right: 31px;
-    color: #926D39;
-    background-color: #f7f7f726;
-    font-weight: bold;
-    font-size: 25px;
-    transition: 0.6s ease;
-    border-radius: 3px;
-    user-select: none;
-    margin-bottom: 20px;
-    align-items: center;
-}
-.prev-dinning:hover, .next-dinning:hover {
-	background-color: rgba(0, 0, 0, 0.309);
+    color: #926d39;
   }
+}
+.dinning {
+  background-image: url("assets/dinning/Composant 1 – 1.png");
+}
+.dinning-btn {
+  margin-top: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #926d39;
+
+  color: #926d39;
+  width: 196px;
+  text-align: center;
+  height: 51px;
+}
+.prev-dinning,
+.next-dinning {
+  cursor: pointer;
+  position: absolute;
+  bottom: 0px;
+  width: 81px;
+  height: 81px;
+  padding-top: 15px;
+  padding-left: 31px;
+  padding-right: 31px;
+  color: #926d39;
+  background-color: #f7f7f726;
+  font-weight: bold;
+  font-size: 25px;
+  transition: 0.6s ease;
+  border-radius: 3px;
+  user-select: none;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.prev-dinning:hover,
+.next-dinning:hover {
+  background-color: rgba(0, 0, 0, 0.309);
+}
