@@ -1,16 +1,16 @@
 @media screen and (max-width: 1050px ) {
-  
+
     .topnav {
      // overflow: hidden;
       background-color: #ffffff;
       position: relative;
     }
-    
+
     /* Hide the links inside the navigation menu (except for logo/home) */
     .topnav #myLinks {
       display: none;
     }
-    
+
     /* Style navigation menu links */
     .topnav a {
       color: black;
@@ -20,7 +20,7 @@
       display: block;
       text-align: center;
     }
-    
+
     /* Style the hamburger menu */
     .topnav a.icon {
       background: black;
@@ -29,28 +29,28 @@
       right: 0;
       top: 0;
     }
-    
+
     /* Add a grey background color on mouse-over */
     .topnav a:hover {
       background-color: #ddd;
       color: black;
     }
-    
+
     /* Style the active link (or home/logo) */
     .active {
-      
+
       color: white;
     }
     .header-simple{
       display: none !important;
     }
     .formul-book{
-      width: 600px; 
+      width: 600px;
       height: 325px;
       background-color: rgba(95, 90, 96, 0.3);
       margin-top: 50px;
-  
-      
+
+
     }
     .bottom-header-container{
       flex-direction: column !important;
@@ -63,13 +63,13 @@
         text-align: left;
         flex: 1;
         margin-bottom: 200px;
-      
-       
+
+
         width: fit-content;
         color: #926D39;
-      
+
       }
-  
+
 }
 
 
@@ -83,7 +83,7 @@
   margin-top: 60px;
   margin-left:auto;
   margin-right: 0px;
-  
+
 
 }
 .topnav {
@@ -99,29 +99,28 @@
   order: 1;
 
   font-size: 17px;
-  color: #926D39; 
-  margin-left: 3% ; 
+  color: #926D39;
+  margin-left: 3% ;
   margin-top: 83px ;
 }
 .item-select-language-index {
   color: black;
 }
 .menu-home-container {
-  order: 6; 
+  order: 6;
    margin-top: 73px;
-   margin-right: 3%; 
+   margin-right: 3%;
    align-items: flex-end;
     justify-content: flex-end;
-    color: #25282A;   
+    color: #25282A;
     width: 819px;
     font-size: 17px;
-    
+
 }
 .ul-menu-home{
   list-style-type: none;
-    margin-top: 43px;
+    margin-top: 25px;
     margin-bottom: 40px;
-  margin-top: 0px;
   padding-left: 0px;
   li{
     margin-left: 40px;
@@ -138,19 +137,19 @@
   flex: 1;
   margin-bottom: 200px;
 
- 
+
   width: fit-content;
   color: #926D39;
 
 }
 
 .formul-book{
-  width: 600px; 
+  width: 600px;
   height: 325px;
   background-color: rgba(95, 90, 96, 0.3);
   margin-top: 583px;
   margin-right: 3%;
-  
+
 }
 
 }
@@ -179,7 +178,7 @@
   width: 7%;
   margin-top: 60px;
   margin-left: 250px;
-  
+
 }
 #logo-2 {
   align-self: flex-start;
@@ -188,7 +187,7 @@
   width: 7%;
   margin-top: 60px;
   margin-left: 570px;
-  
+
 }
 #logo-3 {
   align-self: flex-start;
@@ -198,7 +197,7 @@
   margin-top: 60px;
   margin-left:auto;
   margin-right: 0px;
-  
+
 }
 .plus-span{
   color: #787878 ; background-color: white; border-radius: 50%;

@@ -139,9 +139,8 @@
 
   .ul-menu-home {
     list-style-type: none;
-    margin-top: 43px;
+    margin-top: 25px;
     margin-bottom: 40px;
-    margin-top: 0px;
     padding-left: 0px;
   }
   .ul-menu-home li {
@@ -457,6 +456,18 @@ a {
   background-size: 380px 310px;
 }
 
+.sub-title {
+  width: fit-content;
+  margin-bottom: 30px;
+  margin-top: 88px;
+}
+
+.sub-sub-title {
+  font-family: poppins-semi-bold;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
 .content {
   position: relative;
 }
@@ -497,7 +508,7 @@ a {
   font-size: 20px;
 }
 
-.size-12 {
+.font-12 {
   font-size: 12px;
 }
 
@@ -505,7 +516,7 @@ a {
   font-size: 17px;
 }
 
-.size-20 {
+.font-20 {
   font-size: 20px;
 }
 
@@ -624,12 +635,6 @@ body {
 
 .catering {
   background-image: url("assets/Groupe 2252.png");
-}
-
-.catering-sub-title {
-  width: fit-content;
-  margin-bottom: 30px;
-  margin-top: 88px;
 }
 
 .box {
@@ -1011,6 +1016,10 @@ dialog {
   line-height: 24px;
   list-style-image: url("assets/svg/Tracé 8474.svg");
   margin-top: 23px;
+}
+
+.list-margin {
+  margin-left: 30px;
 }
 
 .history {
@@ -1852,6 +1861,18 @@ http://flickity.metafizzy.co
 .flex-row1 {
   display: flex;
   flex-direction: row;
+}
+
+.offers-margin-left-64-9 {
+  margin-left: 64.9px;
+}
+
+.offers-maegin-right-10 {
+  margin-right: 10px;
+}
+
+.offers-margin-buttom-6 {
+  margin-bottom: 6px;
 }
 
 @media screen and (max-width: 1050px) {
