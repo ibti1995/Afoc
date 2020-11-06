@@ -497,8 +497,16 @@ a {
   font-size: 20px;
 }
 
+.size-12 {
+  font-size: 12px;
+}
+
 .font-17 {
   font-size: 17px;
+}
+
+.size-20 {
+  font-size: 20px;
 }
 
 .font-28 {
@@ -515,6 +523,14 @@ a {
 
 .width100 {
   width: 100%;
+}
+
+.background-white {
+  background-color: white;
+}
+
+.pointer {
+  cursor: pointer;
 }
 
 /*********************get in touch component*************************/
@@ -555,6 +571,19 @@ a {
 
 .decoration-none {
   text-decoration: none;
+}
+
+.galary-title-margin {
+  margin-top: 92px;
+  margin-bottom: 30px;
+}
+
+.width-fit-content {
+  width: fit-content;
+}
+
+.padding-40 {
+  padding: 40px;
 }
 
 h1 {
@@ -1692,6 +1721,16 @@ dialog {
   background-size: 1930px 3221px;
 }
 
+.offers-full-menu {
+  margin-bottom: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.offers-margin-left {
+  margin-left: 34.9px;
+}
+
 .offersmenu {
   width: 650px;
   height: 79px;
@@ -1706,9 +1745,15 @@ dialog {
 .offersmenu ul li {
   margin-left: 5%;
   display: inline;
+  cursor: pointer;
 }
 .offersmenu ul li:hover {
   color: #926D39;
+}
+
+.offers-justify-slides {
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .menu-size {
@@ -1780,6 +1825,10 @@ dialog {
   margin-top: 10%;
   margin-left: 10%;
   margin-right: 10%;
+}
+
+.margin-right-35 {
+  margin-right: 35px;
 }
 
 .flex-row1 {
