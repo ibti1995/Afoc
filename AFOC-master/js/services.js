@@ -1,5 +1,6 @@
 var slide4Index = 1;
 showSlides4(slide4Index);
+//change();
 
 // Next/previous controls
 function plusSlides4(n) {
@@ -25,4 +26,20 @@ function showSlides4(n4) {
   }
   slides4[slide4Index-1].style.display = "block";
   dots[slide4Index-1].className += " active4";
+ 
 }
+
+//slide in catering autoplay
+ document.getElementById("slide1").addEventListener("click", function() {
+  clearInterval(slideInterval);
+   slideInterval = setInterval(change,3000);
+      
+      });
+
+var slideInterval = setInterval(change,3000);
+
+
+    function change() {
+       plusSlides4(1);
+        
+    }

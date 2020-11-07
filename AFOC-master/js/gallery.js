@@ -30,3 +30,17 @@ function showSlides(n) {
 
   
 }
+
+document.getElementById("slide2").addEventListener("click", function() {
+  clearInterval(slideInterval2);
+   slideInterval2 = setInterval(changegalery,3000);
+      
+      });
+
+var slideInterval2 = setInterval(changegalery ,3000);
+
+
+    function changegalery() {
+       plusSlides(1);
+        
+    }
