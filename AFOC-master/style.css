@@ -665,6 +665,10 @@ font-32 {
   margin-top: 20px;
 }
 
+.margin-right-50 {
+  margin-right: 50px;
+}
+
 h1 {
   font-size: 60px;
   font-weight: unset !important;
@@ -3031,7 +3035,8 @@ dialog {
   padding-top: 10px;
 }
 
-.prev-meeting, .next-meeting {
+.prev-meeting,
+.next-meeting {
   cursor: pointer;
   position: absolute;
   bottom: 0;
@@ -3055,7 +3060,8 @@ dialog {
   border-radius: 3px 0 0 3px;
 }
 
-.prev-meeting:hover, .next-meeting:hover {
+.prev-meeting:hover,
+.next-meeting:hover {
   background-color: rgba(0, 0, 0, 0.309);
 }
 
@@ -3070,13 +3076,13 @@ dialog {
   font-size: 25px;
   padding: 25px;
   width: 250px;
-  border: 1px solid #B2B4B2;
+  border: 1px solid #b2b4b2;
   border-radius: 5px 5px;
   height: 57px;
   margin-top: 17px;
 }
 .meetings-menu input[type=number] {
-  border: 1px solid #B2B4B2;
+  border: 1px solid #b2b4b2;
   border-radius: 5px 5px;
   font-size: 25px;
   width: 87px;
@@ -3091,6 +3097,60 @@ dialog {
   border-color: #926D39 !important;
 }
 
+.flex-space-between {
+  justify-content: space-between;
+}
+
+.meeting-margin {
+  flex-basis: 70%;
+  margin-right: 63.9px;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.meeting-width-buttons {
+  width: 241px;
+}
+
+.search-margin {
+  margin: 24px;
+}
+
+.meeting-box {
+  flex-basis: 40%;
+  margin-top: 0px !important;
+  background-color: white;
+  margin-right: -50px;
+  z-index: 10;
+  padding: 4% 80px 30px 3%;
+}
+
+.meeting-second-box {
+  margin-top: 150px;
+  margin-bottom: 137px;
+  padding-bottom: 128px;
+  background-image: url("assets/meetings/Rectangle 1755.png");
+}
+
+.meetings-second-sub-box {
+  flex-basis: 40%;
+  margin-top: 0px !important;
+  background-color: white;
+  margin-left: -50px;
+  z-index: 10;
+  padding: 4% 80px 30px 3%;
+}
+
+.meeting-items {
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 8px;
+  line-height: normal;
+}
+
 .activities {
   background-image: url("assets/activities/Composant 2 – 1.png");
 }
@@ -3101,6 +3161,11 @@ dialog {
   order: 1;
   align-items: center;
   margin-right: 0px !important;
+}
+
+.act-margin {
+  margin-right: 10% !important;
+  margin-left: 10% !important;
 }
 
 .activitie-icon {
@@ -3280,7 +3345,7 @@ dialog {
   margin: 0;
   text-decoration: none;
   font-family: rossanova;
-  color: #25282A;
+  color: #25282a;
   font-size: 34px;
   padding-top: 20px;
 }
@@ -3294,7 +3359,7 @@ dialog {
   border-style: solid;
   border-width: 1px;
   border-color: #926d39;
-  color: #926D39;
+  color: #926d39;
   width: fit-content;
   text-align: center;
   height: fit-content;
@@ -3307,16 +3372,23 @@ dialog {
   text-decoration: none;
   font-family: poppins;
   font-size: 15px;
-  color: #B2B4B2;
+  color: #b2b4b2;
   padding: 20px 5% 0px 0px;
   line-height: 33px;
+}
+.exclu-item .home-box {
+  background-image: url("assets/homepage/Groupe 430.png") !important;
+  text-align: center;
+  font-weight: bold;
+  height: 68px;
+  padding-top: 12px;
 }
 .exclu-item .top-right-prop {
   font-size: 17px;
   color: white;
   padding: 0px 12px;
   margin-right: 0px;
-  background-color: #926D39;
+  background-color: #926d39;
   border-bottom-left-radius: 5px;
   margin-left: auto;
 }
@@ -3344,7 +3416,7 @@ dialog {
   margin: 0;
   text-decoration: none;
   font-size: 53px;
-  color: #25282A;
+  color: #25282a;
   font-family: rossanova;
 }
 .flavour-item .flavour-item-img {
@@ -3358,7 +3430,7 @@ dialog {
   border-style: solid;
   border-width: 1px;
   border-color: #926d39;
-  color: #926D39;
+  color: #926d39;
   width: fit-content;
   text-align: center;
   height: fit-content;
@@ -3376,7 +3448,8 @@ dialog {
 }
 
 @media screen and (max-width: 1050px) {
-  .flav-title, .balance-title {
+  .flav-title,
+.balance-title {
     margin-left: 0px !important;
     text-align: center;
   }
@@ -3724,7 +3797,7 @@ body {
 }
 .finding-balance-carou .flickity-button:focus {
   outline: none;
-  box-shadow: 0 0 0 5px #19F;
+  box-shadow: 0 0 0 5px #19f;
 }
 .finding-balance-carou .flickity-button:active {
   opacity: 0.6;
@@ -3893,7 +3966,7 @@ body {
 }
 .story-R-cass .flickity-button:focus {
   outline: none;
-  box-shadow: 0 0 0 5px #19F;
+  box-shadow: 0 0 0 5px #19f;
 }
 .story-R-cass .flickity-button:active {
   opacity: 0.6;
@@ -4045,7 +4118,7 @@ body {
 }
 .story-S-cass .flickity-button:focus {
   outline: none;
-  box-shadow: 0 0 0 5px #19F;
+  box-shadow: 0 0 0 5px #19f;
 }
 .story-S-cass .flickity-button:active {
   opacity: 0.6;
@@ -4197,7 +4270,7 @@ body {
 }
 .story-V-cass .flickity-button:focus {
   outline: none;
-  box-shadow: 0 0 0 5px #19F;
+  box-shadow: 0 0 0 5px #19f;
 }
 .story-V-cass .flickity-button:active {
   opacity: 0.6;
@@ -4791,7 +4864,6 @@ body {
   margin-top: 29px;
   margin-right: 30px;
   background-color: #926D39 !important;
-  width: 360px;
   padding: 16px 20px 15px 20px;
   border-color: #926D39 !important;
   text-decoration: none;

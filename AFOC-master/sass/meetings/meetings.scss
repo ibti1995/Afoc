@@ -1,37 +1,34 @@
-@media screen and (max-width: 1050px ) {
-.order-text-meeting-responsive{
-  order :1 ;
-}
-.order-img-meeting-responsive{
-  order :2 ;
-}
-.responsive-box-meeting-midle {
-  margin-left: 3% !important;
-  margin-right: 3% !important;
-} 
-
-}
-
-@media screen and (min-width: 1050px ) {
-
-  .order-text-meeting-responsive{
-    order :2 ;
+@media screen and (max-width: 1050px) {
+  .order-text-meeting-responsive {
+    order: 1;
   }
-  .order-img-meeting-responsive{
-    order :1 ;
+  .order-img-meeting-responsive {
+    order: 2;
   }
-
+  .responsive-box-meeting-midle {
+    margin-left: 3% !important;
+    margin-right: 3% !important;
+  }
 }
 
-.icons{
+@media screen and (min-width: 1050px) {
+  .order-text-meeting-responsive {
+    order: 2;
+  }
+  .order-img-meeting-responsive {
+    order: 1;
+  }
+}
+
+.icons {
   img {
     width: 40px;
     height: 26px;
-  }}
-  
+  }
+}
+
 .meetings {
   background-image: url("assets/meetings/Composant 4 – 1.png");
-
 }
 .flex-row {
   .list-class {
@@ -44,118 +41,168 @@
   }
 }
 
-
 .request-btn-act {
-    border-color: $primary-color;
-    text-decoration: none;
-    font-size: 15px;
-    letter-spacing: 0.5px;
-    line-height: 10px;
-    padding: 6px 10px 6px; 
-  }
+  border-color: $primary-color;
+  text-decoration: none;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  line-height: 10px;
+  padding: 6px 10px 6px;
+}
 
-  .gold-btn-act {
-    margin-top: 10px;
-    border-width: 1px;
-    background-color: #926d39;
-	color: #ffffff;
-	width: 241px;text-align: center;
+.gold-btn-act {
+  margin-top: 10px;
+  border-width: 1px;
+  background-color: #926d39;
+  color: #ffffff;
+  width: 241px;
+  text-align: center;
+}
 
-  }
-  
-  .white-btn-act {
-    margin-top: 10px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #926d39;
-    background-color: #ffffff;
-    color: $primary-color;	width: 241px;text-align: center;
-  }
+.white-btn-act {
+  margin-top: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #926d39;
+  background-color: #ffffff;
+  color: $primary-color;
+  width: 241px;
+  text-align: center;
+}
 
+.meeting-margin {
+  margin-left: 152px;
+  width: 1618px;
+}
 
-  .meeting-margin{
+.meeting-box-title {
+  line-height: 30px;
+  margin-top: 67px;
+  width: 580px;
+  padding-right: 62px;
+  height: 540px;
+  margin-top: 0px !important ;
+  order: 2 !important;
+  background-color: white;
+  margin-left: -50px;
 
-    margin-left: 152px;
-width: 1618px;
-  }
+  z-index: 10;
+  padding: 103px 80px 100px 87px;
+}
 
-  .meeting-box-title {
-	line-height: 30px;
-	margin-top: 67px;
-	width: 580px;
-	padding-right: 62px;height: 540px;
-	margin-top: 0px !important ;
-	 order: 2!important;
-	 background-color: white ;
-	  margin-left: -50px; 
-	  
-	  z-index: 10; 
-	  padding: 103px 80px 100px 87px;
-  }
+.white-btn-slide {
+  margin-top: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #926d39;
+  background-color: #ffffff;
+  color: $primary-color;
+  width: 282px;
+  text-align: center;
+  height: 51px;
+  padding-top: 10px;
+}
 
+.prev-meeting,
+.next-meeting {
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  width: auto;
+  height: 50px;
+  padding-left: 16px;
+  padding-right: 16px;
+  color: $primary-color;
+  background-color: rgba(255, 255, 255, 0.59);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  margin-bottom: 20px;
+}
 
+/* Position the "next button" to the right */
+.next-meeting {
+  margin-left: 50px;
+  border-radius: 3px 0 0 3px;
+}
 
-
-  .white-btn-slide {
-    margin-top: 10px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #926d39;
-    background-color: #ffffff;
-    color: $primary-color;	width: 282px;text-align: center;height: 51px; padding-top: 10px;
-  }
-
-
-
-
-  .prev-meeting, .next-meeting {
-	cursor: pointer;
-	position: absolute;
-	bottom: 0;
-	width: auto;height: 50px;
-	padding-left: 16px;
-	padding-right: 16px;
-	color: $primary-color;
-	background-color:rgba(255, 255, 255, 0.59);
-	font-weight: bold;
-	font-size: 18px;
-	transition: 0.6s ease;
-	border-radius: 0 3px 3px 0;
-	user-select: none;
-	margin-bottom: 20px;
-  }
-  
-  /* Position the "next button" to the right */
-  .next-meeting {
-   margin-left: 50px;
-	border-radius: 3px 0 0 3px;
-  }
-
-  .prev-meeting:hover, .next-meeting:hover {
-	background-color: rgba(0, 0, 0, 0.309);
-  }
-  .meetings-menu
-  {
-    margin-left: 3%; 
-    margin-top: 100px;
-    background-color: white; 
-  ;
-    width: fit-content;
-     font-size: 20px;
-    input[type=text]{
-
-      font-size: 25px;padding: 25px;
-    width: 250px;border: 1px solid #B2B4B2;border-radius:5px 5px;height: 57px; margin-top: 17px;
-    }
-    input[type=number]{
-    border: 1px solid #B2B4B2;border-radius:5px 5px;
+.prev-meeting:hover,
+.next-meeting:hover {
+  background-color: rgba(0, 0, 0, 0.309);
+}
+.meetings-menu {
+  margin-left: 3%;
+  margin-top: 100px;
+  background-color: white;
+  width: fit-content;
+  font-size: 20px;
+  input[type="text"] {
     font-size: 25px;
-    width: 87px; height: 57px;margin-top: 17px;padding: 20px;
+    padding: 25px;
+    width: 250px;
+    border: 1px solid #b2b4b2;
+    border-radius: 5px 5px;
+    height: 57px;
+    margin-top: 17px;
   }
-  input[type=text]:focus {
-    border-color: $primary-color;
-    }
-    input[type=number]:focus {
-    border-color: $primary-color;
-    }
+  input[type="number"] {
+    border: 1px solid #b2b4b2;
+    border-radius: 5px 5px;
+    font-size: 25px;
+    width: 87px;
+    height: 57px;
+    margin-top: 17px;
+    padding: 20px;
   }
+  input[type="text"]:focus {
+    border-color: $primary-color;
+  }
+  input[type="number"]:focus {
+    border-color: $primary-color;
+  }
+}
+.flex-space-between {
+  justify-content: space-between;
+}
+.meeting-margin {
+  flex-basis: 70%;
+  margin-right: 63.9px;
+}
+.space-between {
+  justify-content: space-between;
+}
+.meeting-width-buttons {
+  width: 241px;
+}
+.search-margin {
+  margin: 24px;
+}
+.meeting-box {
+  flex-basis: 40%;
+  margin-top: 0px !important ;
+  background-color: white;
+  margin-right: -50px;
+  z-index: 10;
+  padding: 4% 80px 30px 3%;
+}
+.meeting-second-box {
+  margin-top: 150px;
+  margin-bottom: 137px;
+  padding-bottom: 128px;
+  background-image: url("assets/meetings/Rectangle 1755.png");
+}
+.meetings-second-sub-box{   flex-basis: 40%;
+  margin-top: 0px !important ;
+  background-color: white ;
+  margin-left: -50px;
+   z-index: 10;
+    padding: 4% 80px 30px 3%;}
+.meeting-items{
+  align-items: center;
+           justify-content: space-between;
+           flex-wrap: wrap;
+           font-size: 8px;
+           line-height: normal;
+}
