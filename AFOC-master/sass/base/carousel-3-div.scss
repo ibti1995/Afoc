@@ -1,5 +1,32 @@
 //our fan
  .carousel-3-div{
+
+   .carousels0{
+    .flickity-prev-next-button {
+      top: 50%;
+      width: 50px;
+      height: 50px;
+      border-radius: 0 !important;
+      background-color: rgba($color: #F7F7F7, $alpha: 0.9) !important;
+      /* vertically center */
+      transform: translateY(-50%);
+    }
+    
+  
+   
+  .carousel-cell {
+    min-width: 150px !important;
+    max-width: 100% !important;
+  margin-top: 20px !important;
+  width: auto !important;
+
+padding-left: 20px;}
+  // .flickity-viewport {
+
+     
+  //   }
+
+   }
      .carousel-our-fan{
         .flickity-prev-next-button {
             top: 88%;
@@ -51,6 +78,80 @@ padding-left: 20px;}
                   }
         
              } 
+            .carousel-meetings-packages{
+              .flickity-prev-next-button {
+                top: 50%;
+                width: 50px;
+                height: 50px;
+                border-radius: 0 !important;
+                background-color: rgba($color: #F7F7F7, $alpha: 0.9) !important;
+                /* vertically center */
+                transform: translateY(-50%);
+              }
+              
+            
+             
+            .carousel-cell {
+                width: 500px !important;
+            margin-top: 20px !important;
+       
+    padding-left: 20px;}
+            .flickity-viewport {
+         
+                height: 650px !important;
+              }
+              .ourfans-box{
+                padding: 40px;
+              } 
+
+            }
+            .carousels1{ .carousel {
+              background: transparent !important ;
+            }
+            .carousel-cell {
+              width: 460px !important;
+          margin-top: 30px !important;
+     
+  padding-left: 20px;}
+          .flickity-viewport {
+       
+              height: 730px !important;
+            }
+
+            }
+           
+              .carousels2 {
+                .carousel-cell {
+                  width: 460px !important;
+              margin-top: 30px !important;
+         
+      padding-left: 20px;}
+              .flickity-viewport {
+           
+                  height: 730px !important;
+                }
+                background: transparent !important ;
+              }
+  
+              
+            
+            .carousels3{
+              .carousel-cell {
+                width: 460px !important;
+            margin-top: 30px !important;
+       
+    padding-left: 20px;}
+            .flickity-viewport {
+         
+                height: 730px !important;
+              }
+              .carousel {
+                background: transparent !important ;
+              }
+  
+              
+            }
+
 
 
  }
@@ -227,7 +328,114 @@ https://flickity.metafizzy.co
 }
 
 
-@media screen and (max-width: 1050px ) {}
+@media screen and (max-width: 1170px ) {
+
+  #c2-responsive{
+    display: block ;
+  }
+  #c1-responsive{
+    display: none;
+  }
+
+  .carousel-3-div{
+
+    .carousels0{
+     .flickity-prev-next-button {
+       top: 50%;
+       width: 50px;
+       height: 50px;
+       border-radius: 0 !important;
+       background-color: rgba($color: #F7F7F7, $alpha: 0.9) !important;
+       /* vertically center */
+       transform: translateY(-50%);
+     }
+     
+   
+    
+   .carousel-cell {
+     min-width: none !important;
+     max-width: none !important;
+   margin-top: 20px !important;
+
+   width: 526px !important ;
+ padding-left: 20px;}
+   // .flickity-viewport {
+ 
+      
+   //   }
+ 
+    }
+  }
+//   .carousel-3-div{
+
+//     #c2-responsive{
+//      .flickity-prev-next-button {
+//        top: 50%;
+//        width: 50px;
+//        height: 50px;
+//        border-radius: 0 !important;
+//        background-color: rgba($color: #F7F7F7, $alpha: 0.9) !important;
+//        /* vertically center */
+//        transform: translateY(-50%);
+//      }
+     
+   
+    
+//    .carousel-cell {
+    
+    
+//    margin-top: 20px !important;
+//    width: 526px !important ;
+ 
+//  padding-left: 20px;}
+//    // .flickity-viewport {
+ 
+      
+//    //   }
+ 
+//     }
+//   }
+
+}
 
 
-@media screen and (min-width: 1050px ) {}
+@media screen and (min-width: 1170px ) {
+  
+  #c2-responsive{
+    display: none ;
+  }
+  #c1-responsive{
+    display: block ;
+  }
+
+  .carousel-3-div{
+
+    .carousels0{
+     .flickity-prev-next-button {
+       top: 50%;
+       width: 50px;
+       height: 50px;
+       border-radius: 0 !important;
+       background-color: rgba($color: #F7F7F7, $alpha: 0.9) !important;
+       /* vertically center */
+       transform: translateY(-50%);
+     }
+     
+   
+    
+   .carousel-cell {
+     min-width: 150px !important;
+     max-width: 100% !important;
+   margin-top: 20px !important;
+   width: auto !important;
+ 
+ padding-left: 20px;}
+   // .flickity-viewport {
+ 
+      
+   //   }
+ 
+    }
+  }
+
+}

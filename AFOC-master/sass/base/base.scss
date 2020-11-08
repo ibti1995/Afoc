@@ -175,8 +175,14 @@ a {
 .font-12{
   font-size: 12px;
 }
+.font-14{
+  font-size: 14px;
+}
 .font-17{
   font-size: 17px;
+}
+.font-16{
+  font-size: 16px;
 }
 .font-20{
   font-size: 20px;
@@ -193,7 +199,7 @@ a {
 .font-60{
   font-size: 60px;
 }
-font-32{
+.font-32{
   font-size: 32px;
 }
 
@@ -273,4 +279,31 @@ background-color: white;
 }
 .margin-right-50{
   margin-right: 50px;
+}
+.margin-right-25{
+  margin-right: 25px;
+}
+.margin-left-35{
+  margin-left: 35px;;
+}
+.margin-buttom-25{
+  margin-bottom: 25px;
+
+}
+.margin-25{
+  margin: 25px;
+}
+.btn-needs{
+width: -webkit-fill-available;
+/* text-decoration: none; */
+border: none;
+padding: 10px;}
+.bg-trans{
+  background-color: transparent !important;
+}
+.radius-5{
+  border-radius: 5px;
+}
+.spacing-20{
+  letter-spacing: 20px;
 }
