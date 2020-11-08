@@ -24,3 +24,16 @@ function showSlides5(n5) {
   slides5[slide5Index-1].style.display = "block";
   
 }
+document.getElementById("slide-hall").addEventListener("click", function() {
+  clearInterval(slideIntervalhall);
+   slideIntervalhall = setInterval(changehall,3000);
+      
+      });
+
+var slideIntervalhall = setInterval(changehall,3000);
+
+
+    function changehall() {
+       plusSlides5(1);
+        
+    }

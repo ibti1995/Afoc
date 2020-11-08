@@ -115,7 +115,7 @@
             </a>
           </div>
         </div>
-        <div class="img-responsive-restaurant">
+        <div class="img-responsive-restaurant" id="slide1dinning">
           <div class="slideshow-container5">
             <div class="mySlides1 fade">
               <img width="100%" src="assets/dinning/restau1.png" />
@@ -158,7 +158,7 @@
             <a href="catering.html"><button class="poppins-M font-15 gold dining-white-btn">VIEW MENU</button></a>
           </div>
         </div>
-        <div class="img-responsive-restaurant2">
+        <div class="img-responsive-restaurant2" id="slide2dinning">
           <div class="slideshow-container5">
             <div class="mySlides2 fade">
               <img width="100%" src="assets/dinning/restaut2.png" />
@@ -213,7 +213,7 @@
             </a>
           </div>
         </div>
-        <div class="img-responsive-restaurant">
+        <div class="img-responsive-restaurant" id="slide3dinning">
           <div class="slideshow-container5">
             <div class="mySlides3 fade">
               <img width="100%" src="assets/dinning/restau3.png" />
@@ -627,7 +627,50 @@
       } else {
         x.style.display = "block";
       }
-    } </script>
+    } 
+    
+    document.getElementById("slide1dinning").addEventListener("click", function() {
+  clearInterval(slideIntervalslide1dinning);
+   slideIntervalslide1dinning = setInterval(changeslide1dinning,3000);
+      
+      });
+
+var slideIntervalslide1dinning = setInterval(changeslide1dinning,3000);
+
+
+    function changeslide1dinning() {
+       plusSlides(1,0);
+        
+    }
+
+    //slides auto play
+    document.getElementById("slide2dinning").addEventListener("click", function() {
+      clearInterval(slideIntervalslide2dinning);
+       slideIntervalslide2dinning = setInterval(changeslide2dinning,3000);
+          
+          });
+    
+    var slideIntervalslide2dinning = setInterval(changeslide2dinning,3000);
+    
+    
+        function changeslide2dinning() {
+           plusSlides(1,1);
+            
+        }
+        document.getElementById("slide3dinning").addEventListener("click", function() {
+          clearInterval(slideIntervalslide3dinning);
+           slideIntervalslide3dinning = setInterval(changeslide3dinning,3000);
+              
+              });
+        
+        var slideIntervalslide3dinning = setInterval(changeslide3dinning,3000);
+        
+        
+            function changeslide3dinning() {
+               plusSlides(1,2);
+                
+            }
+</script>
 </body>
 
 </html>

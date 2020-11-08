@@ -774,7 +774,7 @@
                                   </div>
 
                                 </div>
-                                <div class="activities-img">
+                                <div class="activities-img" id="slide1rooms">
                                     <div class="slideshow-container6">
 
                                         <div class="slides1 fade">
@@ -867,7 +867,7 @@
                                     </div>
 
                                 </div>
-                                <div class="activities-img">
+                                <div class="activities-img" id="slide2rooms">
                                     <div class="slideshow-container6">
 
                                         <div class="slides2 fade">
@@ -959,7 +959,7 @@
                                     </div>
 
                                 </div>
-                                <div class="activities-img">
+                                <div class="activities-img" id="slide3rooms">
                                     <div class="slideshow-container6">
 
                                         <div class="slides3 fade">
@@ -1050,7 +1050,7 @@
                                     </div>
 
                                 </div>
-                                <div class="activities-img">
+                                <div class="activities-img" id="slide4rooms">
                                     <div class="slideshow-container6">
 
                                         <div class="slides4 fade">
@@ -1141,7 +1141,7 @@
                                     </div>
 
                                 </div>
-                                <div class="activities-img">
+                                <div class="activities-img" id="slide5rooms">
                                     <div class="slideshow-container6">
 
                                         <div class="slides5 fade">
@@ -1232,7 +1232,7 @@
                                     </div>
 
                                 </div>
-                                <div class="activities-img">
+                                <div class="activities-img" id="slide6rooms">
                                     <div class="slideshow-container6">
 
                                         <div class="slides6 fade">
@@ -1536,7 +1536,7 @@
             </footer>
 
 
-    <script src="js/ourfans.js"></script>
+    <!-- <script src="js/ourfans.js"></script> -->
 
     <script src="js/services.js"></script>
     <script src="js/slidehomepage.js"></script>
@@ -1551,6 +1551,87 @@
                 x.style.display = "block";
             }
         } </script>
+
+<script>
+    document.getElementById("slide1rooms").addEventListener("click", function() {
+  clearInterval(slideIntervalslide1rooms);
+   slideIntervalslide1rooms = setInterval(changeslide1rooms,3000);
+      
+      });
+  
+  var slideIntervalslide1rooms = setInterval(changeslide1rooms,3000);
+  
+  
+    function changeslide1rooms() {
+       plusSlides6(1,0);
+        
+    }
+    document.getElementById("slide2rooms").addEventListener("click", function() {
+      clearInterval(slideIntervalslide2rooms);
+       slideIntervalslide2rooms = setInterval(changeslide2rooms,3000);
+          
+          });
+    
+    var slideIntervalslide2rooms = setInterval(changeslide2rooms,3000);
+    
+    
+        function changeslide2rooms() {
+           plusSlides6(1,1);
+            
+        }
+        document.getElementById("slide3rooms").addEventListener("click", function() {
+          clearInterval(slideIntervalslide3rooms);
+           slideIntervalslide3rooms = setInterval(changeslide3rooms,3000);
+              
+              });
+        
+        var slideIntervalslide3rooms = setInterval(changeslide3rooms,3000);
+        
+        
+            function changeslide3rooms() {
+               plusSlides6(1,2);
+                
+            }
+            document.getElementById("slide4rooms").addEventListener("click", function() {
+          clearInterval(slideIntervalslide4rooms);
+           slideIntervalslide4rooms = setInterval(changeslide4rooms,3000);
+              
+              });
+        
+        var slideIntervalslide4rooms = setInterval(changeslide4rooms,3000);
+        
+        
+            function changeslide4rooms() {
+               plusSlides6(1,3);
+                
+            }
+            document.getElementById("slide5rooms").addEventListener("click", function() {
+          clearInterval(slideIntervalslide5rooms);
+           slideIntervalslide5rooms = setInterval(changeslide5rooms,3000);
+              
+              });
+        
+        var slideIntervalslide5rooms = setInterval(changeslide5rooms,3000);
+        
+        
+            function changeslide5rooms() {
+               plusSlides6(1,4);
+                
+            }
+            document.getElementById("slide6rooms").addEventListener("click", function() {
+          clearInterval(slideIntervalslide6rooms);
+           slideIntervalslide6rooms = setInterval(changeslide6rooms,3000);
+              
+              });
+        
+        var slideIntervalslide6rooms = setInterval(changeslide6rooms,3000);
+        
+        
+            function changeslide6rooms() {
+               plusSlides6(1,5);
+                
+            }
+  </script>  
 
 </body>
 

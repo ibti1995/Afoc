@@ -181,7 +181,7 @@
             </div>
 
           </div>
-            <div class="activities-img">
+            <div class="activities-img " id="slide1activitie">
               <div class="slideshow-container6">
 
                 <div class="slides1 fade">
@@ -258,7 +258,7 @@
             </div>
 
           </div>
-          <div class="activities-img">
+          <div class="activities-img" id="slide2activitie"> 
             <div class="slideshow-container6">
 
               <div class="slides2 fade">
@@ -335,7 +335,7 @@
             </div>
 
           </div>
-          <div class="activities-img">
+          <div class="activities-img" id="slide3activitie">
             <div class="slideshow-container6">
 
               <div class="slides3 fade">
@@ -413,7 +413,7 @@
             </div>
 
           </div>
-          <div class="activities-img">
+          <div class="activities-img" id="slide4activitie">
             <div class="slideshow-container6">
 
               <div class="slides4 fade">
@@ -490,7 +490,7 @@
             </div>
 
           </div>
-          <div class="activities-img">
+          <div class="activities-img" id="slide5activitie">
             <div class="slideshow-container6">
 
               <div class="slides5 fade">
@@ -568,7 +568,7 @@
             </div>
 
           </div>
-          <div class="activities-img">
+          <div class="activities-img" id="slide6activitie">
             <div class="slideshow-container6">
 
               <div class="slides6 fade">
@@ -1089,6 +1089,87 @@
         x.style.display = "block";
       }
     } </script>
+
+<script>
+  document.getElementById("slide1activitie").addEventListener("click", function() {
+clearInterval(slideIntervalslide1activitie);
+ slideIntervalslide1activitie = setInterval(changeslide1activitie,3000);
+    
+    });
+
+var slideIntervalslide1activitie = setInterval(changeslide1activitie,3000);
+
+
+  function changeslide1activitie() {
+     plusSlides6(1,0);
+      
+  }
+  document.getElementById("slide2activitie").addEventListener("click", function() {
+    clearInterval(slideIntervalslide2activitie);
+     slideIntervalslide2activitie = setInterval(changeslide2activitie,3000);
+        
+        });
+  
+  var slideIntervalslide2activitie = setInterval(changeslide2activitie,3000);
+  
+  
+      function changeslide2activitie() {
+         plusSlides6(1,1);
+          
+      }
+      document.getElementById("slide3activitie").addEventListener("click", function() {
+        clearInterval(slideIntervalslide3activitie);
+         slideIntervalslide3activitie = setInterval(changeslide3activitie,3000);
+            
+            });
+      
+      var slideIntervalslide3activitie = setInterval(changeslide3activitie,3000);
+      
+      
+          function changeslide3activitie() {
+             plusSlides6(1,2);
+              
+          }
+          document.getElementById("slide4activitie").addEventListener("click", function() {
+        clearInterval(slideIntervalslide4activitie);
+         slideIntervalslide4activitie = setInterval(changeslide4activitie,3000);
+            
+            });
+      
+      var slideIntervalslide4activitie = setInterval(changeslide4activitie,3000);
+      
+      
+          function changeslide4activitie() {
+             plusSlides6(1,3);
+              
+          }
+          document.getElementById("slide5activitie").addEventListener("click", function() {
+        clearInterval(slideIntervalslide5activitie);
+         slideIntervalslide5activitie = setInterval(changeslide5activitie,3000);
+            
+            });
+      
+      var slideIntervalslide5activitie = setInterval(changeslide5activitie,3000);
+      
+      
+          function changeslide5activitie() {
+             plusSlides6(1,4);
+              
+          }
+          document.getElementById("slide6activitie").addEventListener("click", function() {
+        clearInterval(slideIntervalslide6activitie);
+         slideIntervalslide6activitie = setInterval(changeslide6activitie,3000);
+            
+            });
+      
+      var slideIntervalslide6activitie = setInterval(changeslide6activitie,3000);
+      
+      
+          function changeslide6activitie() {
+             plusSlides6(1,5);
+              
+          }
+</script>
 </body>
 
 </html>
