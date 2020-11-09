@@ -1,57 +1,88 @@
-
 .multi-white-btn {
-
   background-color: transparent;
   border-width: 0.5px;
   padding: 10px 30px 10px 30px;
-  border-color: #926D39 !important;
+  border-color: #926d39 !important;
   border-style: solid;
   text-decoration: none;
-
 }
-
-.carousel-special-offers{
-  .special-offer-padding-box{
-    padding: 40px ;
+.icons-width {
+  font-size: 2em;
+  margin-top: 25px;
+}
+.carousel-special-offers {
+  .special-offer-padding-box {
+    padding: 40px;
   }
-  .special-offer-title{
+  .special-offer-title {
     margin-bottom: 10px;
     font-size: 20px;
   }
-  .special-offer-img{
+  .special-offer-img {
     border-radius: 5px;
-
   }
-  .special-offer-txt{
+  .special-offer-txt {
     margin: 0;
-opacity: 50%;
- font-size: 15px;
+    opacity: 50%;
+    font-size: 15px;
   }
-  .special-offer-btn{
-  text-decoration: none;
-  margin-top: 15px;
-  border-radius: 5px;
-  font-family: poppins-semi-bold;
-  font-size: 20px;
-  background-color:  $primary-color;
-  border-radius: 5px;
-  color: white;
+  .special-offer-btn {
+    text-decoration: none;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-family: poppins-semi-bold;
+    font-size: 20px;
+    background-color: $primary-color;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 5px;
+    padding: 12px 0px;
+    text-align: center;
+    width: -webkit-fill-available;
+    border: none;
+  }
+
+
+}
+.rooms-items-margin {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.multirooms-parag {
   font-size: 15px;
-  letter-spacing: 5px;
-  padding: 12px 0px;
-  text-align: center;
-  width: -webkit-fill-available;
-  border: none;
-
-
+  line-height: 25px;
 }
-
+.flex-row-items {
+  display: flex;
+  flex-direction: row;
 }
-.multirooms-parag{
-  font-size:15px;
-line-height: 25px;
+.flex-row-items {
+  ul {
+    font-size: 15px;
+    line-height: 40px;
+    li {
+      list-style-image: url("assets/svg/single room/square.svg");
+    }
+  }
 }
-
+.rooms-img-margin {
+  margin-left: 50px;
+  margin-right: 30px;
+}
+.good-vibes-box {
+  flex-wrap: wrap;
+  margin-left: 4%;
+  align-items: space-between;
+}
+.rooms-slides-box {
+  margin-bottom: 50px;
+  padding-top: 50px;
+}
+.rooms-slides-pagar {
+  font-size: 15px;
+  line-height: 30px;
+}
 
 .multiRooms {
   background-image: url("assets/multiRooms/Groupe 2252.png");
@@ -163,6 +194,15 @@ line-height: 25px;
   }
 }
 @media screen and (max-width: 1050px) {
+  .flex-row-items {
+    ul {
+      font-size: 20px;
+      li {
+        list-style-image: url("assets/svg/single room/square.svg");
+      }
+    }
+  }
+
   .carraux {
     justify-content: space-between;
     width: 100%;
@@ -170,10 +210,9 @@ line-height: 25px;
     margin-top: 37px;
     margin-bottom: 10%;
   }
-
 }
-.multi-rooms-btn-slide{
-  a{
-    margin: 20px 3px ;
+.multi-rooms-btn-slide {
+  a {
+    margin: 20px 3px;
   }
 }
