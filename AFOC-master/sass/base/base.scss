@@ -206,6 +206,9 @@ a {
 .font-30{
   font-size: 30px !important;
 }
+.font-55{
+  font-size: 55px;
+}
 .font-59 {
   font-size: 59px !important;
 }
@@ -242,7 +245,15 @@ background-color: white;
 .padding-top-18{
   padding-top: 18px;
 }
-
+.line-h-100{
+  line-height: 100px;
+}
+.margin-bottom-50{
+  margin-bottom: 80px;
+}
+.margin-bottom-10{
+  margin-bottom: 10px;
+}
 /*********************get in touch component*************************/
 
 
@@ -310,8 +321,15 @@ background-color: white;
   margin-bottom: 25px;
 
 }
+.flex-basis-40{
+  flex-basis: 40%;
+}
 .margin-25{
   margin: 25px;
+}
+.margin-top-105{
+  margin-top: 105px;
+
 }
 .btn-needs{
 width: -webkit-fill-available !important;
@@ -326,4 +344,18 @@ padding: 10px;}
 }
 .spacing-20{
   letter-spacing: 20px;
+}
+
+
+.width25{
+  width: 25%;
+}
+.width23{
+  width: 23%;
+}
+.width30{
+  width: 30%;
+}
+.width22{
+  width: 22%;
 }
