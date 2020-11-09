@@ -2241,6 +2241,11 @@ dialog {
     z-index: 50;
   }
 }
+.width20 {
+  height: 259px;
+  width: 500px;
+}
+
 @media screen and (max-width: 1760px) {
   .display-inputs2 {
     display: flex;
