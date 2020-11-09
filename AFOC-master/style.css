@@ -671,7 +671,7 @@ a {
 }
 
 .margin-bottom-50 {
-  margin-bottom: 80px;
+  margin-bottom: 50px;
 }
 
 .margin-bottom-10 {
@@ -808,6 +808,18 @@ a {
 
 .width22 {
   width: 22%;
+}
+
+.margin-top-50 {
+  margin-top: 50px !important;
+}
+
+.felx-basis-60 {
+  flex-basis: 60%;
+}
+
+.padding-2v {
+  padding: 2vh;
 }
 
 h1 {
@@ -1846,7 +1858,8 @@ dialog {
 }
 
 /* Next & previous buttons */
-.prev4, .next4 {
+.prev4,
+.next4 {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -1868,7 +1881,8 @@ dialog {
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev4:hover, .next4:hover {
+.prev4:hover,
+.next4:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
@@ -1898,12 +1912,13 @@ dialog {
   margin: 0 2px;
 }
 .dot4 svg {
-  fill: #B2B4B2 !important;
+  fill: #b2b4b2 !important;
   width: 10px;
   height: 10px;
 }
 
-.active4 svg, .dot4:hover svg {
+.active4 svg,
+.dot4:hover svg {
   fill: #926d39 !important;
   width: 20px;
   height: 20px;
@@ -1954,7 +1969,8 @@ dialog {
 }
 
 /* Next & previous buttons */
-.prev5, .next5 {
+.prev5,
+.next5 {
   cursor: pointer;
   position: absolute;
   bottom: 0;
@@ -1984,8 +2000,73 @@ dialog {
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev5:hover, .next5:hover {
+.prev5:hover,
+.next5:hover {
   background-color: rgba(0, 0, 0, 0.8);
+}
+
+.wedd-sec2 {
+  flex-basis: 40%;
+  margin-top: 0px !important;
+  background-color: white;
+  margin-right: -50px;
+  z-index: 10;
+  padding: 103px 80px 100px 87px;
+}
+.wedd-sec2 .wedd-title-box {
+  font-size: 50px;
+  line-height: 30px;
+  color: black;
+}
+.wedd-sec2 .wedd-box {
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.wedd-items {
+  padding-right: 3% !important;
+  padding-left: 3%;
+}
+.wedd-items ul {
+  font-size: 19px;
+  line-height: 50px;
+}
+.wedd-items ul li {
+  list-style-image: url("assets/svg/single room/square.svg");
+}
+
+.img-items {
+  width: 100%;
+  max-height: 698;
+}
+
+.wedd-right-img {
+  flex-basis: 40%;
+  align-self: center;
+}
+
+.wedd-slide-title {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #926D39 !important;
+}
+
+.wedd-slide-img {
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.wedd-padding {
+  padding-right: 3% !important;
+  padding-left: 3%;
+}
+
+.wedd-parag {
+  font-size: 19px;
+  margin-top: 20px;
+  line-height: 25px !important;
+  width: 90%;
 }
 
 .offers {
@@ -5051,6 +5132,29 @@ body {
   margin-right: 50px;
   margin-left: 50px;
   justify-content: space-around;
+}
+
+.wedd-offer-btn {
+  margin-top: 20px;
+  font-size: 16px;
+  background-color: #926D39 !important;
+  letter-spacing: 6px;
+  padding: 5px 100px 5px 100px;
+  border-color: #926D39 !important;
+  border-style: solid;
+  text-decoration: none;
+  color: white !important;
+  border-radius: 5px;
+}
+
+.wedd-white-btn {
+  margin-top: 29px;
+  background-color: transparent;
+  padding: 13px 60px 13px 60px;
+  border-color: #926D39 !important;
+  border-style: solid;
+  text-decoration: none;
+  color: #926D39 !important;
 }
 
 .carousel-one-in-the-midle .text-hidden {

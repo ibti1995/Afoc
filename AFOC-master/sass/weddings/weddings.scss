@@ -1,72 +1,65 @@
-
-@media screen and (max-width: 1050px){
-  .responsive-box-wedding{
+@media screen and (max-width: 1050px) {
+  .responsive-box-wedding {
     margin-right: 3% !important;
   }
 }
 
 .weddings-text-title {
-
-font-size: 19px  !important;
-line-height: 40px  !important;
-text-align: left !important;
-margin: 0px 10% 0px 10%;
-
+  font-size: 19px !important;
+  line-height: 40px !important;
+  text-align: left !important;
+  margin: 0px 10% 0px 10%;
 }
 .wedding-section {
-    margin-left: 152px;
-    margin-right: 152px;
+  margin-left: 152px;
+  margin-right: 152px;
 }
-.wedding-getintouch{
-    margin-right: 280px !important;
-    margin-left: 290px !important;
+.wedding-getintouch {
+  margin-right: 280px !important;
+  margin-left: 290px !important;
 }
 .weddings {
-        background-image: url("assets/weddings/Composant 1 – 1.png");
+  background-image: url("assets/weddings/Composant 1 – 1.png");
 }
-.wedd-ballroom-img{
+.wedd-ballroom-img {
   flex-basis: 30%;
   order: 2;
 }
 .wedd-box-ballroom {
-
-
   margin-top: 56px;
   margin-left: 3%;
 
   order: 1;
   align-items: center;
-   margin-right: 0px !important;
+  margin-right: 0px !important;
 }
-.wedd-exclusive{
+.wedd-exclusive {
   margin-top: 80px;
 }
-.wedd-box-brital{
+.wedd-box-brital {
   padding-bottom: 8%;
-    padding-left: 8%;
-    padding-right: 60px;
-    line-height: 30px;
-    margin-top: 67px;
-
-
+  padding-left: 8%;
+  padding-right: 60px;
+  line-height: 30px;
+  margin-top: 67px;
 }
-.wedd-list-elem-icon
-{width: 20px;
-float: left;
-margin: 4px 7% 0px 0px;}
+.wedd-list-elem-icon {
+  width: 20px;
+  float: left;
+  margin: 4px 7% 0px 0px;
+}
 
-.getoffre-btn{
-  background-color:  $primary-color;
+.getoffre-btn {
+  background-color: $primary-color;
   border-radius: 5px;
   color: white;
   font-size: 15px;
   letter-spacing: 5px;
-
 }
 .packages {
   height: 700px !important;
-  background-color: transparent!important;
-  .flickity-slider{
+  background-color: transparent !important;
+  .flickity-slider {
     margin-left: -524px;
   }
   button {
@@ -75,17 +68,16 @@ margin: 4px 7% 0px 0px;}
 }
 .gallery {
   height: 580px;
-  background-color: transparent!important;
-  .flickity-slider{
+  background-color: transparent !important;
+  .flickity-slider {
     margin-left: -400px;
   }
-
 }
-.boxShadow{
+.boxShadow {
   // // 	-webkit-box-shadow: -2px 10px 30px 0px rgba(0,0,0,0.05);
   // // -moz-box-shadow: -2px 10px 30px 0px rgba(0,0,0,0.05);
-   box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.08);
-  }
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.08);
+}
 
 // slide
 * {
@@ -115,7 +107,7 @@ margin: 4px 7% 0px 0px;}
   top: 34%;
   width: 40px;
 
- padding: 10px;
+  padding: 10px;
   color: $primary-color;
   font-weight: bold;
   font-size: 40px;
@@ -128,17 +120,14 @@ margin: 4px 7% 0px 0px;}
 /* Position the "next button" to the right */
 .next3 {
   right: 10px;
-
 }
 .prev3 {
   left: 10px;
-
 }
 
 /* On hover, add a black background color with a little bit see-through */
 .prev3:hover,
 .next3:hover {
-
   opacity: 1;
 }
 
@@ -185,9 +174,8 @@ margin: 4px 7% 0px 0px;}
 // exclusive service slide
 /* Slideshow container */
 .slideshow-container4 {
-
   position: relative;
-  margin: 0px 3%px 0px 4%px ;
+  margin: 0px 3%px 0px 4%px;
 }
 
 /* Hide the images by default */
@@ -197,7 +185,8 @@ margin: 4px 7% 0px 0px;}
 }
 
 /* Next & previous buttons */
-.prev4, .next4 {
+.prev4,
+.next4 {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -219,8 +208,9 @@ margin: 4px 7% 0px 0px;}
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev4:hover, .next4:hover {
-  background-color: rgba(0,0,0,0.8);
+.prev4:hover,
+.next4:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Caption text */
@@ -257,23 +247,25 @@ margin: 4px 7% 0px 0px;}
 .dot4 {
   cursor: pointer;
   margin: 0 2px;
-  svg{fill: #B2B4B2 !important;
-    width :10px;
-    height: 10px;}
-
+  svg {
+    fill: #b2b4b2 !important;
+    width: 10px;
+    height: 10px;
+  }
 }
-.active4, .dot4:hover {
-  svg{
-  fill:#926d39 !important;
-  width :20px;
-height: 20px;}
+.active4,
+.dot4:hover {
+  svg {
+    fill: #926d39 !important;
+    width: 20px;
+    height: 20px;
+  }
 }
 .item-service {
   height: 698px;
-  margin:66px 80px 0px 80px;
+  margin: 66px 80px 0px 80px;
   border-radius: 15px;
- }
-
+}
 
 /* Fading animation */
 .fade4 {
@@ -284,22 +276,29 @@ height: 20px;}
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
-* {box-sizing:border-box}
-
+* {
+  box-sizing: border-box;
+}
 
 //************ wedding hall
 .slideshow-container5 {
-
   position: relative;
-
 }
 
 /* Hide the images by default */
@@ -309,15 +308,17 @@ height: 20px;}
 }
 
 /* Next & previous buttons */
-.prev5, .next5 {
+.prev5,
+.next5 {
   cursor: pointer;
   position: absolute;
   bottom: 0;
-  width: auto;height: 50px;
+  width: auto;
+  height: 50px;
   padding-left: 16px;
   padding-right: 16px;
   color: $primary-color;
-  background-color:rgba(255, 255, 255, 0.59);
+  background-color: rgba(255, 255, 255, 0.59);
   font-weight: bold;
   font-size: 32px;
   transition: 0.6s ease;
@@ -337,6 +338,63 @@ height: 20px;}
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev5:hover, .next5:hover {
-  background-color: rgba(0,0,0,0.8);
+.prev5:hover,
+.next5:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.wedd-sec2 {
+  flex-basis: 40%;
+  margin-top: 0px !important ;
+  background-color: white;
+  margin-right: -50px;
+  z-index: 10;
+  padding: 103px 80px 100px 87px;
+  .wedd-title-box {
+    font-size: 50px;
+    line-height: 30px;
+    color: black;
+  }
+  .wedd-box {
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+.wedd-items {
+  padding-right: 3% !important;
+  padding-left: 3%;
+  ul {
+    font-size: 19px;
+    line-height: 50px;
+    li {
+      list-style-image: url("assets/svg/single room/square.svg");
+    }
+  }
+}
+.img-items {
+  width: 100%;
+  max-height: 698;
+}
+.wedd-right-img {
+  flex-basis: 40%;
+  align-self: center;
+}
+.wedd-slide-title{
+  font-size: 32px; margin-bottom: 30px;
+  color: $primary-color;
+}
+.wedd-slide-img{
+  border-radius: 5px; margin-bottom: 30px;
+
+}
+.wedd-padding{
+  padding-right: 3% !important; padding-left: 3%;
+}
+.wedd-parag{
+font-size: 19px;
+margin-top: 20px;
+line-height: 25px !important;
+width: 90%;
+
+
 }
