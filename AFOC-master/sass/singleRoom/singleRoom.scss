@@ -19,9 +19,30 @@
   flex-direction: column;
 }
 
+.know-more-a{
+  font-family: poppins;
+  font-size: 15px;
+color: $primary-color;
+align-self: center;
+text-decoration: underline;
+}
+.know-more-a2{
+  font-family: poppins;
+  font-size: 15px;
+color: $primary-color;
+align-self: flex-end;
+text-decoration: underline;
+}
 .good-vibes {
   margin-left: -15px;
+  line-height: 50px;
+
 }
+.vibes-item{
+  margin-right: 5%;
+  width: 370px;
+}
+
 .menu-margin{
   margin-bottom: 70px;
   margin-top: 70px;

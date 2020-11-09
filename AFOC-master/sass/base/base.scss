@@ -14,6 +14,9 @@
 .balck-gray{
   color: #25282A;
 }
+button {
+  cursor: pointer;
+}
 .flex1{
   flex: 1;
 }
@@ -167,40 +170,40 @@ a {
   line-height: 50px;
 }
 .font-19 {
-  font-size: 19px;
+  font-size: 19px !important;
 }
 .font-20{
-  font-size: 20px;
+  font-size: 20px !important;
 }
 .font-12{
-  font-size: 12px;
+  font-size: 12px !important;
 }
 .font-14{
-  font-size: 14px;
+  font-size: 14px !important;
 }
 .font-17{
-  font-size: 17px;
+  font-size: 17px !important;
 }
 .font-16{
-  font-size: 16px;
+  font-size: 16px !important;
 }
 .font-20{
-  font-size: 20px;
+  font-size: 20px !important;
 }
 .font-28{
-  font-size: 28px;
+  font-size: 28px !important;
 }
 .font-30{
-  font-size: 30px;
+  font-size: 30px !important;
 }
 .font-59 {
-  font-size: 59px;
+  font-size: 59px !important;
 }
 .font-60{
-  font-size: 60px;
+  font-size: 60px !important;
 }
 .font-32{
-  font-size: 32px;
+  font-size: 32px !important;
 }
 
 .padding-top-18 {
@@ -294,7 +297,7 @@ background-color: white;
   margin: 25px;
 }
 .btn-needs{
-width: -webkit-fill-available;
+width: -webkit-fill-available !important;
 /* text-decoration: none; */
 border: none;
 padding: 10px;}

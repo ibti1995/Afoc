@@ -33,8 +33,16 @@ body {
   height: 100%;
 
 }
+  .item-service{
+    p{
+      line-height: 40px;
+    }
+  }
 .catering {
   background-image: url("assets/Groupe 2252.png");
+}
+.our-service-btn{
+  padding: 17px 60px !important;
 }
 
 // #boxShadow{
@@ -204,7 +212,7 @@ dialog {
   }
   .slideshow-container4 {
     position: relative;
-    margin: 0px 0px 0px 80px;
+    margin: 0px 8% 0px 8%;
   }
   /* Hide the images by default */
   .mySlides4 {
@@ -269,9 +277,9 @@ dialog {
     margin: 0px 2% 0px 2%;
   }
   .mySlides4 {
-    .flex-row {
+    .item-service {
       display: flex;
-      flex-direction: column;
+      flex-direction: column !important;
     }
   }
   .slide1 {
@@ -303,18 +311,12 @@ dialog {
       font-weight: bold;
       font-size: 18px;
       transition: 0.6s ease;
-      border-radius: 0 3px 3px 0;
+      border-radius: 3px;
       user-select: none;
 
     }
-  .prev4{
-    margin-left: 80px;
-  }
-    /* Position the "next button" to the right */
-    .next4 {
-      right: 10%;
-      border-radius: 3px 0 0 3px;
-    }
+ /* Position the "next button" to the right */
+    
   }
   .catering-getintouch {
     margin-left: 90px;

@@ -27,6 +27,15 @@
   font-family: poppins-semi-bold;
   src: url(assets/font/Poppins/Poppins-SemiBold.ttf);
 }
+@media screen and (max-width: 1250px) {
+  .logo-header {
+    display: none !important;
+  }
+
+  .menu-home-container {
+    margin-left: auto;
+  }
+}
 @media screen and (max-width: 1050px) {
   .topnav {
     background-color: #ffffff;
@@ -99,7 +108,7 @@
     align-self: flex-start;
     order: 5;
     height: auto;
-    width: 7%;
+    width: 148px;
     margin-top: 60px;
     margin-left: auto;
     margin-right: 0px;
@@ -119,7 +128,7 @@
     font-size: 17px;
     color: #926D39;
     margin-left: 3%;
-    margin-top: 83px;
+    margin-top: 98px;
   }
 
   .item-select-language-index {
@@ -133,7 +142,6 @@
     align-items: flex-end;
     justify-content: flex-end;
     color: #25282A;
-    width: 819px;
     font-size: 17px;
   }
 
@@ -357,6 +365,10 @@ footer div {
   color: #25282A;
 }
 
+button {
+  cursor: pointer;
+}
+
 .flex1 {
   flex: 1;
 }
@@ -533,51 +545,51 @@ a {
 }
 
 .font-19 {
-  font-size: 19px;
+  font-size: 19px !important;
 }
 
 .font-20 {
-  font-size: 20px;
+  font-size: 20px !important;
 }
 
 .font-12 {
-  font-size: 12px;
+  font-size: 12px !important;
 }
 
 .font-14 {
-  font-size: 14px;
+  font-size: 14px !important;
 }
 
 .font-17 {
-  font-size: 17px;
+  font-size: 17px !important;
 }
 
 .font-16 {
-  font-size: 16px;
+  font-size: 16px !important;
 }
 
 .font-20 {
-  font-size: 20px;
+  font-size: 20px !important;
 }
 
 .font-28 {
-  font-size: 28px;
+  font-size: 28px !important;
 }
 
 .font-30 {
-  font-size: 30px;
+  font-size: 30px !important;
 }
 
 .font-59 {
-  font-size: 59px;
+  font-size: 59px !important;
 }
 
 .font-60 {
-  font-size: 60px;
+  font-size: 60px !important;
 }
 
 .font-32 {
-  font-size: 32px;
+  font-size: 32px !important;
 }
 
 .padding-top-18 {
@@ -694,7 +706,7 @@ a {
 }
 
 .btn-needs {
-  width: -webkit-fill-available;
+  width: -webkit-fill-available !important;
   /* text-decoration: none; */
   border: none;
   padding: 10px;
@@ -748,8 +760,16 @@ body {
   height: 100%;
 }
 
+.item-service p {
+  line-height: 40px;
+}
+
 .catering {
   background-image: url("assets/Groupe 2252.png");
+}
+
+.our-service-btn {
+  padding: 17px 60px !important;
 }
 
 .box {
@@ -917,7 +937,7 @@ dialog {
 }
 .slide1 .slideshow-container4 {
   position: relative;
-  margin: 0px 0px 0px 80px;
+  margin: 0px 8% 0px 8%;
 }
 .slide1 .mySlides4 {
   display: none;
@@ -987,9 +1007,9 @@ dialog {
     margin: 0px 2% 0px 2%;
   }
 
-  .mySlides4 .flex-row {
+  .mySlides4 .item-service {
     display: flex;
-    flex-direction: column;
+    flex-direction: column !important;
   }
 
   .slide1 {
@@ -1020,15 +1040,8 @@ dialog {
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
+    border-radius: 3px;
     user-select: none;
-  }
-  .slide1 .prev4 {
-    margin-left: 80px;
-  }
-  .slide1 .next4 {
-    right: 10%;
-    border-radius: 3px 0 0 3px;
   }
 
   .catering-getintouch {
@@ -1606,8 +1619,8 @@ dialog {
 }
 
 .wedd-box-brital {
-  padding-bottom: 79px;
-  padding-left: 78px;
+  padding-bottom: 8%;
+  padding-left: 8%;
   padding-right: 60px;
   line-height: 30px;
   margin-top: 67px;
@@ -2082,8 +2095,30 @@ dialog {
   flex-direction: column;
 }
 
+.know-more-a {
+  font-family: poppins;
+  font-size: 15px;
+  color: #926D39 !important;
+  align-self: center;
+  text-decoration: underline;
+}
+
+.know-more-a2 {
+  font-family: poppins;
+  font-size: 15px;
+  color: #926D39 !important;
+  align-self: flex-end;
+  text-decoration: underline;
+}
+
 .good-vibes {
   margin-left: -15px;
+  line-height: 50px;
+}
+
+.vibes-item {
+  margin-right: 5%;
+  width: 370px;
 }
 
 .menu-margin {
@@ -3016,12 +3051,13 @@ dialog {
 }
 
 .activities1-box-title {
+  margin-right: 0 !important;
   padding-bottom: 79px;
-  padding-left: 78px;
+  padding-left: 5%;
   line-height: 30px;
   margin-top: 50px;
   width: 50%;
-  padding-right: 62px;
+  padding-right: 6%;
   margin-right: -90px;
   z-index: 400;
   background-color: white;
@@ -4144,6 +4180,8 @@ body {
   letter-spacing: 5px;
   padding: 12px 0px;
   text-align: center;
+  width: -webkit-fill-available;
+  border: none;
 }
 
 .multirooms-parag {
@@ -4362,7 +4400,6 @@ body {
 }
 
 .dining-right-parag {
-  margin-left: 152px;
   margin-bottom: 40px;
   color: #707070;
 }
