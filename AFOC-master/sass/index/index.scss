@@ -1,3 +1,27 @@
+.index-form {
+  justify-content: space-between;
+  height: 100%;
+  .title {
+    background-image: url("assets/homepage/Groupe 430.png") !important;
+    text-align: center;
+    font-weight: bold;
+    height: 68px;
+    padding-top: 12px;
+  }
+  .period {
+    justify-content: space-around;
+    margin: 0px 14px 0px 43px;
+    .inputs {
+      background-color: #787878;
+      width: 250px;
+      height: 50px;
+    }
+  }
+  .persons {
+    justify-content: space-around;
+    margin: 0px 14px 0px 43px;
+  }
+}
 .home-box-style {
   margin-top: 82px;
   margin-right: 100px;
@@ -44,37 +68,48 @@
   margin-top: 60px;
   line-height: 43px;
 }
-.home-gath-sec{
-  justify-content: space-between; margin-bottom: 50px;
-  .sub-sec{
-    flex-basis: 50%; align-self: center;
+.home-gath-sec {
+  justify-content: space-between;
+  margin-bottom: 50px;
+  .sub-sec {
+    flex-basis: 50%;
+    align-self: center;
   }
-  .basis-48{
+  .basis-48 {
     flex-basis: 48%;
-    .sec-margin{
-      margin-bottom:42.9px; margin-top: 57px; margin-right: 90px;
+    .sec-margin {
+      margin-bottom: 42.9px;
+      margin-top: 57px;
+      margin-right: 90px;
     }
   }
 }
-.home-celebrate-margin{
-  margin-left: 3%; justify-content: space-between;
-  .sub-title{
-    margin-bottom:42.9px; margin-left: 10px;
+.home-celebrate-margin {
+  margin-left: 3%;
+  justify-content: space-between;
+  .sub-title {
+    margin-bottom: 42.9px;
+    margin-left: 10px;
   }
-  .parag{
-    margin-right: 77px; margin-left: 10px;
+  .parag {
+    margin-right: 77px;
+    margin-left: 10px;
   }
-  .right-img{
-    flex-basis: 54% ;align-self: center;
+  .right-img {
+    flex-basis: 54%;
+    align-self: center;
   }
 }
-.home-two-pic{
-  margin-bottom: 167px;margin-top: 92px; justify-content: space-between;
-  .pic1{
+.home-two-pic {
+  margin-bottom: 167px;
+  margin-top: 92px;
+  justify-content: space-between;
+  .pic1 {
     flex-basis: 42%;
   }
-  .pic2{
-    flex-basis: 50%; margin-right: 20px;
+  .pic2 {
+    flex-basis: 50%;
+    margin-right: 20px;
   }
 }
 .home-last-img {
@@ -111,7 +146,7 @@
   padding: 0px 100px 45px 90px;
 }
 
-.date-input{
+.date-input {
   background: transparent;
   color: white;
   border: none;
