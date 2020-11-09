@@ -33,13 +33,34 @@ opacity: 50%;
 
 
 }
-
+.flex-row{
+  .rooms-items{
+    .ul{
+     font-size: 15px; line-height: 40px;
+     li {
+      list-style-image: url("assets/svg/single room/square.svg");
+    }
+    }
+   }
+}
+.rooms-items-margin{
+  margin-left: 20px; margin-right: 20px;
+}
 }
 .multirooms-parag{
   font-size:15px;
 line-height: 25px;
 }
+.good-vibes-box{
+  flex-wrap: wrap; margin-left: 4%; align-items: space-between;
+}
+.rooms-slides-box{
+  margin-bottom: 50px; padding-top: 50px;
 
+}
+.rooms-slides-pagar{
+  font-size: 15px; line-height: 30px;
+}
 
 .multiRooms {
   background-image: url("assets/multiRooms/Groupe 2252.png");

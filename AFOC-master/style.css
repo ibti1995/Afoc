@@ -677,6 +677,10 @@ a {
   padding-top: 70px;
 }
 
+.padding-top-50 {
+  padding-top: 50px;
+}
+
 .margin-top-70 {
   margin-top: 70px;
 }
@@ -4183,10 +4187,37 @@ body {
   width: -webkit-fill-available;
   border: none;
 }
+.carousel-special-offers .flex-row .rooms-items .ul {
+  font-size: 15px;
+  line-height: 40px;
+}
+.carousel-special-offers .flex-row .rooms-items .ul li {
+  list-style-image: url("assets/svg/single room/square.svg");
+}
+.carousel-special-offers .rooms-items-margin {
+  margin-left: 20px;
+  margin-right: 20px;
+}
 
 .multirooms-parag {
   font-size: 15px;
   line-height: 25px;
+}
+
+.good-vibes-box {
+  flex-wrap: wrap;
+  margin-left: 4%;
+  align-items: space-between;
+}
+
+.rooms-slides-box {
+  margin-bottom: 50px;
+  padding-top: 50px;
+}
+
+.rooms-slides-pagar {
+  font-size: 15px;
+  line-height: 30px;
 }
 
 .multiRooms {
