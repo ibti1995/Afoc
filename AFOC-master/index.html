@@ -13,7 +13,7 @@
 
   <header class="home">
     <div class="topnav">
-      <a href="#home" class=""><img class="" src="assets/svg/Component 2 – 1.svg" /></a>
+      <a href="#home" class=""><img class="" src="assets/svg/Component21.svg" /></a>
       <!-- Navigation links (hidden by default) -->
       <div id="myLinks">
         <a href="index.html" class="gold decoration-none">Home </a>
@@ -76,31 +76,32 @@
     height: 68px;
     padding-top: 12px;"> BOOK YOUR STAY </span>
           <div class="flex-row " style="justify-content: space-around; margin: 0px 14px 0px 43px;">
-            <div class="poppins-L center font-12 white" style="background-color: #787878 ; width: 250px; height: 50px;">
-              ARRIVE
-              DATE</div>
-            <div class="poppins-L center font-12 white" style="background-color: #787878 ; width: 250px;height: 50px">
+            <div class="poppins-L center font-12 white flex-column" style="background-color: #787878 ; width: 250px; height: 50px;">
+              <span>ARRIVE DATE</span>
+              <input class="date-input"  placeholder="ARRIVE DATE" type="date" name="" id=""></div>
+            <div class="poppins-L center font-12 white flex-column" style="background-color: #787878 ; width: 250px;height: 50px">
               DEPARTURE
+              <input  class="date-input" placeholder="DEPARTURE" type="date" name="" id="">
             </div>
 
           </div>
           <div class="flex-row" style="justify-content: space-around;margin: 0px 14px 0px 43px;">
-            <div class="poppins-L center font-12 white"
-              style="  background-color: #787878  ;height: 50px; width: 160px;"><span class="minus-span">-</span>0
-              <span class="plus-span">+</span> ADULTS</div>
-            <div class="poppins-L center font-12 white" style=" background-color: #787878 ; height: 50px;width: 160px;">
-              <span class="minus-span">-</span>0
-              <span class="plus-span">+</span> CHILDREN</div>
-            <div class="poppins-L center font-12 white"
-              style="background-color: #787878 ; height: 50px; width: 160px; "><span class="minus-span">-</span>0
-              <span class="plus-span">+</span> ROOMS</div>
+            <div class="poppins-L center font-12 white elemnt-input-head"
+             ><button class="minus-span" onclick="subadult()">-</button><span id="adult">0</span>
+              <button  class="plus-span" onclick="addadult()">+</button> ADULTS</div>
+            <div class="poppins-L center font-12 white elemnt-input-head" >
+              <button class="minus-span" onclick="subchild()">-</button><span id="child">0</span>
+              <button  class="plus-span" onclick="addchild()">+</button> CHILDREN</div>
+            <div class="poppins-L center font-12 white elemnt-input-head"
+          ><button class="minus-span" onclick="subrooms()">-</button><span id="rooms">0</span>
+              <button  class="plus-span" onclick="addrooms()">+</button> ROOMS</div>
 
           </div>
           <div style=" align-self: center;  ">
-            <div class="poppins-L center font-17"
-              style="background-color:white ; width: 278px; color:  #787878; text-align: center;">
-              CHECH AVAILABILITY
-            </div>
+            <button class="poppins-L center font-17 check-btn"
+           >
+              CHECK AVAILABILITY
+          </button>
           </div>
         </div>
 
@@ -824,7 +825,7 @@
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy </div>
 
 
-            <div class="center">
+            <div class="center" style="margin-bottom: 30px;">
               <a href="#">
                 <button class="poppins-M font-14 gold home-white-btn">ENQUIRE NOW</button>
               </a>
@@ -1256,7 +1257,44 @@
       } else {
         x.style.display = "block";
       }
-    } </script>
+    }
+    var rooms =0 ;
+  var  child = 0 ;
+var adult =0 ;
+    function addadult (){
+      adult = adult+1;
+      document.getElementById("adult").textContent = adult.toString();
+
+    }
+    function subadult (){
+      if (adult >0 ){
+        adult = adult-1;
+        document.getElementById("adult").textContent = adult.toString();
+
+    }}
+    function addchild (){
+
+      child = child+1;
+      document.getElementById("child").textContent = child.toString();
+    }
+    function subchild (){
+
+      if (child >0 ){child = child-1;
+        document.getElementById("child").textContent = child.toString();
+      }
+    }
+    function addrooms(){
+      rooms = rooms+1;
+      document.getElementById("rooms").textContent = rooms.toString();
+
+    }
+    function subrooms (){
+      if (rooms >0 ){
+        rooms = rooms-1;
+        document.getElementById("rooms").textContent = rooms.toString();
+   }
+    }
+    </script>
 </body>
 
 
