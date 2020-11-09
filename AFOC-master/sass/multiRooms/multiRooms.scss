@@ -1,3 +1,15 @@
+
+.multi-white-btn {
+
+  background-color: transparent;
+  border-width: 0.5px;
+  padding: 10px 30px 10px 30px;
+  border-color: #926D39 !important;
+  border-style: solid;
+  text-decoration: none;
+
+}
+
 .carousel-special-offers{
   .special-offer-padding-box{
     padding: 40px ;
@@ -158,9 +170,10 @@ line-height: 25px;
     margin-top: 37px;
     margin-bottom: 10%;
   }
-.multi-rooms-btn-slide{
-  .flex-row{  display: flex;
-  flex-direction: column; justify-self: center;}
 
 }
+.multi-rooms-btn-slide{
+  a{
+    margin: 20px 3px ;
+  }
 }

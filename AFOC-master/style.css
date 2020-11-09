@@ -564,6 +564,10 @@ a {
   font-size: 17px !important;
 }
 
+.font-15 {
+  font-size: 16px !important;
+}
+
 .font-16 {
   font-size: 16px !important;
 }
@@ -4152,6 +4156,15 @@ body {
   height: 400px;
 }
 
+.multi-white-btn {
+  background-color: transparent;
+  border-width: 0.5px;
+  padding: 10px 30px 10px 30px;
+  border-color: #926D39 !important;
+  border-style: solid;
+  text-decoration: none;
+}
+
 .carousel-special-offers .special-offer-padding-box {
   padding: 40px;
 }
@@ -4309,13 +4322,11 @@ body {
     margin-top: 37px;
     margin-bottom: 10%;
   }
-
-  .multi-rooms-btn-slide .flex-row {
-    display: flex;
-    flex-direction: column;
-    justify-self: center;
-  }
 }
+.multi-rooms-btn-slide a {
+  margin: 20px 3px;
+}
+
 @media screen and (max-width: 1050px) {
   .responsive-restaurant {
     order: 1;
