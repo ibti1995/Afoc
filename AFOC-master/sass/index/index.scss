@@ -1,3 +1,15 @@
+
+.date-input{
+  background: transparent;
+  color: white;
+  border: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
 .exclu-item {
   .flex-column {
     margin-left: 5%;

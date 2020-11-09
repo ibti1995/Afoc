@@ -27,6 +27,18 @@
   font-family: poppins-semi-bold;
   src: url(assets/font/Poppins/Poppins-SemiBold.ttf);
 }
+.check-btn {
+  background-color: white;
+  width: 278px;
+  color: #787878;
+  text-align: center;
+  margin-bottom: 5px;
+  border: none;
+  outline: none;
+  padding-top: 12px;
+  padding-bottom: 11px;
+}
+
 @media screen and (max-width: 1250px) {
   .logo-header {
     display: none !important;
@@ -86,6 +98,7 @@
     height: 325px;
     background-color: rgba(95, 90, 96, 0.3);
     margin-top: 50px;
+    margin-bottom: -10px;
   }
 
   .bottom-header-container {
@@ -176,6 +189,7 @@
     background-color: rgba(95, 90, 96, 0.3);
     margin-top: 583px;
     margin-right: 3%;
+    margin-bottom: -10px;
   }
 }
 .small-word-header {
@@ -230,11 +244,21 @@
   margin-right: 0px;
 }
 
+.elemnt-input-head {
+  background-color: #787878;
+  height: 50px;
+  width: 166px;
+  padding: 12px;
+}
+
 .plus-span {
+  text-decoration: none;
   color: #787878;
   background-color: white;
   border-radius: 50%;
   margin-right: 24px;
+  border: none;
+  outline: none;
 }
 
 .minus-span {
@@ -242,6 +266,8 @@
   background-color: white;
   border-radius: 50%;
   margin-right: 4px;
+  border: none;
+  outline: none;
 }
 
 .words2 {
@@ -3125,6 +3151,18 @@ dialog {
     font-family: rossanova;
   }
 }
+.date-input {
+  background: transparent;
+  color: white;
+  border: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
 .exclu-item .flex-column {
   margin-left: 5%;
 }
@@ -4488,10 +4526,6 @@ body {
 }
 
 @media screen and (min-width: 1050px) {
-  .responsive-background {
-    height: 721px;
-  }
-
   .responsive-container {
     height: 999px;
   }
