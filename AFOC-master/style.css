@@ -1176,6 +1176,14 @@ dialog {
   margin-bottom: 80px;
 }
 
+.cat-items ul {
+  font-size: 19px;
+  line-height: 50px;
+}
+.cat-items ul li {
+  list-style-image: url("assets/svg/single room/square.svg");
+}
+
 .single-offer-section {
   display: flex;
   flex-direction: column;

@@ -316,7 +316,7 @@ dialog {
 
     }
  /* Position the "next button" to the right */
-    
+
   }
   .catering-getintouch {
     margin-left: 90px;
@@ -344,4 +344,13 @@ dialog {
 }
 .alin-dots{
   text-align:center; margin-bottom: 80px;
+}
+.cat-items{
+  ul {
+    font-size: 19px;
+    line-height: 50px;
+    li {
+      list-style-image: url("assets/svg/single room/square.svg");
+    }
+  }
 }
