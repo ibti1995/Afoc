@@ -1,0 +1,107 @@
+@media only screen and (max-width: 700px) {
+
+    .carousel-3-div {
+        .carousels0 {
+          .flickity-prev-next-button {
+            top: 50%;
+            width: 50px;
+            height: 50px;
+            border-radius: 0 !important;
+            background-color: rgba($color: #f7f7f7, $alpha: 0.9) !important;
+            /* vertically center */
+            transform: translateY(-50%);
+          }
+
+          .carousel-cell {
+            min-width: 150px !important;
+            max-width: 100% !important;
+            margin-top: 20px !important;
+            width: auto !important;
+
+            padding-left: 20px;
+          }
+          // .flickity-viewport {
+
+          //   }
+        }
+        .carousel-our-fan {
+          .flickity-prev-next-button {
+            top: 88%;
+            width: 50px;
+            height: 50px;
+            border-radius: 0 !important;
+            background-color: rgba($color: #f7f7f7, $alpha: 0.9) !important;
+            /* vertically center */
+            transform: translateY(-50%);
+          }
+
+          .flickity-prev-next-button.previous {
+            left: 10px !important;
+          }
+          .flickity-prev-next-button.next {
+            left: 40px !important;
+          }
+
+          .carousel-cell {
+            width: 100% !important;
+            margin-top: 20px !important;
+
+            padding-left: 20px;
+          }
+          .flickity-viewport {
+            height: 580px !important;
+          }
+        }
+
+        //special offer
+        .carousel-special-offers {
+          .flickity-prev-next-button {
+            top: 50%;
+            width: 50px;
+            height: 50px;
+            border-radius: 0 !important;
+            background-color: rgba($color: #f7f7f7, $alpha: 0.9) !important;
+            /* vertically center */
+            transform: translateY(-50%);
+          }
+
+          .carousel-cell {
+            width: 460px !important;
+            margin-top: 20px !important;
+
+            padding-left: 20px;
+          }
+          .flickity-viewport {
+            height: 580px !important;
+          }
+        }
+        .carousel-meetings-packages {
+          .flickity-prev-next-button {
+            top: 50%;
+            width: 30px;
+            height: 30px;
+            border-radius: 0 !important;
+            background-color: rgba($color: #f7f7f7, $alpha: 0.9) !important;
+            /* vertically center */
+            transform: translateY(-50%);
+          }
+
+          .carousel-cell {
+            width: 100% !important;
+            margin-top: 20px !important;
+            padding-left: 20px;
+          }
+
+
+          .ourfans-box {
+            padding: 30px;
+          }
+          .flickity-viewport {
+            height: 450px !important;
+          }
+        }
+
+      }
+
+
+}

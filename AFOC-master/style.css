@@ -579,11 +579,11 @@ a {
 }
 
 .font-19 {
-  font-size: 19px !important;
+  font-size: 19px;
 }
 
 .font-20 {
-  font-size: 20px !important;
+  font-size: 20px;
 }
 
 .font-12 {
@@ -606,16 +606,12 @@ a {
   font-size: 16px !important;
 }
 
-.font-20 {
-  font-size: 20px !important;
-}
-
 .font-28 {
-  font-size: 28px !important;
+  font-size: 28px;
 }
 
 .font-30 {
-  font-size: 30px !important;
+  font-size: 30px;
 }
 
 .font-55 {
@@ -623,15 +619,15 @@ a {
 }
 
 .font-59 {
-  font-size: 59px !important;
+  font-size: 59px;
 }
 
 .font-60 {
-  font-size: 60px !important;
+  font-size: 60px;
 }
 
 .font-32 {
-  font-size: 32px !important;
+  font-size: 32px;
 }
 
 .padding-top-18 {
@@ -824,7 +820,7 @@ a {
 
 h1 {
   font-size: 60px;
-  font-weight: unset !important;
+  font-weight: unset;
 }
 
 h2 {
@@ -2047,6 +2043,8 @@ dialog {
 .img-items {
   width: 100%;
   max-height: 698;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
 }
 
 .wedd-right-img {
@@ -5713,7 +5711,7 @@ body {
   /* ---- page dots ---- */
 }
 .carousel-3-div .carousel {
-  background: #FAFAFA;
+  background: #fafafa;
 }
 .carousel-3-div .carousel-cell {
   width: 500px;
@@ -5772,7 +5770,7 @@ body {
 }
 .carousel-3-div .flickity-button:focus {
   outline: none;
-  box-shadow: 0 0 0 5px #19F;
+  box-shadow: 0 0 0 5px #19f;
 }
 .carousel-3-div .flickity-button:active {
   opacity: 0.6;
