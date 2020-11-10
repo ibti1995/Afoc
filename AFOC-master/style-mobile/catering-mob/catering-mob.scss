@@ -1,0 +1,29 @@
+@media only screen and (max-width: 700px) {
+  .our-service-btn{
+    padding: 10px 20px !important;
+  }
+  .size60{
+    font-size: 25px; line-height: 25px;
+  }
+  .cat-items {
+    ul {
+      font-size: 11px;
+      line-height: 20px;
+      li {
+        list-style-image: url("assets/svg-mobile/square.svg");
+      }
+    }
+  }
+  .slide1 {
+    margin-bottom: 60px;
+    .item-service {
+      height: 1098px;
+      margin: 26px 5px 20px 5px;
+      border-radius: 15px;
+    }
+    .mySlides4 {
+      display: none;
+      height: 1100px;
+    }
+  }
+}
