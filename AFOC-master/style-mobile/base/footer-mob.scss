@@ -1,0 +1,40 @@
+@media screen and (max-width: 700px) {
+    .footerlist{
+        margin-right: 0px !important;
+    }
+    
+   .box-foot-responsive {
+    flex-direction: column !important;
+    margin-top: 25px !important;
+    margin-bottom: 25px !important;
+    margin-left: 50px !important;
+   }
+   .mobile-list-foot-1{
+       order: 1;
+       margin-bottom: 45px !important;
+
+   }
+ .mobile-list-foot-2{
+    order: 2;
+       
+   }
+   .mobile-list-foot-3{
+    order: 3;
+       
+}
+.mobile-span-footer{
+    font-size: 20px;
+}
+
+footer {
+    li {
+        font-size: 20px !important;
+        margin-bottom: 12px !important;
+    }
+    img{
+        margin-top: 10px !important;
+    }
+}
+
+
+}
