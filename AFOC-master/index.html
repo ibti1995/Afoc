@@ -9,7 +9,7 @@
   <meta name="HandheldFriendly" content="true">
 </head>
 
-<body>
+<body id="body">
 
   <header class="home">
     <div class="topnav">
@@ -29,6 +29,42 @@
         <img src="assets/svg/Icon ionic-ios-menu.svg" />
       </a>
     </div>
+
+
+
+    <!-- <div class="topnav">
+      <div id="top1" style="background-color: white;">
+      <a href="#home" class="logo-res"><img class="" src="assets/svg/Component21.svg" /></a>
+      <a style="background-color: white;" href=" javascript:void(0);" class="icon" onclick="myFunction()">
+        <img src="assets/svg/Icon ionic-ios-menu.svg" />
+      </a>
+
+    </div>
+    <div id="top2" style="background-color: white;">
+      <a href="#home" class="logo-res"><img class="" src="assets/svg/Component21.svg" /></a>
+      <a style="background-color: white;" href=" javascript:void(0);" class="icon" onclick="myFunction2()">
+        <img src="assets/svg/Icon ionic-ios-menu.svg" />
+      </a>
+      
+    </div>
+   
+      <div class="responsive-menu" >
+        <div class="left-menu" style="width: 30%; background-color: black; opacity: 50%;"  onclick="myFunction2()"></div>
+      <div id="myLinks">
+        <a href="index.html" class="decoration-none link-logo-top"><img src="assets/svg/Group 526.svg"/></a>
+        <a href="index.html" class="gold decoration-none border-top-a">Home </a>
+        <a href="multiRoomsPage.html" class="black decoration-none border-top-a"> Rooms </a>
+        <a href="dinning.html" class="decoration-none black border-top-a">Dining </a>
+        <a href="weddings.html" class="black decoration-none border-top-a">Wedding </a>
+        <a href="meetingsAndActivities.html" class="black decoration-none border-top-a"> Events </a>
+        <a href="activities.html" class="black decoration-none border-top-a"> Fitness </a>
+        <a href="#getIntouch" class="black decoration-none border-top-a">Contact </a>
+      </div>
+
+    </div>
+    
+      
+    </div>  -->
 
     <div class="flex-row header-simple">
 
@@ -1252,6 +1288,25 @@
         x.style.display = "block";
       }
     }
+
+
+  //***************start header script   mobile version
+    function myFunction2(x) {
+
+var x = document.getElementById("myLinks");
+var top2 = document.getElementById("top2");
+var body =document.getElementById("body");
+if (x.style.display === "block") {
+  top2.style.display="block";
+  x.style.display = "none";
+  body.style.overflow="visible"
+} else {
+  top2.style.display="none";
+  x.style.display = "block";
+  body.style.overflow="hidden";
+}
+}
+//*************** end header script   mobile version
     var rooms = 0;
     var child = 0;
     var adult = 0;
