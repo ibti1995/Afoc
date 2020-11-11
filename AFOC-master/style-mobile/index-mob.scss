@@ -1,17 +1,127 @@
 @media screen and (max-width: 700px) {
-    .offer-get-in-touch{
-     background-image: none !important;
-
-  
-     align-items: stretch !important;
-     justify-content: start !important; 
-     margin-bottom: 0px !important;
-     .ourfans-box{-webkit-box-shadow: 0;
-        -moz-box-shadow:0;
-         box-shadow: none;
-    
-
-     }
-     
+  .offer-get-in-touch {
+    margin-bottom: 0px !important;
+  }
+  .home-line-120 {
+    line-height: 30px !important;
+  }
+  .home-two-pic {
+    margin-bottom: 37px;
+    margin-top: 42px;
+  }
+  .home-last-sec {
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .home-last-parag {
+    font-size: 15px;
+    line-height: 33px !important;
+    padding: 0px 20px 45px 20px;
+  }
+  .index-box-second-parag {
+    margin-top: 69.8px;
+    font-size: 15px;
+    line-height: 32px;
+  }
+  .home-title {
+    font-size: 30px;
+    margin-bottom: 25px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    line-height: 10px;
+    .icon-under-h {
+      width: 50px;
+      height: 27px;
     }
+  }
+  .title-respnsive {
+    margin-top: 10px;
+    text-align: center;
+  }
+  .home-title-responsive {
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+  .home-first-section {
+    flex-basis: 60%;
+    margin-right: 50px;
+    margin-top: 10px;
+    line-height: 43px;
+  }
+  .home-box-style {
+    margin-top: 22px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+    .first-box {
+      flex-basis: 70%;
+      text-align: center;
+      margin-top: 40px;
+      .first-box-title {
+        font-size: 30px;
+
+        line-height: 20px;
+      }
+      .box-parag {
+        font-size: 15px;
+      }
+    }
+    .second-box {
+      flex-basis: 28%;
+      text-align: center;
+      .first-box-title {
+        font-size: 30px;
+
+        line-height: 20px;
+      }
+      .box-parag {
+        font-size: 15px;
+      }
+    }
+  }
+  .home-gath-sec {
+    margin-bottom: 20px;
+    .sub-sec {
+      flex-basis: 50%;
+      align-self: center;
+    }
+    .basis-48 {
+        flex-basis: 48%;
+        margin-left: 20px;
+        margin-top: -50px;
+        /* z-index: 1500; */
+        background-color: white;
+        margin-right: 20px;
+
+      .sec-margin {
+        margin-bottom: 12.9px;
+        margin-top: 12px;
+        margin-right: 10px;
+        padding: 15px;
+      }
+      .margin-right-50 {
+        margin-right: 0px;
+    }
+
+    }
+  }
+  .flavour-item {
+    width: 300px;
+    margin-right: 40px;
+    .flavour-item-title {
+      font-size: 33px;
+    }
+
+    .flavour-item-txt {
+      font-size: 15px;
+      line-height: 33px;
+    }
+    .flavour-item-btn {
+      margin-top: 20px;
+      padding: 10px 13px;
+    }
+  }
 }

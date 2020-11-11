@@ -31,6 +31,9 @@
     font-size: 32px;
     line-height: 40px;
   }
+  .font-55 {
+    font-size: 30px;
+}
   .font-59 {
     font-size: 32px;
   }
@@ -49,6 +52,11 @@
     margin-top: 42px;
     margin-bottom: 10px;
   }
+  .sub-title {
+    width: fit-content;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
 
   /********************************************/
 
@@ -57,7 +65,19 @@
     background-color: rgba(0, 0, 0, 0.01);
     padding-bottom: 0px;
   }
-
+  .offer-get-in-touch-values {
+    margin-top: 21.5px;
+    margin-left: 23px;
+}
+.offer-get-in-touch-box {
+  position: relative;
+  height: auto;
+   width: 100%;
+  background-color: white;
+ margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 50px;
+}
   /*********our fans*********/
   .parag-in-ourfans {
     width: 100%;
@@ -70,4 +90,22 @@
   .list-margin {
     margin-left: 20px;
 }
+.margin-top-105 {
+  margin-top: 50px;
+}
+.line-h-100 {
+  line-height: 50px;
+}
+.poppins-20-43-70 {
+  color: #707070;
+  font-size: 15px;
+  font-family: poppins;
+  line-height: 33px;
+}
+.poppins-17-43 {
+  font-size: 15px;
+  font-family: poppins;
+  line-height: 35px;
+}
+
 }

@@ -42,4 +42,26 @@
     border-style: solid;
     text-decoration: none;
   }
+  .story-white-btn{
+    margin-top: 19px;
+    background-color: transparent;
+  letter-spacing: 5px;
+    padding: 13px 30px 13px 30px;
+    border-color: $primary-color;
+    border-style: solid;
+    text-decoration: none;
+    color: $primary-color;
+    border-width: 1px;
+    margin-left: 30%;
+  }
+  .home-white-btn {
+    margin-top: 29px;
+    background-color: transparent;
+    letter-spacing: 4px;
+    padding: 13px 30px 13px 30px;
+    border-color: #926D39 !important;
+    border-style: solid;
+    text-decoration: none;
+    color: #926D39 !important;
+}
 }
