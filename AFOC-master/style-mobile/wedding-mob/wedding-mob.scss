@@ -34,7 +34,7 @@
   }
   .img-items {
     width: 100%;
-    max-height: 698;
+    max-height: 698px;
     border-top-right-radius:5px ;
     border-top-left-radius: 5px ;
   }
@@ -57,10 +57,10 @@
 
   .wedd-sec2 {
     flex-basis: 40%;
-    margin-top: 0px !important ;
-    background-color: white;
+    margin-top: -30px !important ;
+
     margin-right: -50px;
-    z-index: 10;
+
     padding: 50px 20px 50px 20px;
     .wedd-title-box {
         font-size: 20px;
@@ -70,11 +70,23 @@
     .wedd-box {
       align-items: center;
       justify-content: center;
-      flex-wrap: wrap;
+
+      span{
+        font-size: 8px !important;
     }
-    span{
-        font-size: 8px;
     }
+
   }
+  .prev5,
+.next5 {
+  bottom: 35%;
+}
+.prev5 {
+
+  border-radius: 3px 0 0 3px;
+  right: 87%;
+
+}
+
 
 }

@@ -1,7 +1,19 @@
+
+
 @media screen and (max-width: 1050px) {
   .responsive-box-wedding {
     margin-right: 3% !important;
   }
+  .wedd-ballroom-img {
+    flex-basis: 30%;
+    order: 1;
+}
+.wedd-sec2 {
+  margin-top: -50px !important;
+  order: 2;
+  width: 80%;
+
+}
 }
 
 .weddings-text-title {
@@ -23,7 +35,7 @@
 }
 .wedd-ballroom-img {
   flex-basis: 30%;
-  order: 2;
+  order: 1;
 }
 .wedd-box-ballroom {
   margin-top: 56px;
@@ -344,7 +356,7 @@
 }
 .wedd-sec2 {
   flex-basis: 40%;
-  margin-top: 0px !important ;
+  margin-top: 0px ;
   background-color: white;
   margin-right: -50px;
   z-index: 10;

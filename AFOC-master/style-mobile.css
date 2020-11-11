@@ -394,7 +394,7 @@
 
   .img-items {
     width: 100%;
-    max-height: 698;
+    max-height: 698px;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
   }
@@ -419,10 +419,8 @@
 
   .wedd-sec2 {
     flex-basis: 40%;
-    margin-top: 0px !important;
-    background-color: white;
+    margin-top: -30px !important;
     margin-right: -50px;
-    z-index: 10;
     padding: 50px 20px 50px 20px;
   }
   .wedd-sec2 .wedd-title-box {
@@ -433,10 +431,19 @@
   .wedd-sec2 .wedd-box {
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
   }
-  .wedd-sec2 span {
-    font-size: 8px;
+  .wedd-sec2 .wedd-box span {
+    font-size: 8px !important;
+  }
+
+  .prev5,
+.next5 {
+    bottom: 35%;
+  }
+
+  .prev5 {
+    border-radius: 3px 0 0 3px;
+    right: 87%;
   }
 }
 @media only screen and (max-width: 700px) {
@@ -510,8 +517,25 @@
     color: #926D39 !important;
     border-width: 1px;
   }
+
+  .single-gold-btn {
+    margin-top: 29px;
+    margin-right: 30px;
+    background-color: #926D39 !important;
+    width: 280px;
+    padding: 10px 10px 10px 10px;
+    border-color: #926D39 !important;
+    text-decoration: none;
+    border-style: solid;
+    border-radius: 5px;
+  }
 }
 @media only screen and (max-width: 700px) {
+  h2 {
+    font-size: 32px;
+    font-weight: unset !important;
+  }
+
   .adr {
     flex-basis: 39%;
     margin-bottom: 23px;
@@ -527,6 +551,10 @@
 
   .font-17 {
     font-size: 12px !important;
+  }
+
+  .font-15 {
+    font-size: 12px;
   }
 
   .font-19 {
@@ -545,9 +573,13 @@
     font-size: 18px;
   }
 
+  .font-30 {
+    font-size: 17px;
+  }
+
   .font-40 {
     font-size: 32px;
-    line-height: 40px;
+    line-height: 35px;
   }
 
   .font-55 {
@@ -638,6 +670,10 @@
     font-family: poppins;
     line-height: 35px;
   }
+
+  .icon-under-h {
+    width: 80px;
+  }
 }
 @media only screen and (max-width: 700px) {
   .carousel-3-div .carousels0 .flickity-prev-next-button {
@@ -672,6 +708,7 @@
     left: 40px !important;
   }
   .carousel-3-div .carousel-our-fan .carousel-cell {
+    width: 320px !important;
     margin-top: 20px !important;
     padding-left: 20px;
   }
@@ -685,7 +722,7 @@
     transform: translateY(-50%);
   }
   .carousel-3-div .carousel-special-offers .carousel-cell {
-    width: 460px !important;
+    width: 380px !important;
     margin-top: 20px !important;
     padding-left: 20px;
   }
@@ -757,6 +794,127 @@
 @media screen and (max-width: 700px) {
   .offer-get-in-touch {
     background-image: none;
+  }
+
+  .offers-margin-left-64-9 {
+    margin-left: 10px;
+  }
+
+  .offers-name-title {
+    font-size: 15px;
+    line-height: 12px;
+  }
+
+  .offers-name {
+    width: 50%;
+    margin-bottom: 0px;
+    margin-left: 16px;
+    margin-top: 15px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .flex-row .list-class-offer {
+    margin-right: 20px;
+    line-height: 11px;
+  }
+
+  #terms-conditions {
+    display: none;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .rooms-cont {
+    width: 310px;
+    height: 380px;
+  }
+
+  .single-room-box {
+    display: none;
+  }
+
+  #menu-with-slides1 {
+    display: none;
+  }
+
+  .carraux {
+    display: none;
+  }
+
+  .rooms-parag {
+    margin-left: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    width: 185px;
+    margin-top: 0px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .activities1-box-title {
+    padding-bottom: 79px;
+    padding-left: 5px;
+    line-height: 30px;
+    margin-top: -40px;
+    width: 80%;
+    padding-right: 2px;
+    order: 2;
+  }
+
+  .slides1 {
+    display: none;
+    width: 320px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  #head-single-room {
+    display: none;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .meeting-font-margin {
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+
+  .meeting-img {
+    height: 180px;
+  }
+
+  .ourfans-box .flex-row span {
+    font-size: 15px;
+  }
+
+  .flex-row .list-class ul {
+    font-size: 15px;
+  }
+
+  .meetings-second-sub-box {
+    padding: 4% 20px 30px 3%;
+    order: 3;
+    margin-top: -50px !important;
+  }
+
+  .meeting-box {
+    padding: 4% 20px 30px 3%;
+    order: 2;
+    margin-top: -50px !important;
+    margin-left: 10px;
+  }
+
+  .meeting-second-box {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding-bottom: 50px;
+  }
+
+  .next-meeting {
+    right: 0;
+    margin-left: 0px;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .prev-meeting,
+.next-meeting {
+    bottom: 25%;
   }
 }
 

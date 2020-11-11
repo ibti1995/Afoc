@@ -1,0 +1,21 @@
+@media only screen and (max-width: 700px) {
+
+.rooms-cont {
+    width: 310px;
+    height: 380px;
+}
+.single-room-box {display: none;}
+#menu-with-slides1{
+    display: none;
+}
+.carraux{
+    display: none;
+}
+.rooms-parag {
+    margin-left: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    width: 185px;
+    margin-top: 0px;
+}
+}

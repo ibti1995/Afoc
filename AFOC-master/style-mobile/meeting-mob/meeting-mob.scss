@@ -1,0 +1,48 @@
+@media only screen and (max-width: 700px) {
+
+    .meeting-font-margin {
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+    .meeting-img {
+     height: 180px;
+    }
+   .ourfans-box {
+    .flex-row{span{
+        font-size: 15px;
+    }}
+   }
+   .flex-row .list-class ul {
+    font-size: 15px;
+}
+.meetings-second-sub-box {
+    padding: 4% 20px 30px 3%;
+    order: 3;
+    margin-top: -50px !important;
+}
+.meeting-box {
+
+    padding: 4% 20px 30px 3%;
+    order: 2;
+    margin-top: -50px !important;
+    margin-left: 10px;
+}
+.meeting-second-box {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding-bottom: 50px;
+
+
+}
+.next-meeting {
+    right: 0;
+    margin-left: 0px;
+    border-radius: 3px 0 0 3px;
+}
+.prev-meeting,
+.next-meeting {
+
+  bottom: 25%;
+
+}
+}

@@ -1,4 +1,9 @@
 @media only screen and (max-width: 700px) {
+  h2 {
+    font-size: 32px;
+    font-weight: unset !important;
+}
+
   .adr {
     flex-basis: 39%;
     margin-bottom: 23px;
@@ -14,7 +19,9 @@
   .font-17{
     font-size: 12px !important;
   }
-
+  .font-15 {
+    font-size: 12px;
+}
   .font-19 {
     font-size: 11px;
   }
@@ -27,9 +34,12 @@
   .font-28 {
     font-size: 18px;
   }
+  .font-30 {
+    font-size: 17px;
+}
   .font-40 {
     font-size: 32px;
-    line-height: 40px;
+    line-height: 35px;
   }
   .font-55 {
     font-size: 30px;
@@ -107,6 +117,9 @@
   font-size: 15px;
   font-family: poppins;
   line-height: 35px;
+}
+.icon-under-h {
+  width: 80px;
 }
 
 }

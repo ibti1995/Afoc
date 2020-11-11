@@ -678,6 +678,12 @@ a {
   margin-bottom: 10px;
 }
 
+.info-icon {
+  height: 50px;
+  float: left;
+  margin: 0px 20px 0px 0px;
+}
+
 /*********************get in touch component*************************/
 .get-in-touch-box {
   margin-top: 80px;
@@ -1678,6 +1684,17 @@ dialog {
   .responsive-box-wedding {
     margin-right: 3% !important;
   }
+
+  .wedd-ballroom-img {
+    flex-basis: 30%;
+    order: 1;
+  }
+
+  .wedd-sec2 {
+    margin-top: -50px !important;
+    order: 2;
+    width: 80%;
+  }
 }
 .weddings-text-title {
   font-size: 19px !important;
@@ -1702,7 +1719,7 @@ dialog {
 
 .wedd-ballroom-img {
   flex-basis: 30%;
-  order: 2;
+  order: 1;
 }
 
 .wedd-box-ballroom {
@@ -2015,7 +2032,7 @@ dialog {
 
 .wedd-sec2 {
   flex-basis: 40%;
-  margin-top: 0px !important;
+  margin-top: 0px;
   background-color: white;
   margin-right: -50px;
   z-index: 10;
@@ -2880,6 +2897,10 @@ dialog {
 
   .order-img-meeting-responsive {
     order: 1;
+  }
+
+  .meetings-second-sub-box {
+    order: 3;
   }
 }
 .icons img {
