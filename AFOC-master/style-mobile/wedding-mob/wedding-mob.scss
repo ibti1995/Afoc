@@ -4,6 +4,9 @@
   h1 {
     font-size: 32px;
     font-weight: unset;
+    span{
+      line-height: unset !important;
+    }
   }
 
   p {
