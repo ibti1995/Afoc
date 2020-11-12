@@ -21,7 +21,7 @@
     padding: 0px 20px 45px 20px;
   }
   .index-box-second-parag {
-    margin-top: 69.8px;
+    margin-top: 00px;
     font-size: 15px;
     line-height: 32px;
   }
@@ -30,8 +30,7 @@
     margin-bottom: 25px;
     text-align: center;
     justify-content: center;
-    margin: auto;
-    line-height: 10px;
+margin-top: 70px;
     .icon-under-h {
       width: 50px;
       height: 27px;
@@ -62,7 +61,7 @@
       margin-top: 40px;
       .first-box-title {
         font-size: 30px;
-
+margin-top: 20px !important ;
         line-height: 20px;
       }
       .box-parag {
@@ -111,6 +110,7 @@
   .flavour-item {
     width: 300px;
     margin-right: 40px;
+    height: 300px;
     .flavour-item-title {
       font-size: 30px;
     }
@@ -124,4 +124,69 @@
       padding: 10px 13px;
     }
   }
+  .stay-elemnt div {
+    font-size: 20px;
+
+}
+.stay-elemnt img{
+  width: 80%;
+}
+.home-last-img {
+
+display: none;
+}
+
+/******************** exclu items****************************/
+
+.exclu-item {
+
+  .exclu-item-title {
+    margin: 0;
+    font-size: 19px;
+    padding-top: 10px;
+  }
+  .exclu-item-img {
+    width: 45%;
+  }
+  .exclu-item-btn {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 10px;
+    letter-spacing: 3px;
+    padding: 10px 20px;
+  }
+  .exclu-item-txt {
+    font-size: 10px;
+    padding: 8px 5% 0px 0px;
+    line-height: 20px;
+  }
+  .home-box {
+    height: 68px;
+    padding-top: 12px;
+  }
+  .top-right-prop {
+    font-size: 12px;
+    padding: 0px 12px;
+    margin-right: 0px;
+  }
+
+  .padding-right {
+    padding-right: 20px;
+
+  }
+
+}
+.home-section{
+  div{
+    margin-top: unset !important;
+    margin-bottom: 20px;
+  }
+}
+.carousel3{
+  div{
+    height: 520px !important;
+
+  }
+}
+
 }
