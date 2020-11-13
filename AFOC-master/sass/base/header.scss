@@ -11,18 +11,18 @@
 }
 
 
-@media screen and (max-width: 1250px){
-.logo-header{
-  display: none !important;
-}
-.menu-home-container { 
-  margin-left: auto;
-}
-}
+// @media screen and (max-width: 1250px){
+// .logo-header{
+//   display: none !important;
+// }
+// .menu-home-container { 
+//   margin-left: auto;
+// }
+// }
 
 
 
-@media screen and (max-width: 1050px ) {
+@media screen and (max-width: 1150px ) {
 
   .topnav {
    // overflow: hidden;
@@ -100,15 +100,15 @@
 
 
 //jddid home
-@media screen and (min-width : 1050px){
+@media screen and (min-width : 1150px){
 .logo-header{
 align-self: flex-start;
-order: 5;
+//order: 5;
 height: auto;
 width: 148px;
 margin-top: 60px;
-margin-left:auto;
-margin-right: 0px;
+margin-left:3%;
+//margin-right: 0px;
 
 
 }
@@ -122,20 +122,22 @@ outline: 0px;
 background: transparent;
 
 align-self: flex-start;
-order: 1;
+order: 5;
 
 font-size: 17px;
 color: #926D39;
-margin-left: 3% ;
-margin-top:98px;
+margin-right: 3% ;
+margin-left:  3%;
+margin-top:99px;
 }
 .item-select-language-index {
 color: black;
 }
 .menu-home-container {
-order: 6;
+order: 4;
  margin-top: 73px;
- margin-right: 3%;
+ margin-right: 0px;
+ margin-left: auto;
  align-items: flex-end;
   justify-content: flex-end;
   color: #25282A;
