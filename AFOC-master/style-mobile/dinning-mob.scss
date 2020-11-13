@@ -1,45 +1,46 @@
 @media only screen and (max-width: 700px) {
-    .dining-select-box{ display: none ; }
-    .dining-right-title {
-        .right{
-            float:none;
-        }
-
+  .dining-select-box {
+    display: none;
+  }
+  .dining-right-title {
+    .right {
+      float: none;
     }
-    .dining-right-parag{
-        margin-top: 0px !important;
+  }
+  .dining-right-parag {
+    margin-top: 0px !important;
+  }
+  .dining-box-padding {
+    h3 {
+      font-size: 17px !important;
     }
+    li {
+      font-size: 11px !important;
+    }
+    padding: 10px 10px 10px 10px;
+  }
+  .special-offer-img {
+    width: 100%;
+  }
+  .carousel-our-fan {
     .carousel-cell {
-        ul {
-          font-size: 11px;
-          li {
-            list-style-image: url("assets/svg-mobile/square.svg");
-          }
-        }
-      }
-      .prev-dinning, .next-dinning {
-
-        bottom: 30%;
-        width: 21px;
-        height: 51px;
-        padding-top: 10px;
-        padding-left: 31px;
-        padding-right: 41px;
-
+      width: 80%;
     }
-    .dining-img-style {
-      width: auto;
-      height: 80px;
-
-
+  }
+  .carousel-3-div .carousel-our-fan .flickity-prev-next-button {
+    display: none;
+  }
+  .dining-img-style {
+    width: auto;
+    height: 50px;
   }
 
-.dining-white-box{
-  .flex-row{
-    justify-content: space-between;
+  .dining-white-box {
+    .flex-row {
+      justify-content: space-between;
+    }
   }
-}
-.dining-box-padding {
-  padding: 0px 25px 25px 25px;
-}
+  .dining-box-padding {
+    padding: 0px 25px 25px 25px;
+  }
 }
