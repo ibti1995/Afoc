@@ -851,6 +851,10 @@
     margin-top: 20px;
   }
 
+  .poppins-semi-bold {
+    font-family: poppins-semi-bold;
+  }
+
   /********************************************/
   .get-in-touch-box {
     margin-top: 10px;
@@ -977,17 +981,13 @@
     transform: translateY(-50%);
   }
   .carousel-3-div .carousel-meetings-packages .carousel-cell {
-    width: 100% !important;
+    width: 80% !important;
     margin-top: 20px !important;
     padding-left: 20px;
   }
   .carousel-3-div .carousel-meetings-packages .ourfans-box {
     padding: 30px;
   }
-  .carousel-3-div .carousel-meetings-packages .flickity-viewport {
-    height: 550px !important;
-  }
-
   .carousel-3-div .carousel {
     background: #fafafa;
   }
@@ -1161,13 +1161,40 @@
   }
 }
 @media only screen and (max-width: 700px) {
+  .info-mobile p {
+    line-height: 50px !important;
+  }
+  .info-mobile .meeting-width-buttons {
+    width: -webkit-fill-available;
+  }
+  .info-mobile .cat-gold-btn {
+    margin-right: 0px;
+  }
+
+  .carousel-meetings-packages span {
+    font-size: 11px !important;
+  }
+  .carousel-meetings-packages .order-title-mobile1 {
+    order: 1;
+  }
+  .carousel-meetings-packages .order-title-mobile2 {
+    order: 2;
+  }
+  .carousel-meetings-packages .order-title-mobile3 {
+    order: 3;
+  }
+  .carousel-meetings-packages .order-title-mobile4 {
+    order: 4;
+  }
+
   .meeting-font-margin {
     font-size: 17px;
     margin-bottom: 20px;
   }
 
   .meeting-img {
-    height: 180px;
+    width: -webkit-fill-available;
+    margin: -30px -30px 20px -30px;
   }
 
   .ourfans-box .flex-row span {
