@@ -194,6 +194,7 @@
 
     </div>
     <!-- ****************** first caroussel  ************* -->
+    <div class="flex-column-mobile">
     <div class="carousel-one-in-the-midle">
       <div class="carousel2"
         data-flickity='{ "lazyLoad": false ,"draggable": true , "wrapAround": true ,"autoPlay": 3000 ,"pauseAutoPlayOnHover": false } '>
@@ -274,8 +275,9 @@
         </p>
       </div>
     </div>
+  </div>
     <!--      ************************* stay with a story  ****************    -->
-    <div class="flex-column  margin-stand space-between margin-top-105">
+    <div class="flex-column  margin-stand space-between margin-top-105 stay-mobile">
       <div class="home-title-responsive">
         <div class="home-title">
           <span class="line-h-100">Stay with a Story</span> <br>
@@ -312,45 +314,72 @@
         </span>
       </div>
     </div>
-    <div class="slides-story">
+    <div class="slides-story" id="sd">
       <div class="myslidestory">
-        <div class="story-R-cass home-slide-margin">
+
+
+        <div   class="story-R-cass home-slide-margin" id="slideRoom">
+          <!-- *****start  headermenu mobile version***** -->  
+        <div class="display-block-img-mobile">
+          <div class="slide-rooms" >
+            <img id="myDiv" src="assets/homePage/ImageR2.png" class="width100">
+          </div>
+          <div class="slide-rooms">
+            <img src="assets/homePage/ImageR3.png" class="width100">
+          </div>
+          <div class="slide-rooms" >
+            <img src="assets/homePage/ImageR3.png" class="width100">
+          </div>
+          <div class="slide-rooms">
+            <img src="assets/homePage/ImageR2.png" class="width100">
+          </div>
+          <div class="slide-rooms" >
+            <img  src="assets/homePage/ImageR1.png" class="width100">
+          </div>
+          <div class="slide-rooms">
+            <img src="assets/homePage/ImageR2.png" class="width100">
+          </div>
+      
+          <a class="prev3" onclick="plusSlidesRoom(-1)">&#10094;</a>
+          <a class="next3" onclick="plusSlidesRoom(1)">&#10095;</a>
+        </div>
+          <!-- *****end  headermenu mobile version***** -->
           <div class="carousel" data-flickity='{ "lazyLoad": false , "autoPlay": 3000 ,  "contain": true ,  "draggable": true , "freeScroll": true,
           "wrapAround": false,"groupCells": 1,"pauseAutoPlayOnHover": false   }'>
             <div class="carousel-cell">
               <div class="flex-row decoration-content padding-right">
-                <img class="width100" src="assets/homePage/ImageR2.png" alt="grapes" />
+                <img class="width100" src="assets/homePage/ImageR2.png" onclick="currentSlideRoom(1)" alt="grapes" />
               </div>
             </div>
             <div class="carousel-cell">
-              <div class="">
-                <div class="flex-row decoration-content">
-                  <img class="width100" src="assets/homePage/ImageR3.png" alt="grapes" />
+             
+                <div class="flex-row decoration-content padding-right">
+                  <img class="width100" src="assets/homePage/ImageR3.png" onclick="currentSlideRoom(2)" alt="grapes" />
 
-                </div>
+           
               </div>
             </div>
             <div class="carousel-cell">
               <div class="flex-row decoration-content padding-right">
-                <img width="100%" src="assets/homePage/ImageR3.png" alt="grapes" />
+                <img width="100%" src="assets/homePage/ImageR3.png" onclick="currentSlideRoom(3)" alt="grapes" />
               </div>
             </div>
             <div class="carousel-cell">
               <div class="flex-row decoration-content padding-right">
-                <img class="width100" src="assets/homePage/ImageR2.png" alt="grapes" />
+                <img class="width100" src="assets/homePage/ImageR2.png" onclick="currentSlideRoom(4)" alt="grapes" />
               </div>
             </div>
             <div class="carousel-cell">
 
               <div class="flex-row decoration-content padding-right">
-                <img class="width100" src="assets/homePage/ImageR1.png" alt="grapes" />
+                <img class="width100" src="assets/homePage/ImageR1.png" onclick="currentSlideRoom(5)" alt="grapes" />
 
               </div>
 
             </div>
             <div class="carousel-cell">
               <div class="flex-row decoration-content padding-right">
-                <img class="width100" src="assets/homePage/ImageR2.png" alt="grapes" />
+                <img class="width100" src="assets/homePage/ImageR2.png" onclick="currentSlideRoom(6)" alt="grapes" />
               </div>
             </div>
 
@@ -359,13 +388,39 @@
         </div>
       </div>
       <div class="myslidestory">
-        <div class="story-S-cass home-slide-margin">
+
+        <div class="story-S-cass home-slide-margin"  id="slidesuite">
+            <!-- *****start  headermenu mobile version***** -->
+          <div class="display-block-img-mobile">
+          <div class="slide-suites" >
+            <img  src="assets/homePage/ImageR2.png" class="width100">
+          </div>
+          <div class="slide-suites">
+            <img src="assets/homePage/ImageR3.png" class="width100">
+          </div>
+          <div class="slide-suites" >
+            <img src="assets/homePage/ImageR3.png" class="width100">
+          </div>
+          <div class="slide-suites">
+            <img src="assets/homePage/ImageR2.png" class="width100">
+          </div>
+          <div class="slide-suites" >
+            <img  src="assets/homePage/ImageR1.png" class="width100">
+          </div>
+          <div class="slide-suites">
+            <img src="assets/homePage/ImageR2.png" class="width100">
+          </div>
+       
+          <a class="prev3" onclick="plusSlidessuite(-1)">&#10094;</a>
+          <a class="next3" onclick="plusSlidessuite(1)">&#10095;</a>
+        </div>
+          <!-- *****end  headermenu mobile version***** -->
           <div class="carousel" data-flickity='{ "lazyLoad": false , "autoPlay": 3000 ,  "contain": true ,  "draggable": true , "freeScroll": true,
           "wrapAround": false,"groupCells": 1,"pauseAutoPlayOnHover": false  }'>
             <div class="carousel-cell">
               <div class="padding-right">
                 <div class="flex-row decoration-content">
-                  <img class="width100" src="assets/homePage/ImageR2.png" alt="grapes" />
+                  <img class="width100" src="assets/homePage/ImageR2.png" onclick="currentSlidesuite(1)" alt="grapes" />
 
                 </div>
               </div>
@@ -373,7 +428,7 @@
             <div class="carousel-cell">
               <div class="padding-right">
                 <div class="flex-row decoration-content">
-                  <img class="width100" src="assets/homePage/ImageR3.png" alt="grapes" />
+                  <img class="width100" src="assets/homePage/ImageR3.png"  onclick="currentSlidesuite(2)" alt="grapes" />
 
                 </div>
               </div>
@@ -381,7 +436,7 @@
             <div class="carousel-cell">
               <div class="padding-right">
                 <div class="flex-row decoration-content">
-                  <img width="100%" src="assets/homePage/ImageR3.png" alt="grapes" />
+                  <img width="100%" src="assets/homePage/ImageR3.png"   onclick="currentSlidesuite(3)" alt="grapes" />
 
                 </div>
               </div>
@@ -389,7 +444,15 @@
             <div class="carousel-cell">
               <div class="padding-right">
                 <div class="flex-row decoration-content">
-                  <img class="width100" src="assets/homePage/ImageR2.png" alt="grapes" />
+                  <img class="width100" src="assets/homePage/ImageR2.png"  onclick="currentSlidesuite(4)" alt="grapes" />
+
+                </div>
+              </div>
+            </div>
+            <div class="carousel-cell">
+              <div class="padding-right">
+                <div class="flex-row decoration-content"> 
+                  <img class="width100" src="assets/homePage/ImageR1.png"  onclick="currentSlidesuite(5)" alt="grapes" />
 
                 </div>
               </div>
@@ -397,15 +460,7 @@
             <div class="carousel-cell">
               <div class="padding-right">
                 <div class="flex-row decoration-content">
-                  <img class="width100" src="assets/homePage/ImageR1.png" alt="grapes" />
-
-                </div>
-              </div>
-            </div>
-            <div class="carousel-cell">
-              <div class="padding-right">
-                <div class="flex-row decoration-content">
-                  <img class="width100" src="assets/homePage/ImageR2.png" alt="grapes" />
+                  <img class="width100" src="assets/homePage/ImageR2.png"   onclick="currentSlidesuite(6)" alt="grapes" />
 
                 </div>
               </div>
@@ -416,13 +471,38 @@
         </div>
       </div>
       <div class="myslidestory">
-        <div class="story-V-cass home-slide-margin">
+        <div class="story-V-cass home-slide-margin" id="slidevilla">
+            <!-- *****start  headermenu mobile version***** -->
+          <div class="display-block-img-mobile">
+            <div class="slide-villas" >
+              <img  src="assets/homePage/ImageR2.png" class="width100">
+            </div>
+            <div class="slide-villas">
+              <img src="assets/homePage/ImageR3.png" class="width100">
+            </div>
+            <div class="slide-villas" >
+              <img src="assets/homePage/ImageR3.png" class="width100">
+            </div>
+            <div class="slide-villas">
+              <img src="assets/homePage/ImageR2.png" class="width100">
+            </div>
+            <div class="slide-villas" >
+              <img  src="assets/homePage/ImageR1.png" class="width100">
+            </div>
+            <div class="slide-villas">
+              <img src="assets/homePage/ImageR2.png" class="width100">
+            </div>
+              <!-- *****end  headermenu mobile version***** -->
+         
+            <a class="prev3" onclick="plusSlidesvilla(-1)">&#10094;</a>
+            <a class="next3" onclick="plusSlidesvilla(1)">&#10095;</a>
+          </div>
           <div class="carousel" data-flickity='{ "lazyLoad": false , "autoPlay": 3000 ,  "contain": true ,  "draggable": true , "freeScroll": true,
           "wrapAround": false,"groupCells": 1,"pauseAutoPlayOnHover": false  }'>
             <div class="carousel-cell">
               <div class="padding-right">
                 <div class="flex-row decoration-content">
-                  <img class="width100" src="assets/homePage/ImageR2.png" alt="grapes" />
+                  <img class="width100" src="assets/homePage/ImageR2.png" onclick="currentSlidevilla(1)" alt="grapes" />
 
                 </div>
               </div>
@@ -430,7 +510,7 @@
             <div class="carousel-cell">
               <div class="padding-right">
                 <div class="flex-row decoration-content">
-                  <img class="width100" src="assets/homePage/ImageR3.png" alt="grapes" />
+                  <img class="width100" src="assets/homePage/ImageR3.png"  onclick="currentSlidevilla(2)" alt="grapes" />
 
                 </div>
               </div>
@@ -438,7 +518,7 @@
             <div class="carousel-cell">
               <div class="padding-right">
                 <div class="flex-row decoration-content">
-                  <img width="100%" src="assets/homePage/ImageR3.png" alt="grapes" />
+                  <img width="100%" src="assets/homePage/ImageR3.png" onclick="currentSlidevilla(3)"  alt="grapes" />
 
                 </div>
               </div>
@@ -446,7 +526,7 @@
             <div class="carousel-cell">
               <div class="padding-right">
                 <div class="flex-row decoration-content">
-                  <img class="width100" src="assets/homePage/ImageR2.png" alt="grapes" />
+                  <img class="width100" src="assets/homePage/ImageR2.png" onclick="currentSlidevilla(4)" alt="grapes" />
 
                 </div>
               </div>
@@ -454,7 +534,7 @@
             <div class="carousel-cell">
               <div class="padding-right">
                 <div class="flex-row decoration-content">
-                  <img class="width100" src="assets/homePage/ImageR1.png" alt="grapes" />
+                  <img class="width100" src="assets/homePage/ImageR1.png"  onclick="currentSlidesvilla(5)" alt="grapes" />
 
                 </div>
               </div>
@@ -462,7 +542,7 @@
             <div class="carousel-cell">
               <div class="padding-right">
                 <div class="flex-row decoration-content">
-                  <img class="width100" src="assets/homePage/ImageR2.png" alt="grapes" />
+                  <img class="width100" src="assets/homePage/ImageR2.png" onclick="currentSlidevilla(6)"  alt="grapes" />
 
                 </div>
               </div>
@@ -506,8 +586,7 @@
                   <span class="top-right-prop"> Top Booke Package </span>
                 </div>
                 <h2 class="exclu-item-title"> Culture and Heritage</h2>
-                <p class="exclu-item-txt"> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-                  eirmod tempor invidunt ut labore et dolore magna </p>
+                <p class="exclu-item-txt">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non </p>
 
                 <a class="poppins-M gold exclu-item-btn " href="#">BOOK
                   NOW</a>
@@ -524,8 +603,7 @@
                   <span class="top-right-prop"> Top Booke Package </span>
                 </div>
                 <h2 class="exclu-item-title"> A Host for Life</h2>
-                <p class="exclu-item-txt"> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-                  eirmod tempor invidunt ut labore et dolore magna </p>
+                <p class="exclu-item-txt"> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non </p>
 
                 <a class="poppins-M gold exclu-item-btn " href="#">BOOK
                   NOW</a>
@@ -542,9 +620,8 @@
                 <div class="poppins flex-row">
                   <span class="top-right-prop"> Top Booke Package </span>
                 </div>
-                <h2 class="exclu-item-title"> Culture and Heritage</h2>
-                <p class="exclu-item-txt"> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-                  eirmod tempor invidunt ut labore et dolore magna </p>
+                <h2 class="exclu-item-title"> A Host for Life</h2>
+                <p class="exclu-item-txt"> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non   </p>
 
                 <a class="poppins-M gold exclu-item-btn " href="#">BOOK
                   NOW</a>
@@ -562,8 +639,7 @@
                   <span class="top-right-prop"> Top Booke Package </span>
                 </div>
                 <h2 class="exclu-item-title">A Host for Life</h2>
-                <p class="exclu-item-txt"> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-                  eirmod tempor invidunt ut labore et dolore magna </p>
+                <p class="exclu-item-txt"> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non </p>
 
                 <a class="poppins-M gold exclu-item-btn " href="#">BOOK
                   NOW</a>
@@ -580,9 +656,8 @@
                 <div class="poppins flex-row">
                   <span class="top-right-prop"> Top Booke Package </span>
                 </div>
-                <h2 class="exclu-item-title"> Culture and Heritage</h2>
-                <p class="exclu-item-txt"> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-                  eirmod tempor invidunt ut labore et dolore magna </p>
+                <h2 class="exclu-item-title"> A Host for Life</h2>
+                <p class="exclu-item-txt"> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non </p>
 
                 <a class="poppins-M gold exclu-item-btn " href="#">BOOK
                   NOW</a>
@@ -600,8 +675,7 @@
                   <span class="top-right-prop"> Top Booke Package </span>
                 </div>
                 <h2 class="exclu-item-title"> A Host for Life</h2>
-                <p class="exclu-item-txt"> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-                  eirmod tempor invidunt ut labore et dolore magna </p>
+                <p class="exclu-item-txt">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam non  </p>
 
                 <a class="poppins-M gold exclu-item-btn " href="#">BOOK
                   NOW</a>
@@ -621,7 +695,8 @@
     </div>
 
     <!--  *****************  world of flavour   ******************    -->
-    <div class="flex-column " style="margin-top: 150px;">
+    <div class="flavour-container"> 
+    <div class="flex-column " style="margin-top: 70px;">
 
 
       <div class="flav-title" style="margin-left: -300px;">
@@ -734,6 +809,7 @@
         <button class="poppins-M font-20 gold home-white-btn"> VIEW ALL</button>
       </a>
     </div>
+  </div>
     <!--  *****************  finding balance   ******************    -->
     <div class="flex-column margin-top-105">
 
@@ -1284,6 +1360,7 @@
   <script src="js/firsthome.js"></script>
   <script src="js/slidehomepage.js"></script>
   <script src="js/story-home.js"></script>
+  <script src="js/slide-staywithstory.js"></script>
   <script>function myFunction(x) {
 
       var x = document.getElementById("myLinks");

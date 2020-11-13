@@ -1780,29 +1780,29 @@
     </section>
     <footer>
         <div class="box-foot-responsive rossanova">
-          <div>
+          <div class="mobile-list-foot-2">
             <ul class="footerlist footer-padd footer-marg">
               <li><a>About al turath</a></li>
               <li><a>Catering and hospitality</a></li>
-
+    
               <li><a>Our presence beyond</a></li>
-
+    
               <li><a>Privacy Policy</a></li>
-
+    
               <li><a>T&Cs</a></li>
             </ul>
           </div>
-          <div style="flex-grow: 5;">
+          <div class="mobile-list-foot-3" style="flex-grow: 5;">
             <ul class="footerlist footer-marg ">
               <li><a>Press Centre</a></li>
               <li><a>Careers</a></li>
               <li> <a>FAQS</a></li>
             </ul>
           </div>
-          <div>
+          <div class="mobile-list-foot-1">
             <span class="rossanova font-40"> Social Media</span>
             <br>
-            <span class="rossanova font-42">Get to us through our social media<br></span>
+            <span class="rossanova font-42 mobile-span-footer">Get to us through our social media<br></span>
             <div>
               <img src="assets/svg/socialMedia/fb.svg" />
               <img src="assets/svg/socialMedia/twitter.svg" />
@@ -1813,7 +1813,6 @@
             </div>
           </div>
         </div>
-      </footer>
 
     <script src="js/slidehomepage.js"></script>
     <!-- <script src="js/ourfans.js"></script> -->
@@ -1827,7 +1826,26 @@
             } else {
                 x.style.display = "block";
             }
-        } </script>
+        }
+           //***************start header script   mobile version
+     function myFunction2(x) {
+
+var x = document.getElementById("myLinks2");
+var top2 = document.getElementById("top2");
+var body =document.getElementById("body");
+if (x.style.display === "block") {
+  top2.style.display="block";
+  x.style.display = "none";
+  body.style.overflow="visible"
+} else {
+  top2.style.display="none";
+  x.style.display = "block";
+  body.style.overflow="hidden";
+}
+}
+//*************** end header script   mobile version 
+         </script>
+         
 </body>
 
 </html>

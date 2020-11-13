@@ -1,4 +1,5 @@
 showSlidesac(2);
+
   function showSlidesac(n) {
     var ji=0;
     var slidesac3 = document.getElementsByClassName("myslidestory");

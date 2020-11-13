@@ -6068,9 +6068,6 @@ body {
   .carousel-2-div .carousel-exclu .carousel-cell {
     width: 500px !important;
   }
-  .carousel-2-div .carousel-exclu .flickity-viewport {
-    height: 520px !important;
-  }
 }
 @media screen and (min-width: 1050px) {
   .carousel-2-div .carousel-exclu .carousel-cell {
