@@ -3,6 +3,19 @@
 }
 
 
+#modules {
+    height: 50px;
+    padding: 5px;
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    &::-webkit-scrollbar {
+       display: none;
+    }
+}
+
+
 @media screen and (min-width: 700px) {
 
   .display-block-big{
@@ -15,13 +28,26 @@
   display: none !important;
 }
 }
- 
+
 @media screen and (max-width: 700px) {
+  .tabcontent {
+    padding: 6px 0px;
+  }
+  .no-margin-side-mobile{
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  #modules{
+    .column3{
+      width: auto;
+    }
+   }
+
   .home-celebrate-margin .parag{
     margin-right: 5%;
   }
 
-  
+
   .flavour-item .flavour-item-img {
     height: 31%;
   }
@@ -30,7 +56,7 @@
   .flavour-container {
     .flavour-item {
   height: auto;}
-    
+
     .margin-stand{
     margin-top: 20px !important;
   }
@@ -43,12 +69,12 @@
      width: 350px !important;
    }
   .exclu-item {
-    
-  
+
+
     .exclu-item-title {
-     
+
       font-size: 20px !important;
-  
+
       padding-top: 15px !important;
     }
     .exclu-item-img {
@@ -56,9 +82,9 @@
     }
     .exclu-item-btn {
       margin-top: 15px;
-   
+
       margin-bottom: 20px;
-     
+
       font-size: 10px;
       letter-spacing: 4px;
       padding: 13px 22px;
@@ -73,7 +99,7 @@
       font-size: 12px;
       border-bottom-left-radius: 3px;
     }
-  
+
     .padding-right {
       padding-right: 5%;
       margin-bottom: 50px; ;
@@ -89,13 +115,13 @@
       border-width: 0.3px;
     }
   }
- 
+
   .stay-elemnt{
        flex-basis: auto;
 
  div{
     font-size: 20px !important;
-   
+
   }
   img {
     width: 50px !important;
@@ -103,7 +129,7 @@
 }
 
   .myslidestory{
-    
+
     .carousel-cell{
       width: 30%;
       height: 200px !important;
@@ -112,7 +138,7 @@
       left: 0% !important;
     }
   }
-  
+
 
   .display-none-mobile{
     display: none !important;
@@ -129,7 +155,7 @@
     }
   }
   .slides-story { .flickity-prev-next-button{
-    display: none ; 
+    display: none ;
   }}
   .slides-story{
 
@@ -146,7 +172,7 @@
       display: none;
     }
     .index-box-second-parag{
-      margin-top: 0px !important ; 
+      margin-top: 0px !important ;
     }
   }
   .carousel-one-in-the-midle{
@@ -154,7 +180,7 @@
   }
   .flex-column-mobile{
     display: flex;
-    
+
     flex-direction: column-reverse;
   }
    .home-img-margin {
@@ -258,13 +284,15 @@ margin-top: 20px !important ;
         margin-right: 20px;
 
       .sec-margin {
-        margin-bottom: 12.9px;
+        margin-bottom: 0px;
         margin-top: 12px;
         margin-right: 10px;
         padding: 15px;
       }
       .margin-right-50 {
         margin-right: 0px;
+        margin-top: -70px !important;
+        background-color: white;
     }
 
     }
