@@ -1,4 +1,5 @@
 @media only screen and (max-width: 700px) {
+
     .dining-select-box{ display: none ; }
     .dining-right-title {
         .right{
@@ -8,6 +9,30 @@
     }
     .dining-right-parag{
         margin-top: 0px !important;
+    }
+    .dining-box-padding{
+        h3{
+            font-size: 17px !important;
+        }
+        li{
+            font-size: 11px !important;
+        }
+        padding: 10px 10px 10px 10px;
+    }
+    .special-offer-img{
+        width: 100%;
+    }
+    .carousel-our-fan{
+        .carousel-cell{
+            width: 80%;
+        }
+    }
+    .carousel-3-div .carousel-our-fan .flickity-prev-next-button{
+        display: none;
+    }
+    .dining-img-style{
+        width: 250px;
+        height: 50px;
     }
 
 

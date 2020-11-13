@@ -464,6 +464,33 @@
   .dining-right-parag {
     margin-top: 0px !important;
   }
+
+  .dining-box-padding {
+    padding: 10px 10px 10px 10px;
+  }
+  .dining-box-padding h3 {
+    font-size: 17px !important;
+  }
+  .dining-box-padding li {
+    font-size: 11px !important;
+  }
+
+  .special-offer-img {
+    width: 100%;
+  }
+
+  .carousel-our-fan .carousel-cell {
+    width: 80%;
+  }
+
+  .carousel-3-div .carousel-our-fan .flickity-prev-next-button {
+    display: none;
+  }
+
+  .dining-img-style {
+    width: 250px;
+    height: 50px;
+  }
 }
 @media screen and (max-width: 700px) {
   .footerlist {
