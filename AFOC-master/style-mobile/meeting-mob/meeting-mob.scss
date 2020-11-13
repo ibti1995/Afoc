@@ -1,11 +1,42 @@
 @media only screen and (max-width: 700px) {
+    .info-mobile {
+        p {
+            line-height: 50px !important;
+        }
+        .meeting-width-buttons{
+            width: -webkit-fill-available ;
+        }
+        .cat-gold-btn{
+            margin-right: 0px;
+        }
+    }
+    .carousel-meetings-packages{
+        span {
+            font-size: 11px !important;
+        }
+        .order-title-mobile1{
+            order: 1 ;
+        }
+        .order-title-mobile2{
+            order: 2 ;
+        }
+        .order-title-mobile3{
+            order: 3 ;
+        }
+        .order-title-mobile4{
+            order: 4 ;
+        }
+
+    }
 
     .meeting-font-margin {
         font-size: 17px;
         margin-bottom: 20px;
     }
     .meeting-img {
-     height: 180px;
+        width: -webkit-fill-available;
+        margin: -30px -30px 20px -30px;
+   
     }
    .ourfans-box {
     .flex-row{span{
