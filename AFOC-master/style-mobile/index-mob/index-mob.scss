@@ -3,8 +3,21 @@
 }
 
 
-@media screen and (min-width: 700px) {
+#modules {
+    height: 50px;
+    padding: 5px;
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    &::-webkit-scrollbar {
+       display: none;
+    }
+}
 
+
+@media screen and (min-width: 700px) {
+ 
   .display-block-big{
     display: block !important;
   }
@@ -17,6 +30,19 @@
 }
  
 @media screen and (max-width: 700px) {
+  .tabcontent {
+    padding: 6px 0px;
+  }
+  .no-margin-side-mobile{
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  #modules{
+    .column3{
+      width: auto;
+    }
+   }
+
   .home-celebrate-margin .parag{
     margin-right: 5%;
   }
