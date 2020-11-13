@@ -17,13 +17,13 @@
   .slide1 {
     margin-bottom: 60px;
     .item-service {
-      height: 1098px;
+      height: auto;
       margin: 26px 5px 20px 5px;
       border-radius: 15px;
     }
     .mySlides4 {
       display: none;
-      height: 1100px;
+      height: auto;
     }
   }
   .variety-imgs{
@@ -35,5 +35,10 @@
 }
 .menu1{
   display: none;
+}
+.cat-slide-img {
+
+  height: auto;
+
 }
 }
