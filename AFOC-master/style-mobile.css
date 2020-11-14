@@ -1156,6 +1156,36 @@
   .offers-full-menu {
     display: none;
   }
+
+  /********* offers fixed menu*************/
+  #menu-mob-offers {
+    display: block;
+  }
+  #menu-mob-offers button {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 1520;
+  }
+  #menu-mob-offers div.scrollmenu {
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    white-space: nowrap;
+    overflow: auto !important;
+    width: 100%;
+    z-index: 1500;
+  }
+  #menu-mob-offers div.scrollmenu a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+  }
+  #menu-mob-offers a:hover {
+    color: #926D39 !important;
+  }
 }
 @media only screen and (max-width: 700px) {
   .flex-row .list-class-offer {

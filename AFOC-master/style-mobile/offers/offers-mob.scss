@@ -1,41 +1,67 @@
-
 @media screen and (max-width: 700px) {
-    .offer-get-in-touch {
-        background-image: none;
+  .offer-get-in-touch {
+    background-image: none;
+  }
+  .offers-margin-left-64-9 {
+    margin-left: 10px;
+  }
+  .offers-name-title {
+    font-size: 15px;
+    line-height: 12px;
+  }
+  .offers-name {
+    width: 50%;
+    margin-bottom: 0px;
+    margin-left: 16px;
+    margin-top: 15px;
+  }
+  .slides-box {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+  .offers-cont {
+    width: 320px;
+    height: 306px;
+  }
+  .offers-name-parag {
+    margin-left: 20px;
+    line-height: 15px;
+    font-size: 12px !important;
+    width: 169px;
+  }
+  .menu1 {
+    display: none !important;
+  }
+  .offers-full-menu {
+    display: none;
+  }
+  /********* offers fixed menu*************/
+  #menu-mob-offers {
+      display: block;
+button{
+    position: fixed;bottom: 0; right:0 ;z-index: 1520;
+}
+    div.scrollmenu {
+        background-color: white;
+        position: fixed;
+        bottom: 0;
+        white-space: nowrap;
+        overflow: auto!important;
+        width: 100%;
+z-index: 1500;
 
     }
-    .offers-margin-left-64-9 {
-         margin-left: 10px;
-    }
-    .offers-name-title {
-        font-size: 15px;
-        line-height: 12px;
-    }
-    .offers-name {
-        width: 50%;
-        margin-bottom: 0px;
-        margin-left: 16px;
-        margin-top: 15px;
-    }
-    .slides-box {
-         margin-right: 0px;
-        margin-bottom: 20px;
-    }
-    .offers-cont {
-        width: 320px;
-        height: 306px;
-    }
-    .offers-name-parag {
-        margin-left: 20px;
-        line-height: 15px;
-        font-size: 12px !important;
-        width: 169px;
+    div.scrollmenu a {
 
+        display: inline-block;
+        color: black;
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
     }
-    .menu1{
-        display: none !important;
-    }
-    .offers-full-menu{
-        display: none;
-    }
+a:hover{
+    color: $primary-color;
+}
+
+}
 }

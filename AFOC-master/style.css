@@ -2232,6 +2232,10 @@ dialog {
   margin-bottom: 6px;
 }
 
+#menu-mob-offers {
+  display: none;
+}
+
 @media screen and (max-width: 1050px) {
   .offersmenu {
     margin-bottom: 30px;
@@ -2899,6 +2903,10 @@ dialog {
     order: 3;
   }
 }
+#menu-mob-evt {
+  display: none;
+}
+
 .icons img {
   width: 40px;
   height: 26px;
