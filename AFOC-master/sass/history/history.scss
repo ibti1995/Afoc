@@ -8,7 +8,7 @@
 #pos2 {
   bottom: 6%;
   left: 19%;
-  
+
 }
 #pos3 {
 
@@ -38,7 +38,7 @@
 #pos8 {
   bottom: 9%;
   left: 86%;
-  
+
 }
 
 
@@ -49,13 +49,13 @@
   display: flex;
   flex-direction: row;
   position: absolute;
- 
+
   padding: 10px 13px 9px;
   background-color: white;
   border-radius: 22px;
   img{
     width: 13px;
-    
+
   }
 }
 .position-playgrounds:hover{
@@ -66,10 +66,10 @@
 
 .text-position {
   display: none;
-  font-size: 13px; 
+  font-size: 13px;
   margin-left: 15px;
   font-family: poppins-semi-bold;
-  
+
 }
 
 
@@ -116,6 +116,7 @@
 }
 .image{
   align-self: center;
+  flex-basis: 40%;
 }
 @media screen and (max-width: 1050px){
   .story-title{
@@ -143,7 +144,7 @@
   .flex2{
     order: 1;
   }
-  
+
 .parag-img{
   .flex-row{
 display: flex;

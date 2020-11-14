@@ -118,8 +118,9 @@
 .offers-margin-buttom-6{
   margin-bottom: 6px;
 }
-
+#menu-mob-offers{display: none;}
 @media screen and (max-width: 1050px) {
+
   .offersmenu {
     // width: 60vw;
     margin-bottom: 30px;
@@ -133,7 +134,7 @@
     margin-left: 0;
     background-color: white;
     height: 79px;
-
+    width: 290px;
     font-size: 20px;
   }
 .menu1{
