@@ -4,14 +4,26 @@
         padding-left: 5px;
         line-height: 30px;
         margin-top: -40px;
-        width: 80%;
+        width: 95%;
         padding-right: 2px;
         order: 2;
+        height: auto;
 
     }
     .slides1 {
         display: none;
         width: 320px;
       }
+      .prev6,
+.next6 {
+
+  bottom: 20%;
+
+}
+.prev6 {
+    left: 0px;
+right: unset;
+    border-radius: 3px 0 0 3px;
+  }
 
 }
