@@ -5033,7 +5033,7 @@ body {
 }
 @media screen and (max-width: 700px) {
   .modal-content {
-    width: 100%;
+    width: 95%;
     padding-left: 2rem;
   }
 
