@@ -4945,18 +4945,6 @@ body {
   /* Black w/ opacity */
 }
 
-/* Modal Content */
-.modal-content {
-  background-color: #fefefe;
-  margin: auto;
-  padding-left: 5rem;
-  padding-right: 2rem;
-  padding-bottom: 5rem;
-  border: 1px solid #888;
-  width: 25%;
-  border-radius: 10px;
-}
-
 /* The Close Button */
 .close1,
 .close2,
@@ -4981,6 +4969,100 @@ body {
   cursor: pointer;
 }
 
+.dialog-btn {
+  width: 16rem;
+  height: 59px !important;
+  cursor: pointer !important;
+  margin-left: 8rem;
+  margin-top: 5rem;
+}
+
+.sub-title-dialog {
+  font-size: 25px;
+  color: #808080;
+  opacity: 80%;
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+  border: 1px solid #888;
+  width: 40%;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.header-dialog {
+  width: fit-content;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  color: #385542;
+}
+
+.parag-dialog {
+  width: 246erm;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 1050px) {
+  .modal-content {
+    width: 50%;
+    padding-left: 2rem;
+  }
+
+  .dialog-btn {
+    width: 16rem;
+    height: 59px !important;
+    cursor: pointer !important;
+    margin-left: 4rem;
+    margin-top: 2rem;
+  }
+
+  p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .sub-title-dialog {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%;
+    padding-left: 2rem;
+  }
+
+  p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .dialog-btn {
+    width: 10rem;
+    height: 59px !important;
+    cursor: pointer !important;
+    margin-left: 2.5em;
+    margin-top: 2rem;
+  }
+
+  .sub-title-dialog {
+    font-size: 12x;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .modal-content {
+    padding-left: 2rem;
+  }
+}
 /*****************general buttons************************/
 .gold-btn {
   margin-top: 29px;
