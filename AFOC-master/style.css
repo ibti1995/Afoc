@@ -1374,6 +1374,7 @@ dialog {
 
 .image {
   align-self: center;
+  flex-basis: 40%;
 }
 
 @media screen and (max-width: 1050px) {
