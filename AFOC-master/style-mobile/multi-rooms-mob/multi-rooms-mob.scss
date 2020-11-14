@@ -1,21 +1,60 @@
 @media only screen and (max-width: 700px) {
-
-.rooms-cont {
+  .rooms-cont {
     width: 310px;
     height: 380px;
-}
-.single-room-box {display: none;}
-#menu-with-slides1{
+  }
+  .single-room-box {
     display: none;
-}
-.carraux{
+  }
+  #menu-with-slides1 {
     display: none;
-}
-.rooms-parag {
+  }
+  .carraux {
+    display: none;
+  }
+  .rooms-parag {
     margin-left: 20px;
     line-height: 20px;
     font-size: 12px;
     width: 185px;
     margin-top: 0px;
-}
+  }
+  #menu-mob {
+    display: block;
+    background-color: white;
+    z-index: 50000;
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+
+      position: fixed;
+      bottom: 0px;
+      width: 100%;
+
+      li {
+        float: left;
+        width: 16%;
+        height: 100px;
+        font-size: 8px;
+
+      }
+      li {
+        input {
+          width:100%;
+          font-size: 15px;
+        }
+        select {
+          font-size: 13px;
+          width: 100%;
+        }
+      }
+    }
+  }
+  .select-menu-fixed {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-style: none;
+  }
 }
