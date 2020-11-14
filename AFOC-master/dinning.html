@@ -33,15 +33,15 @@
     </div>
       <!-- *****start  headermenu mobile version***** -->
     <div class="topnav2">
- 
+
       <div id="top2" style="background-color: white;">
         <a href="#home" class="logo-res"><img class="" src="assets/svg/Component21.svg" /></a>
         <a style="background-color: white;" href=" javascript:void(0);" class="icon" onclick="myFunction2()">
           <img src="assets/svg/Icon ionic-ios-menu.svg" />
         </a>
-        
+
       </div>
-     
+
         <div class="responsive-menu" >
           <div class="left-menu" style="width: 30vw; background-color: black; opacity: 50%;"  onclick="myFunction2()"></div>
         <div id="myLinks2">
@@ -54,11 +54,11 @@
           <a href="activities.html" class="black decoration-none border-top-a"> Fitness </a>
           <a href="#getIntouch" class="black decoration-none border-top-a">Contact </a>
         </div>
-  
+
       </div>
-      
-        
-      </div> 
+
+
+      </div>
           <!-- *****end  headermenu mobile version***** -->
 
     <div class="flex-row header-simple">
@@ -109,7 +109,55 @@
         </select>
       </div>
     </div>
+         <!--*****************start menu mobile version*****************-->
+         <div id="menu-mob">
+          <ul>
+              <li> <input class="select-menu-fixed" type="text" placeholder="13-dec"></li>
+              <li> <input class="select-menu-fixed" type="text" placeholder="17-dec"></li>
+              <li>
+                  <select class=" select-menu-fixed  black" name="rooms" id="rooms">
+                      <option selected disabled>Rooms</option>
+                      <option class=" item-select-language-index" value="saab">1</option>
+                      <option class=" item-select-language-index" value="mercedes">2</option>
+                      <option class=" item-select-language-index" value="audi">3</option>
+                      <option class=" item-select-language-index" value="audi">4</option>
+                      <option class=" item-select-language-index" value="audi">5</option>
+                      <option class=" item-select-language-index" value="audi">6</option>
+                      <option class=" item-select-language-index" value="audi">7</option>
+                      <option class=" item-select-language-index" value="audi">8</option>
+                  </select>
+              </li>
+              <li><select class=" select-menu-fixed black" name="adults" id="adults">
+                      <option selected disabled>Adults</option>
+                      <option class=" item-select-language-index" value="saab">1</option>
+                      <option class=" item-select-language-index" value="mercedes">2</option>
+                      <option class=" item-select-language-index" value="audi">3</option>
+                      <option class=" item-select-language-index" value="audi">4</option>
+                      <option class=" item-select-language-index" value="audi">5</option>
+                      <option class=" item-select-language-index" value="audi">6</option>
+                      <option class=" item-select-language-index" value="audi">7</option>
+                      <option class=" item-select-language-index" value="audi">8</option>
+                  </select></li>
+              <li>
+                  <select class=" select-menu-fixed black" name="lang" id="children">
+                      <option selected disabled>Children</option>
+                      <option class=" item-select-language-index" value="saab">1</option>
+                      <option class=" item-select-language-index" value="mercedes">2</option>
+                      <option class=" item-select-language-index" value="audi">3</option>
+                      <option class=" item-select-language-index" value="audi">4</option>
+                      <option class=" item-select-language-index" value="audi">5</option>
+                      <option class=" item-select-language-index" value="audi">6</option>
+                      <option class=" item-select-language-index" value="audi">7</option>
+                      <option class=" item-select-language-index" value="audi">8</option>
+                  </select>
+              </li>
+              <li class="right"> <a href=""><button class="search-btn" ><img
+                              src="assets/svg/search-btn-small.svg"></button></a>
+              </li>
+          </ul>
+      </div>
 
+<!--   ***************end menu mobile version*****************      -->
     <!-- ***************Restaurant Name 1  -->
     <div class="margin-stand responsive-container margin-top-70">
 
@@ -292,13 +340,13 @@
             <span class="carousel-cell-image">
               <img src="assets/cateringImg/img1.jpg" alt="grapes" />
             </span>
-  
+
           </div>
           <div class="carousel-cell">
             <span class="carousel-cell-image">
               <img src="assets/cateringImg/img2.jpg" alt="grapes" />
             </span>
-  
+
           </div>
           <div class="carousel-cell">
             <span class="carousel-cell-image">
@@ -312,7 +360,7 @@
           </div>
           <div class="carousel-cell">
             <span class="carousel-cell-image">
-  
+
               <img src="assets/cateringImg/img5.jpg" alt="wolf" />
             </span>
           </div>
@@ -329,7 +377,7 @@
         </div>
       </div>
     <!-- **************end slide mobile version -->
-      
+
       <!--  ----------------*************  special offer******************* --->
       <div>
         <div class="offerTitle margin-stand margin-top-70">
@@ -724,7 +772,7 @@ if (x.style.display === "block") {
   body.style.overflow="hidden";
 }
 }
-//*************** end header script   mobile version 
+//*************** end header script   mobile version
 
     document.getElementById("slide1dinning").addEventListener("click", function() {
   clearInterval(slideIntervalslide1dinning);
