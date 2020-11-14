@@ -64,9 +64,87 @@
             </div>
 
         </div>
+   <!-- *****start  headermenu mobile version***** -->
+   <div class="topnav2">
 
+    <div id="top2" style="background-color: white;">
+        <a href="#home" class="logo-res"><img class="" src="assets/svg/Component21.svg" /></a>
+        <a style="background-color: white;" href=" javascript:void(0);" class="icon" onclick="myFunction2()">
+            <img src="assets/svg/Icon ionic-ios-menu.svg" />
+        </a>
+
+    </div>
+
+    <div class="responsive-menu">
+        <div class="left-menu" style="width: 30vw; background-color: black; opacity: 50%;"
+            onclick="myFunction2()"></div>
+        <div id="myLinks2">
+            <a href="#" class="decoration-none link-logo-top"><img src="assets/svg/Group 526.svg" /></a>
+            <a href="index.html" class="black decoration-none border-top-a">Home </a>
+            <a href="multiRoomsPage.html" class="gold decoration-none border-top-a"> Rooms </a>
+            <a href="dinning.html" class="decoration-none black border-top-a">Dinning </a>
+            <a href="weddings.html" class="black decoration-none border-top-a">Wedding </a>
+            <a href="meetingsAndActivities.html" class="black decoration-none border-top-a"> Events </a>
+            <a href="activities.html" class="black decoration-none border-top-a"> Fitness </a>
+            <a href="#getIntouch" class="black decoration-none border-top-a">Contact </a>
+        </div>
+
+    </div>
+
+
+</div>
+<!-- *****end  headermenu mobile version***** -->
     </header>
     <section class="single-room-section">
+                    <!--*****************start menu mobile version*****************-->
+                    <div id="menu-mob">
+                        <ul>
+                            <li> <input class="select-menu-fixed" type="text" placeholder="13-dec"></li>
+                            <li> <input class="select-menu-fixed" type="text" placeholder="17-dec"></li>
+                            <li>
+                                <select class=" select-menu-fixed  black" name="rooms" id="rooms">
+                                    <option selected disabled>Rooms</option>
+                                    <option class=" item-select-language-index" value="saab">1</option>
+                                    <option class=" item-select-language-index" value="mercedes">2</option>
+                                    <option class=" item-select-language-index" value="audi">3</option>
+                                    <option class=" item-select-language-index" value="audi">4</option>
+                                    <option class=" item-select-language-index" value="audi">5</option>
+                                    <option class=" item-select-language-index" value="audi">6</option>
+                                    <option class=" item-select-language-index" value="audi">7</option>
+                                    <option class=" item-select-language-index" value="audi">8</option>
+                                </select>
+                            </li>
+                            <li><select class=" select-menu-fixed black" name="adults" id="adults">
+                                    <option selected disabled>Adults</option>
+                                    <option class=" item-select-language-index" value="saab">1</option>
+                                    <option class=" item-select-language-index" value="mercedes">2</option>
+                                    <option class=" item-select-language-index" value="audi">3</option>
+                                    <option class=" item-select-language-index" value="audi">4</option>
+                                    <option class=" item-select-language-index" value="audi">5</option>
+                                    <option class=" item-select-language-index" value="audi">6</option>
+                                    <option class=" item-select-language-index" value="audi">7</option>
+                                    <option class=" item-select-language-index" value="audi">8</option>
+                                </select></li>
+                            <li>
+                                <select class=" select-menu-fixed black" name="lang" id="children">
+                                    <option selected disabled>Children</option>
+                                    <option class=" item-select-language-index" value="saab">1</option>
+                                    <option class=" item-select-language-index" value="mercedes">2</option>
+                                    <option class=" item-select-language-index" value="audi">3</option>
+                                    <option class=" item-select-language-index" value="audi">4</option>
+                                    <option class=" item-select-language-index" value="audi">5</option>
+                                    <option class=" item-select-language-index" value="audi">6</option>
+                                    <option class=" item-select-language-index" value="audi">7</option>
+                                    <option class=" item-select-language-index" value="audi">8</option>
+                                </select>
+                            </li>
+                            <li class="right"> <a href=""><button class="search-btn">
+                                        <img src="assets/svg/search-btn-small.svg"></button></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!--   ***************end menu mobile version*****************      -->
         <div id="head-single-room" class="flex-column margin-stand margin-top-20">
             <div class="flex-row rooms-menu-bo display-inputs2 rooms-first-menu">
                 <input class="input-date-text" type="text" placeholder="13-dec">
@@ -324,7 +402,9 @@
                         <button class="poppins-M font-25 poppin-semi-bold white cat-gold-btn"> BOOK NOW</button>
                     </a>
                 </div>
-                <div class="flex-column flex-basis-50">
+
+              <!--adding id to fix mobile version-->
+                <div id="columns-section" class="flex-column flex-basis-50">
                     <div class="flex-row space-between">
                         <div class="flex-basis-45">
                             <img class="margin-right-25" src="assets/svg/single room/building.svg">
@@ -367,8 +447,9 @@
                 <h2 class="rossanova center font-30 margin-top-70 spacing-20 ">
                     Room amenities
                 </h2>
-                <div class="flex-column ameities-img">
-                    <div class="flex-row space-between margin-buttom-25" >
+                <div  class="flex-column ameities-img">
+                    <!--adding ids to fix mobile version-->
+                    <div id="amenities1" class="flex-row space-between margin-buttom-25" >
                         <img src="assets/svg/single room/amenities/wifi.svg">
                         <img src="assets/svg/single room/amenities/weather.svg">
                         <img src="assets/svg/single room/amenities/paw.svg">
@@ -380,8 +461,8 @@
                     </div>
 
 
-
-                    <div class="flex-row" style="justify-content: space-around;">
+<!--adding ids to fix mobile version-->
+                    <div id="amenities2" class="flex-row" style="justify-content: space-around;">
                         <img src="assets/svg/single room/amenities/weather.svg">
                         <img src="assets/svg/single room/amenities/paw.svg">
                         <img src="assets/svg/single room/amenities/cofe.svg">
@@ -615,7 +696,9 @@
 
 
             <!-- ****************************               ******************************* -->
-            <div class="slides-story carousel-3-div slides-height" >
+
+        <!-- adding id here to manage mobile version -->
+            <div id="single-room-caroussel2" class="slides-story carousel-3-div slides-height" >
                 <div class="myslidestory">
                     <div class="room-R-cass margin-right" >
                         <div class="carousels1"
@@ -676,7 +759,7 @@
                                         <img class="radius-5" src="assets/singleRoom/rooms caroussel/Image2.png" />
                                         <div class="center">
                                             <h4 class="rossanova gold single-room-title">
-                                                Room Name
+                                                Room Name <br>
                                                 <img src="assets/svg/small-underline.svg" />
                                             </h4>
                                         </div>

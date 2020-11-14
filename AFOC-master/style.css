@@ -2252,6 +2252,7 @@ dialog {
     margin-left: 0;
     background-color: white;
     height: 79px;
+    width: 290px;
     font-size: 20px;
   }
 
@@ -2843,6 +2844,7 @@ dialog {
   color: white;
   background-color: #926D39 !important;
   border-radius: 30px;
+  padding: 10px;
 }
 
 .stay-elemnt div:hover {
