@@ -2316,7 +2316,7 @@ dialog {
 }
 
 .vibes-item {
-  margin-right: 5%;
+  margin-right: 4%;
   width: 370px;
 }
 
@@ -4530,7 +4530,20 @@ body {
 
 .slides-story {
   position: relative;
-  height: 400px;
+  height: 750px;
+}
+
+#suites {
+  display: none;
+}
+
+#villas {
+  display: none;
+}
+
+.rooms-offers {
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .multi-white-btn {
@@ -4543,7 +4556,7 @@ body {
 }
 
 .icons-width {
-  font-size: 2em;
+  font-size: 25px;
   margin-top: 25px;
 }
 
@@ -4637,12 +4650,12 @@ body {
 
 .rooms-num {
   color: #926D39 !important;
-  font-size: 60px;
+  font-size: 40px;
 }
 
 .caract {
-  width: 10%;
-  margin-right: 168px;
+  width: 8%;
+  justify-content: space-between;
 }
 
 .rooms-menu {
@@ -4653,15 +4666,30 @@ body {
 .rooms-menu ul {
   list-style-type: none;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 25px;
   margin-bottom: 25px;
 }
 .rooms-menu ul li {
-  margin-left: 5%;
+  margin-right: 10%;
   display: inline;
+  position: relative;
 }
 .rooms-menu ul li:hover {
   color: #926D39 !important;
+}
+.rooms-menu ul .act {
+  color: #926D39 !important;
+}
+.rooms-menu ul .act::after {
+  position: absolute;
+  border-radius: 20px 20px 0 0;
+  content: "";
+  min-width: 20px;
+  min-height: 10px;
+  display: block;
+  background-color: #926d39;
+  left: 25%;
+  bottom: -25px;
 }
 
 .rooms-right-menu {

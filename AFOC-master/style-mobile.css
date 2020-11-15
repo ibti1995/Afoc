@@ -1062,6 +1062,10 @@
   .carousel-3-div .carousel-meetings-packages .ourfans-box {
     padding: 30px;
   }
+  .carousel-3-div .carousel-meetings-packages .flickity-viewport {
+    height: 450px !important;
+  }
+
   .carousel-3-div .carousel {
     background: #fafafa;
   }

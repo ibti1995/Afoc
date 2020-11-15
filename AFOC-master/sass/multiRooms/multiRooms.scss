@@ -1,3 +1,13 @@
+#suites {
+  display: none;
+}
+#villas {
+  display: none;
+}
+.rooms-offers {
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .multi-white-btn {
   background-color: transparent;
   border-width: 0.5px;
@@ -7,7 +17,7 @@
   text-decoration: none;
 }
 .icons-width {
-  font-size: 2em;
+  font-size: 25px;
   margin-top: 25px;
 }
 .carousel-special-offers {
@@ -42,8 +52,6 @@
     width: -webkit-fill-available;
     border: none;
   }
-
-
 }
 .rooms-items-margin {
   margin-left: 20px;
@@ -96,11 +104,11 @@
 }
 .rooms-num {
   color: $primary-color;
-  font-size: 60px;
+  font-size: 40px;
 }
 .caract {
-  width: 10%;
-  margin-right: 168px;
+  width: 8%;
+  justify-content: space-between;
 }
 
 .rooms-menu {
@@ -110,14 +118,32 @@
   ul {
     list-style-type: none;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 25px;
     margin-bottom: 25px;
+
     li {
-      margin-left: 5%;
+      margin-right: 10%;
       display: inline;
+      position: relative;
     }
     li:hover {
       color: $primary-color;
+    }
+
+    .act{
+      color: $primary-color;
+    }
+    .act::after {
+
+      position: absolute;
+      border-radius: 20px 20px 0 0;
+      content: "";
+      min-width: 20px;
+      min-height: 10px;
+      display: block;
+      background-color: #926d39;
+      left: 25%;
+      bottom: -25px;
     }
   }
 }
