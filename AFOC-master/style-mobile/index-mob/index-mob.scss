@@ -17,6 +17,10 @@
 
 
 @media screen and (min-width: 700px) {
+  .tabcontent {
+    visibility: visible !important;
+  }
+ 
 
   .display-block-big{
     display: block !important;
@@ -30,6 +34,23 @@
 }
 
 @media screen and (max-width: 700px) {
+  #modules{
+    .active6{
+      opacity: 1 !important;
+    }
+  }
+  .demo32{
+    opacity: 0.6;
+  }
+  .mobile-galery{
+    height: 650px;
+ }
+
+ .tabcontent{
+   display: block !important;
+   position: absolute ;
+   width: -webkit-fill-available;
+ }
   .tabcontent {
     padding: 6px 0px;
   }
