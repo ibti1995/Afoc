@@ -1027,7 +1027,7 @@
             Galary<br>
             <img class="icon-under-h" src="assets/svg/Groupe 2164.svg" />
           </div>
-          <div id="modules" class="row3 " style="display: flex; justify-content: space-between;">
+          <div class="display-none-mobile row3"  style="display: flex; justify-content: space-between; ">
             <div class="column3 width-fit-content">
               <div class="demo3 cursor3 textact" onclick="openCity(event, 'Hotel',1)" id="defaultOpen">
                 <span>Hotel</span></div>
@@ -1048,7 +1048,30 @@
               <div class="demo3 cursor3 textact" onclick="openCity(event, 'Fan',6)  "><span>Fan</span></div>
             </div>
           </div>
-
+          <!-- ******************start mobile version menu -->
+          <div id="modules" class="row3 display-none-big  " style="display: flex; justify-content: space-between;">
+            <div class="column3 width-fit-content">
+              <div class="demo32 cursor3 textact" onclick="openCity2(event, 'Hotel',1)" id="defaultOpen2">
+                <span>Hotel</span></div>
+            </div>
+            <div class="column3 width-fit-content">
+              <div class="demo32 cursor3 textact" onclick="openCity2(event, 'Dining',2)  "><span>Dining</span> </div>
+            </div>
+            <div class="column3 width-fit-content">
+              <div class="demo32 cursor3 textact" onclick="openCity2(event, 'Fitness',3) "><span>Fitness</span></div>
+            </div>
+            <div class="column3 width-fit-content">
+              <div class="demo32 cursor3 textact" onclick="openCity2(event, 'Wedding',4) "><span>Wedding</span></div>
+            </div>
+            <div class="column3 width-fit-content">
+              <div class="demo32 cursor3 textact" onclick="openCity2(event, 'Events',5)  "><span>Events</span></div>
+            </div>
+            <div class="column3 width-fit-content">
+              <div class="demo32 cursor3 textact" onclick="openCity2(event, 'Fan',6)  "><span>Fan</span></div>
+            </div>
+          </div>
+           <!-- ******************end mobile version menu -->
+      <div class="mobile-galery" style="position: relative;">
           <div id="Hotel" class="flex-row tabcontent">
 
             <!--******************** start galery mobile version************* -->
@@ -1594,7 +1617,7 @@
             </div>
 
           </div>
-
+        </div>
         </div>
 
 
@@ -1670,26 +1693,8 @@
     </div>
   </footer>
 
-  <script>
-    var dots = document.getElementsByClassName("demo3");
-    function openCity(evt, cityName, n) {
-      var i, tabcontent, tablinks;
-      tabcontent = document.getElementsByClassName("tabcontent");
-      for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-      }
-      for (i = 0; i < tabcontent.length; i++) {
-        dots[i].className = dots[i].className.replace(" active6", "");
-      }
-      dots[n - 1].className += " active6";
-      document.getElementById(cityName).style.display = "flex";
-
-    }
-
-    // Get the element with id="defaultOpen" and click on it
-    document.getElementById("defaultOpen").click();
-  </script>
-
+  <script src="js/gallery-mobile-selection.js"></script>
+ 
   <script src="js/firsthome.js"></script>
   <script src="js/slidehomepage.js"></script>
   <script src="js/story-home.js"></script>
@@ -1723,7 +1728,7 @@ if (x.style.display === "block") {
   body.style.overflow="hidden";
 }
 }
-//*************** end header script   mobile version
+
     var rooms = 0;
     var child = 0;
     var adult = 0;
