@@ -3702,6 +3702,10 @@ dialog {
   }
 }
 @media screen and (min-width: 1050px) {
+  .gallery-normal-screen {
+    font-size: 105px !important;
+  }
+
   .art-responsive-title2 {
     display: block;
   }
@@ -4661,12 +4665,22 @@ body {
 }
 
 .rooms-num {
+  align-items: flex-start;
+  display: flex;
   color: #926D39 !important;
   font-size: 40px;
 }
+.rooms-num .number-margin-top {
+  margin-top: 15px;
+  margin-right: 10px;
+}
+.rooms-num img {
+  width: 35px;
+  height: 35px;
+}
 
 .caract {
-  width: 8%;
+  width: 190px;
   justify-content: space-between;
 }
 

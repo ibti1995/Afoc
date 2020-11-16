@@ -103,11 +103,23 @@
   background-size: 1930px 5950px;
 }
 .rooms-num {
+  align-items: flex-start;
+  display: flex;
   color: $primary-color;
   font-size: 40px;
+  .number-margin-top{
+    
+    margin-top: 15px ;
+    margin-right: 10px;
+  }
+  img{
+    width: 35px;
+    height: 35px;
+  }
+
 }
 .caract {
-  width: 8%;
+  width: 190px;
   justify-content: space-between;
 }
 
