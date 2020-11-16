@@ -178,7 +178,6 @@
     width: 600px;
     height: 325px;
     background-color: rgba(95, 90, 96, 0.3);
-    margin-top: 583px;
     margin-right: 3%;
     margin-bottom: -10px;
   }
@@ -282,7 +281,7 @@
 .header {
   background-repeat: no-repeat;
   width: 100%;
-  height: 1080px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   background-size: auto;
@@ -501,7 +500,7 @@ a {
 .header {
   background-repeat: no-repeat;
   width: 100%;
-  height: 1080px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   background-size: auto;
@@ -561,7 +560,7 @@ a {
 }
 
 .poppin-semi-bold {
-  font-family: poppins-semi-bold;
+  font-family: poppins-semi-bold !important;
 }
 
 .font-40 {
@@ -2128,11 +2127,11 @@ dialog {
 .offersmenu ul {
   list-style-type: none;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 25px;
   margin-bottom: 25px;
 }
 .offersmenu ul li {
-  margin-left: 5%;
+  margin-right: 5%;
   display: inline;
   cursor: pointer;
 }
@@ -3130,6 +3129,10 @@ dialog {
   margin-bottom: 30px;
 }
 
+.list-class {
+  margin-right: 80px;
+}
+
 .activities {
   background-image: url("assets/activities/Composant 2 – 1.png");
 }
@@ -3832,7 +3835,7 @@ body {
   background-image: url("assets/homePage/Screen.png");
   background-repeat: no-repeat;
   width: 100%;
-  height: 1080px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   background-size: auto;
@@ -4692,20 +4695,6 @@ body {
 .rooms-menu ul li:hover {
   color: #926D39 !important;
 }
-.rooms-menu ul .act {
-  color: #926D39 !important;
-}
-.rooms-menu ul .act::after {
-  position: absolute;
-  border-radius: 20px 20px 0 0;
-  content: "";
-  min-width: 20px;
-  min-height: 10px;
-  display: block;
-  background-color: #926d39;
-  left: 25%;
-  bottom: -25px;
-}
 
 .rooms-right-menu {
   margin-left: 816px;
@@ -4796,6 +4785,22 @@ body {
 }
 .multi-rooms-btn-slide a {
   margin: 20px 3px;
+}
+
+.act {
+  color: #926D39 !important;
+}
+
+.act::after {
+  position: absolute;
+  border-radius: 20px 20px 0 0;
+  content: "";
+  min-width: 20px;
+  min-height: 10px;
+  display: block;
+  background-color: #926d39;
+  left: 25%;
+  bottom: -25px;
 }
 
 @media screen and (max-width: 1050px) {
