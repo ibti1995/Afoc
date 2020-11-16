@@ -142,21 +142,7 @@
       color: $primary-color;
     }
 
-    .act{
-      color: $primary-color;
-    }
-    .act::after {
 
-      position: absolute;
-      border-radius: 20px 20px 0 0;
-      content: "";
-      min-width: 20px;
-      min-height: 10px;
-      display: block;
-      background-color: #926d39;
-      left: 25%;
-      bottom: -25px;
-    }
   }
 }
 
@@ -253,4 +239,19 @@
   a {
     margin: 20px 3px;
   }
+}
+.act{
+  color: $primary-color;
+}
+.act::after {
+
+  position: absolute;
+  border-radius: 20px 20px 0 0;
+  content: "";
+  min-width: 20px;
+  min-height: 10px;
+  display: block;
+  background-color: #926d39;
+  left: 25%;
+  bottom: -25px;
 }

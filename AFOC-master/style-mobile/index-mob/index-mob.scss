@@ -1,7 +1,6 @@
 .story-S-cass .flickity-viewport {
-  height: 250px !important;
+  height: 350px !important;
 }
-
 
 #modules {
     height: 50px;
@@ -20,7 +19,7 @@
   .tabcontent {
     visibility: visible !important;
   }
- 
+
 
   .display-block-big{
     display: block !important;
@@ -31,9 +30,16 @@
 .display-block-img-mobile{
   display: none !important;
 }
+
 }
 
 @media screen and (max-width: 700px) {
+
+
+  .slides-story {
+    position: relative;
+    height: 500px !important;
+}
   #modules{
     .active6{
       opacity: 1 !important;
@@ -153,7 +159,7 @@
 
     .carousel-cell{
       width: 30%;
-      height: 200px !important;
+      height: 400px !important;
     }
     .flickity-slider{
       left: 0% !important;
@@ -178,9 +184,7 @@
   .slides-story { .flickity-prev-next-button{
     display: none ;
   }}
-  .slides-story{
 
-  }
   .stay-mobile {
     margin-top: 30px !important;
     .home-title-responsive {

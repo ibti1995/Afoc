@@ -276,6 +276,13 @@
 }
 
 @media screen and (max-width: 1050px) {
+  .story-S-cass .flickity-viewport {
+    height: 450px !important;
+  }
+  .slides-story {
+    position: relative;
+    height: 350px!important;
+  }
   .flav-title,
   .balance-title {
     margin-left: 0px !important;
@@ -375,6 +382,7 @@
   .gallery-normal-screen{
     font-size: 105px !important;
   }
+
   .art-responsive-title2 {
     display: block;
   }
@@ -388,7 +396,7 @@
     .flickity-slider {
       position: absolute;
       width: 100%;
-      height: 100%;
+      height: 350px;
       //left: -14% !important;
       display: flex;
       align-items: center;
@@ -690,7 +698,7 @@ body {
 
   /* ---- page dots ---- */
 
-  .flickity-page-dots {*
+  .flickity-page-dots {
 
     position: absolute;
     width: 100%;
@@ -1376,5 +1384,5 @@ body {
 }
 .slides-story {
   position: relative;
-  height: 750px;
+  height: 450px!important;
 }

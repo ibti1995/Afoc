@@ -1224,10 +1224,11 @@ dialog {
   background-color: white;
   margin-top: 100px;
   margin-right: 66px;
+  border-radius: 25px;
 }
 
 .offer-get-in-touch-values {
-  margin-top: 81.5px;
+  margin-top: 60px;
   margin-left: 53px;
 }
 
@@ -2127,11 +2128,11 @@ dialog {
 .offersmenu ul {
   list-style-type: none;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 25px;
   margin-bottom: 25px;
 }
 .offersmenu ul li {
-  margin-left: 5%;
+  margin-right: 5%;
   display: inline;
   cursor: pointer;
 }
@@ -2883,12 +2884,9 @@ dialog {
   align-items: center;
 }
 
-.box-border-menu {
-  border-right: solid;
-  border-left: solid;
-  border-color: #707070;
-  padding-right: 38px;
-  border-width: thin;
+.slides-story2 {
+  position: relative;
+  height: 750px !important;
 }
 
 @media screen and (max-width: 1050px) {
@@ -2903,6 +2901,14 @@ dialog {
   .responsive-box-meeting-midle {
     margin-left: 3% !important;
     margin-right: 3% !important;
+  }
+
+  .meeting-box {
+    order: 2;
+  }
+
+  .meetings-second-sub-box {
+    order: 3;
   }
 }
 @media screen and (min-width: 1050px) {
@@ -3052,7 +3058,7 @@ dialog {
   width: 87px;
   height: 57px;
   margin-top: 17px;
-  padding-left: 22px;
+  padding: 20px;
 }
 .meetings-menu input[type=text]:focus {
   border-color: #926D39 !important;
@@ -3130,6 +3136,10 @@ dialog {
 .meeting-img {
   border-radius: 5px;
   margin-bottom: 30px;
+}
+
+.list-class {
+  margin-right: 80px;
 }
 
 .activities {
@@ -3603,6 +3613,15 @@ dialog {
 }
 
 @media screen and (max-width: 1050px) {
+  .story-S-cass .flickity-viewport {
+    height: 450px !important;
+  }
+
+  .slides-story {
+    position: relative;
+    height: 350px !important;
+  }
+
   .flav-title,
 .balance-title {
     margin-left: 0px !important;
@@ -3721,7 +3740,7 @@ dialog {
   .story-S-cass .flickity-slider {
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 350px;
     display: flex;
     align-items: center;
   }
@@ -4002,9 +4021,7 @@ body {
   height: 60%;
 }
 .finding-balance-carou .flickity-page-dots {
-  *
-
-    position: absolute;
+  position: absolute;
   width: 100%;
   bottom: -25px;
   padding: 0;
@@ -4546,7 +4563,7 @@ body {
 
 .slides-story {
   position: relative;
-  height: 750px;
+  height: 450px !important;
 }
 
 #suites {
@@ -4703,20 +4720,6 @@ body {
 .rooms-menu ul li:hover {
   color: #926D39 !important;
 }
-.rooms-menu ul .act {
-  color: #926D39 !important;
-}
-.rooms-menu ul .act::after {
-  position: absolute;
-  border-radius: 20px 20px 0 0;
-  content: "";
-  min-width: 20px;
-  min-height: 10px;
-  display: block;
-  background-color: #926d39;
-  left: 25%;
-  bottom: -25px;
-}
 
 .rooms-right-menu {
   margin-left: 816px;
@@ -4807,6 +4810,22 @@ body {
 }
 .multi-rooms-btn-slide a {
   margin: 20px 3px;
+}
+
+.act {
+  color: #926D39 !important;
+}
+
+.act::after {
+  position: absolute;
+  border-radius: 20px 20px 0 0;
+  content: "";
+  min-width: 20px;
+  min-height: 10px;
+  display: block;
+  background-color: #926d39;
+  left: 25%;
+  bottom: -25px;
 }
 
 @media screen and (max-width: 1050px) {
@@ -5082,7 +5101,6 @@ body {
 
   p {
     font-size: 12px;
-    line-height: 20px;
   }
 
   .sub-title-dialog {
