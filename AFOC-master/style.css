@@ -178,7 +178,6 @@
     width: 600px;
     height: 325px;
     background-color: rgba(95, 90, 96, 0.3);
-    margin-top: 583px;
     margin-right: 3%;
     margin-bottom: -10px;
   }
@@ -282,7 +281,7 @@
 .header {
   background-repeat: no-repeat;
   width: 100%;
-  height: 1080px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   background-size: auto;
@@ -501,7 +500,7 @@ a {
 .header {
   background-repeat: no-repeat;
   width: 100%;
-  height: 1080px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   background-size: auto;
@@ -561,7 +560,7 @@ a {
 }
 
 .poppin-semi-bold {
-  font-family: poppins-semi-bold;
+  font-family: poppins-semi-bold !important;
 }
 
 .font-40 {
@@ -2883,6 +2882,14 @@ dialog {
   align-items: center;
 }
 
+.box-border-menu {
+  border-right: solid;
+  border-left: solid;
+  border-color: #707070;
+  padding-right: 38px;
+  border-width: thin;
+}
+
 @media screen and (max-width: 1050px) {
   .order-text-meeting-responsive {
     order: 1;
@@ -3044,7 +3051,7 @@ dialog {
   width: 87px;
   height: 57px;
   margin-top: 17px;
-  padding: 20px;
+  padding-left: 22px;
 }
 .meetings-menu input[type=text]:focus {
   border-color: #926D39 !important;
@@ -3817,7 +3824,7 @@ body {
   background-image: url("assets/homePage/Screen.png");
   background-repeat: no-repeat;
   width: 100%;
-  height: 1080px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   background-size: auto;
@@ -3989,7 +3996,7 @@ body {
 }
 .finding-balance-carou .flickity-page-dots {
   *
-    
+
     position: absolute;
   width: 100%;
   bottom: -25px;
