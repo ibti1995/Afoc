@@ -88,7 +88,7 @@
 
       text-align: left;
       flex: 1;
-      margin-bottom: 200px;
+      margin-bottom: 100px;
 
 
       width: fit-content;
@@ -163,7 +163,7 @@ justify-content: space-between;
 align-self: flex-end;
 text-align: left;
 flex: 1;
-margin-bottom: 200px;
+margin-bottom: 100px;
 
 
 width: fit-content;
@@ -177,7 +177,7 @@ height: 325px;
 background-color: rgba(95, 90, 96, 0.3);
 //margin-top: 583px;
 margin-right: 3%;
-margin-bottom: -10px;
+//margin-bottom: -10px;
 }
 
 }
@@ -271,9 +271,12 @@ width: 100%;
 height: 100vh;
 display: flex;
 flex-direction: column;
-background-size: auto;
+
 text-align: center;
 justify-content: space-between;
+background-position-y: center !important;
+    background-size: cover !important;
+    background-position-x: 35%;
 }
 
 .custom-select {
