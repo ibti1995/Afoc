@@ -998,7 +998,7 @@ section {
 }
 
 .vertical {
-  margin-right: 50px;
+  margin-right: 20px;
   border-right: 2px solid #d5d3d3;
   height: 400px;
 }
@@ -2919,6 +2919,23 @@ dialog {
 .slides-story2 {
   position: relative;
   height: 750px !important;
+}
+
+#selection-menu ul li {
+  display: inline;
+}
+#selection-menu ul li input {
+  border-style: none;
+}
+#selection-menu ul li select {
+  border-style: none;
+}
+
+.search-btn {
+  width: 67px;
+  background-color: transparent;
+  padding: 20px;
+  border-style: none;
 }
 
 @media screen and (max-width: 1050px) {

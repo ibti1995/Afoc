@@ -176,18 +176,56 @@
         <!--   ***************end menu mobile version*****************      -->
         <div id="head-single-room" class="flex-column margin-stand margin-top-20">
             <div class="flex-row rooms-menu-bo display-inputs2 rooms-first-menu">
-                <input class="input-date-text" type="text" placeholder="13-dec">
-                <!-- <input class="input-date-text" type="date" data-role="calendarpicker" data-input-format="%d-%m" placeholder="21-12"> -->
-                <svg xmlns="http://www.w3.org/2000/svg" width="20.188" height="1" viewbox="0 0 20.188 1">
-                    <line id="Ligne_39" data-name="Ligne 38" x2="20.188" transform="translate(0 0.5)" fill="none"
-                        stroke="#707070" stroke-width="1" />
-                </svg>
-                <input class="input-date-text" type="text" placeholder="17-dec">
-                <!-- <input class="input-date-text"type="date" data-role="calendarpicker" data-input-format="%d-%m" placeholder="21-12"> -->
-                <input class="input-text-menu" type="text" placeholder="2rooms, 3 adults, 1children" width="100%">
-                <div class="white-search-btn">
-                    <img class="margin-25" src="assets/svg/single room/white-search.svg">
-                </div>
+
+            <div id="selection-menu" >
+                <ul>
+                    <li> <input class="select-menu-fixed" type="date"></li>
+
+                    <li> <input class="select-menu-fixed" type="date" default="02/09/2020"></li>
+                    <li class="vertical"></li>
+                    <li>
+                        <select class=" select-menu-fixed  black" name="rooms" id="select-rooms">
+                            <option selected disabled>Rooms</option>
+                            <option class=" item-select-language-index" value="saab">1</option>
+                            <option class=" item-select-language-index" value="mercedes">2</option>
+                            <option class=" item-select-language-index" value="audi">3</option>
+                            <option class=" item-select-language-index" value="audi">4</option>
+                            <option class=" item-select-language-index" value="audi">5</option>
+                            <option class=" item-select-language-index" value="audi">6</option>
+                            <option class=" item-select-language-index" value="audi">7</option>
+                            <option class=" item-select-language-index" value="audi">8</option>
+                        </select>
+                    </li>
+                    <li><select class=" select-menu-fixed black" name="adults" id="select-adults">
+                            <option selected disabled>Adults</option>
+                            <option class=" item-select-language-index" value="saab">1</option>
+                            <option class=" item-select-language-index" value="mercedes">2</option>
+                            <option class=" item-select-language-index" value="audi">3</option>
+                            <option class=" item-select-language-index" value="audi">4</option>
+                            <option class=" item-select-language-index" value="audi">5</option>
+                            <option class=" item-select-language-index" value="audi">6</option>
+                            <option class=" item-select-language-index" value="audi">7</option>
+                            <option class=" item-select-language-index" value="audi">8</option>
+                        </select></li>
+                    <li>
+                        <select class=" select-menu-fixed black" name="lang" id="select-children">
+                            <option selected disabled>Children</option>
+                            <option class=" item-select-language-index" value="saab">1</option>
+                            <option class=" item-select-language-index" value="mercedes">2</option>
+                            <option class=" item-select-language-index" value="audi">3</option>
+                            <option class=" item-select-language-index" value="audi">4</option>
+                            <option class=" item-select-language-index" value="audi">5</option>
+                            <option class=" item-select-language-index" value="audi">6</option>
+                            <option class=" item-select-language-index" value="audi">7</option>
+                            <option class=" item-select-language-index" value="audi">8</option>
+                        </select>
+                    </li>
+
+                </ul>
+            </div>
+                <span >
+                   <button class="search-btn"><img src="assets/svg/single room/white-search.svg"></button>
+                </span>
             </div>
             <div class="flex-row">
                 <div class="flex-column" style="flex-grow: 2; color: #18191b;">
