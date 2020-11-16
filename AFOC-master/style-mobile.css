@@ -176,7 +176,7 @@
   }
 }
 .story-S-cass .flickity-viewport {
-  height: 250px !important;
+  height: 350px !important;
 }
 
 #modules {
@@ -209,6 +209,11 @@
   }
 }
 @media screen and (max-width: 700px) {
+  .slides-story {
+    position: relative;
+    height: 500px !important;
+  }
+
   #modules .active6 {
     opacity: 1 !important;
   }
@@ -313,7 +318,7 @@
 
   .myslidestory .carousel-cell {
     width: 30%;
-    height: 200px !important;
+    height: 400px !important;
   }
   .myslidestory .flickity-slider {
     left: 0% !important;
@@ -1383,16 +1388,6 @@
   }
   #single-room-caroussel2 .slides-height {
     height: 650px !important;
-  }
-  #single-room-caroussel2 .carousel-3-div .flickity-page-dots {
-    position: absolute;
-    width: 100%;
-    bottom: 120px;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    text-align: center;
-    line-height: 1;
   }
 
   .single-room-second-menu {
