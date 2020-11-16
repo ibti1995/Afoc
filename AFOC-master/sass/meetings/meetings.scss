@@ -9,6 +9,11 @@
     margin-left: 3% !important;
     margin-right: 3% !important;
   }
+  .meeting-box {
+      order: 2;}
+      .meetings-second-sub-box{
+        order: 3;
+      }
 }
 
 @media screen and (min-width: 1050px) {

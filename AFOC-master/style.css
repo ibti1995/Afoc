@@ -2902,6 +2902,14 @@ dialog {
     margin-left: 3% !important;
     margin-right: 3% !important;
   }
+
+  .meeting-box {
+    order: 2;
+  }
+
+  .meetings-second-sub-box {
+    order: 3;
+  }
 }
 @media screen and (min-width: 1050px) {
   .order-text-meeting-responsive {
@@ -5079,7 +5087,6 @@ body {
 
   p {
     font-size: 12px;
-    line-height: 20px;
   }
 
   .sub-title-dialog {
