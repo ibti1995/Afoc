@@ -2132,9 +2132,9 @@ dialog {
   margin-bottom: 25px;
 }
 .offersmenu ul li {
+  position: relative;
   margin-right: 5%;
   display: inline;
-  cursor: pointer;
 }
 .offersmenu ul li:hover {
   color: #926D39 !important;
@@ -2270,6 +2270,38 @@ dialog {
 .width20 {
   height: 259px;
   width: 500px;
+}
+
+#dining {
+  display: none;
+}
+
+#act {
+  display: none;
+}
+
+#Evt {
+  display: none;
+}
+
+#experience {
+  display: none;
+}
+
+.activ {
+  color: #926D39 !important;
+}
+
+.activ::after {
+  position: absolute;
+  border-radius: 20px 20px 0 0;
+  content: "";
+  min-width: 20px;
+  min-height: 10px;
+  display: block;
+  background-color: #926d39;
+  left: 25%;
+  bottom: -25px;
 }
 
 @media screen and (max-width: 1760px) {

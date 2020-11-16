@@ -27,9 +27,10 @@
     margin-top: 25px;
     margin-bottom: 25px;
     li {
+      position: relative;
       margin-right: 5%;
       display: inline;
-      cursor: pointer;
+
     }
     li:hover {
       color: $primary-color;
@@ -150,4 +151,32 @@
 .width20{
   height:259px ;
   width: 500px;
+}
+#dining{
+display: none;
+}
+#act{
+display: none;
+
+}
+#Evt{
+display: none;
+}
+#experience{
+  display: none;
+}
+.activ{
+  color: $primary-color;
+}
+.activ::after {
+
+  position: absolute;
+  border-radius: 20px 20px 0 0;
+  content: "";
+  min-width: 20px;
+  min-height: 10px;
+  display: block;
+  background-color: #926d39;
+  left: 25%;
+  bottom: -25px;
 }

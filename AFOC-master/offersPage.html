@@ -68,7 +68,6 @@
       <select class=" custom-select-language-index white" name="lang" id="lang">
 
         <option class=" item-select-language-index" value="saab">English</option>
-
         <option class=" item-select-language-index" value="audi">Arabic</option>
       </select>
       <div class="poppins menu-home-container">
@@ -114,15 +113,15 @@
           <div class="flex-row poppins offersmenu ourfans-box ">
             <span> <img src="assets/svg/menu rect.svg"> </span>
 
-            <span class="width100">
-              <ul>
-                <li> Rooms</li>
-                <li>Dining</li>
-                <li>Activities</li>
-                <li>Events</li>
-                <li>Experiences</li>
+            <div class="width100">
+              <ul id="offers-sec-menu">
+                <li class="menu pointer activ" onclick="showOfferRooms()"> <a>Rooms</a> </li>
+                <li class="menu pointer" onclick="showOfferDining()"><a>Dining</a></li>
+                <li class="menu pointer" onclick="showOfferAct()"><a>Activities</a></li>
+                <li class="menu pointer" onclick="showOfferEvt()"><a>Events</a></li>
+                <li class="menu pointer" onclick="showOfferExp()"><a>Experiences</a></li>
               </ul>
-            </span>
+            </div>
 
           </div>
           <div class="flex-row ourfans-box right-menu">
@@ -143,7 +142,7 @@
 
 
       <!--***********************slides*************************-->
-      <div class="flex-row offers-justify-slides">
+      <div id="rooms" class="flex-row offers-justify-slides">
         <a href="offerSinglePage.html">
           <div class="slides-box ourfans-box offers-cont">
             <div class="slideshow-container">
@@ -380,6 +379,955 @@
           </div>
         </a>
       </div>
+      <div id="dining" class="flex-row offers-justify-slides">
+        <a href="offerSinglePage.html">
+          <div class="slides-box ourfans-box offers-cont">
+            <div class="slideshow-container">
+              <span class="mySlides7 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <span class="mySlides7 fade">
+                <img src="assets/singleRoom/Image2.png" class="width20">
+
+              </span>
+              <span class="mySlides7 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <a class="prev1" onclick="plusSlides(-1, 6)">&#10094;</a>
+              <a class="next1" onclick="plusSlides(1, 6)">&#10095;</a>
+            </div>
+            <div>
+              <div class=" offers-name rossanova gold center offers-name-title">
+                <span> Offer Name </span><br />
+                <img class="offers-icon-under-h" src="assets/svg/Groupe 2164.svg" />
+              </div>
+              <div class="flex-row">
+                <div>
+                  <p class=" poppins-L offers-name-parag">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                  </p>
+                </div>
+                <div class="flex-column offers-margin-left-64-9">
+                  <a href="">
+                    <button class="gold-btn-sm  poppins-M request-btn-sm center font-12 btn-needs"> BOOK NOW</button>
+                  </a>
+                  <a href="">
+                    <button class="white-btn-sm poppins-M request-btn-sm center font-12 btn-needs"> LEARN MORE</button>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </a>
+        <a href="offerSinglePage.html">
+          <div class="slides-box ourfans-box offers-cont">
+            <div class="slideshow-container">
+              <span class="mySlides8 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <span class="mySlides8 fade">
+                <img src="assets/singleRoom/Image2.png" class="width20">
+              </span>
+              <span class="mySlides8 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <a class="prev1" onclick="plusSlides(-1, 7)">&#10094;</a>
+              <a class="next1" onclick="plusSlides(1, 7)">&#10095;</a>
+            </div>
+            <div>
+              <div class=" offers-name rossanova gold center offers-name-title">
+                <span> Offer Name </span><br />
+                <img class="offers-icon-under-h" src="assets/svg/Groupe 2164.svg" />
+              </div>
+              <div class="flex-row">
+                <div>
+                  <p class=" poppins-L offers-name-parag">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                  </p>
+                </div>
+                <div class="flex-column offers-margin-left-64-9">
+                  <a href="">
+                    <button class="gold-btn-sm  poppins-M request-btn-sm center font-12 btn-needs"> BOOK NOW</button>
+                  </a>
+                  <a href="">
+                    <button class="white-btn-sm poppins-M request-btn-sm center font-12 btn-needs"> LEARN MORE</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="offerSinglePage.html">
+          <div class="slides-box ourfans-box offers-cont">
+            <div class="slideshow-container">
+              <span class="mySlides9 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <span class="mySlides9 fade">
+                <img src="assets/singleRoom/Image2.png" class="width20">
+              </span>
+              <span class="mySlides9 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <a class="prev1" onclick="plusSlides(-1, 8)">&#10094;</a>
+              <a class="next1" onclick="plusSlides(1, 8)">&#10095;</a>
+            </div>
+            <div>
+              <div class=" offers-name rossanova gold center offers-name-title">
+                <span> Offer Name </span><br />
+                <img class="offers-icon-under-h" src="assets/svg/Groupe 2164.svg" />
+              </div>
+              <div class="flex-row">
+                <div>
+                  <p class=" poppins-L offers-name-parag">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                  </p>
+                </div>
+                <div class="flex-column offers-margin-left-64-9">
+                  <a href="">
+                    <button class="gold-btn-sm  poppins-M request-btn-sm center font-12 btn-needs"> BOOK NOW</button>
+                  </a>
+
+                  <a href="">
+                    <button class="white-btn-sm poppins-M request-btn-sm center font-12 btn-needs"> LEARN MORE</button>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </a>
+        <a href="offerSinglePage.html">
+          <div class="slides-box ourfans-box offers-cont">
+            <div class="slideshow-container">
+              <span class="mySlides10 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <span class="mySlides10 fade">
+                <img src="assets/singleRoom/Image2.png" class="width20">
+              </span>
+              <span class="mySlides10 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <a class="prev1" onclick="plusSlides(-1, 9)">&#10094;</a>
+              <a class="next1" onclick="plusSlides(1, 9)">&#10095;</a>
+            </div>
+            <div>
+              <div class=" offers-name rossanova gold center offers-name-title">
+                <span> Offer Name </span><br />
+                <img class="offers-icon-under-h" src="assets/svg/Groupe 2164.svg" />
+              </div>
+              <div class="flex-row">
+                <div>
+                  <p class=" poppins-L offers-name-parag">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                  </p>
+                </div>
+                <div class="flex-column offers-margin-left-64-9">
+                  <a href="">
+                    <button class="gold-btn-sm  poppins-M request-btn-sm center font-12 btn-needs"> BOOK NOW</button>
+                  </a>
+                  <a href="">
+                    <button class="white-btn-sm poppins-M request-btn-sm center font-12 btn-needs"> LEARN MORE</button>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </a>
+        <a href="offerSinglePage.html">
+          <div class="slides-box ourfans-box offers-cont">
+            <div class="slideshow-container">
+              <span class="mySlides11 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <span class="mySlides11 fade">
+                <img src="assets/singleRoom/Image2.png" class="width20">
+              </span>
+              <span class="mySlides11 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <a class="prev1" onclick="plusSlides(-1, 10)">&#10094;</a>
+              <a class="next1" onclick="plusSlides(1, 10)">&#10095;</a>
+            </div>
+            <div>
+              <div class=" offers-name rossanova gold center offers-name-title">
+                <span> Offer Name </span><br />
+                <img class="offers-icon-under-h" src="assets/svg/Groupe 2164.svg" />
+              </div>
+              <div class="flex-row">
+                <div>
+                  <p class=" poppins-L offers-name-parag">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                  </p>
+                </div>
+                <div class="flex-column offers-margin-left-64-9">
+                  <a href="">
+                    <button class="gold-btn-sm  poppins-M request-btn-sm center font-12 btn-needs"> BOOK NOW</button>
+                  </a>
+                  <a href="">
+                    <button class="white-btn-sm poppins-M request-btn-sm center font-12 btn-needs"> LEARN MORE</button>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </a>
+        <a href="offerSinglePage.html">
+          <div class="slides-box ourfans-box offers-cont">
+            <div class="slideshow-container">
+              <span class="mySlides12 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <span class="mySlides12 fade">
+                <img src="assets/singleRoom/Image2.png" class="width20">
+              </span>
+              <span class="mySlides12 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <a class="prev1" onclick="plusSlides(-1, 11)">&#10094;</a>
+              <a class="next1" onclick="plusSlides(1, 11)">&#10095;</a>
+            </div>
+            <div>
+              <div class=" offers-name rossanova gold center offers-name-title">
+                <span> Offer Name </span><br />
+                <img class="offers-icon-under-h" src="assets/svg/Groupe 2164.svg" />
+              </div>
+              <div class="flex-row">
+                <div>
+                  <p class=" poppins-L offers-name-parag">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                  </p>
+                </div>
+                <div class="flex-column offers-margin-left-64-9">
+                  <a href="">
+                    <button class="gold-btn-sm  poppins-M request-btn-sm center font-12 btn-needs"> BOOK NOW</button>
+                  </a>
+                  <a href="">
+                    <button class="white-btn-sm poppins-M request-btn-sm center font-12 btn-needs"> LEARN MORE</button>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </a>
+      </div>
+      <div id="act" class="flex-row offers-justify-slides">
+        <a href="offerSinglePage.html">
+          <div class="slides-box ourfans-box offers-cont">
+            <div class="slideshow-container">
+              <span class="mySlides13 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <span class="mySlides13 fade">
+                <img src="assets/singleRoom/Image2.png" class="width20">
+
+              </span>
+              <span class="mySlides13 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <a class="prev1" onclick="plusSlides(-1, 12)">&#10094;</a>
+              <a class="next1" onclick="plusSlides(1, 12)">&#10095;</a>
+            </div>
+            <div>
+              <div class=" offers-name rossanova gold center offers-name-title">
+                <span> Offer Name </span><br />
+                <img class="offers-icon-under-h" src="assets/svg/Groupe 2164.svg" />
+              </div>
+              <div class="flex-row">
+                <div>
+                  <p class=" poppins-L offers-name-parag">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                  </p>
+                </div>
+                <div class="flex-column offers-margin-left-64-9">
+                  <a href="">
+                    <button class="gold-btn-sm  poppins-M request-btn-sm center font-12 btn-needs"> BOOK NOW</button>
+                  </a>
+                  <a href="">
+                    <button class="white-btn-sm poppins-M request-btn-sm center font-12 btn-needs"> LEARN MORE</button>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </a>
+        <a href="offerSinglePage.html">
+          <div class="slides-box ourfans-box offers-cont">
+            <div class="slideshow-container">
+              <span class="mySlides14 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <span class="mySlides14 fade">
+                <img src="assets/singleRoom/Image2.png" class="width20">
+              </span>
+              <span class="mySlides14 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <a class="prev1" onclick="plusSlides(-1, 13)">&#10094;</a>
+              <a class="next1" onclick="plusSlides(1, 13)">&#10095;</a>
+            </div>
+            <div>
+              <div class=" offers-name rossanova gold center offers-name-title">
+                <span> Offer Name </span><br />
+                <img class="offers-icon-under-h" src="assets/svg/Groupe 2164.svg" />
+              </div>
+              <div class="flex-row">
+                <div>
+                  <p class=" poppins-L offers-name-parag">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                  </p>
+                </div>
+                <div class="flex-column offers-margin-left-64-9">
+                  <a href="">
+                    <button class="gold-btn-sm  poppins-M request-btn-sm center font-12 btn-needs"> BOOK NOW</button>
+                  </a>
+                  <a href="">
+                    <button class="white-btn-sm poppins-M request-btn-sm center font-12 btn-needs"> LEARN MORE</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="offerSinglePage.html">
+          <div class="slides-box ourfans-box offers-cont">
+            <div class="slideshow-container">
+              <span class="mySlides15 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <span class="mySlides15 fade">
+                <img src="assets/singleRoom/Image2.png" class="width20">
+              </span>
+              <span class="mySlides15 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <a class="prev1" onclick="plusSlides(-1, 14)">&#10094;</a>
+              <a class="next1" onclick="plusSlides(1, 14)">&#10095;</a>
+            </div>
+            <div>
+              <div class=" offers-name rossanova gold center offers-name-title">
+                <span> Offer Name </span><br />
+                <img class="offers-icon-under-h" src="assets/svg/Groupe 2164.svg" />
+              </div>
+              <div class="flex-row">
+                <div>
+                  <p class=" poppins-L offers-name-parag">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                  </p>
+                </div>
+                <div class="flex-column offers-margin-left-64-9">
+                  <a href="">
+                    <button class="gold-btn-sm  poppins-M request-btn-sm center font-12 btn-needs"> BOOK NOW</button>
+                  </a>
+
+                  <a href="">
+                    <button class="white-btn-sm poppins-M request-btn-sm center font-12 btn-needs"> LEARN MORE</button>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </a>
+        <a href="offerSinglePage.html">
+          <div class="slides-box ourfans-box offers-cont">
+            <div class="slideshow-container">
+              <span class="mySlides16 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <span class="mySlides16 fade">
+                <img src="assets/singleRoom/Image2.png" class="width20">
+              </span>
+              <span class="mySlides16 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <a class="prev1" onclick="plusSlides(-1, 15)">&#10094;</a>
+              <a class="next1" onclick="plusSlides(1, 15)">&#10095;</a>
+            </div>
+            <div>
+              <div class=" offers-name rossanova gold center offers-name-title">
+                <span> Offer Name </span><br />
+                <img class="offers-icon-under-h" src="assets/svg/Groupe 2164.svg" />
+              </div>
+              <div class="flex-row">
+                <div>
+                  <p class=" poppins-L offers-name-parag">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                  </p>
+                </div>
+                <div class="flex-column offers-margin-left-64-9">
+                  <a href="">
+                    <button class="gold-btn-sm  poppins-M request-btn-sm center font-12 btn-needs"> BOOK NOW</button>
+                  </a>
+                  <a href="">
+                    <button class="white-btn-sm poppins-M request-btn-sm center font-12 btn-needs"> LEARN MORE</button>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </a>
+        <a href="offerSinglePage.html">
+          <div class="slides-box ourfans-box offers-cont">
+            <div class="slideshow-container">
+              <span class="mySlides17 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <span class="mySlides17 fade">
+                <img src="assets/singleRoom/Image2.png" class="width20">
+              </span>
+              <span class="mySlides17 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <a class="prev1" onclick="plusSlides(-1, 16)">&#10094;</a>
+              <a class="next1" onclick="plusSlides(1, 16)">&#10095;</a>
+            </div>
+            <div>
+              <div class=" offers-name rossanova gold center offers-name-title">
+                <span> Offer Name </span><br />
+                <img class="offers-icon-under-h" src="assets/svg/Groupe 2164.svg" />
+              </div>
+              <div class="flex-row">
+                <div>
+                  <p class=" poppins-L offers-name-parag">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                  </p>
+                </div>
+                <div class="flex-column offers-margin-left-64-9">
+                  <a href="">
+                    <button class="gold-btn-sm  poppins-M request-btn-sm center font-12 btn-needs"> BOOK NOW</button>
+                  </a>
+                  <a href="">
+                    <button class="white-btn-sm poppins-M request-btn-sm center font-12 btn-needs"> LEARN MORE</button>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </a>
+        <a href="offerSinglePage.html">
+          <div class="slides-box ourfans-box offers-cont">
+            <div class="slideshow-container">
+              <span class="mySlides18 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <span class="mySlides18 fade">
+                <img src="assets/singleRoom/Image2.png" class="width20">
+              </span>
+              <span class="mySlides18 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <a class="prev1" onclick="plusSlides(-1,17)">&#10094;</a>
+              <a class="next1" onclick="plusSlides(1, 15)">&#10095;</a>
+            </div>
+            <div>
+              <div class=" offers-name rossanova gold center offers-name-title">
+                <span> Offer Name </span><br />
+                <img class="offers-icon-under-h" src="assets/svg/Groupe 2164.svg" />
+              </div>
+              <div class="flex-row">
+                <div>
+                  <p class=" poppins-L offers-name-parag">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                  </p>
+                </div>
+                <div class="flex-column offers-margin-left-64-9">
+                  <a href="">
+                    <button class="gold-btn-sm  poppins-M request-btn-sm center font-12 btn-needs"> BOOK NOW</button>
+                  </a>
+                  <a href="">
+                    <button class="white-btn-sm poppins-M request-btn-sm center font-12 btn-needs"> LEARN MORE</button>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </a>
+      </div>
+      <div id="Evt" class="flex-row offers-justify-slides">
+        <a href="offerSinglePage.html">
+          <div class="slides-box ourfans-box offers-cont">
+            <div class="slideshow-container">
+              <span class="mySlides19 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <span class="mySlides19 fade">
+                <img src="assets/singleRoom/Image2.png" class="width20">
+
+              </span>
+              <span class="mySlides19 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <a class="prev1" onclick="plusSlides(-1, 18)">&#10094;</a>
+              <a class="next1" onclick="plusSlides(1, 18)">&#10095;</a>
+            </div>
+            <div>
+              <div class=" offers-name rossanova gold center offers-name-title">
+                <span> Offer Name </span><br />
+                <img class="offers-icon-under-h" src="assets/svg/Groupe 2164.svg" />
+              </div>
+              <div class="flex-row">
+                <div>
+                  <p class=" poppins-L offers-name-parag">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                  </p>
+                </div>
+                <div class="flex-column offers-margin-left-64-9">
+                  <a href="">
+                    <button class="gold-btn-sm  poppins-M request-btn-sm center font-12 btn-needs"> BOOK NOW</button>
+                  </a>
+                  <a href="">
+                    <button class="white-btn-sm poppins-M request-btn-sm center font-12 btn-needs"> LEARN MORE</button>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </a>
+        <a href="offerSinglePage.html">
+          <div class="slides-box ourfans-box offers-cont">
+            <div class="slideshow-container">
+              <span class="mySlides20 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <span class="mySlides20 fade">
+                <img src="assets/singleRoom/Image2.png" class="width20">
+              </span>
+              <span class="mySlides20 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <a class="prev1" onclick="plusSlides(-1, 19)">&#10094;</a>
+              <a class="next1" onclick="plusSlides(1, 19)">&#10095;</a>
+            </div>
+            <div>
+              <div class=" offers-name rossanova gold center offers-name-title">
+                <span> Offer Name </span><br />
+                <img class="offers-icon-under-h" src="assets/svg/Groupe 2164.svg" />
+              </div>
+              <div class="flex-row">
+                <div>
+                  <p class=" poppins-L offers-name-parag">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                  </p>
+                </div>
+                <div class="flex-column offers-margin-left-64-9">
+                  <a href="">
+                    <button class="gold-btn-sm  poppins-M request-btn-sm center font-12 btn-needs"> BOOK NOW</button>
+                  </a>
+                  <a href="">
+                    <button class="white-btn-sm poppins-M request-btn-sm center font-12 btn-needs"> LEARN MORE</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="offerSinglePage.html">
+          <div class="slides-box ourfans-box offers-cont">
+            <div class="slideshow-container">
+              <span class="mySlides21 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <span class="mySlides21 fade">
+                <img src="assets/singleRoom/Image2.png" class="width20">
+              </span>
+              <span class="mySlides21 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <a class="prev1" onclick="plusSlides(-1, 20)">&#10094;</a>
+              <a class="next1" onclick="plusSlides(1, 20)">&#10095;</a>
+            </div>
+            <div>
+              <div class=" offers-name rossanova gold center offers-name-title">
+                <span> Offer Name </span><br />
+                <img class="offers-icon-under-h" src="assets/svg/Groupe 2164.svg" />
+              </div>
+              <div class="flex-row">
+                <div>
+                  <p class=" poppins-L offers-name-parag">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                  </p>
+                </div>
+                <div class="flex-column offers-margin-left-64-9">
+                  <a href="">
+                    <button class="gold-btn-sm  poppins-M request-btn-sm center font-12 btn-needs"> BOOK NOW</button>
+                  </a>
+
+                  <a href="">
+                    <button class="white-btn-sm poppins-M request-btn-sm center font-12 btn-needs"> LEARN MORE</button>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </a>
+        <a href="offerSinglePage.html">
+          <div class="slides-box ourfans-box offers-cont">
+            <div class="slideshow-container">
+              <span class="mySlides22 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <span class="mySlides22 fade">
+                <img src="assets/singleRoom/Image2.png" class="width20">
+              </span>
+              <span class="mySlides22 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <a class="prev1" onclick="plusSlides(-1, 21)">&#10094;</a>
+              <a class="next1" onclick="plusSlides(1, 21)">&#10095;</a>
+            </div>
+            <div>
+              <div class=" offers-name rossanova gold center offers-name-title">
+                <span> Offer Name </span><br />
+                <img class="offers-icon-under-h" src="assets/svg/Groupe 2164.svg" />
+              </div>
+              <div class="flex-row">
+                <div>
+                  <p class=" poppins-L offers-name-parag">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                  </p>
+                </div>
+                <div class="flex-column offers-margin-left-64-9">
+                  <a href="">
+                    <button class="gold-btn-sm  poppins-M request-btn-sm center font-12 btn-needs"> BOOK NOW</button>
+                  </a>
+                  <a href="">
+                    <button class="white-btn-sm poppins-M request-btn-sm center font-12 btn-needs"> LEARN MORE</button>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </a>
+        <a href="offerSinglePage.html">
+          <div class="slides-box ourfans-box offers-cont">
+            <div class="slideshow-container">
+              <span class="mySlides23 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <span class="mySlides23 fade">
+                <img src="assets/singleRoom/Image2.png" class="width20">
+              </span>
+              <span class="mySlides23 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <a class="prev1" onclick="plusSlides(-1, 22)">&#10094;</a>
+              <a class="next1" onclick="plusSlides(1, 22)">&#10095;</a>
+            </div>
+            <div>
+              <div class=" offers-name rossanova gold center offers-name-title">
+                <span> Offer Name </span><br />
+                <img class="offers-icon-under-h" src="assets/svg/Groupe 2164.svg" />
+              </div>
+              <div class="flex-row">
+                <div>
+                  <p class=" poppins-L offers-name-parag">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                  </p>
+                </div>
+                <div class="flex-column offers-margin-left-64-9">
+                  <a href="">
+                    <button class="gold-btn-sm  poppins-M request-btn-sm center font-12 btn-needs"> BOOK NOW</button>
+                  </a>
+                  <a href="">
+                    <button class="white-btn-sm poppins-M request-btn-sm center font-12 btn-needs"> LEARN MORE</button>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </a>
+        <a href="offerSinglePage.html">
+          <div class="slides-box ourfans-box offers-cont">
+            <div class="slideshow-container">
+              <span class="mySlides24 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <span class="mySlides24 fade">
+                <img src="assets/singleRoom/Image2.png" class="width20">
+              </span>
+              <span class="mySlides24 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <a class="prev1" onclick="plusSlides(-1, 23)">&#10094;</a>
+              <a class="next1" onclick="plusSlides(1, 23)">&#10095;</a>
+            </div>
+            <div>
+              <div class=" offers-name rossanova gold center offers-name-title">
+                <span> Offer Name </span><br />
+                <img class="offers-icon-under-h" src="assets/svg/Groupe 2164.svg" />
+              </div>
+              <div class="flex-row">
+                <div>
+                  <p class=" poppins-L offers-name-parag">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                  </p>
+                </div>
+                <div class="flex-column offers-margin-left-64-9">
+                  <a href="">
+                    <button class="gold-btn-sm  poppins-M request-btn-sm center font-12 btn-needs"> BOOK NOW</button>
+                  </a>
+                  <a href="">
+                    <button class="white-btn-sm poppins-M request-btn-sm center font-12 btn-needs"> LEARN MORE</button>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </a>
+      </div>
+      <div id="experience" class="flex-row offers-justify-slides">
+        <a href="offerSinglePage.html">
+          <div class="slides-box ourfans-box offers-cont">
+            <div class="slideshow-container">
+              <span class="mySlides25 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <span class="mySlides25 fade">
+                <img src="assets/singleRoom/Image2.png" class="width20">
+
+              </span>
+              <span class="mySlides25 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <a class="prev1" onclick="plusSlides(-1, 24)">&#10094;</a>
+              <a class="next1" onclick="plusSlides(1, 24)">&#10095;</a>
+            </div>
+            <div>
+              <div class=" offers-name rossanova gold center offers-name-title">
+                <span> Offer Name </span><br />
+                <img class="offers-icon-under-h" src="assets/svg/Groupe 2164.svg" />
+              </div>
+              <div class="flex-row">
+                <div>
+                  <p class=" poppins-L offers-name-parag">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                  </p>
+                </div>
+                <div class="flex-column offers-margin-left-64-9">
+                  <a href="">
+                    <button class="gold-btn-sm  poppins-M request-btn-sm center font-12 btn-needs"> BOOK NOW</button>
+                  </a>
+                  <a href="">
+                    <button class="white-btn-sm poppins-M request-btn-sm center font-12 btn-needs"> LEARN MORE</button>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </a>
+        <a href="offerSinglePage.html">
+          <div class="slides-box ourfans-box offers-cont">
+            <div class="slideshow-container">
+              <span class="mySlides26 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <span class="mySlides26 fade">
+                <img src="assets/singleRoom/Image2.png" class="width20">
+              </span>
+              <span class="mySlides26 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <a class="prev1" onclick="plusSlides(-1, 25)">&#10094;</a>
+              <a class="next1" onclick="plusSlides(1, 25)">&#10095;</a>
+            </div>
+            <div>
+              <div class=" offers-name rossanova gold center offers-name-title">
+                <span> Offer Name </span><br />
+                <img class="offers-icon-under-h" src="assets/svg/Groupe 2164.svg" />
+              </div>
+              <div class="flex-row">
+                <div>
+                  <p class=" poppins-L offers-name-parag">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                  </p>
+                </div>
+                <div class="flex-column offers-margin-left-64-9">
+                  <a href="">
+                    <button class="gold-btn-sm  poppins-M request-btn-sm center font-12 btn-needs"> BOOK NOW</button>
+                  </a>
+                  <a href="">
+                    <button class="white-btn-sm poppins-M request-btn-sm center font-12 btn-needs"> LEARN MORE</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="offerSinglePage.html">
+          <div class="slides-box ourfans-box offers-cont">
+            <div class="slideshow-container">
+              <span class="mySlides27 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <span class="mySlides27 fade">
+                <img src="assets/singleRoom/Image2.png" class="width20">
+              </span>
+              <span class="mySlides27 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <a class="prev1" onclick="plusSlides(-1, 26)">&#10094;</a>
+              <a class="next1" onclick="plusSlides(1, 26)">&#10095;</a>
+            </div>
+            <div>
+              <div class=" offers-name rossanova gold center offers-name-title">
+                <span> Offer Name </span><br />
+                <img class="offers-icon-under-h" src="assets/svg/Groupe 2164.svg" />
+              </div>
+              <div class="flex-row">
+                <div>
+                  <p class=" poppins-L offers-name-parag">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                  </p>
+                </div>
+                <div class="flex-column offers-margin-left-64-9">
+                  <a href="">
+                    <button class="gold-btn-sm  poppins-M request-btn-sm center font-12 btn-needs"> BOOK NOW</button>
+                  </a>
+
+                  <a href="">
+                    <button class="white-btn-sm poppins-M request-btn-sm center font-12 btn-needs"> LEARN MORE</button>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </a>
+        <a href="offerSinglePage.html">
+          <div class="slides-box ourfans-box offers-cont">
+            <div class="slideshow-container">
+              <span class="mySlides28 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <span class="mySlides28 fade">
+                <img src="assets/singleRoom/Image2.png" class="width20">
+              </span>
+              <span class="mySlides28 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <a class="prev1" onclick="plusSlides(-1, 27)">&#10094;</a>
+              <a class="next1" onclick="plusSlides(1, 27)">&#10095;</a>
+            </div>
+            <div>
+              <div class=" offers-name rossanova gold center offers-name-title">
+                <span> Offer Name </span><br />
+                <img class="offers-icon-under-h" src="assets/svg/Groupe 2164.svg" />
+              </div>
+              <div class="flex-row">
+                <div>
+                  <p class=" poppins-L offers-name-parag">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                  </p>
+                </div>
+                <div class="flex-column offers-margin-left-64-9">
+                  <a href="">
+                    <button class="gold-btn-sm  poppins-M request-btn-sm center font-12 btn-needs"> BOOK NOW</button>
+                  </a>
+                  <a href="">
+                    <button class="white-btn-sm poppins-M request-btn-sm center font-12 btn-needs"> LEARN MORE</button>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </a>
+        <a href="offerSinglePage.html">
+          <div class="slides-box ourfans-box offers-cont">
+            <div class="slideshow-container">
+              <span class="mySlides29 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <span class="mySlides29 fade">
+                <img src="assets/singleRoom/Image2.png" class="width20">
+              </span>
+              <span class="mySlides29 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <a class="prev1" onclick="plusSlides(-1, 28)">&#10094;</a>
+              <a class="next1" onclick="plusSlides(1, 28)">&#10095;</a>
+            </div>
+            <div>
+              <div class=" offers-name rossanova gold center offers-name-title">
+                <span> Offer Name </span><br />
+                <img class="offers-icon-under-h" src="assets/svg/Groupe 2164.svg" />
+              </div>
+              <div class="flex-row">
+                <div>
+                  <p class=" poppins-L offers-name-parag">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                  </p>
+                </div>
+                <div class="flex-column offers-margin-left-64-9">
+                  <a href="">
+                    <button class="gold-btn-sm  poppins-M request-btn-sm center font-12 btn-needs"> BOOK NOW</button>
+                  </a>
+                  <a href="">
+                    <button class="white-btn-sm poppins-M request-btn-sm center font-12 btn-needs"> LEARN MORE</button>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </a>
+        <a href="offerSinglePage.html">
+          <div class="slides-box ourfans-box offers-cont">
+            <div class="slideshow-container">
+              <span class="mySlides30 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <span class="mySlides30 fade">
+                <img src="assets/singleRoom/Image2.png" class="width20">
+              </span>
+              <span class="mySlides30 fade">
+                <img src="assets/offersPage/room1 (3).png" class="width100">
+              </span>
+              <a class="prev1" onclick="plusSlides(-1, 29)">&#10094;</a>
+              <a class="next1" onclick="plusSlides(1, 29)">&#10095;</a>
+            </div>
+            <div>
+              <div class=" offers-name rossanova gold center offers-name-title">
+                <span> Offer Name </span><br />
+                <img class="offers-icon-under-h" src="assets/svg/Groupe 2164.svg" />
+              </div>
+              <div class="flex-row">
+                <div>
+                  <p class=" poppins-L offers-name-parag">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                  </p>
+                </div>
+                <div class="flex-column offers-margin-left-64-9">
+                  <a href="">
+                    <button class="gold-btn-sm  poppins-M request-btn-sm center font-12 btn-needs"> BOOK NOW</button>
+                  </a>
+                  <a href="">
+                    <button class="white-btn-sm poppins-M request-btn-sm center font-12 btn-needs"> LEARN MORE</button>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </a>
+      </div>
+
     </div>
 
     <!--*****************start menu mobile version*****************-->
@@ -1287,7 +2235,7 @@ fourth
     }
 //*************** end header script   mobile version
   </script>
-
+<script src="js/offers-menu.js"></script>
 </body>
 
 </html>
