@@ -498,9 +498,12 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  background-size: auto;
+
   text-align: center;
   justify-content: space-between;
+  background-position-y: center !important;
+    background-size: cover !important;
+    background-position-x: 35%;
 }
 
 /* Style the tab */
