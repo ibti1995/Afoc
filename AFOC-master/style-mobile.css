@@ -1264,6 +1264,20 @@
   }
 }
 @media only screen and (max-width: 700px) {
+  .no-margin-mobile {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+  }
+
+  .margin-mobile-stand {
+    margin-right: 4% !important;
+    margin-left: 4% !important;
+  }
+
+  .carousel-multi-rooms .carousel-cell {
+    margin-right: 30px;
+  }
+
   .rooms-cont {
     width: 310px;
     height: 380px;
@@ -1300,16 +1314,17 @@
     padding: 0;
     position: fixed;
     bottom: 0px;
-    width: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
   }
   #menu-mob ul li {
-    float: left;
-    width: 16.667%;
     color: #676767;
     font-size: 7px;
   }
   #menu-mob ul li input {
-    width: 100%;
+    width: 20vw;
     font-size: 15px;
     color: #676767;
   }

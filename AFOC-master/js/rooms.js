@@ -1,5 +1,5 @@
-var slideIndex = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1];
-var slideId = ["slides1", "slides2","slides3","slides4","slides5","slides6","mySlides7", "mySlides8", "mySlides9", "mySlides10", "mySlides11", "mySlides12", "mySlides13", "mySlides14", "mySlides15"]
+var slideIndex = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1];
+var slideId = ["slides1", "slides2","slides3","slides4","slides5","slides6","mySlides7", "mySlides8", "mySlides9", "mySlides10", "mySlides11", "mySlides12", "mySlides13", "mySlides14", "mySlides15","mySlides16", "mySlides17", "mySlides18", "mySlides19", "mySlides20", "mySlides21", "mySlides22", "mySlides23", "mySlides24"]
 showSlides6(1, 0);
 showSlides6(1, 1);
 showSlides6(1, 2);
@@ -15,6 +15,20 @@ showSlides6(1, 11);
 showSlides6(1, 12);
 showSlides6(1, 13);
 showSlides6(1, 14);
+
+//mob
+showSlides6(1, 15);
+showSlides6(1, 16);
+showSlides6(1, 17);
+//
+showSlides6(1, 18);
+showSlides6(1, 19);
+showSlides6(1, 20);
+//
+showSlides6(1,21 );
+showSlides6(1, 22);
+showSlides6(1, 23);
+
 
 
 function plusSlides6(n, no) {
