@@ -637,3 +637,23 @@ http://flickity.metafizzy.co
   position: relative;
   height: 750px !important;
 }
+#selection-menu{
+  ul{
+    li{
+display: inline;
+input{
+  border-style: none;
+}
+select{
+  border-style: none;
+}
+    }
+  }
+
+}
+.search-btn {
+  width: 67px;
+  background-color: transparent;
+  padding: 20px;
+  border-style: none;
+}
