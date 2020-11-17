@@ -191,6 +191,91 @@
   display: none;
 }
 
+.minus-span2 {
+  color: #ffffff;
+  background-color: #B2B4B2;
+  border-radius: 25%;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  padding: 0px 8px;
+}
+
+.input-date-mobile {
+  width: 100%;
+  justify-content: space-between;
+  color: #787878;
+  padding: 10px;
+  font-size: 15px;
+  border: solid;
+  border-color: rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  margin-top: 40px;
+  border-width: 0.5px;
+}
+.input-date-mobile .date-input2 {
+  background: transparent;
+  color: #787878;
+  border: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.input-date-mobile ::-webkit-calendar-picker-indicator {
+  filter: invert(0.5);
+}
+
+.input-number-mobile {
+  width: 100%;
+  justify-content: space-between;
+  color: #787878;
+  padding: 10px;
+  font-size: 15px;
+}
+.input-number-mobile .number-container {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.plus-span2 {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #B2B4B2;
+  border-radius: 25%;
+  margin-right: 24px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+}
+
+.check-btn2 {
+  margin-top: auto;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+  background-color: #926D39 !important;
+  width: 100%;
+  color: white;
+  text-align: center;
+  margin-bottom: 5px;
+  border: none;
+  outline: none;
+  padding-top: 12px;
+  padding-bottom: 11px;
+  border-radius: 3px;
+  font-size: 15px;
+}
+
+#book-now-container {
+  display: none;
+  padding: 30px;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  align-items: start;
+  flex-direction: column;
+}
+
 @media screen and (min-width: 700px) {
   .tabcontent {
     visibility: visible !important;

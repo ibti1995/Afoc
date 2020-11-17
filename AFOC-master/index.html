@@ -101,8 +101,8 @@
         </div>
       </div>
       <div class="header-book-btn-responsive">
-        <a href="">
-          <button class="header-book-btn">BOOK NOW</button>
+        <a >
+          <button onclick="showform()" class="header-book-btn">BOOK NOW</button>
         </a>
       </div>
 
@@ -154,7 +154,55 @@
       </div>
 
     </div>
-
+  <div id="book-now-container" class="display-none-big" >
+      <img onclick="inshowform()" src="assets/svg/Icon feather-arrow-left.svg" />
+      <div class="flex-column" style="align-items: center;">
+        <h3 class="gold rossanova" style="margin-bottom: 0;">Book Your Stay</h3>
+        <img width="80px" src="assets/svg/Groupe 2164.svg" />
+      </div>
+      <div class="poppins-L center flex-row  input-date-mobile" >
+        <span>ARRIVE DATE</span>
+        <input class="date-input2" placeholder="ARRIVE DATE" type="date" name="" id="">
+      </div>
+      <div class="poppins-L center flex-row  input-date-mobile" >
+        <span>DEPARTURE</span>
+        <input class="date-input2" placeholder="ARRIVE DATE" type="date" name="" id="">
+      </div>
+      <div class="poppins-L center  flex-row  input-number-mobile" style="margin-top: 50px;">
+        <span> ADULTS </span>
+        <div class="number-container">
+        <button class="minus-span2" onclick="subadult()">-</button>
+        <span id="adult2">0</span>
+        <button class="plus-span2" onclick="addadult()">+</button>
+      </div>
+      </div>
+      <div class="poppins-L center flex-row  input-number-mobile">
+        
+        <span> CHILDREN </span>
+        <div class="number-container">
+        <button class="minus-span2" onclick="subchild()">-</button>
+        <span id="child2">0</span>
+        <button class="plus-span2" onclick="addchild()">+</button>
+      </div>
+      </div>
+      <div class="poppins-L center  flex-row  input-number-mobile">
+        
+        <span> ROOMS </span>
+        <div class="number-container">
+        <button class="minus-span2" onclick="subrooms()">-</button>
+        <span id="rooms2">0</span>
+        <button class="plus-span2" onclick="addrooms()">+</button>
+      </div>
+    
+      </div>
+    
+        <button class="poppins-L center font-17 check-btn2">
+          CHECK AVAILABILITY
+        </button>
+    
+      
+   
+  </div>
 
   </header>
 
@@ -1735,18 +1783,44 @@ if (x.style.display === "block") {
 }
 }
 
+function showform() {
+
+var x = document.getElementById("book-now-container");
+
+var body =document.getElementById("body");
+
+ 
+  x.style.display = "flex";
+  body.style.overflow="hidden";
+
+}
+function inshowform() {
+
+var x = document.getElementById("book-now-container");
+
+var body =document.getElementById("body");
+
+  
+  x.style.display = "none";
+  body.style.overflow="visible";
+
+}
+
+
     var rooms = 0;
     var child = 0;
     var adult = 0;
     function addadult() {
       adult = adult + 1;
       document.getElementById("adult").textContent = adult.toString();
+      document.getElementById("adult2").textContent = adult.toString();
 
     }
     function subadult() {
       if (adult > 0) {
         adult = adult - 1;
         document.getElementById("adult").textContent = adult.toString();
+        document.getElementById("adult2").textContent = adult.toString();
 
       }
     }
@@ -1754,23 +1828,27 @@ if (x.style.display === "block") {
 
       child = child + 1;
       document.getElementById("child").textContent = child.toString();
+      document.getElementById("child2").textContent = child.toString();
     }
     function subchild() {
 
       if (child > 0) {
         child = child - 1;
         document.getElementById("child").textContent = child.toString();
+        document.getElementById("child2").textContent = child.toString();
       }
     }
     function addrooms() {
       rooms = rooms + 1;
       document.getElementById("rooms").textContent = rooms.toString();
+      document.getElementById("rooms2").textContent = rooms.toString();
 
     }
     function subrooms() {
       if (rooms > 0) {
         rooms = rooms - 1;
         document.getElementById("rooms").textContent = rooms.toString();
+        document.getElementById("rooms2").textContent = rooms.toString();
       }
     }
   </script>
