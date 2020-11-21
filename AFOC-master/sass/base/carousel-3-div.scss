@@ -1,4 +1,5 @@
-//our fan
+//our fan$
+
 .carousel-3-div {
   
   .carousels0 {
@@ -151,9 +152,10 @@
   }
 
   .carousel-cell {
-    width: 500px;
+    width: 33%;
     height: fit-content;
     margin-right: 10px;
+    padding-left: 20px;
     //  background: #8C8;
     border-radius: 5px;
     //  counter-increment: carousel-cell;
@@ -261,10 +263,10 @@ https://flickity.metafizzy.co
   }
 
   .flickity-prev-next-button.previous {
-    left: 10px;
+    left: -4%;
   }
   .flickity-prev-next-button.next {
-    right: 10px;
+    right: -4%;
   }
   /* right to left */
   .flickity-rtl .flickity-prev-next-button.previous {

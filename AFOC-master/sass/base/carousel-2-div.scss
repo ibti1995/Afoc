@@ -12,6 +12,7 @@
         //  background: #8C8;
         border-radius: 5px;
        //  counter-increment: carousel-cell;
+       margin-bottom: 30px;
      }
       
       /* cell number */
@@ -109,12 +110,13 @@ https://flickity.metafizzy.co
     width: 44px;
     height: 44px;
     border-radius: 50%;
+    color: #926D39 !important;
     /* vertically center */
     transform: translateY(-50%);
   }
   
-  .flickity-prev-next-button.previous { left: 10px; }
-  .flickity-prev-next-button.next { right: 10px; }
+  .flickity-prev-next-button.previous { left: -4%; }
+  .flickity-prev-next-button.next { right: -4%; }
   /* right to left */
   .flickity-rtl .flickity-prev-next-button.previous {
     left: auto;
@@ -200,11 +202,7 @@ https://flickity.metafizzy.co
              width: 700px !important;
             
           }
-          .flickity-viewport {
-       
-            height: 410px!important;
-          }
-
+         
         }
     }
 }
