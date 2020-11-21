@@ -325,7 +325,7 @@
 .next5 {
   cursor: pointer;
   position: absolute;
-  bottom: 0;
+  bottom: -12px;
   width: auto;
   height: 50px;
   padding-left: 16px;
@@ -342,7 +342,7 @@
 
 /* Position the "next button" to the right */
 .next5 {
-  right: 2px;
+  right: 0px;
   border-radius: 3px 0 0 3px;
 }
 .prev5 {
