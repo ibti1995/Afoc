@@ -11,7 +11,7 @@
   margin-right: 0px !important;
 }
 .act-margin{
-  margin-right: 10% !important; margin-left: 10% !important;
+  margin-right: 5% !important; margin-left: 5% !important;
 }
 .activitie-icon {
   width: 30px;
@@ -19,7 +19,7 @@
   margin: 0px 20px 0px 0px;
 }
 .act-box-margin{
-  margin-bottom: 50px; padding-top: 50px;
+  margin-bottom: 20px; padding-top: 40px;
 }
 .act-box-title {
   margin-top: 0px !important ;
@@ -83,8 +83,8 @@
   bottom: 0;
   width: auto;
   height: 50px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
   color: $primary-color;
   background-color: rgba(255, 255, 255, 0.59);
   font-weight: bold;
@@ -92,7 +92,7 @@
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
-  margin-bottom: 20px;
+  margin-bottom: 8px;
 }
 
 /* Position the "next button" to the right */
@@ -119,10 +119,10 @@
   padding-bottom: 79px;
   padding-left: 5%;
   line-height: 30px;
-  margin-top: 50px;
+  margin-top: 0px;
   width: 50%;
-  padding-right: 6%;
-  margin-right: -90px;
+  padding-right: 3%;
+  margin-right: -90px!important;
   z-index: 400;
   background-color: white;
 }
@@ -149,6 +149,7 @@
     order: 2;
     z-index: 50000 !important;
     background-color: white;
+         margin-right: 0px !important;
   }
   .act-box-title {
     margin-top: 0px !important ;
@@ -158,9 +159,16 @@
     padding: 80px 50px 50px 50px ;
     order: 2;
   }
+  .prev6, .next6 {
+    bottom: 35%;
+}
   .textact {
     font-size: 20px;
     font-family: rossanova;
   }
+  .prev6 {
+   right: unset;
+    border-radius: 3px 0 0 3px;
+}
 
 }
