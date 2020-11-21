@@ -261,7 +261,8 @@ dialog {
   font-size: 3vw; line-height: 2.5vw;
 }
 .cat-slide-img{
-  width: 100% ;height: 698px ;min-width: 100px;
+  width: 100% ;height: 698px ;min-width: 100px; border-top-left-radius:20px ;
+  border-bottom-left-radius: 20px;
 }
 /********************* media query************/
 @media screen and (max-width: 1050px) {
@@ -270,6 +271,7 @@ dialog {
     border-top-right-radius: 15px;
     border-bottom-right-radius: 0px;
     border-top-left-radius: 15px;
+    border-bottom-left-radius: 0px;
 
 
   }
