@@ -47,6 +47,7 @@
   .list-class {
     ul {
       font-size: 20px;
+      line-height: 40px;
       li {
         list-style-image: url("assets/svg/Tracé 8474.svg");
       }
@@ -132,7 +133,7 @@
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 /* Position the "next button" to the right */
@@ -147,7 +148,7 @@
 }
 .meetings-menu {
   margin-left: 3%;
-  margin-top: 100px;
+  margin-top: 60px;
   background-color: white;
   width: fit-content;
   font-size: 20px;
@@ -233,3 +234,32 @@
   border-radius: 5px; margin-bottom: 30px;
 
 }.list-class{margin-right: 80px;}
+.info-mobile{
+  a{
+    .cat-gold-btn{
+      margin-top: 10px;
+    }
+    .cat-white-btn{
+      margin-top: 10px;
+    }
+
+  }
+  p{
+    line-height: 35px;
+
+  }
+  .list-elem-icon {
+    width: 20px;
+
+    margin: 5px 15px 0px 0px;
+}
+}
+#slide1meeting,
+#slide3meeting{
+  .prev-meeting{
+    right: 50px ;
+  }
+  .next-meeting{
+    right: 0 !important;
+  }
+}
