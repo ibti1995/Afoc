@@ -35,6 +35,7 @@
   .meeting-img {
     width: -webkit-fill-available;
     margin: -30px -30px 20px -30px;
+    border-radius: 0px;
   }
   .ourfans-box {
     .flex-row {
@@ -110,4 +111,8 @@
     border-style: none;
     color: #676767;
   }
+}
+.margin-stand-pack{
+margin-left: 5%;
+margin-right: 5%;
 }

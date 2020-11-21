@@ -3225,6 +3225,10 @@ dialog {
   right: 0 !important;
 }
 
+.carousel-meetings-packages .flickity-prev-next-button {
+  display: none;
+}
+
 .activities {
   background-image: url("assets/activities/Composant 2 – 1.png");
 }
