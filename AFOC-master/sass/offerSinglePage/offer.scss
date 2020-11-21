@@ -1,4 +1,12 @@
 
+@media screen and(min-width:1050px){
+  .carousel-special-offers {
+    .flickity-page-dots{
+      display: block !important;
+    }
+  }
+}
+
 
  #menu-buttons{
    display: none;
