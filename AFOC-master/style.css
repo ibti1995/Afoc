@@ -2364,7 +2364,7 @@ dialog {
 }
 
 .menu-margin {
-  margin-bottom: 70px;
+  margin-bottom: 10px;
   margin-top: 70px;
 }
 
@@ -2891,7 +2891,7 @@ dialog {
   color: white;
   background-color: #926D39 !important;
   border-radius: 30px;
-  padding: 10px;
+  padding: 20px;
 }
 
 .stay-elemnt div:hover {
