@@ -19,6 +19,7 @@
 .icons-width {
   font-size: 25px;
   margin-top: 25px;
+  margin-bottom: 20px;
 }
 .carousel-special-offers {
   .special-offer-padding-box {
@@ -70,7 +71,8 @@
     font-size: 15px;
     line-height: 40px;
     li {
-      list-style-image: url("assets/svg/single room/square.svg");
+      list-style-image: url("assets/svg/single room/square.svg");    margin-left: -20px;
+
     }
   }
 }
@@ -220,7 +222,7 @@
 @media screen and (max-width: 1050px) {
   .flex-row-items {
     ul {
-      font-size: 20px;
+      font-size: 15px;
       li {
         list-style-image: url("assets/svg/single room/square.svg");
       }
@@ -254,4 +256,28 @@
   background-color: #926d39;
   left: 25%;
   bottom: -25px;
+}
+.carousel-special-offers{
+  .flickity-button{
+    display: none;
+  }
+}
+@media screen and (min-width: 1050px) {
+  .slides1,
+  .slides2,
+  .slides3,
+  .slides4,
+  .slides5,
+  .slides6
+   {
+    img{
+      height: 560px;
+    }
+  }
+  .activities1-box-title {
+
+    width: 750px;
+
+
+  }
 }

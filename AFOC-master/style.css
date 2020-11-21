@@ -1132,7 +1132,7 @@ dialog {
   }
   .slide1 .mySlides4 {
     display: none;
-    height: 1400px;
+    height: 1200px;
   }
   .slide1 .slideshow-container4 {
     position: relative;
@@ -3353,7 +3353,7 @@ dialog {
 }
 
 .prev6 {
-  right: 8.6%;
+  right: 59px;
   border-radius: 3px 0 0 3px;
 }
 
@@ -3370,11 +3370,11 @@ dialog {
 
 .activities1-box-title {
   margin-right: 0 !important;
-  padding-bottom: 79px;
+  padding-bottom: 20px;
   padding-left: 5%;
   line-height: 30px;
   margin-top: 0px;
-  width: 50%;
+  width: 800px;
   padding-right: 3%;
   margin-right: -90px !important;
   z-index: 400;
@@ -3397,15 +3397,14 @@ dialog {
   }
 
   .activities1-box-title {
-    padding-bottom: 79px;
-    padding-left: 78px;
+    padding-bottom: 20px;
+    padding-left: 40px;
     line-height: 30px;
     margin-top: -40px;
-    width: 80%;
-    padding-right: 62px;
+    width: 85%;
+    padding-right: 40px;
     order: 2;
     z-index: 50000 !important;
-    background-color: white;
     margin-right: 0px !important;
   }
 
@@ -3431,7 +3430,16 @@ dialog {
     right: unset;
     border-radius: 3px 0 0 3px;
   }
+
+  .slides1 img {
+    height: unset;
+  }
 }
+.activities1-box-title p {
+  font-size: 15px;
+  line-height: 25px;
+}
+
 .margin-stand-l-r {
   margin-right: 5%;
   margin-left: 5%;
@@ -4734,6 +4742,7 @@ body {
 .icons-width {
   font-size: 25px;
   margin-top: 25px;
+  margin-bottom: 20px;
 }
 
 .carousel-special-offers .special-offer-padding-box {
@@ -4789,6 +4798,7 @@ body {
 }
 .flex-row-items ul li {
   list-style-image: url("assets/svg/single room/square.svg");
+  margin-left: -20px;
 }
 
 .rooms-img-margin {
@@ -4937,7 +4947,7 @@ body {
 
 @media screen and (max-width: 1050px) {
   .flex-row-items ul {
-    font-size: 20px;
+    font-size: 15px;
   }
   .flex-row-items ul li {
     list-style-image: url("assets/svg/single room/square.svg");
@@ -4971,6 +4981,24 @@ body {
   bottom: -25px;
 }
 
+.carousel-special-offers .flickity-button {
+  display: none;
+}
+
+@media screen and (min-width: 1050px) {
+  .slides1 img,
+.slides2 img,
+.slides3 img,
+.slides4 img,
+.slides5 img,
+.slides6 img {
+    height: 560px;
+  }
+
+  .activities1-box-title {
+    width: 750px;
+  }
+}
 @media screen and (max-width: 1050px) {
   .responsive-restaurant {
     order: 1;
