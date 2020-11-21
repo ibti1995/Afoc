@@ -525,7 +525,7 @@ a {
 .sub-title {
   width: fit-content;
   margin-bottom: 30px;
-  margin-top: 88px;
+  margin-top: 20px;
 }
 
 .sub-sub-title {
@@ -2360,7 +2360,7 @@ dialog {
 
 .vibes-item {
   margin-right: 4%;
-  width: 370px;
+  width: 355px;
 }
 
 .menu-margin {
@@ -4910,7 +4910,7 @@ body {
   width: 100%;
   flex-wrap: wrap;
   margin-top: 37px;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 /******************************************/
