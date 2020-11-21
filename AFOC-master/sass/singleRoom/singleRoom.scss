@@ -657,3 +657,9 @@ select{
   padding: 20px;
   border-style: none;
 }
+
+  .carousel-3-div {
+    .flickity-page-dots{
+      display: none!important;
+    }
+  }
