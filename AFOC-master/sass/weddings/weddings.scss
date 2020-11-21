@@ -120,7 +120,7 @@
   top: 34%;
   width: 40px;
 
-  padding: 10px;
+  padding: 20px 60px 20px 40px;
   color: $primary-color;
   font-weight: bold;
   font-size: 40px;
@@ -132,10 +132,10 @@
 
 /* Position the "next button" to the right */
 .next3 {
-  right: 10px;
+  right: 0px;
 }
 .prev3 {
-  left: 10px;
+  left: 0px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -177,6 +177,7 @@
 /* Add a transparency effect for thumnbail images */
 .demo3 {
   opacity: 0.6;
+  height: 180px;
 }
 
 .active3,
