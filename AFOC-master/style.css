@@ -6375,6 +6375,16 @@ body {
   background-image: url("assets/homePage/Rectangle 1624.svg");
 }
 
+ol:last-child::before {
+  content: url("assets/svg/line.svg");
+  margin-right: 30px;
+}
+
+ol:last-child::after {
+  content: url("assets/svg/line.svg");
+  margin-left: 20px;
+}
+
 .carousel-2-div {
   /* cell number */
   /*! Flickity v2.2.1
