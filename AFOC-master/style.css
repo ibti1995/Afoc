@@ -1727,6 +1727,10 @@ dialog {
   }
 }
 @media screen and (max-width: 1050px) {
+  .demo3 {
+    height: 110px !important;
+  }
+
   .responsive-box-wedding {
     margin-right: 3% !important;
   }
