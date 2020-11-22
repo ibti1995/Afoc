@@ -66,20 +66,58 @@
                 <img width="82px" src="assets/svg/gold logo.svg" />
             </span>
             <!-- changing inputs types here -->
-            <div class="flex-row rooms-menu-bo display-inputs align ">
-                <input class="input-date-text" type="text" placeholder="13-dec">
-                <!-- <input class="input-date-text" type="date" data-role="calendarpicker" data-input-format="%d-%m" placeholder="21-12"> -->
-                <svg xmlns="http://www.w3.org/2000/svg" width="20.188" height="1" viewbox="0 0 20.188 1">
-                    <line id="Ligne_38" data-name="Ligne 38" x2="20.188" transform="translate(0 0.5)" fill="none"
-                        stroke="#707070" stroke-width="1" />
-                </svg>
-                <input class="input-date-text" type="text" placeholder="17-dec">
-                <!-- <input class="input-date-text"type="date" data-role="calendarpicker" data-input-format="%d-%m" placeholder="21-12"> -->
-                <input class="input-text-menu" type="text" placeholder="2rooms, 3 adults, 1children" width="100%">
-                <div class="white-search-btn">
-                    <img class="margin-25" src="assets/svg/single room/white-search.svg">
+            <div class="flex-row rooms-menu-bo1 display-inputs1">
+
+                <div id="selection-menu" >
+                    <ul>
+                        <li> <input class="select-menu-fixed" type="date"></li>
+
+                        <li> <input class="select-menu-fixed" type="date"></li>
+                        <li class="vertical"></li>
+                        <li>
+                            <select class=" select-menu-fixed gray" name="rooms" id="select-rooms">
+                                <option selected disabled>Rooms</option>
+                                <option class=" item-select-language-index" value="saab">1</option>
+                                <option class=" item-select-language-index" value="mercedes">2</option>
+                                <option class=" item-select-language-index" value="audi">3</option>
+                                <option class=" item-select-language-index" value="audi">4</option>
+                                <option class=" item-select-language-index" value="audi">5</option>
+                                <option class=" item-select-language-index" value="audi">6</option>
+                                <option class=" item-select-language-index" value="audi">7</option>
+                                <option class=" item-select-language-index" value="audi">8</option>
+                            </select>
+                        </li>
+                        <li><select class=" select-menu-fixed gray" name="adults" id="select-adults">
+                                <option selected disabled>Adults</option>
+                                <option class=" item-select-language-index" value="saab">1</option>
+                                <option class=" item-select-language-index" value="mercedes">2</option>
+                                <option class=" item-select-language-index" value="audi">3</option>
+                                <option class=" item-select-language-index" value="audi">4</option>
+                                <option class=" item-select-language-index" value="audi">5</option>
+                                <option class=" item-select-language-index" value="audi">6</option>
+                                <option class=" item-select-language-index" value="audi">7</option>
+                                <option class=" item-select-language-index" value="audi">8</option>
+                            </select></li>
+                        <li>
+                            <select class=" select-menu-fixed gray" name="lang" id="select-children">
+                                <option selected disabled>Children</option>
+                                <option class=" item-select-language-index" value="saab">1</option>
+                                <option class=" item-select-language-index" value="mercedes">2</option>
+                                <option class=" item-select-language-index" value="audi">3</option>
+                                <option class=" item-select-language-index" value="audi">4</option>
+                                <option class=" item-select-language-index" value="audi">5</option>
+                                <option class=" item-select-language-index" value="audi">6</option>
+                                <option class=" item-select-language-index" value="audi">7</option>
+                                <option class=" item-select-language-index" value="audi">8</option>
+                            </select>
+                        </li>
+
+                    </ul>
                 </div>
-            </div>
+                    <span >
+                       <button class="search-btn"><img src="assets/svg/single room/white-search.svg"></button>
+                    </span>
+                </div>
 
             <div class="poppins menu-home-container margin-top-20">
                 <ul class="ul-menu-home">
@@ -182,7 +220,7 @@
                 <ul>
                     <li> <input class="select-menu-fixed" type="date"></li>
 
-                    <li> <input class="select-menu-fixed" type="date" default="02/09/2020"></li>
+                    <li> <input class="select-menu-fixed" type="date"></li>
                     <li class="vertical"></li>
                     <li>
                         <select class=" select-menu-fixed  black" name="rooms" id="select-rooms">
@@ -671,7 +709,7 @@
                 </h2>
             </div>
             <div class="carousel-3-div">
-                <div class="carousel-special-offers" data-flickity='{
+                <div id="offers-sec"  class="carousel-special-offers" data-flickity='{
                        "freeScroll": true,
                      "wrapAround": false ,
                      "autoPlay": 3000 ,
@@ -679,7 +717,7 @@
                      "pauseAutoPlayOnHover": false ,
                                         "contain": true ,
                                         "prevNextButtons": true ,
-                                     "pageDots": false}'>
+                                     "pageDots": true}'>
                     <div class="carousel-cell">
                         <div class="flex-column ourfans-box special-offer-padding-box">
 

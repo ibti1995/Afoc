@@ -56,6 +56,12 @@
       left: 313px!important;
     }
   }
+  #special-off{
+
+      .flickity-slider{
+      left: 0!important;
+    }
+  }
 
   //special offer
   .carousel-special-offers {
@@ -70,7 +76,7 @@
     }
 
     .carousel-cell {
-      width: 460px !important;
+      width: 570px !important;
       margin-top: 20px !important;
 
       padding-left: 20px;
@@ -329,9 +335,13 @@ https://flickity.metafizzy.co
   }
   #c1-responsive {
     display: none;
+    margin-top: 70px;
+    margin-bottom: 60px;
+
   }
 
   .carousel-3-div {
+
     .carousels0 {
       .flickity-prev-next-button {
         top: 50%;
@@ -389,6 +399,8 @@ https://flickity.metafizzy.co
   }
   #c1-responsive {
     display: block;
+    margin-top: 70px;
+    margin-bottom: 60px;
   }
 
   .carousel-3-div {
@@ -417,3 +429,52 @@ https://flickity.metafizzy.co
     }
   }
 }
+.carousel-3-div #offers-sec .flickity-page-dots {
+  display: block;
+  .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 8px;
+    background-image: url("assets/homePage/Rectangle 1625.svg");
+    background-size: cover;
+  background-color: transparent !important;
+  border-radius: none;
+
+    opacity: 1;
+    cursor: pointer;
+  }
+  .dot.is-selected {
+    margin: 0px 8px -3px 8px;
+    opacity: 1;
+    width: 16px;
+    height: 16px;
+    background-image: url("assets/homePage/Rectangle 1624.svg");
+  }
+}
+
+.carousel-3-div #single-sec .flickity-page-dots {
+  display: block;
+  .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 8px;
+    background-image: url("assets/homePage/Rectangle 1625.svg");
+    background-size: cover;
+  background-color: transparent !important;
+  border-radius: none;
+
+    opacity: 1;
+    cursor: pointer;
+  }
+  .dot.is-selected {
+    margin: 0px 8px -3px 8px;
+    opacity: 1;
+    width: 16px;
+    height: 16px;
+    background-image: url("assets/homePage/Rectangle 1624.svg");
+  }
+}
+
+

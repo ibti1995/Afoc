@@ -2351,8 +2351,17 @@ dialog {
     display: flex;
   }
 
+  .display-inputs1 {
+    display: none !important;
+  }
+
   .display-inputs {
     display: none !important;
+  }
+}
+@media screen and (max-width: 700px) {
+  .active-type-rooms {
+    padding: 10px !important;
   }
 }
 @media screen and (min-width: 1660px) {
@@ -2982,6 +2991,20 @@ dialog {
 
 .carousel-3-div .flickity-page-dots {
   display: none;
+}
+
+.rooms-menu-bo1 {
+  margin-top: 25px;
+  border-style: solid;
+  border-color: #bfbfbf;
+  height: 70px;
+  margin-left: 90px !important;
+  border-width: 0.3px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  width: fit-content;
 }
 
 @media screen and (max-width: 1050px) {
@@ -5517,7 +5540,7 @@ body {
   margin-top: 29px;
   margin-right: 30px;
   background-color: #926D39 !important;
-  width: 350px;
+  width: 100%;
   padding: 16px 20px 15px 20px;
   border-color: #926D39 !important;
   text-decoration: none;
@@ -6031,6 +6054,9 @@ body {
 .carousel-3-div .carousel-our-fan .flickity-slider {
   left: 313px !important;
 }
+.carousel-3-div #special-off .flickity-slider {
+  left: 0 !important;
+}
 .carousel-3-div .carousel-special-offers .flickity-prev-next-button {
   top: 50%;
   width: 50px;
@@ -6041,7 +6067,7 @@ body {
   transform: translateY(-50%);
 }
 .carousel-3-div .carousel-special-offers .carousel-cell {
-  width: 460px !important;
+  width: 570px !important;
   margin-top: 20px !important;
   padding-left: 20px;
 }
@@ -6249,6 +6275,8 @@ body {
 
   #c1-responsive {
     display: none;
+    margin-top: 70px;
+    margin-bottom: 60px;
   }
 
   .carousel-3-div .carousels0 .flickity-prev-next-button {
@@ -6275,6 +6303,8 @@ body {
 
   #c1-responsive {
     display: block;
+    margin-top: 70px;
+    margin-bottom: 60px;
   }
 
   .carousel-3-div .carousels0 .flickity-prev-next-button {
@@ -6294,6 +6324,52 @@ body {
     padding-left: 20px;
   }
 }
+.carousel-3-div #offers-sec .flickity-page-dots {
+  display: block;
+}
+.carousel-3-div #offers-sec .flickity-page-dots .dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 8px;
+  background-image: url("assets/homePage/Rectangle 1625.svg");
+  background-size: cover;
+  background-color: transparent !important;
+  border-radius: none;
+  opacity: 1;
+  cursor: pointer;
+}
+.carousel-3-div #offers-sec .flickity-page-dots .dot.is-selected {
+  margin: 0px 8px -3px 8px;
+  opacity: 1;
+  width: 16px;
+  height: 16px;
+  background-image: url("assets/homePage/Rectangle 1624.svg");
+}
+
+.carousel-3-div #single-sec .flickity-page-dots {
+  display: block;
+}
+.carousel-3-div #single-sec .flickity-page-dots .dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 8px;
+  background-image: url("assets/homePage/Rectangle 1625.svg");
+  background-size: cover;
+  background-color: transparent !important;
+  border-radius: none;
+  opacity: 1;
+  cursor: pointer;
+}
+.carousel-3-div #single-sec .flickity-page-dots .dot.is-selected {
+  margin: 0px 8px -3px 8px;
+  opacity: 1;
+  width: 16px;
+  height: 16px;
+  background-image: url("assets/homePage/Rectangle 1624.svg");
+}
+
 .carousel-2-div {
   /* cell number */
   /*! Flickity v2.2.1

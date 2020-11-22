@@ -2,9 +2,20 @@
   .display-inputs2 {
     display: flex;
   }
+  .display-inputs1 {
+    display: none !important;
+  }
+
   .display-inputs {
     display: none !important;
   }
+}
+@media screen and (max-width: 700px) {
+  .active-type-rooms {
+
+    padding: 10px !important;
+}
+
 }
 @media screen and (min-width: 1660px) {
   .display-inputs {
@@ -663,3 +674,17 @@ select{
       display: none;
     }
   }
+  .rooms-menu-bo1 {
+    margin-top: 25px;
+    border-style: solid;
+    border-color: #bfbfbf;
+    height: 70px;
+    margin-left: 90px !important;
+    border-width: 0.3px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    width: fit-content;
+
+}
