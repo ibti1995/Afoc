@@ -6140,6 +6140,7 @@ body {
   position: absolute;
   width: 100%;
   height: fit-content;
+  left: 313px !important;
 }
 .carousel-3-div .flickity-enabled.is-draggable {
   -webkit-tap-highlight-color: transparent;
