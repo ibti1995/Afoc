@@ -5068,6 +5068,10 @@ body {
     width: 750px;
   }
 }
+#menu-with-slides1 {
+  margin-top: 150px;
+}
+
 @media screen and (max-width: 1050px) {
   .responsive-restaurant {
     order: 1;
