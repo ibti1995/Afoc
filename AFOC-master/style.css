@@ -107,6 +107,11 @@
     color: #926D39;
   }
 }
+@media screen and (min-width: 1050px) {
+  .invisible-div {
+    flex-basis: 50%;
+  }
+}
 @media screen and (min-width: 1150px) {
   .logo-header {
     align-self: flex-start;
@@ -237,26 +242,35 @@
   background-color: #787878;
   height: 50px;
   width: 166px;
-  padding: 12px;
+  padding: 0px 10px 0px;
+  display: flex;
+  align-items: center;
 }
 
 .plus-span {
+  margin-top: 2px;
   text-decoration: none;
   color: #787878;
-  background-color: white;
-  border-radius: 50%;
-  margin-right: 24px;
+  background-color: transparent;
+  margin-right: 17px;
   border: none;
   outline: none;
+  margin-left: 2px;
+}
+.plus-span img {
+  height: 12px;
 }
 
 .minus-span {
+  margin-top: 2px;
   color: #787878;
-  background-color: white;
-  border-radius: 50%;
-  margin-right: 4px;
+  background-color: transparent;
+  margin-right: 3px;
   border: none;
   outline: none;
+}
+.minus-span img {
+  height: 12px;
 }
 
 .words2 {
@@ -1707,6 +1721,11 @@ dialog {
   font-size: 26px;
 }
 
+@media screen and (min-width: 1050px) {
+  .wedding-packages .flickity-page-dots {
+    display: block !important;
+  }
+}
 @media screen and (max-width: 1050px) {
   .responsive-box-wedding {
     margin-right: 3% !important;
@@ -3502,12 +3521,17 @@ dialog {
   justify-content: space-between;
   height: 100%;
 }
+.index-form ::-webkit-inner-spin-button,
+.index-form ::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
 .index-form .title {
   background-image: url("assets/homepage/Groupe 430.png") !important;
   text-align: center;
   font-weight: bold;
   height: 68px;
-  padding-top: 12px;
+  padding-top: 25px;
 }
 .index-form .period {
   justify-content: space-around;

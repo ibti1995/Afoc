@@ -100,7 +100,13 @@
 
 
 //jddid home
+@media screen and (min-width : 1050px){
+  .invisible-div{
+    flex-basis: 50%;
+    
+  }}
 @media screen and (min-width : 1150px){
+
 .logo-header{
 align-self: flex-start;
 //order: 5;
@@ -229,22 +235,32 @@ margin-right: 0px;
 }
 
 .elemnt-input-head{
-background-color: #787878  ;height: 50px; width: 166px; padding: 12px;}
+  
+background-color: #787878  ;height: 50px; width: 166px; padding: 0px 10px 0px;
+display: flex ; align-items: center; }
 .plus-span{
+  margin-top: 2px;
 text-decoration: none;
-color: #787878 ; background-color: white; border-radius: 50%;
-margin-right: 24px;
+color: #787878 ; background-color: transparent;
+margin-right: 17px;
 border: none ;
 outline: none;
+margin-left: 2px;
+img{
+  height: 12px;
+}
 
 }
 .minus-span{
-color: #787878 ; background-color: white; border-radius: 50%;
-margin-right: 4px;
+  margin-top: 2px;
+color: #787878 ; background-color: transparent;
+margin-right: 3px;
 
 border: none ;
 outline: none;
-
+img{
+  height: 12px;
+}
 }
 .words2{
 text-align: left;

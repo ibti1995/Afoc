@@ -40,6 +40,11 @@
 
 
 .index-form {
+  ::-webkit-inner-spin-button,
+::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
   justify-content: space-between;
   height: 100%;
   .title {
@@ -47,7 +52,7 @@
     text-align: center;
     font-weight: bold;
     height: 68px;
-    padding-top: 12px;
+    padding-top: 25px;
   }
   .period {
     justify-content: space-around;

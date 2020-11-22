@@ -1,6 +1,13 @@
+@media screen and (min-width: 1050px) {
+.wedding-packages {
+ .flickity-page-dots {
+   display: block !important;
+ }
 
-
+}
+}
 @media screen and (max-width: 1050px) {
+
   .responsive-box-wedding {
     margin-right: 3% !important;
   }
