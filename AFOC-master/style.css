@@ -3218,7 +3218,6 @@ dialog {
 
 .meeting-second-box {
   margin-top: 150px;
-  margin-bottom: 137px;
   padding-bottom: 128px;
   background-image: url("assets/meetings/Rectangle 1755.png");
 }
@@ -3286,6 +3285,12 @@ dialog {
 
 .carousel-meetings-packages .flickity-prev-next-button {
   display: none;
+}
+
+.alin-dots-meeting {
+  text-align: center;
+  margin-top: -50px;
+  z-index: 111500;
 }
 
 .activities {
