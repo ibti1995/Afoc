@@ -52,6 +52,9 @@
     .flickity-viewport {
       //height: 580px !important;
     }
+    .flickity-slider{
+      left: 313px!important;
+    }
   }
 
   //special offer
@@ -88,7 +91,7 @@
     }
 
     .carousel-cell {
-      width: 500px !important;
+      width: 570px !important;
       margin-top: 20px !important;
       margin-bottom: 70px ;
 
@@ -194,7 +197,7 @@ https://flickity.metafizzy.co
     position: absolute;
     width: 100%;
     height: fit-content;
-    left: 313px !important;
+
   }
 
   /* draggable */

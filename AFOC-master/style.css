@@ -6028,6 +6028,9 @@ body {
   margin-bottom: 30px;
   padding-left: 20px;
 }
+.carousel-3-div .carousel-our-fan .flickity-slider {
+  left: 313px !important;
+}
 .carousel-3-div .carousel-special-offers .flickity-prev-next-button {
   top: 50%;
   width: 50px;
@@ -6055,7 +6058,7 @@ body {
   transform: translateY(-50%);
 }
 .carousel-3-div .carousel-meetings-packages .carousel-cell {
-  width: 500px !important;
+  width: 570px !important;
   margin-top: 20px !important;
   margin-bottom: 70px;
   padding-left: 20px;
@@ -6140,7 +6143,6 @@ body {
   position: absolute;
   width: 100%;
   height: fit-content;
-  left: 313px !important;
 }
 .carousel-3-div .flickity-enabled.is-draggable {
   -webkit-tap-highlight-color: transparent;
