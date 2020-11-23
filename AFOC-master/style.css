@@ -39,6 +39,38 @@
   padding-bottom: 11px;
 }
 
+.date-inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.date-inputs ::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  font-family: poppins-light;
+  opacity: 1;
+  /* Firefox */
+}
+.date-inputs :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+  font-family: poppins-light;
+}
+.date-inputs ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: white;
+  font-family: poppins-light;
+}
+.date-inputs .date-input {
+  font-family: poppins-light;
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+
 @media screen and (max-width: 1150px) {
   .topnav {
     background-color: #ffffff;
@@ -3590,10 +3622,13 @@ dialog {
   justify-content: space-around;
   margin: 0px 14px 0px 43px;
 }
-.index-form .period .inputs {
+.index-form .period .date-inputs {
   background-color: #787878;
   width: 250px;
   height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .index-form .persons {
   justify-content: space-around;
@@ -3739,10 +3774,6 @@ dialog {
   border: none;
   margin-left: 10px;
   margin-right: 10px;
-}
-
-::-webkit-calendar-picker-indicator {
-  filter: invert(1);
 }
 
 .exclu-item .flex-column {

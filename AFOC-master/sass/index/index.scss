@@ -56,10 +56,13 @@
   .period {
     justify-content: space-around;
     margin: 0px 14px 0px 43px;
-    .inputs {
+    .date-inputs {
       background-color: #787878;
       width: 250px;
       height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   }
   .persons {
@@ -198,9 +201,7 @@
   margin-left: 10px;
   margin-right: 10px;
 }
-::-webkit-calendar-picker-indicator {
-  filter: invert(1);
-}
+
 
 .exclu-item {
   .flex-column {
