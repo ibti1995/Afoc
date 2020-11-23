@@ -741,7 +741,7 @@ a {
 }
 
 .galary-title-margin {
-  margin-top: 92px;
+  margin-top: 20px;
   margin-bottom: 30px;
 }
 
@@ -1748,7 +1748,7 @@ dialog {
 }
 @media screen and (max-width: 1050px) {
   .demo3 {
-    height: 110px !important;
+    height: 40px !important;
   }
 
   .responsive-box-wedding {
@@ -3545,13 +3545,13 @@ dialog {
 }
 
 .mobile-galery {
-  margin-top: 50px;
+  margin-top: 10px;
 }
 .mobile-galery span {
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 .mobile-galery .margin-right-35 {
-  margin-right: 25px !important;
+  margin-right: 15px !important;
 }
 
 .home-celebrate-margin .right-img img {
@@ -3601,7 +3601,7 @@ dialog {
 }
 
 .home-box-style {
-  margin-top: 82px;
+  margin-top: 50px;
   margin-right: 100px;
   margin-left: 90px;
   justify-content: space-between;
@@ -3646,7 +3646,7 @@ dialog {
 .home-first-section {
   flex-basis: 40%;
   margin-right: 90px;
-  margin-top: 60px;
+  margin-top: 20px;
   line-height: 43px;
 }
 
@@ -3654,12 +3654,12 @@ dialog {
   justify-content: space-between;
 }
 .home-gath-sec .sub-sec {
-  flex-basis: 50%;
+  flex-basis: 40%;
 }
-.home-gath-sec .basis-48 {
-  flex-basis: 48%;
+.home-gath-sec .gath-box {
+  flex-basis: 55%;
 }
-.home-gath-sec .basis-48 .sec-margin {
+.home-gath-sec .gath-box .sec-margin {
   margin-bottom: 42.9px;
   margin-top: 57px;
   margin-right: 90px;
@@ -3678,20 +3678,21 @@ dialog {
   margin-left: 10px;
 }
 .home-celebrate-margin .right-img {
-  flex-basis: 54%;
+  flex-basis: 45%;
 }
 
 .home-two-pic {
-  margin-bottom: 167px;
-  margin-top: 92px;
-  justify-content: space-between;
+  margin-bottom: 30px;
+  height: 800px;
+  text-align: center;
 }
 .home-two-pic .pic1 {
-  flex-basis: 42%;
+  width: 100%;
+  height: 100%;
 }
 .home-two-pic .pic2 {
-  flex-basis: 50.4%;
-  margin-right: 20px;
+  flex-basis: 40%;
+  height: 100%;
 }
 
 .home-last-img {
@@ -3701,7 +3702,7 @@ dialog {
 }
 
 .index-box-second-parag {
-  margin-top: 69.8px;
+  margin-top: 20px;
   font-size: 20px;
   line-height: 43px;
   color: #707070;
@@ -3715,16 +3716,16 @@ dialog {
   padding-bottom: 30px;
 }
 
-.home-line-120 {
-  line-height: 120px !important;
+.art-gath {
+  line-height: 70px !important;
   width: fit-content;
 }
 
 .home-last-sec {
   margin-top: 30px;
   margin-left: 70px;
-  font-size: 65px;
-  line-height: 86px;
+  font-size: 40px;
+  line-height: 40px;
 }
 
 .home-last-parag {
@@ -3855,6 +3856,10 @@ dialog {
 }
 
 @media screen and (max-width: 1050px) {
+  .home-two-pic {
+    display: none;
+  }
+
   .story-S-cass .flickity-viewport {
     height: 450px !important;
   }
@@ -3884,11 +3889,11 @@ dialog {
   }
 
   .title-respnsive {
-    margin-top: 90px;
+    margin-top: 20px;
   }
 
   .home-title-responsive {
-    margin-top: 90px;
+    margin-top: 20px;
     margin-left: 0px;
     width: fit-content;
   }
@@ -3994,7 +3999,7 @@ dialog {
   }
 
   .home-title-responsive {
-    margin-top: 90px;
+    margin-top: 20px;
     margin-left: 114px;
     width: fit-content;
   }
@@ -4028,7 +4033,7 @@ dialog {
   }
 
   .title-respnsive {
-    margin-top: 90px;
+    margin-top: 20px;
     margin-left: 282px;
     width: fit-content;
   }
@@ -4054,12 +4059,14 @@ body {
 }
 
 .home-title {
-  font-size: 109px;
-  margin-bottom: 45px;
+  margin-top: 20px;
+  font-size: 70px;
+  margin-bottom: 20px;
   font-family: rossanova;
   color: #926D39 !important;
   text-align: center;
   line-height: 50px;
+  margin-right: 150px;
 }
 .home-title .icon-under-h {
   width: 250px;
@@ -4809,6 +4816,25 @@ body {
 .slides-story {
   position: relative;
   height: 450px !important;
+}
+
+.home-view-button {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.celeb-sec1 {
+  flex-basis: 55%;
+  justify-content: space-around;
+}
+
+.gath-white-box {
+  margin-right: 50px;
+  margin-left: 20px;
+  margin-top: -50px !important;
+  z-index: 5000;
+  background-color: white;
 }
 
 #suites {

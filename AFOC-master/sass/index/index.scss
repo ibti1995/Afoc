@@ -13,11 +13,11 @@
 }
 
 .mobile-galery{
-  margin-top: 50px;
+  margin-top: 10px;
   span {
-    margin-bottom: 25px;
+    margin-bottom: 15px;
   }.margin-right-35{
-    margin-right: 25px !important;
+    margin-right: 15px !important;
   }
 }
 .home-celebrate-margin .right-img img {
@@ -68,7 +68,7 @@
   }
 }
 .home-box-style {
-  margin-top: 82px;
+  margin-top: 50px;
   margin-right: 100px;
   margin-left: 90px;
   justify-content: space-between;
@@ -110,18 +110,18 @@
 .home-first-section {
   flex-basis: 40%;
   margin-right: 90px;
-  margin-top: 60px;
+  margin-top: 20px;
   line-height: 43px;
 }
 .home-gath-sec {
   justify-content: space-between;
  // margin-bottom: 50px;
   .sub-sec {
-    flex-basis: 50%;
+    flex-basis: 40%;
  //   align-self: center;
   }
-  .basis-48 {
-    flex-basis: 48%;
+  .gath-box {
+    flex-basis: 55%;
     .sec-margin {
       margin-bottom: 42.9px;
       margin-top: 57px;
@@ -141,20 +141,23 @@
     margin-left: 10px;
   }
   .right-img {
-    flex-basis: 54%;
+    flex-basis: 45%;
   //  align-self: center;
   }
 }
 .home-two-pic {
-  margin-bottom: 167px;
-  margin-top: 92px;
-  justify-content: space-between;
+  margin-bottom: 30px;
+
+height: 800px;
+text-align: center;
   .pic1 {
-    flex-basis: 42%;
+    width: 100%;
+    height: 100%;
   }
   .pic2 {
-    flex-basis: 50.4%;
-    margin-right: 20px;
+    flex-basis: 40%;
+
+    height: 100%;
   }
 }
 .home-last-img {
@@ -163,7 +166,7 @@
   align-items: center;
 }
 .index-box-second-parag {
-  margin-top: 69.8px;
+  margin-top:20px;
   font-size: 20px;
   line-height: 43px;
   color: #707070;
@@ -175,15 +178,15 @@
   align-self: auto;
   padding-bottom: 30px;
 }
-.home-line-120 {
-  line-height: 120px !important;
+.art-gath {
+  line-height: 70px !important;
   width: fit-content;
 }
 .home-last-sec {
   margin-top: 30px;
   margin-left: 70px;
-  font-size: 65px;
-  line-height: 86px;
+  font-size: 40px;
+  line-height: 40px;
 }
 .home-last-parag {
   font-size: 20px;
@@ -321,6 +324,7 @@
 }
 
 @media screen and (max-width: 1050px) {
+  .home-two-pic {display: none;}
   .story-S-cass .flickity-viewport {
     height: 450px !important;
   }
@@ -344,10 +348,10 @@
     align-self: center;
   }
   .title-respnsive {
-    margin-top: 90px;
+    margin-top: 20px;
   }
   .home-title-responsive {
-    margin-top: 90px;
+    margin-top: 20px;
     margin-left: 0px;
     width: fit-content;
   }
@@ -450,12 +454,12 @@
       width: 35%;
       height: 370px;
       margin-right: 10px;
-    
+
       border-radius: 5px;
     }
   }
   .home-title-responsive {
-    margin-top: 90px;
+    margin-top: 20px;
     margin-left: 114px;
     width: fit-content;
   }
@@ -494,7 +498,7 @@
     }
   }
   .title-respnsive {
-    margin-top: 90px;
+    margin-top: 20px;
     margin-left: 282px;
     width: fit-content;
   }
@@ -519,12 +523,14 @@ body {
 }
 
 .home-title {
-  font-size: 109px;
-  margin-bottom: 45px;
+  margin-top: 20px;
+  font-size: 70px;
+  margin-bottom: 20px;
   font-family: rossanova;
   color: $primary-color;
   text-align: center;
   line-height: 50px;
+  margin-right: 150px;
   .icon-under-h {
     width: 250px;
     height: 27px;
@@ -1433,4 +1439,20 @@ body {
 .slides-story {
   position: relative;
   height: 450px!important;
+}
+.home-view-button{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.celeb-sec1{
+  flex-basis: 55%;
+  justify-content: space-around;
+}
+.gath-white-box{
+  margin-right: 50px;
+    margin-left: 20px;
+    margin-top: -50px !important;
+    z-index: 5000;
+    background-color: white;
 }

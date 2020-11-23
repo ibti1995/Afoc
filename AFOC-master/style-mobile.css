@@ -491,6 +491,8 @@
     text-align: center;
     justify-content: center;
     margin-top: 70px;
+    margin-right: 0;
+    line-height: 30px;
   }
   .home-title .icon-under-h {
     width: 50px;
@@ -634,7 +636,7 @@
     padding-right: 20px;
   }
 
-  .home-section div {
+  .home-section div span {
     margin-top: unset !important;
     margin-bottom: 5px;
   }

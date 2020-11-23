@@ -17,17 +17,17 @@
   color: #ffffff;
   background-color: #B2B4B2;
   border-radius: 25%;
- 
+
   border: none;
   outline: none;
   font-size: 20px;
   padding: 0px 8px;
 }
 .input-date-mobile{
-  width: 100%; justify-content: space-between; 
+  width: 100%; justify-content: space-between;
   color: #787878;
    padding: 10px;
-   font-size: 15px; 
+   font-size: 15px;
    border: solid;
     border-color: rgba(0, 0, 0, 0.3) ;
      border-radius: 3px; margin-top: 40px;
@@ -42,17 +42,17 @@
     ::-webkit-calendar-picker-indicator {
       filter: invert(0.5);
     }
-    
+
 }
 .input-number-mobile{
-  width: 100%; justify-content: space-between; 
+  width: 100%; justify-content: space-between;
   color: #787878;
    padding: 10px;
-   font-size: 15px; 
+   font-size: 15px;
     .number-container{
       width: 100px;  display: flex; justify-content: space-between;
     }
-     
+
     }
     .plus-span2 {
       text-decoration: none;
@@ -70,7 +70,7 @@
     letter-spacing: 2px;
     background-color: $primary-color;
     width: 100% ;
-    color: white ; 
+    color: white ;
     text-align: center;
     margin-bottom: 5px;
     border: none;
@@ -79,17 +79,17 @@
     padding-bottom: 11px;
     border-radius: 3px;
     font-size: 15px;
-    
+
 
 }
 #book-now-container
 {
   display: none;
    padding: 30px;
-    position: fixed; 
+    position: fixed;
     width: 100vw; height: 100vh;
-     background-color: white;  
-      align-items: start; 
+     background-color: white;
+      align-items: start;
       flex-direction: column;
 }
 
@@ -323,6 +323,8 @@
     text-align: center;
     justify-content: center;
 margin-top: 70px;
+margin-right: 0;
+line-height: 30px;
     .icon-under-h {
       width: 50px;
       height: 27px;
@@ -471,7 +473,7 @@ display: none;
 
 }
 .home-section{
-  div{
+  div span{
     margin-top: unset !important;
     margin-bottom: 5px;
   }
