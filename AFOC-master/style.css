@@ -3702,10 +3702,8 @@ dialog {
 
 .home-celebrate-margin {
   margin-left: 3%;
-  justify-content: space-between;
 }
 .home-celebrate-margin .sub-title {
-  margin-bottom: 42.9px;
   margin-left: 10px;
 }
 .home-celebrate-margin .parag {
@@ -3713,7 +3711,7 @@ dialog {
   margin-left: 10px;
 }
 .home-celebrate-margin .right-img {
-  flex-basis: 45%;
+  flex-basis: 40%;
 }
 
 .home-two-pic {
@@ -4110,10 +4108,22 @@ body {
   flex-direction: column;
 }
 
-.home-title {
-  margin-top: 20px;
+.exclu-title {
+  margin-top: 40px;
   font-size: 70px;
-  margin-bottom: 20px;
+  font-family: rossanova;
+  color: #926D39 !important;
+  text-align: center;
+  line-height: 50px;
+}
+.exclu-title .icon-under-h {
+  width: 150px;
+  height: 27px;
+}
+
+.home-title {
+  margin-top: 40px;
+  font-size: 70px;
   font-family: rossanova;
   color: #926D39 !important;
   text-align: center;
@@ -4878,7 +4888,6 @@ body {
 
 .celeb-sec1 {
   flex-basis: 55%;
-  justify-content: space-around;
 }
 
 .gath-white-box {
@@ -5568,7 +5577,7 @@ body {
 }
 
 .home-white-btn {
-  margin-top: 29px;
+  margin-top: 15px;
   background-color: transparent;
   letter-spacing: 8px;
   padding: 13px 60px 13px 60px;
@@ -6117,12 +6126,17 @@ body {
     display: block !important;
   }
   .carousel-one-in-the-midle .flickity-viewport {
-    padding-top: 150px;
+    padding-top: 100px;
     height: 740px !important;
   }
   .carousel-one-in-the-midle .flickity-page-dots .is-selected {
     padding-right: 0px !important;
     padding-left: 0px !important;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 1050px) {
+  .carousel-3-div .carousel3 .carousel-cell {
+    width: 560px !important;
   }
 }
 .carousel-3-div .carousels0 .flickity-prev-next-button {

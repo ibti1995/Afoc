@@ -131,9 +131,9 @@
 }
 .home-celebrate-margin {
   margin-left: 3%;
-  justify-content: space-between;
+  //justify-content: ;
   .sub-title {
-    margin-bottom: 42.9px;
+   // margin-bottom: 42.9px;
     margin-left: 10px;
   }
   .parag {
@@ -141,7 +141,7 @@
     margin-left: 10px;
   }
   .right-img {
-    flex-basis: 45%;
+    flex-basis: 40%;
     //  align-self: center;
   }
 }
@@ -539,11 +539,26 @@ body {
   display: flex;
   flex-direction: column;
 }
+.exclu-title {
+  margin-top: 40px;
+  font-size: 70px;
+ // margin-bottom: 20px;
+  font-family: rossanova;
+  color: $primary-color;
+  text-align: center;
+  line-height: 50px;
+  
+  .icon-under-h {
+    width: 150px;
+    height: 27px;
+  }
+
+}
 
 .home-title {
-  margin-top: 20px;
+  margin-top: 40px;
   font-size: 70px;
-  margin-bottom: 20px;
+ // margin-bottom: 20px;
   font-family: rossanova;
   color: $primary-color;
   text-align: center;
@@ -1464,7 +1479,7 @@ body {
 }
 .celeb-sec1 {
   flex-basis: 55%;
-  justify-content: space-around;
+  //justify-content: space-around;
 }
 .gath-white-box {
   margin-right: 50px;
