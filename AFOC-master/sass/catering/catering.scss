@@ -1,8 +1,30 @@
+
+.keyfact-section{
+  height: 501px; border-style: solid;
+  border-color: #707070;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-width: 0.5px;
+  span{
+    font-size: 60px;
+    font-family: rossanova;
+    color: $primary-color;
+   
+  }
+
+}
+
+
+
 @media screen and (min-width: 700px) {
   .margin-services {
     margin-top: -30px ; 
   }
 }
+
+
+
 
 h1 {
   font-size: 60px;
@@ -231,27 +253,32 @@ dialog {
     cursor: pointer;
     position: absolute;
     top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+   
+    
     color: $primary-color;
     font-weight: bold;
     font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
+    transform: translateY(-50%);
+
+   
   }
 
   /* Position the "next button" to the right */
   .next4 {
     right: 0;
-    border-radius: 3px 0 0 3px;
+ 
   }
 
   /* On hover, add a black background color with a little bit see-through */
   .prev4:hover,
   .next4:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: white  ;
   }
 }
 
