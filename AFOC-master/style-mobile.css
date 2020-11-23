@@ -736,6 +736,10 @@
   }
 }
 @media only screen and (max-width: 700px) {
+  .demo3 {
+    height: 70px !important;
+  }
+
   h1 {
     font-size: 32px;
     font-weight: unset;
