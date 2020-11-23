@@ -9,7 +9,42 @@
   padding-top: 12px;
   padding-bottom: 11px;
 }
+.date-inputs{
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  font-family:  poppins-light;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white;
+  font-family:  poppins-light;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color:white;
+  font-family:  poppins-light;
+
+}
+.date-input {
+  font-family:  poppins-light;
+  
+  cursor: pointer;
+
+  outline: none;
+  text-align: center; 
+  border: none;
+   background-color: transparent; 
+    color: white;
+
+
+}
+}
 
 // @media screen and (max-width: 1250px){
 // .logo-header{

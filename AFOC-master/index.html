@@ -5,6 +5,7 @@
   <title>Home</title>
   <link rel="stylesheet" href="./style.css" />
   <link rel="stylesheet" href="./style-mobile.css" />
+  <link rel="stylesheet" href="./dtsel.css" />
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="HandheldFriendly" content="true">
@@ -110,14 +111,15 @@
         <div class="flex-column index-form">
           <span class="poppins white font-20 title"> BOOK YOUR STAY </span>
           <div class="flex-row period">
-            <div class="poppins-L center font-12 white flex-column inputs">
-              <span>ARRIVE DATE</span>
-              <input class="date-input" placeholder="ARRIVE DATE" type="date" name="" id="">
+            <div class="poppins-L center font-12 white flex-column date-inputs">
+
+            <input  class="date-input" placeholder="ARRIVE DATE"  name="datePicker1" >
             </div>
-            <div class="poppins-L center font-12 white flex-column inputs">
-              <span> DEPARTURE </span>
-              <input class="date-input" placeholder="DEPARTURE" type="date" name="" id="">
-            </div>
+            <div class="poppins-L center font-12 white flex-column date-inputs">
+
+              <input  class="date-input" placeholder="DEPARTURE"  name="datePicker2" >
+              </div>
+
 
           </div>
           <div class="flex-row persons">
@@ -162,12 +164,12 @@
         <img width="80px" src="assets/svg/Groupe 2164.svg" />
       </div>
       <div class="poppins-L center flex-row  input-date-mobile" >
-        <span>ARRIVE DATE</span>
-        <input class="date-input2" placeholder="ARRIVE DATE" type="date" name="" id="">
+
+        <input class="date-input2" placeholder="ARRIVE DATE" name="datePicker3" id="">
       </div>
       <div class="poppins-L center flex-row  input-date-mobile" >
-        <span>DEPARTURE</span>
-        <input class="date-input2" placeholder="ARRIVE DATE" type="date" name="" id="">
+
+        <input class="date-input2" placeholder="DEPARTURE"  name="datePicker4" id="">
       </div>
       <div class="poppins-L center  flex-row  input-number-mobile" style="margin-top: 50px;">
         <span> ADULTS </span>
@@ -301,7 +303,7 @@
           principled, reliable, and trustworthy
         </p>
       </div>
-      <div class="margin-top second-box">
+      <div class="second-box">
         <div class="margin-bottom-10">
           <span class="rossanova center first-box-title">
             PROUDLY EMIRATI <br />
@@ -314,7 +316,7 @@
           principled, reliable, and trustworthy
         </p>
       </div>
-      <div class="margin-top first-box">
+      <div class=" first-box">
         <div class="margin-bottom-10">
           <span class="rossanova center first-box-title">
             GENUINELY PERSONAL <br />
@@ -333,7 +335,7 @@
     <div class="flex-column  margin-stand-l-r space-between stay-mobile">
       <div class="home-title-responsive">
         <div class="home-title">
-          <span class="line-h-100">Stay with a Story</span> <br>
+          <span>Stay with a Story</span> <br>
           <img class="icon-under-h" src="assets/svg/Groupe 2164.svg" />
         </div>
       </div>
@@ -618,7 +620,7 @@
     <div class="flex-column">
 
       <div class="home-title margin-top-70">
-        <span class="line-h-100">Exclusive Experiences</span>
+        <span>Exclusive Experiences</span>
         <br>
         <img class="icon-under-h" src="assets/svg/Groupe 2164.svg" />
       </div>
@@ -870,7 +872,7 @@
 
       <div class="balance-title" style=" margin-left: -400px;">
         <div class="home-title">
-          <span class="line-h-100"> Finding Balance</span>
+          <span> Finding Balance</span>
           <br>
           <img class="icon-under-h" src="assets/svg/Groupe 2164.svg" />
         </div>
@@ -998,12 +1000,13 @@
                 An event like never before
               </span>
             </div>
-            <div class="poppins-17-43 parag">
+            <p class="poppins-17-43 parag">
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
               sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
               sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
               Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumydipscing elitr, sed diam nonumydipscing elitr, sed diam nonumydipscing elitr, sed diam nonumydipscing elitr, sed diam nonumy </div>
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumydipscing elitr,
+              sed diam nonumydipscing elitr, sed diam nonumydipscing elitr, </p>
 
 
             <div class="center align-end-mr" style="margin-bottom: 30px;">
@@ -1757,9 +1760,31 @@
   <script src="js/firsthome.js"></script>
   <script src="js/slidehomepage.js"></script>
   <script src="js/story-home.js"></script>
+  <script src="js/datepicker/dtsel.js"></script>
   <script src="js/slide-staywithstory.js"></script>
 
   <script src="js/galerry-mob-for-item.js"></script>
+  <script>
+//instance = new dtsel.DTS('input[name="dateTimePicker"]');
+
+instance1 = new dtsel.DTS('input[name="datePicker1"]',  {
+  direction: 'BOTTOM',
+  dateFormat: "yyyy-mm-dd",
+});
+instance1 = new dtsel.DTS('input[name="datePicker3"]',  {
+  direction: 'BOTTOM',
+  dateFormat: "yyyy-mm-dd",
+});
+instance2 = new dtsel.DTS('input[name="datePicker2"]',  {
+  direction: 'BOTTOM' ,
+  dateFormat: "yyyy-mm-dd",
+});
+instance2 = new dtsel.DTS('input[name="datePicker4"]',  {
+  direction: 'BOTTOM' ,
+  dateFormat: "yyyy-mm-dd",
+});
+
+  </script>
   <script>function myFunction(x) {
 
       var x = document.getElementById("myLinks");

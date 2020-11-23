@@ -189,7 +189,7 @@
 
 .minus-span2 {
   color: #ffffff;
-  background-color: #B2B4B2;
+  background-color: #b2b4b2;
   border-radius: 25%;
   border: none;
   outline: none;
@@ -198,26 +198,41 @@
 }
 
 .input-date-mobile {
+  font-family: poppins-light;
   width: 100%;
-  justify-content: space-between;
   color: #787878;
-  padding: 10px;
+  padding: 10px 30px;
   font-size: 15px;
   border: solid;
   border-color: rgba(0, 0, 0, 0.3);
   border-radius: 3px;
   margin-top: 40px;
   border-width: 0.5px;
+  display: flex;
+  align-items: center;
 }
 .input-date-mobile .date-input2 {
-  background: transparent;
-  color: #787878;
+  font-family: poppins-light;
+  cursor: pointer;
+  outline: none;
+  text-align: center;
   border: none;
-  margin-left: 10px;
-  margin-right: 10px;
+  background-color: transparent;
+  color: #787878;
 }
-.input-date-mobile ::-webkit-calendar-picker-indicator {
-  filter: invert(0.5);
+.input-date-mobile ::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #787878;
+  opacity: 1;
+  /* Firefox */
+}
+.input-date-mobile :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #787878;
+}
+.input-date-mobile ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #787878;
 }
 
 .input-number-mobile {
@@ -236,7 +251,7 @@
 .plus-span2 {
   text-decoration: none;
   color: #ffffff;
-  background-color: #B2B4B2;
+  background-color: #b2b4b2;
   border-radius: 25%;
   margin-right: 24px;
   border: none;
@@ -290,6 +305,17 @@
   }
 }
 @media screen and (max-width: 700px) {
+  .gath-white-box {
+    margin-top: -50px !important;
+    margin-right: 20px;
+  }
+
+  .home-gath-sec .gath-box .sec-margin {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+
   .slides-story {
     position: relative;
     height: 100vw !important;
@@ -304,7 +330,7 @@
   }
 
   .mobile-galery {
-    height: 650px;
+    height: 450px;
   }
 
   .tabcontent {
@@ -320,6 +346,7 @@
   .no-margin-side-mobile {
     margin-right: 0px;
     margin-left: 0px;
+    margin-top: 0px;
   }
 
   #modules .column3 {
@@ -413,7 +440,8 @@
     display: block !important;
     position: relative;
   }
-  .display-block-img-mobile .prev3, .display-block-img-mobile .next3 {
+  .display-block-img-mobile .prev3,
+.display-block-img-mobile .next3 {
     font-size: 25px !important;
     padding: 10px 13px !important;
     top: 45%;
@@ -476,7 +504,7 @@
   .home-last-parag {
     font-size: 15px;
     line-height: 33px !important;
-    padding: 0px 20px 45px 20px;
+    padding: 0px 20px 0px 20px;
   }
 
   .index-box-second-parag {
@@ -487,15 +515,15 @@
 
   .home-title {
     font-size: 30px;
-    margin-bottom: 25px;
+    margin-bottom: 0px;
     text-align: center;
     justify-content: center;
-    margin-top: 70px;
+    margin-top: 10px;
     margin-right: 0;
     line-height: 30px;
   }
   .home-title .icon-under-h {
-    width: 50px;
+    width: 40px;
     height: 27px;
   }
 
@@ -511,20 +539,20 @@
 
   .home-first-section {
     flex-basis: 60%;
-    margin-right: 50px;
-    margin-top: 10px;
-    line-height: 43px;
+    margin-right: 0px;
+    margin-top: 0px;
+    line-height: 30px;
   }
 
   .home-box-style {
-    margin-top: 22px;
+    margin-top: 0px;
     margin-right: 10px;
     margin-left: 10px;
   }
   .home-box-style .first-box {
     flex-basis: 70%;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 0px;
   }
   .home-box-style .first-box .first-box-title {
     font-size: 30px;
@@ -1011,8 +1039,8 @@
   }
 
   .galary-title-margin {
-    margin-top: 42px;
-    margin-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 
   .sub-title {
