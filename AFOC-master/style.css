@@ -734,9 +734,14 @@ a {
 
 /*********************get in touch component*************************/
 .get-in-touch-box {
-  margin-top: 80px;
   background-color: rgba(0, 0, 0, 0.01);
   padding-bottom: 40px;
+}
+.get-in-touch-box .title {
+  font-family: rossanova;
+  text-align: center;
+  font-size: 59px;
+  padding-top: 30px;
 }
 
 .align-get-in-touch {
@@ -2475,11 +2480,19 @@ dialog {
 .good-vibes {
   margin-left: -15px;
   line-height: 50px;
+  margin-top: -15px;
+}
+.good-vibes li {
+  padding-left: 20px;
 }
 
 .vibes-item {
-  margin-right: 6%;
+  margin-right: 7%;
   width: 320px;
+}
+.vibes-item .sub-title {
+  font-family: poppins-medium;
+  font-size: 25px;
 }
 
 .menu-margin {
@@ -2509,37 +2522,9 @@ dialog {
 .single-room-box {
   background-color: rgba(178, 180, 178, 0.5);
   height: auto;
-  padding-top: 20px;
+  padding-top: 40px;
   margin-top: 20px;
   padding-bottom: 20px;
-}
-.single-room-box .first-box {
-  width: 273px;
-  margin-right: 136px;
-}
-.single-room-box .second-box {
-  width: 360px;
-  margin-right: 100px;
-}
-.single-room-box .third-box {
-  width: 318px;
-  margin-right: 130px;
-}
-.single-room-box .fourth-box {
-  width: 318px;
-  margin-right: 80px;
-}
-.single-room-box .box5 {
-  width: 332px;
-  margin-right: 57px;
-}
-.single-room-box .box6 {
-  width: 360px;
-  margin-right: 136px;
-}
-.single-room-box .sub-box {
-  font-size: 23px;
-  line-height: 19px;
 }
 
 .single-room-second-menu {
@@ -3088,6 +3073,36 @@ dialog {
   width: fit-content;
 }
 
+.good-vibes-title {
+  width: fit-content;
+  font-family: rossanova;
+  color: #926D39 !important;
+  line-height: 30px;
+  font-size: 40px;
+  text-align: center;
+  margin-left: 4%;
+}
+
+@media screen and (max-width: 1440px) {
+  .flex-row ul {
+    font-size: 15px;
+  }
+  .flex-row ul li {
+    list-style-image: url("assets/svg/single room/square.svg");
+  }
+
+  .vibes-item {
+    margin-right: 4%;
+    width: 270px;
+  }
+  .vibes-item .sub-title {
+    font-size: 22px;
+  }
+
+  .know-more-a {
+    font-size: 10px;
+  }
+}
 @media screen and (max-width: 1050px) {
   .order-text-meeting-responsive {
     order: 1;
@@ -5057,6 +5072,7 @@ body {
 .caract {
   width: 190px;
   justify-content: space-between;
+  font-family: poppins;
 }
 
 .rooms-menu {
@@ -5125,7 +5141,7 @@ body {
   width: 100%;
   flex-wrap: wrap;
   margin-top: 37px;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
 }
 
 /******************************************/
@@ -5205,7 +5221,7 @@ body {
   }
 }
 #menu-with-slides1 {
-  margin-top: 150px;
+  margin-top: 50px;
 }
 
 .multi-rooms-box-title {
@@ -5214,6 +5230,17 @@ body {
   text-align: center;
   color: black;
   line-height: 30px;
+}
+
+.left-title {
+  color: #926D39 !important;
+  font-size: 40px;
+  line-height: 30px;
+  text-align: center;
+  font-family: rossanova;
+  width: fit-content;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 1050px) {

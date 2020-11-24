@@ -47,11 +47,21 @@ text-decoration: underline;
 .good-vibes {
   margin-left: -15px;
   line-height: 50px;
+  margin-top: -15px;
+  li{
+
+    padding-left: 20px;
+  }
 
 }
 .vibes-item{
-  margin-right: 6%;
+  margin-right: 7%;
   width: 320px;
+  .sub-title{
+
+    font-family: poppins-medium;
+    font-size: 25px;
+  }
 }
 
 .menu-margin{
@@ -80,30 +90,10 @@ text-decoration: underline;
 }
 .single-room-box{
   background-color: rgba(178, 180, 178, 0.5); height: auto;
-  padding-top: 20px;
+  padding-top: 40px;
   margin-top: 20px;
   padding-bottom: 20px;
-  .first-box{
-    width: 273px; margin-right: 136px;
-  }
-  .second-box{
-    width: 360px;margin-right: 100px;
-  }
-  .third-box{
-    width: 318px;margin-right: 130px;
-  }
-  .fourth-box{
-    width:318px;margin-right: 80px;
-  }
-  .box5{
-    width:332px;margin-right: 57px;
-  }
-  .box6{
-    width:360px;margin-right: 136px;
-  }
-  .sub-box{
-    font-size: 23px;line-height: 19px;
-  }
+
 }
 .single-room-second-menu {
   width: 380px;
@@ -691,3 +681,37 @@ select{
     width: fit-content;
 
 }
+
+  .good-vibes-title{
+    width: fit-content;
+    font-family: rossanova;
+    color: $primary-color;
+    line-height: 30px;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 4%;
+  }
+
+  @media screen and (max-width: 1440px) {
+    .flex-row {
+      ul {
+        font-size: 15px;
+        li {
+          list-style-image: url("assets/svg/single room/square.svg");
+        }
+      }
+    }
+    .vibes-item{
+      margin-right: 4%;
+      width: 270px;
+      .sub-title{
+
+        font-size: 22px;
+      }
+    }
+    .know-more-a{
+
+      font-size: 10px;
+
+    }
+  }

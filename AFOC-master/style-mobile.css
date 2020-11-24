@@ -1056,8 +1056,14 @@
   /********************************************/
   .get-in-touch-box {
     margin-top: 10px;
-    background-color: rgba(0, 0, 0, 0.01);
     padding-bottom: 0px;
+  }
+  .get-in-touch-box .title {
+    font-size: 39px;
+  }
+
+  .align-get-in-touch {
+    margin-top: 0px;
   }
 
   .offer-get-in-touch-values {

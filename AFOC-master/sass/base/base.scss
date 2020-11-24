@@ -266,9 +266,15 @@ background-color: white;
 
 
 .get-in-touch-box {
-  margin-top: 80px;
+
   background-color: rgba(0, 0, 0, 0.01);
   padding-bottom: 40px;
+  .title{
+ font-family: rossanova;
+    text-align: center;
+    font-size: 59px;
+    padding-top: 30px;
+  }
 }
 .align-get-in-touch {
   justify-content: space-between;

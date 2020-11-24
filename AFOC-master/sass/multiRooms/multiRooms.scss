@@ -123,6 +123,7 @@
 .caract {
   width: 190px;
   justify-content: space-between;
+  font-family: poppins;
 }
 
 .rooms-menu {
@@ -194,7 +195,7 @@
   width: 100%;
   flex-wrap: wrap;
   margin-top: 37px;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
 }
 
 /******************************************/
@@ -282,7 +283,7 @@
   }
 }
 #menu-with-slides1{
-  margin-top: 150px;
+  margin-top: 50px;
 }
 .multi-rooms-box-title{
   font-family: rossanova;
@@ -290,4 +291,14 @@
   text-align: center;
   color: black;
   line-height: 30px;
+}
+.left-title{
+color: $primary-color;
+font-size: 40px;
+line-height: 30px;  text-align: center;
+  font-family: rossanova;
+  width: fit-content;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
 }
