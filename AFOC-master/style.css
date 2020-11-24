@@ -3713,6 +3713,8 @@ dialog {
   align-content: flex-end;
   flex: 2;
   flex-basis: 40%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .home-first-section {
@@ -5327,8 +5329,9 @@ body {
 }
 
 .dining-right-parag {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   color: #707070;
+  line-height: 30px;
 }
 
 .dining-box-padding {
@@ -5411,6 +5414,15 @@ body {
 .prev-dinning:hover,
 .next-dinning:hover {
   background-color: rgba(0, 0, 0, 0.309);
+}
+
+.dining-right-title {
+  font-family: rossanova;
+  color: #926D39 !important;
+  text-align: center;
+  line-height: 30px;
+  margin-bottom: 0px;
+  float: right;
 }
 
 /* The Modal (background) */

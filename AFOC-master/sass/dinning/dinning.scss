@@ -18,6 +18,7 @@
   //  .responsive-container{
 
   //  }
+
 }
 .carousel-cell {
   ul {
@@ -66,13 +67,14 @@
   margin: 0px 162px 40px 152px; float: right;
 }
 .dining-right-parag{
- margin-bottom: 40px; color: #707070;
+ margin-bottom: 30px; color: #707070;
+ line-height: 30px;
 }
 .dining-box-padding{
   padding: 25px 25px 25px 25px;
 }
 @media screen and (min-width: 1050px) {
-  
+
   .responsive-container {
     height: 999px;
   }
@@ -141,4 +143,12 @@
 .prev-dinning:hover,
 .next-dinning:hover {
   background-color: rgba(0, 0, 0, 0.309);
+}
+.dining-right-title{
+font-family: rossanova;
+color: $primary-color;
+text-align: center;
+line-height: 30px;
+margin-bottom: 0px;
+float: right;
 }
