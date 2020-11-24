@@ -71,7 +71,7 @@
   color: white;
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1500px) {
   .topnav {
     background-color: #ffffff;
     position: relative;
@@ -144,7 +144,7 @@
     flex-basis: 50%;
   }
 }
-@media screen and (min-width: 1150px) {
+@media screen and (min-width: 1500px) {
   .logo-header {
     align-self: flex-start;
     height: auto;
@@ -1164,6 +1164,7 @@ dialog {
 }
 
 .cat-slide-img {
+  object-fit: cover;
   width: 100%;
   height: 698px;
   min-width: 100px;
@@ -1366,7 +1367,7 @@ dialog {
 
 #pos2 {
   bottom: 37%;
-  left: 180%;
+  left: 18%;
 }
 
 #pos3 {
@@ -5215,6 +5216,7 @@ body {
 .slides4 img,
 .slides5 img,
 .slides6 img {
+    object-fit: cover;
     height: 560px;
   }
 
