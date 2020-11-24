@@ -5425,6 +5425,16 @@ body {
   float: right;
 }
 
+@media screen and (max-width: 1050px) {
+  .responsive-container {
+    height: unset !important;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .responsive-container {
+    height: 750px;
+  }
+}
 /* The Modal (background) */
 .modal {
   display: none;

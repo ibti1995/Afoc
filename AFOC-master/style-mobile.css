@@ -1538,6 +1538,11 @@
   }
 }
 @media only screen and (max-width: 700px) {
+  .list-class {
+    margin-right: 0px;
+    margin-left: 20px;
+  }
+
   .info-mobile p {
     line-height: 50px !important;
   }
