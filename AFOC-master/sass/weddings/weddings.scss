@@ -194,7 +194,7 @@
 /* Add a transparency effect for thumnbail images */
 .demo3 {
   opacity: 0.6;
-  height: 2.5vw;
+  height: 110px;
 }
 
 .active3,
@@ -429,5 +429,15 @@ margin-top: 20px;
 line-height: 25px !important;
 width: 90%;
 
+
+}
+.gallery-title{
+  font-family: rossanova;
+  color: $primary-color;
+  text-align: center;
+  line-height: 30px;
+  font-size: 40px;
+  margin-top: 60px;
+  margin-bottom: 20px;
 
 }
