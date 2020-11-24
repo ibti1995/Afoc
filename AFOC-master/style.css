@@ -2459,8 +2459,8 @@ dialog {
 }
 
 .vibes-item {
-  margin-right: 4%;
-  width: 370px;
+  margin-right: 6%;
+  width: 320px;
 }
 
 .menu-margin {
@@ -2490,6 +2490,9 @@ dialog {
 .single-room-box {
   background-color: rgba(178, 180, 178, 0.5);
   height: auto;
+  padding-top: 20px;
+  margin-top: 20px;
+  padding-bottom: 20px;
 }
 .single-room-box .first-box {
   width: 273px;
@@ -5183,6 +5186,14 @@ body {
   margin-top: 150px;
 }
 
+.multi-rooms-box-title {
+  font-family: rossanova;
+  font-size: 30px;
+  text-align: center;
+  color: black;
+  line-height: 30px;
+}
+
 @media screen and (max-width: 1050px) {
   .responsive-restaurant {
     order: 1;
@@ -6560,6 +6571,8 @@ ol:last-child::after {
   cursor: move;
   cursor: -webkit-grab;
   cursor: grab;
+  height: 360px !important;
+  margin-bottom: 20px;
 }
 .carousel-2-div .flickity-enabled.is-draggable .flickity-viewport.is-pointer-down {
   cursor: -webkit-grabbing;
