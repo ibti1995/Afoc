@@ -1,7 +1,14 @@
 @media only screen and (max-width: 700px) {
+  #slide1meeting .prev-meeting, #slide3meeting .prev-meeting {
+    right: unset;
+    left: 0;
+}
   .list-class {
     margin-right: 0px;
     margin-left: 20px;
+    li{
+      list-style-image: url("assets/svg/Tracé 8474.svg");
+    }
 }
   .info-mobile {
     p {

@@ -132,6 +132,16 @@
 }
 
 @media screen and (max-width: 700px) {
+  .exclu-title {
+margin-top: 20px !important;
+    font-size: 30px;
+
+    line-height: 30px;
+
+    .icon-under-h {
+      width: 80px;
+
+  }  }
   .gath-white-box{
     margin-top: -50px !important;
     margin-right: 20px;
@@ -339,13 +349,12 @@
     line-height: 32px;
   }
   .home-title {
-    font-size: 30px;
+    font-size: 30px !important;
     margin-bottom: 0px;
-    text-align: center;
-    justify-content: center;
+
     margin-top: 10px;
     margin-right: 0;
-    line-height: 30px;
+    line-height: 30px !important;
     .icon-under-h {
       width: 40px;
       height: 27px;
