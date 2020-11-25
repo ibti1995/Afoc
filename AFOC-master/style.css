@@ -3733,7 +3733,7 @@ dialog {
   text-align: center;
 }
 .home-box-style .first-box .first-box-title {
-  font-size: 51px;
+  font-size: 70px;
   color: #25282a;
   line-height: 40px;
 }
@@ -3746,7 +3746,7 @@ dialog {
   text-align: center;
 }
 .home-box-style .second-box .first-box-title {
-  font-size: 51px;
+  font-size: 70px;
   color: #25282a;
   line-height: 40px;
 }
@@ -3817,7 +3817,7 @@ dialog {
   height: 100%;
 }
 .home-two-pic .span1 {
-  flex-basis: 40%;
+  flex-basis: 50%;
 }
 .home-two-pic .span2 {
   flex-basis: 50%;
