@@ -597,6 +597,7 @@ body {
   margin-left: 152px;
 }
 .home {
+  
   background-image: url("assets/homePage/Screen.png");
   background-repeat: no-repeat;
   width: 100%;
@@ -609,6 +610,10 @@ body {
   background-position-y: center !important;
   background-size: cover !important;
   background-position-x: 35%;
+  .small-word-header2 {
+    font-weight: bold;
+  }
+
 }
 
 /* Style the tab */

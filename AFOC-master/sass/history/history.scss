@@ -6,48 +6,93 @@
 }
 
 #pos1 {
-  bottom: 64%;
-  left: 6%;
+  bottom: 46%;
+  left: 38%;
 
 }
 #pos2 {
-  bottom: 37%;
-  left: 18%;
+  bottom: 51%;
+  left: 11%;
 
 }
 #pos3 {
 
-  bottom: 54%;
-  left: 29%;
+  bottom: 51%;
+  left: 42%;
 }
 #pos4 {
 
-  bottom: 75%;
-  left: 39%;
+  bottom: 50%;
+  left: 24%;
 }
 #pos5 {
 
-  bottom: 57%;
-  left: 55%;
+  bottom: 42%;
+  left: 30%;
 }
 #pos6 {
 
-  bottom: 31%;
-  left: 61%;
+  bottom: 33%;
+  left: 38%;
 }
 #pos7 {
 
-  bottom: 43%;
-  left: 61%;
+  bottom: 37%;
+  left: 18%;
 }
 #pos8 {
-  bottom: 88%;
-  left: 72%;
+  bottom:33%;
+  left: 23%;
 
 }
 #pos9 {
-  bottom: 40%;
-  left: 81%;
+  bottom: 37%;
+  left: 21%;
+
+}
+#pos10 {
+  bottom: 55%;
+  left: 29%;
+
+}
+#pos11 {
+  bottom: 58%;
+  left: 35%;
+
+}
+#pos12 {
+
+  bottom: 58%;
+  left: 24%;
+}
+#pos13 {
+
+  bottom: 57%;
+  left: 45%;
+}
+#pos14 {
+
+  bottom: 55%;
+  left: 59%;
+}
+#pos15 {
+
+  bottom: 76%;
+  left: 41%;
+}
+#pos16 {
+
+  bottom: 65%;
+  left: 20%;
+}
+#pos17 {
+  bottom: 71%;
+  left: 28%;
+
+}
+#pos18 {
+  bottom: 30%;
+  left: 61%;
 
 }
 
@@ -56,6 +101,7 @@
 
 
 .position-playgrounds{
+  z-index: 10;
   display: flex;
   flex-direction: row;
   position: absolute;
@@ -69,8 +115,10 @@
   }
 }
 .position-playgrounds:hover{
+  z-index: 100;
   .text-position{
     display: block !important;
+   
   }
 }
 
@@ -84,7 +132,7 @@
 
 
 .history {
-  background-image: url("assets/history/Composant 2 – 1.png");
+  background-image: url("assets/ourstory.png");
 }
 .story-margin-right {
   margin-right: 162px;
