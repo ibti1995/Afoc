@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html translate="no">
+<html lang="en">
 
 <head >
   <title>Home</title>
@@ -13,6 +13,13 @@
     @media screen and (max-width: 425px) {
       .myslidestory .carousel .carousel-cell img.width100 {
         height: 57px !important;
+      }
+      .flavour-container .carousel-3-div .carousel-cell {
+        padding-left: 0 !important;
+      }
+      .flavour-container .carousel-3-div .flavour-item-btn{
+        margin-right: auto;
+        margin-left: auto;
       }
     }
   </style>
@@ -89,13 +96,13 @@
       <div class="poppins menu-home-container">
         <ul class="ul-menu-home">
           <li> <a href="index.html" class="decoration-none gold">Home </a> </li>
+          <li><a href="ourstory.html" class="decoration-none white"> Our Story </a></li>
           <li> <a href="multiRoomsPage.html" class="decoration-none white"> Rooms </a></li>
           <li><a href="dinning.html" class="decoration-none white">Dining </a> </li>
           <li><a href="weddings.html" class="decoration-none white">Weddings </a></li>
           <li><a href="meetingsAndActivities.html" class="decoration-none white">Events </a></li>
           <li><a href="activities.html" class="decoration-none white"> Fitness </a></li>
           <li><a href="catering.html" class="decoration-none white"> Catering </a></li>
-          <li><a href="ourstory.html" class="decoration-none white"> Our Story </a></li>
           <li><a href="offersPage.html" class="decoration-none white">Offers </a></li>
         </ul>
       </div>
@@ -788,10 +795,9 @@
 
         <div class="carousel-3-div margin-stand">
           <div class="carousel3" data-flickity='{
-             "freeScroll": true,
-           "wrapAround": false ,
+             "freeScroll": false,
+           "wrapAround": true ,
            "autoPlay": 3000 ,
-           "groupCells": 1 ,
            "pauseAutoPlayOnHover": false ,
                               "contain": true ,
                               "prevNextButtons": true ,
