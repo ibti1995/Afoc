@@ -132,6 +132,7 @@
 }
 
 @media screen and (max-width: 700px) {
+
   .exclu-title {
 margin-top: 20px !important;
     font-size: 30px;
@@ -164,7 +165,7 @@ margin-top: 20px !important;
     opacity: 0.6;
   }
   .mobile-galery {
-    height: 450px;
+    height: 600px;
   }
 
   .tabcontent {
@@ -311,7 +312,7 @@ margin-top: 20px !important;
     }
   }
   .carousel-one-in-the-midle {
-    margin-top: 50px;
+    margin-top: 0px;
   }
   .flex-column-mobile {
     display: flex;
@@ -352,7 +353,7 @@ margin-top: 20px !important;
     font-size: 30px !important;
     margin-bottom: 0px;
 
-    margin-top: 10px;
+    margin-top: 30px;
     margin-right: 0;
     line-height: 30px !important;
     .icon-under-h {
@@ -375,7 +376,7 @@ margin-top: 20px !important;
     line-height: 30px;
   }
   .home-box-style {
-    margin-top: 0px;
+    margin-top: 10px;
     margin-right: 10px;
     margin-left: 10px;
 
@@ -498,7 +499,7 @@ margin-top: 20px !important;
   }
   .home-section {
     div span {
-      margin-top: unset !important;
+     // margin-top: unset !important;
       margin-bottom: 5px;
     }
     .carousel3 {
@@ -510,6 +511,9 @@ margin-top: 20px !important;
   .carousel3 {
     div {
       height: 420px !important;
+    }
+    .flickity-prev-next-button{
+      display: none ; 
     }
   }
   .home-two-pic {
