@@ -6644,6 +6644,7 @@ ol:last-child::after {
   cursor: move;
   cursor: -webkit-grab;
   cursor: grab;
+  height: 360px !important;
   margin-bottom: 20px;
 }
 .carousel-2-div .flickity-enabled.is-draggable .flickity-viewport.is-pointer-down {
