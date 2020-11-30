@@ -90,13 +90,15 @@ letter-spacing: 8px;
 .story-white-btn{
   margin-top: 29px;
   background-color: transparent;
-letter-spacing: 8px;
-  padding: 13px 80px 13px 80px;
+letter-spacing: 6px;
+  padding: 13px 30px 13px 30px;
   border-color: $primary-color;
   border-style: solid;
   text-decoration: none;
   color: $primary-color;
   border-width: 0.5px;
+  font-size: 12px;
+  margin-right: 20px;
 }
 .single-white-btn {
   margin-top: 29px;
@@ -209,4 +211,17 @@ font-size: 16px;
   border-style: solid;
   text-decoration: none;
   color: $primary-color;
+}
+@media screen and (max-width: 1440px) {
+  .story-white-btn{
+
+    padding: 13px 20px 13px 20px;
+
+  }
+}
+@media screen and (max-width: 1050px) {
+  .story-white-btn{
+    padding: 13px 30px 13px 30px;
+
+  }
 }

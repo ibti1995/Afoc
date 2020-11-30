@@ -45,12 +45,12 @@
       position: fixed;
       bottom: 0px;
       width: 100vw;
-      display: flex ; 
+      display: flex ;
       justify-content: space-between;
      background-color: white;
       li {
-       
-      
+
+
         color: #676767;
         font-size: 7px;
       }
@@ -74,4 +74,10 @@
     border-style: none;
     color: #676767;
   }
+  .carousel-3-div #offers-sec .flickity-page-dots {
+
+    .dot {
+      margin: 0 2px;
+    }
+}
 }

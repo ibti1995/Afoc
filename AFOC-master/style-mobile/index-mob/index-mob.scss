@@ -214,8 +214,6 @@ margin-top: 20px !important;
   .exclu-item {
     .exclu-item-title {
       font-size: 20px !important;
-
-      padding-top: 15px !important;
     }
     .exclu-item-img {
       width: 40%;
@@ -476,12 +474,12 @@ margin-top: 20px !important;
       margin-bottom: 10px;
       font-size: 10px;
       letter-spacing: 3px;
-      padding: 10px 20px;
+      padding: 8px 20px;
     }
     .exclu-item-txt {
       font-size: 10px;
-      padding: 8px 5% 0px 0px;
-      line-height: 20px;
+      padding: 0px 5% 0px 0px;
+      line-height: 18px !important;
     }
     .home-box {
       height: 68px;
@@ -513,10 +511,25 @@ margin-top: 20px !important;
       height: 420px !important;
     }
     .flickity-prev-next-button{
-      display: none ; 
+      display: none ;
     }
   }
   .home-two-pic {
     display: none;
   }
+  .carousel-2-div .flickity-enabled.is-draggable .flickity-viewport {
+
+    height: 200px !important;
+
+}
+.carousel-2-div .flickity-page-dots .dot {
+
+  margin: 0 2px;
+
+}
+.home-buttons{
+
+  flex-direction: column;
+
+}
 }

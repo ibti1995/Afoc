@@ -4992,6 +4992,11 @@ body {
   background-color: white;
 }
 
+.home-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
 #suites {
   display: none;
 }
@@ -5726,13 +5731,15 @@ body {
 .story-white-btn {
   margin-top: 29px;
   background-color: transparent;
-  letter-spacing: 8px;
-  padding: 13px 80px 13px 80px;
+  letter-spacing: 6px;
+  padding: 13px 30px 13px 30px;
   border-color: #926D39 !important;
   border-style: solid;
   text-decoration: none;
   color: #926D39 !important;
   border-width: 0.5px;
+  font-size: 12px;
+  margin-right: 20px;
 }
 
 .single-white-btn {
@@ -5850,6 +5857,16 @@ body {
   color: #926D39 !important;
 }
 
+@media screen and (max-width: 1440px) {
+  .story-white-btn {
+    padding: 13px 20px 13px 20px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .story-white-btn {
+    padding: 13px 30px 13px 30px;
+  }
+}
 .carousel-one-in-the-midle .text-hidden {
   margin-top: 30px;
   color: #707070;
