@@ -1,17 +1,19 @@
 @media only screen and (max-width: 700px) {
-  #slide1meeting .prev-meeting, #slide3meeting .prev-meeting {
+  #slide1meeting .prev-meeting,
+  #slide3meeting .prev-meeting {
     right: unset;
     left: 0;
-}
+  }
   .list-class {
     margin-right: 0px;
     margin-left: 20px;
-    li{
+    li {
       list-style-image: url("assets/svg/Tracé 8474.svg");
     }
-}
+  }
   .info-mobile {
     p {
+
       line-height: 50px !important;
     }
     .meeting-width-buttons {
@@ -51,7 +53,12 @@
   .ourfans-box {
     .flex-row {
       span {
-        font-size: 15px;
+        font-size: 13px;
+      }
+      .margin-left-35 {
+        img {
+          width: 12px;
+        }
       }
     }
   }
@@ -123,7 +130,7 @@
     color: #676767;
   }
 }
-.margin-stand-pack{
-margin-left: 5%;
-margin-right: 5%;
+.margin-stand-pack {
+  margin-left: 5%;
+  margin-right: 5%;
 }

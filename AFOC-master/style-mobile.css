@@ -789,7 +789,7 @@
   }
 
   p {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px !important;
   }
 
@@ -1129,6 +1129,10 @@
 
   .icon-under-h {
     width: 80px;
+  }
+
+  .margin-left-35 {
+    margin-left: 20px;
   }
 }
 .carousels5 {
@@ -1548,7 +1552,8 @@
   }
 }
 @media only screen and (max-width: 700px) {
-  #slide1meeting .prev-meeting, #slide3meeting .prev-meeting {
+  #slide1meeting .prev-meeting,
+#slide3meeting .prev-meeting {
     right: unset;
     left: 0;
   }
@@ -1599,7 +1604,10 @@
   }
 
   .ourfans-box .flex-row span {
-    font-size: 15px;
+    font-size: 13px;
+  }
+  .ourfans-box .flex-row .margin-left-35 img {
+    width: 12px;
   }
 
   .flex-row .list-class ul {
