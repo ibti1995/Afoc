@@ -576,69 +576,638 @@
         </div>
       </div>
       <!-- ******************gallery******************** -->
-      <div class="gallery-title">
-        Gallery<br>
-        <img class="icon-under-h" src="assets/svg/Groupe 2164.svg" />
-      </div>
-      <!-- Container for the image gallery -->
+      <div class="margin-stand no-margin-side-mobile" style="margin-bottom: 20px;  margin-top: 80px;">
 
-      <div class="container3 " id="slide2" style="margin-left: 3% !important; margin-right: 3% !important;">
-
-        <!-- Full-width images with number text -->
-        <span class="mySlides3">
-          <img src="assets/weddings/BALLROOM1.png" class="width100">
-        </span>
-        <span class="mySlides3">
-          <img src="assets/weddings/BALLROOM1.png" class="width100">
-        </span>
-        <span class="mySlides3">
-          <img src="assets/weddings/BALLROOM1.png" class="width100">
-        </span>
-        <span class="mySlides3">
-          <img src="assets/weddings/BALLROOM1.png" class="width100">
-        </span>
-        <span class="mySlides3">
-          <img src="assets/weddings/BALLROOM1.png" class="width100">
-        </span>
-        <span class="mySlides3">
-          <img src="assets/weddings/BALLROOM1.png" class="width100">
-        </span>
-
-        <!-- Next and previous buttons -->
-        <a class="prev3" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next3" onclick="plusSlides(1)">&#10095;</a>
-
-        <!-- Image text -->
+        <div class="rossanova gold center l-height-30 font-40 galary-title-margin">
+          <span class="gallery-normal-screen"> Gallery<br> <img class="icon-under-h"
+              src="assets/svg/Groupe 2164.svg" /></span>
 
 
-        <!-- Thumbnail images -->
-        <div class="row3">
-          <div class="column3">
-            <img class="demo3 cursor3 width100" src="assets/weddings/BALLROOM1.png" onclick="currentSlide(1)"
-              alt="The Woods">
+        </div>
+        <div class="display-none-mobile row3" style="display: flex; justify-content: space-between; ">
+          <div class="column3 width-fit-content">
+            <div class="demo3 cursor3 textact" onclick="openCity(event, 'Hotel',1)" >
+              <span>Home</span></div>
           </div>
-          <div class="column3">
-            <img class="demo3 cursor3 width100" src="assets/weddings/BALLROOM1.png" onclick="currentSlide(2)"
-              alt="Cinque Terre">
+          <div class="column3 width-fit-content">
+            <div class="demo3 cursor3 textact" onclick="openCity(event, 'Dining',2)  "><span>Dining</span> </div>
           </div>
-          <div class="column3">
-            <img class="demo3 cursor3 width100" src="assets/weddings/BALLROOM1.png" onclick="currentSlide(3)"
-              alt="Mountains and fjords">
+          <div class="column3 width-fit-content">
+            <div class="demo3 cursor3 textact" onclick="openCity(event, 'Fitness',3) "><span>Fitness</span></div>
           </div>
-          <div class="column3">
-            <img class="demo3 cursor3 width100" src="assets/weddings/BALLROOM1.png" onclick="currentSlide(4)"
-              alt="Northern Lights">
+          <div class="column3 width-fit-content">
+            <div class="demo3 cursor3 textact" onclick="openCity(event, 'Wedding',4) " id="defaultOpen"><span>Wedding</span></div>
           </div>
-          <div class="column3">
-            <img class="demo3 cursor3 width100" src="assets/weddings/BALLROOM1.png" onclick="currentSlide(5)"
-              alt="Nature and sunrise">
+          <div class="column3 width-fit-content">
+            <div class="demo3 cursor3 textact" onclick="openCity(event, 'Events',5)  "><span>Events</span></div>
           </div>
-          <div class="column3">
-            <img class="demo3 cursor3 width100" src="assets/weddings/BALLROOM1.png" onclick="currentSlide(6)"
-              alt="Snowy Mountains">
+          <div class="column3 width-fit-content">
+            <div class="demo3 cursor3 textact" onclick="openCity(event, 'Fan',6)  "><span>Catering</span></div>
+          </div>
+        </div>
+        <!-- ******************start mobile version menu -->
+        <div id="modules" class="row3 display-none-big  " style="display: none; justify-content: space-between;">
+          <div class="column3 width-fit-content">
+            <div class="demo32 cursor3 textact" onclick="openCity2(event, 'Hotel',1)" >
+              <span>Home</span></div>
+          </div>
+          <div class="column3 width-fit-content">
+            <div class="demo32 cursor3 textact" onclick="openCity2(event, 'Dining',2)  "><span>Dining</span> </div>
+          </div>
+          <div class="column3 width-fit-content">
+            <div class="demo32 cursor3 textact" onclick="openCity2(event, 'Fitness',3) "><span>Fitness</span></div>
+          </div>
+          <div class="column3 width-fit-content">
+            <div class="demo32 cursor3 textact" onclick="openCity2(event, 'Wedding',4) " id="defaultOpen2"><span>Wedding</span></div>
+          </div>
+          <div class="column3 width-fit-content">
+            <div class="demo32 cursor3 textact" onclick="openCity2(event, 'Events',5)  "><span>Events</span></div>
+          </div>
+          <div class="column3 width-fit-content">
+            <div class="demo32 cursor3 textact" onclick="openCity2(event, 'Fan',6)  "><span>Catering</span></div>
+          </div>
+        </div>
+        <!-- ******************end mobile version menu -->
+        <div class="mobile-galery" style="position: relative;">
+          <div id="Hotel" class="flex-row tabcontent">
+
+            <!--******************** start galery mobile version************* -->
+            <!-- *****start  slide stay mobile version***** -->
+
+            <div style="width: -webkit-fill-available; " class="display-none-big">
+              <div class="display-block-img-mobile slide-height-available" id="slidegallery">
+                <div class="slide-gallery">
+                  <img src="assets/homePage/hotels galary/1124585248.png" class="width100">
+                </div>
+                <div class="slide-gallery">
+                  <img src="assets/homePage/hotels galary/shutterstock_517177438.png" class="width100">
+                </div>
+                <div class="slide-gallery">
+                  <img src="assets/homePage/hotels galary/OASIS V04.png" class="width100">
+                </div>
+                <div class="slide-gallery">
+                  <img src="assets/homePage/hotels galary/AT-Guidelines-Beach-Bag.png" class="width100">
+                </div>
+                <div class="slide-gallery">
+                  <img src="assets/homePage/hotels galary/M-1.png" class="width100">
+                </div>
+
+                <a class="prev3" onclick="plusSlidesgallery(-1)">&#10094;</a>
+                <a class="next3" onclick="plusSlidesgallery(1)">&#10095;</a>
+              </div>
+              <!-- *****end  slide stay mobile version***** -->
+              <div class="carousel-gallery-mob width100 display-none-big">
+                <div class="carousels1" data-flickity='{
+                 "freeScroll": true,
+               "wrapAround": false ,
+               "autoPlay": 3000 ,
+               "groupCells": 1 ,
+               "pauseAutoPlayOnHover": false ,
+                                  "contain": true ,
+                                  "prevNextButtons": true ,
+                               "pageDots": false}'>
+                  <div class="carousel-cell">
+                    <img class="width100" src="assets/homePage/hotels galary/1124585248.png"
+                      onclick="currentSlidegallery(1)">
+
+                  </div>
+                  <div class="carousel-cell">
+                    <img class="width100" src="assets/homePage/hotels galary/shutterstock_517177438.png"
+                      onclick="currentSlidegallery(2)">
+                  </div>
+                  <div class="carousel-cell">
+                    <img class="width100" src="assets/homePage/hotels galary/OASIS V04.png"
+                      onclick=" currentSlidegallery(3)">
+                  </div>
+                  <div class="carousel-cell">
+                    <img class="width100" src="assets/homePage/hotels galary/AT-Guidelines-Beach-Bag.png"
+                      onclick="currentSlidegallery(4)">
+                  </div>
+                  <div class="carousel-cell">
+                    <img class="width100" src="assets/homePage/hotels galary/M-1.png" onclick="currentSlidegallery(5)">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--******************** end galery mobile version************* -->
+            <div class="flex-column margin-right-35 width23 display-none-mobile">
+              <span><img class="width100" src="assets/homePage/hotels galary/1124585248.png"></span>
+              <span><img class="width100"
+                  src="assets/homePage/hotels galary/Away-Lands-Hot-Air-Balloon-Falcon-Dubai-Desert-Camp-009.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/shutterstock_517177438.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/OASIS V04.png"></span>
+            </div>
+
+            <!--second-->
+
+            <div class="flex-column  margin-right-35 width30 display-none-mobile">
+              <span><img class="width100" src="assets/homePage/hotels galary/AT-Guidelines-Beach-Bag.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/AwayLands-Portfolio2018-03657.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/M-1.png"></span>
+            </div>
+
+            <!--third-->
+            <div class="flex-column   margin-right-35   width22 display-none-mobile">
+              <span><img class="width100" src="assets/homePage/hotels galary/AT-Guidelines-Keycard.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/AwayLands-Portfolio2018-03670.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/LOUNGE.png"></span>
+            </div>
+
+
+
+            <!--fourth-->
+            <div class="flex-column width25 display-none-mobile">
+              <span><img class="width100"
+                  src="assets/homePage/hotels galary/Away-Lands-Hot-Air-Balloon-Falcon-Dubai-Desert-Camp-009.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/download (45).png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/GettyImages-1124506185.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/Guest Room Reception.png"></span>
+            </div>
+
+          </div>
+
+          <div id="Dining" class="tabcontent">
+            <!--******************** start galery mobile version************* -->
+            <!-- *****start  slide stay mobile version***** -->
+
+            <div style="width: -webkit-fill-available; " class="display-none-big">
+              <div class="display-block-img-mobile slide-height-available" id="slidegallery2">
+                <div class="slide-gallery2">
+                  <img src="assets/homePage/hotels galary/1124585248.png" class="width100">
+                </div>
+                <div class="slide-gallery2">
+                  <img src="assets/homePage/hotels galary/shutterstock_517177438.png" class="width100">
+                </div>
+                <div class="slide-gallery2">
+                  <img src="assets/homePage/hotels galary/OASIS V04.png" class="width100">
+                </div>
+                <div class="slide-gallery2">
+                  <img src="assets/homePage/hotels galary/AT-Guidelines-Beach-Bag.png" class="width100">
+                </div>
+                <div class="slide-gallery2">
+                  <img src="assets/homePage/hotels galary/M-1.png" class="width100">
+                </div>
+
+                <a class="prev3" onclick="plusSlidesgallery2(-1)">&#10094;</a>
+                <a class="next3" onclick="plusSlidesgallery2(1)">&#10095;</a>
+              </div>
+              <!-- *****end  slide stay mobile version***** -->
+              <div class="carousel-gallery2-mob width100 display-none-big">
+                <div class="carousels2" data-flickity='{
+                   "freeScroll": true,
+                 "wrapAround": false ,
+                 "autoPlay": 3000 ,
+                 "groupCells": 1 ,
+                 "pauseAutoPlayOnHover": false ,
+                                    "contain": true ,
+                                    "prevNextButtons": true ,
+                                 "pageDots": false}'>
+                  <div class="carousel-cell">
+                    <img class="width100" src="assets/homePage/hotels galary/1124585248.png"
+                      onclick="currentSlidegallery2(1)">
+
+                  </div>
+                  <div class="carousel-cell">
+                    <img class="width100" src="assets/homePage/hotels galary/shutterstock_517177438.png"
+                      onclick="currentSlidegallery2(2)">
+                  </div>
+                  <div class="carousel-cell">
+                    <img class="width100" src="assets/homePage/hotels galary/OASIS V04.png"
+                      onclick=" currentSlidegallery2(3)">
+                  </div>
+                  <div class="carousel-cell">
+                    <img class="width100" src="assets/homePage/hotels galary/AT-Guidelines-Beach-Bag.png"
+                      onclick="currentSlidegallery2(4)">
+                  </div>
+                  <div class="carousel-cell">
+                    <img class="width100" src="assets/homePage/hotels galary/M-1.png" onclick="currentSlidegallery2(5)">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--******************** end galery mobile version************* -->
+
+            <div class="flex-column   margin-right-35   width23 display-none-mobile">
+              <span><img class="width100" src="assets/homePage/hotels galary/1124585248.png"></span>
+              <span><img class="width100"
+                  src="assets/homePage/hotels galary/Away-Lands-Hot-Air-Balloon-Falcon-Dubai-Desert-Camp-009.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/shutterstock_517177438.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/OASIS V04.png"></span>
+            </div>
+
+            <!--second-->
+            <div class="flex-column   margin-right-35 width25 display-none-mobile">
+              <span><img class="width100"
+                  src="assets/homePage/hotels galary/Away-Lands-Hot-Air-Balloon-Falcon-Dubai-Desert-Camp-009.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/download (45).png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/GettyImages-1124506185.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/Guest Room Reception.png"></span>
+            </div>
+
+            <!--third-->
+            <div class="flex-column   margin-right-35   width22 display-none-mobile">
+              <span><img class="width100" src="assets/homePage/hotels galary/AT-Guidelines-Keycard.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/AwayLands-Portfolio2018-03670.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/LOUNGE.png"></span>
+            </div>
+            <!--      fourth -->
+
+            <div class="flex-column   margin-right-35   width30 display-none-mobile">
+              <span><img class="width100" src="assets/homePage/hotels galary/AT-Guidelines-Beach-Bag.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/AwayLands-Portfolio2018-03657.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/M-1.png"></span>
+            </div>
+
+          </div>
+
+          <div id="Fitness" class="tabcontent">
+            <!--******************** start galery mobile version************* -->
+            <!-- *****start  slide stay mobile version***** -->
+
+            <div style="width: -webkit-fill-available; " class="display-none-big">
+              <div class="display-block-img-mobile slide-height-available" id="slidegallery3">
+                <div class="slide-gallery3">
+                  <img src="assets/homePage/hotels galary/1124585248.png" class="width100">
+                </div>
+                <div class="slide-gallery3">
+                  <img src="assets/homePage/hotels galary/shutterstock_517177438.png" class="width100">
+                </div>
+                <div class="slide-gallery3">
+                  <img src="assets/homePage/hotels galary/OASIS V04.png" class="width100">
+                </div>
+                <div class="slide-gallery3">
+                  <img src="assets/homePage/hotels galary/AT-Guidelines-Beach-Bag.png" class="width100">
+                </div>
+                <div class="slide-gallery3">
+                  <img src="assets/homePage/hotels galary/M-1.png" class="width100">
+                </div>
+
+                <a class="prev3" onclick="plusSlidesgallery3(-1)">&#10094;</a>
+                <a class="next3" onclick="plusSlidesgallery3(1)">&#10095;</a>
+              </div>
+              <!-- *****end  slide stay mobile version***** -->
+              <div class="carousel-gallery-mob width100 display-none-big">
+                <div class="carousels3" data-flickity='{
+                   "freeScroll": true,
+                 "wrapAround": false ,
+                 "autoPlay": 3000 ,
+                 "groupCells": 1 ,
+                 "pauseAutoPlayOnHover": false ,
+                                    "contain": true ,
+                                    "prevNextButtons": true ,
+                                 "pageDots": false}'>
+                  <div class="carousel-cell">
+                    <img class="width100" src="assets/homePage/hotels galary/1124585248.png"
+                      onclick="currentSlidegallery3(1)">
+
+                  </div>
+                  <div class="carousel-cell">
+                    <img class="width100" src="assets/homePage/hotels galary/shutterstock_517177438.png"
+                      onclick="currentSlidegallery3(2)">
+                  </div>
+                  <div class="carousel-cell">
+                    <img class="width100" src="assets/homePage/hotels galary/OASIS V04.png"
+                      onclick=" currentSlidegallery3(3)">
+                  </div>
+                  <div class="carousel-cell">
+                    <img class="width100" src="assets/homePage/hotels galary/AT-Guidelines-Beach-Bag.png"
+                      onclick="currentSlidegallery3(4)">
+                  </div>
+                  <div class="carousel-cell">
+                    <img class="width100" src="assets/homePage/hotels galary/M-1.png" onclick="currentSlidegallery3(5)">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--******************** end galery mobile version************* -->
+            <div class="flex-column   margin-right-35   width23 display-none-mobile">
+              <span><img class="width100" src="assets/homePage/hotels galary/1124585248.png"></span>
+              <span><img class="width100"
+                  src="assets/homePage/hotels galary/Away-Lands-Hot-Air-Balloon-Falcon-Dubai-Desert-Camp-009.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/shutterstock_517177438.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/OASIS V04.png"></span>
+            </div>
+
+            <!--second  -->
+            <div class="flex-column   margin-right-35 width25 display-none-mobile">
+              <span><img class="width100"
+                  src="assets/homePage/hotels galary/Away-Lands-Hot-Air-Balloon-Falcon-Dubai-Desert-Camp-009.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/download (45).png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/GettyImages-1124506185.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/Guest Room Reception.png"></span>
+            </div>
+
+            <!--
+    third
+  -->
+            <div class="flex-column   margin-right-35   width22 display-none-mobile">
+              <span><img class="width100" src="assets/homePage/hotels galary/AT-Guidelines-Keycard.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/AwayLands-Portfolio2018-03670.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/LOUNGE.png"></span>
+            </div>
+            <!--
+    fourth
+  -->
+            <div class="flex-column   margin-right-35   width30 display-none-mobile">
+              <span><img class="width100" src="assets/homePage/hotels galary/AT-Guidelines-Beach-Bag.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/AwayLands-Portfolio2018-03657.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/M-1.png"></span>
+            </div>
+          </div>
+          <div id="Wedding" class="flex-row tabcontent">
+            <!--******************** start galery mobile version************* -->
+            <!-- *****start  slide stay mobile version***** -->
+
+            <div style="width: -webkit-fill-available; " class="display-none-big">
+              <div class="display-block-img-mobile slide-height-available" id="slidegallery4">
+                <div class="slide-gallery4">
+                  <img src="assets/homePage/hotels galary/1124585248.png" class="width100">
+                </div>
+                <div class="slide-gallery4">
+                  <img src="assets/homePage/hotels galary/shutterstock_517177438.png" class="width100">
+                </div>
+                <div class="slide-gallery4">
+                  <img src="assets/homePage/hotels galary/OASIS V04.png" class="width100">
+                </div>
+                <div class="slide-gallery4">
+                  <img src="assets/homePage/hotels galary/AT-Guidelines-Beach-Bag.png" class="width100">
+                </div>
+                <div class="slide-gallery4">
+                  <img src="assets/homePage/hotels galary/M-1.png" class="width100">
+                </div>
+
+                <a class="prev3" onclick="plusSlidesgallery4(-1)">&#10094;</a>
+                <a class="next3" onclick="plusSlidesgallery4(1)">&#10095;</a>
+              </div>
+              <!-- *****end  slide stay mobile version***** -->
+              <div class="carousel-gallery-mob width100 display-none-big">
+                <div class="carousels4" data-flickity='{
+                   "freeScroll": true,
+                 "wrapAround": false ,
+                 "autoPlay": 3000 ,
+                 "groupCells": 1 ,
+                 "pauseAutoPlayOnHover": false ,
+                                    "contain": true ,
+                                    "prevNextButtons": true ,
+                                 "pageDots": false}'>
+                  <div class="carousel-cell">
+                    <img class="width100" src="assets/homePage/hotels galary/1124585248.png"
+                      onclick="currentSlidegallery4(1)">
+
+                  </div>
+                  <div class="carousel-cell">
+                    <img class="width100" src="assets/homePage/hotels galary/shutterstock_517177438.png"
+                      onclick="currentSlidegallery4(2)">
+                  </div>
+                  <div class="carousel-cell">
+                    <img class="width100" src="assets/homePage/hotels galary/OASIS V04.png"
+                      onclick=" currentSlidegallery4(3)">
+                  </div>
+                  <div class="carousel-cell">
+                    <img class="width100" src="assets/homePage/hotels galary/AT-Guidelines-Beach-Bag.png"
+                      onclick="currentSlidegallery4(4)">
+                  </div>
+                  <div class="carousel-cell">
+                    <img class="width100" src="assets/homePage/hotels galary/M-1.png" onclick="currentSlidegallery4(5)">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--******************** end galery mobile version************* -->
+            <div class="flex-column   margin-right-35   width23 display-none-mobile">
+              <span><img class="width100" src="assets/homePage/hotels galary/1124585248.png"></span>
+              <span><img class="width100"
+                  src="assets/homePage/hotels galary/Away-Lands-Hot-Air-Balloon-Falcon-Dubai-Desert-Camp-009.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/shutterstock_517177438.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/OASIS V04.png"></span>
+            </div>
+
+            <!--second-->
+
+            <div class="flex-column   margin-right-35   width30 display-none-mobile">
+              <span><img class="width100" src="assets/homePage/hotels galary/AT-Guidelines-Beach-Bag.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/AwayLands-Portfolio2018-03657.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/M-1.png"></span>
+            </div>
+
+            <!--third-->
+            <div class="flex-column   margin-right-35   width22 display-none-mobile">
+              <span><img class="width100" src="assets/homePage/hotels galary/AT-Guidelines-Keycard.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/AwayLands-Portfolio2018-03670.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/LOUNGE.png"></span>
+            </div>
+
+
+
+            <!--fourth-->
+            <div class="flex-column width25 display-none-mobile">
+              <span><img class="width100"
+                  src="assets/homePage/hotels galary/Away-Lands-Hot-Air-Balloon-Falcon-Dubai-Desert-Camp-009.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/download (45).png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/GettyImages-1124506185.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/Guest Room Reception.png"></span>
+            </div>
+
+          </div>
+          <div id="Events" class="tabcontent">
+            <!--******************** start galery mobile version************* -->
+            <!-- *****start  slide stay mobile version***** -->
+
+            <div style="width: -webkit-fill-available; " class="display-none-big">
+              <div class="display-block-img-mobile slide-height-available" id="slidegallery5">
+                <div class="slide-gallery5">
+                  <img src="assets/homePage/hotels galary/1124585248.png" class="width100">
+                </div>
+                <div class="slide-gallery5">
+                  <img src="assets/homePage/hotels galary/shutterstock_517177438.png" class="width100">
+                </div>
+                <div class="slide-gallery5">
+                  <img src="assets/homePage/hotels galary/OASIS V04.png" class="width100">
+                </div>
+                <div class="slide-gallery5">
+                  <img src="assets/homePage/hotels galary/AT-Guidelines-Beach-Bag.png" class="width100">
+                </div>
+                <div class="slide-gallery5">
+                  <img src="assets/homePage/hotels galary/M-1.png" class="width100">
+                </div>
+
+                <a class="prev3" onclick="plusSlidesgallery5(-1)">&#10094;</a>
+                <a class="next3" onclick="plusSlidesgallery5(1)">&#10095;</a>
+              </div>
+              <!-- *****end  slide stay mobile version***** -->
+              <div class="carousel-gallery-mob width100 display-none-big">
+                <div class="carousels5" data-flickity='{
+                   "freeScroll": true,
+                 "wrapAround": false ,
+                 "autoPlay": 3000 ,
+                 "groupCells": 1 ,
+                 "pauseAutoPlayOnHover": false ,
+                                    "contain": true ,
+                                    "prevNextButtons": true ,
+                                 "pageDots": false}'>
+                  <div class="carousel-cell">
+                    <img class="width100" src="assets/homePage/hotels galary/1124585248.png"
+                      onclick="currentSlidegallery5(1)">
+
+                  </div>
+                  <div class="carousel-cell">
+                    <img class="width100" src="assets/homePage/hotels galary/shutterstock_517177438.png"
+                      onclick="currentSlidegallery5(2)">
+                  </div>
+                  <div class="carousel-cell">
+                    <img class="width100" src="assets/homePage/hotels galary/OASIS V04.png"
+                      onclick=" currentSlidegallery5(3)">
+                  </div>
+                  <div class="carousel-cell">
+                    <img class="width100" src="assets/homePage/hotels galary/AT-Guidelines-Beach-Bag.png"
+                      onclick="currentSlidegallery5(4)">
+                  </div>
+                  <div class="carousel-cell">
+                    <img class="width100" src="assets/homePage/hotels galary/M-1.png" onclick="currentSlidegallery5(5)">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--******************** end galery mobile version************* -->
+            <div class="flex-column   margin-right-35   width23 display-none-mobile">
+              <span><img class="width100" src="assets/homePage/hotels galary/1124585248.png"></span>
+              <span><img class="width100"
+                  src="assets/homePage/hotels galary/Away-Lands-Hot-Air-Balloon-Falcon-Dubai-Desert-Camp-009.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/shutterstock_517177438.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/OASIS V04.png"></span>
+            </div>
+
+            <!--second  -->
+            <div class="flex-column   margin-right-35  width25 display-none-mobile">
+              <span><img class="width100"
+                  src="assets/homePage/hotels galary/Away-Lands-Hot-Air-Balloon-Falcon-Dubai-Desert-Camp-009.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/download (45).png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/GettyImages-1124506185.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/Guest Room Reception.png"></span>
+            </div>
+
+            <!--
+    third
+  -->
+            <div class="flex-column   margin-right-35   width22 display-none-mobile">
+              <span><img class="width100" src="assets/homePage/hotels galary/AT-Guidelines-Keycard.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/AwayLands-Portfolio2018-03670.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/LOUNGE.png"></span>
+            </div>
+            <!--
+    fourth
+  -->
+            <div class="flex-column   margin-right-35   width30 display-none-mobile">
+              <span><img class="width100" src="assets/homePage/hotels galary/AT-Guidelines-Beach-Bag.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/AwayLands-Portfolio2018-03657.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/M-1.png"></span>
+            </div>
+          </div>
+          <div id="Fan" class="flex-row tabcontent">
+            <!--******************** start galery mobile version************* -->
+            <!-- *****start  slide stay mobile version***** -->
+
+            <div style="width: -webkit-fill-available; " class="display-none-big">
+              <div class="display-block-img-mobile slide-height-available" id="slidegallery6">
+                <div class="slide-gallery6">
+                  <img src="assets/homePage/hotels galary/1124585248.png" class="width100">
+                </div>
+                <div class="slide-gallery6">
+                  <img src="assets/homePage/hotels galary/shutterstock_517177438.png" class="width100">
+                </div>
+                <div class="slide-gallery6">
+                  <img src="assets/homePage/hotels galary/OASIS V04.png" class="width100">
+                </div>
+                <div class="slide-gallery6">
+                  <img src="assets/homePage/hotels galary/AT-Guidelines-Beach-Bag.png" class="width100">
+                </div>
+                <div class="slide-gallery6">
+                  <img src="assets/homePage/hotels galary/M-1.png" class="width100">
+                </div>
+
+                <a class="prev3" onclick="plusSlidesgallery6(-1)">&#10094;</a>
+                <a class="next3" onclick="plusSlidesgallery6(1)">&#10095;</a>
+              </div>
+              <!-- *****end  slide stay mobile version***** -->
+              <div class="carousel-gallery-mob width100 display-none-big">
+                <div class="carousels6" data-flickity='{
+                   "freeScroll": true,
+                 "wrapAround": false ,
+                 "autoPlay": 3000 ,
+                 "groupCells": 1 ,
+                 "pauseAutoPlayOnHover": false ,
+                                    "contain": true ,
+                                    "prevNextButtons": true ,
+                                 "pageDots": false}'>
+                  <div class="carousel-cell">
+                    <img class="width100" src="assets/homePage/hotels galary/1124585248.png"
+                      onclick="currentSlidegallery6(1)">
+
+                  </div>
+                  <div class="carousel-cell">
+                    <img class="width100" src="assets/homePage/hotels galary/shutterstock_517177438.png"
+                      onclick="currentSlidegallery6(2)">
+                  </div>
+                  <div class="carousel-cell">
+                    <img class="width100" src="assets/homePage/hotels galary/OASIS V04.png"
+                      onclick=" currentSlidegallery6(3)">
+                  </div>
+                  <div class="carousel-cell">
+                    <img class="width100" src="assets/homePage/hotels galary/AT-Guidelines-Beach-Bag.png"
+                      onclick="currentSlidegallery6(4)">
+                  </div>
+                  <div class="carousel-cell">
+                    <img class="width100" src="assets/homePage/hotels galary/M-1.png" onclick="currentSlidegallery6(5)">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--******************** end galery mobile version************* -->
+            <div class="flex-column   margin-right-35   width23 display-none-mobile">
+              <span><img class="width100" src="assets/homePage/hotels galary/1124585248.png"></span>
+              <span><img class="width100"
+                  src="assets/homePage/hotels galary/Away-Lands-Hot-Air-Balloon-Falcon-Dubai-Desert-Camp-009.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/shutterstock_517177438.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/OASIS V04.png"></span>
+            </div>
+
+            <!--second-->
+
+            <div class="flex-column   margin-right-35   width30 display-none-mobile">
+              <span><img class="width100" src="assets/homePage/hotels galary/AT-Guidelines-Beach-Bag.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/AwayLands-Portfolio2018-03657.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/M-1.png"></span>
+            </div>
+
+            <!--third-->
+            <div class="flex-column   margin-right-35   width22 display-none-mobile">
+              <span><img class="width100" src="assets/homePage/hotels galary/AT-Guidelines-Keycard.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/AwayLands-Portfolio2018-03670.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/LOUNGE.png"></span>
+            </div>
+
+
+
+            <!--fourth-->
+            <div class="flex-column width25 display-none-mobile">
+              <span><img class="width100"
+                  src="assets/homePage/hotels galary/Away-Lands-Hot-Air-Balloon-Falcon-Dubai-Desert-Camp-009.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/download (45).png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/GettyImages-1124506185.png"></span>
+              <span><img class="width100" src="assets/homePage/hotels galary/Guest Room Reception.png"></span>
+            </div>
+
           </div>
         </div>
       </div>
+
+      <!-- <div class="gallery-title">
+        Gallery<br>
+        <img class="icon-under-h" src="assets/svg/Groupe 2164.svg" />
+      </div> -->
+      <!-- Container for the image gallery -->
+
+
 
       <!--******* our fans *******-->
       <div class="margin-stand margin-top-70 ">
@@ -887,10 +1456,12 @@
 
 
   <!-- <script src="js/ourfans.js"></script> -->
-  <script src="js/gallery.js"></script>
+
   <script src="js/services.js"></script>
   <script src="js/weddings-hall.js"></script>
   <script src="js/slidehomepage.js"></script>
+  <script src="js/gallery-mobile-selection.js"></script>
+  <script src="js/galerry-mob-for-item.js"></script>
   <script>function myFunction(x) {
 
       var x = document.getElementById("myLinks");

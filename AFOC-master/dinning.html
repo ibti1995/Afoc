@@ -3,6 +3,7 @@
 
 <head>
   <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./dtsel.css" />
 
   <title>Dining</title>
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
@@ -11,7 +12,7 @@
   <link rel="stylesheet" href="./style-mobile.css" />
 </head>
 
-<body id="body">
+<body class="dining-page" id="body">
 
   <header class="dinning header">
     <div class="topnav">
@@ -120,8 +121,9 @@
          <!--*****************start menu mobile version*****************-->
          <div id="menu-mob">
           <ul>
-              <li> <input class="select-menu-fixed" type="text" placeholder="13-dec"></li>
-              <li> <input class="select-menu-fixed" type="text" placeholder="17-dec"></li>
+              <!-- <li> <input class="select-menu-fixed" type="text" placeholder="13-dec"></li> -->
+              <li >  <input class="select-menu-fixed datepicker-input" type="text" placeholder="17-dec" name="datePicker5"></li>
+              <li >  <input class="select-menu-fixed datepicker-input" type="text" placeholder="17-dec" name="datePicker6"></li>
               <li>
                   <select class=" select-menu-fixed  black" name="rooms" id="rooms">
                       <option selected disabled>Rooms</option>
@@ -760,6 +762,17 @@
 </footer>
   <script src="js/slidehomepage.js"></script>
   <script src="js/meetinsSlides.js"></script>
+  <script src="js/datepicker/dtsel.js"></script>
+  <script>
+        instance1 = new dtsel.DTS('input[name="datePicker5"]', {
+      direction: 'top',
+      dateFormat: "yyyy-mm-dd",
+    });
+    instance1 = new dtsel.DTS('input[name="datePicker6"]', {
+      direction: 'top',
+      dateFormat: "yyyy-MM-dd",
+    });
+  </script>
   <script>function myFunction(x) {
 
       var x = document.getElementById("myLinks");

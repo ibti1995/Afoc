@@ -179,6 +179,7 @@
 #modules {
   height: 50px;
   padding: 5px;
+  width: 95vw;
   white-space: nowrap;
   overflow-y: hidden;
   overflow-x: scroll;
@@ -701,6 +702,12 @@
     flex-direction: column;
   }
 }
+.dining-page .date-selector-wrapper, .multirooms-page .date-selector-wrapper {
+  position: fixed !important;
+  bottom: 50px !important;
+  z-index: 10000 !important;
+}
+
 @media only screen and (max-width: 700px) {
   .dining-select-box {
     display: none;
