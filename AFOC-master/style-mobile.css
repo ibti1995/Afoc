@@ -1375,6 +1375,11 @@
   #menu-mob-offers a:hover {
     color: #926D39 !important;
   }
+
+  .width20 {
+    height: 150px;
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 700px) {
   .flex-row .list-class-offer {
@@ -1477,6 +1482,7 @@
   #menu-mob ul li select {
     font-size: 13px;
     width: 100%;
+    background-color: white;
   }
 
   .select-menu-fixed {

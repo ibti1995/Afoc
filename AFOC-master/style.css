@@ -2466,7 +2466,7 @@ dialog {
 }
 .width20 {
   height: 259px;
-  width: 500px;
+  width: 100%;
 }
 
 #dining {
@@ -5733,7 +5733,7 @@ body {
 .cat-white-btn {
   margin-top: 29px;
   background-color: transparent;
-  padding: 16px 20px 15px 20px;
+  padding: 16px 17px 15px 17px;
   border-color: #926D39 !important;
   border-style: solid;
   text-decoration: none;
