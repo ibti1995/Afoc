@@ -3136,12 +3136,11 @@ dialog {
   border-style: solid;
   border-color: #bfbfbf;
   height: 70px;
-  margin-left: 90px !important;
+  margin-left: 35px !important;
   border-width: 0.3px;
   border-radius: 5px;
   display: flex;
   align-items: center;
-  margin-left: 10px;
   width: fit-content;
 }
 
