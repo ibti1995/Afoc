@@ -39,16 +39,17 @@
 }
 .offer-get-in-touch-box {
   position: relative;
-  height: 591px;
-  width: 534px;
+  height: auto;
+  width: 50vh;
   background-color: white;
   margin-top: 100px;
   margin-right: 66px;
-  border-radius: 25px;
+  border-radius: 2vh;
+  padding-bottom: 2vh;
 }
 .offer-get-in-touch-values {
-  margin-top: 60px;
-  margin-left: 53px;
+  margin-top: 2vh;
+  margin-left: 2vh;
 }
 .offer-get-in-touch-title {
   width: fit-content;
@@ -63,7 +64,7 @@
     line-height: 11px;
     ul {
       width: 323, 15px;
-      line-height: 20px;
+      line-height: 2vh;
       li {
         list-style-image: url("assets/svg/Tracé 8474.svg");
         margin-bottom: 23px;
@@ -75,8 +76,8 @@
 .single-offer-list {
   ul {
     li {
-      font-size: 20px;
-      line-height: 24px;
+      font-size: 2.5vh;
+      line-height: 3vh;
       list-style-image: url("assets/svg/Tracé 8474.svg");
       margin-top: 23px;
     }

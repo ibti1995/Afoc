@@ -10,7 +10,7 @@
     font-size: 60px;
     font-family: rossanova;
     color: $primary-color;
-   
+
   }
 
 }
@@ -19,7 +19,7 @@
 
 @media screen and (min-width: 700px) {
   .margin-services {
-    margin-top: -30px ; 
+    margin-top: -30px ;
   }
 }
 
@@ -32,7 +32,7 @@ h1 {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 4vh;
   font-weight: unset !important;
 }
 
@@ -43,11 +43,11 @@ h3 {
 
 h4 {
   font-weight: unset !important;
-  font-size: 20px;
+  font-size: 2vh;
 }
 p {
-  font-size: 20px;
-  line-height: 45px;
+  font-size: 2vh;
+  line-height: 3vh;
 }
 body {
   //max-width: 1932px;
@@ -111,7 +111,7 @@ body {
 }
 
 .icon-under-h {
-  width: 118px;
+  width: 15vh;
 }
 
 .text-under-h1 {
@@ -140,7 +140,7 @@ body {
 }
 
 .l-height-30 {
-  line-height: 30px;
+  line-height: 3vh;
 }
 
 .l-height-20 {
@@ -162,7 +162,7 @@ body {
 }
 
 .info-size {
-  font-size: 17px;
+  font-size: 2vh;
 }
 
 section {
@@ -259,20 +259,20 @@ dialog {
     display: flex;
     justify-content: center;
     align-items: center ;
-   
-    
+
+
     color: $primary-color;
     font-weight: bold;
     font-size: 18px;
     transform: translateY(-50%);
 
-   
+
   }
 
   /* Position the "next button" to the right */
   .next4 {
     right: 0;
- 
+
   }
 
   /* On hover, add a black background color with a little bit see-through */
