@@ -42,12 +42,14 @@
   }
   header .title-header-gold .small-word-header2 {
     line-height: normal;
+    font-size: 2vw;
   }
   header .title-header-gold .small-word-header2 span {
     font-size: 2vw;
   }
   header .title-header-gold .big-word-header2 {
     line-height: normal;
+    font-size: 4vw;
   }
   header .title-header-gold .big-word-header2 span {
     font-size: 4vw;
