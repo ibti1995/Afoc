@@ -297,6 +297,23 @@
 }
 @media screen and(min-width:2000px) {
   .multi-rooms {
+    .font-17 {
+      font-size: 1.3vw;
+    }
+    .flex-row-items ul {
+      font-size: 1.5vw;
+      line-height: 2vw;
+    }
+    .rooms-slides-box {
+      .right {
+        img {
+          width: 1.5vw;
+        }
+      }
+      .font-15 {
+        font-size: 1.3vw;
+      }
+    }
     .multirooms-parag {
       font-size: 2vh;
       line-height: 3vh;
@@ -307,7 +324,7 @@
       line-height: 4vh;
     }
     p {
-      font-size: 2vh;
+      font-size: 1.97vh;
       line-height: 3vh;
     }
 
@@ -316,7 +333,7 @@
     }
   }
   .icon-under-h {
-    width: 15vh;
+    width: 11vh;
   }
   .good-vibes-title {
     font-size: 4vh;
@@ -328,6 +345,11 @@
   }
   .vibes-item {
     width: 16vw;
+    .sub-title {
+      img {
+        width: 1vw;
+      }
+    }
   }
   .good-vibes {
     line-height: 1.5vw;
@@ -346,10 +368,7 @@
   .rooms-parag {
     width: 16vw;
   }
-  .rooms-menu {
-    width: 26vw;
-    height: 3.45vw;
-  }
+
   .offers-name-title {
     font-size: 1.7vw;
     line-height: 1.2vw;
@@ -380,36 +399,41 @@
     font-size: 1.5vw;
   }
   .act::after {
-    position: absolute;
-    border-radius: 20px 20px 0 0;
-    content: "";
-    min-width: 40px;
-    min-height: 20px;
-    display: block;
-    background-color: #926d39;
-    left: 25%;
-    bottom: -85px;
+
+    min-width: 30px;
+    min-height: 15px;
+
+    bottom: -1.5vh;
   }
-  .rooms-menu{
-    span{
-      img{
-        height: 100%;
-        width: 0.5vw;
+  .rooms-menu {
+    width: 26vw;
+    height: auto;
+    span {
+      img {
+        height: auto;
+        width: 0.15vw;
       }
     }
   }
   .activities1-box-title {
     width: 55vw;
-}
-.multi-rooms-box-title {
+  }
+  .multi-rooms-box-title {
+    font-size: 1.9vw;
 
-  font-size: 2vw;
-
-  line-height: 2vw;
-}
-.slides1 img, .slides2 img, .slides3 img, .slides4 img, .slides5 img, .slides6 img {
-  object-fit: cover;
-  height: 34vw;
-  width: 50vw;
-}
+    line-height: 1.6vw;
+    .icon-under-h {
+      width: 8vh;
+    }
+  }
+  .slides1 img,
+  .slides2 img,
+  .slides3 img,
+  .slides4 img,
+  .slides5 img,
+  .slides6 img {
+    object-fit: cover;
+    height: 34vw;
+    width: 50vw;
+  }
 }

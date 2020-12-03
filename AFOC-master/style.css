@@ -485,7 +485,7 @@ footer div {
 }
 
 .balck-gray {
-  color: #25282A;
+  color: #25282a;
 }
 
 button {
@@ -953,6 +953,20 @@ a {
     height: auto;
     width: 100%;
     padding: 1vw;
+  }
+
+  .get-in-touch-box .l-height-30 {
+    line-height: 4vh;
+  }
+  .get-in-touch-box .title {
+    font-size: 5.5vh;
+    padding-top: 2vh;
+  }
+  .get-in-touch-box .font-28 {
+    font-size: 3.5vh;
+  }
+  .get-in-touch-box .story-info-size {
+    font-size: 2.4vh;
   }
 }
 .keyfact-section {
@@ -5477,6 +5491,19 @@ body {
 }
 
 @media screen and (min-width: 2000px) {
+  .multi-rooms .font-17 {
+    font-size: 1.3vw;
+  }
+  .multi-rooms .flex-row-items ul {
+    font-size: 1.5vw;
+    line-height: 2vw;
+  }
+  .multi-rooms .rooms-slides-box .right img {
+    width: 1.5vw;
+  }
+  .multi-rooms .rooms-slides-box .font-15 {
+    font-size: 1.3vw;
+  }
   .multi-rooms .multirooms-parag {
     font-size: 2vh;
     line-height: 3vh;
@@ -5486,7 +5513,7 @@ body {
     line-height: 4vh;
   }
   .multi-rooms p {
-    font-size: 2vh;
+    font-size: 1.97vh;
     line-height: 3vh;
   }
   .multi-rooms .flex-row ul {
@@ -5494,7 +5521,7 @@ body {
   }
 
   .icon-under-h {
-    width: 15vh;
+    width: 11vh;
   }
 
   .good-vibes-title {
@@ -5509,6 +5536,9 @@ body {
 
   .vibes-item {
     width: 16vw;
+  }
+  .vibes-item .sub-title img {
+    width: 1vw;
   }
 
   .good-vibes {
@@ -5531,11 +5561,6 @@ body {
 
   .rooms-parag {
     width: 16vw;
-  }
-
-  .rooms-menu {
-    width: 26vw;
-    height: 3.45vw;
   }
 
   .offers-name-title {
@@ -5570,20 +5595,18 @@ body {
   }
 
   .act::after {
-    position: absolute;
-    border-radius: 20px 20px 0 0;
-    content: "";
-    min-width: 40px;
-    min-height: 20px;
-    display: block;
-    background-color: #926d39;
-    left: 25%;
-    bottom: -85px;
+    min-width: 30px;
+    min-height: 15px;
+    bottom: -1.5vh;
   }
 
+  .rooms-menu {
+    width: 26vw;
+    height: auto;
+  }
   .rooms-menu span img {
-    height: 100%;
-    width: 0.5vw;
+    height: auto;
+    width: 0.15vw;
   }
 
   .activities1-box-title {
@@ -5591,11 +5614,19 @@ body {
   }
 
   .multi-rooms-box-title {
-    font-size: 2vw;
-    line-height: 2vw;
+    font-size: 1.9vw;
+    line-height: 1.6vw;
+  }
+  .multi-rooms-box-title .icon-under-h {
+    width: 8vh;
   }
 
-  .slides1 img, .slides2 img, .slides3 img, .slides4 img, .slides5 img, .slides6 img {
+  .slides1 img,
+.slides2 img,
+.slides3 img,
+.slides4 img,
+.slides5 img,
+.slides6 img {
     object-fit: cover;
     height: 34vw;
     width: 50vw;
