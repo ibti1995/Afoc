@@ -397,6 +397,28 @@
   margin-left: -37px;
 }
 
+@media screen and (min-width: 2000px) {
+  footer .box-foot-responsive {
+    margin: 4% 10% 3% 7%;
+  }
+  footer .font-40 {
+    font-size: 4vw;
+  }
+  footer .font-42 {
+    font-size: 2vw;
+  }
+  footer img {
+    height: 2.5vw !important;
+    width: 2.5vw !important;
+    margin-right: 0.7vw !important;
+    margin-top: 2vw !important;
+  }
+  footer li {
+    font-family: rossanova;
+    margin-bottom: 2vw;
+    font-size: 2vw !important;
+  }
+}
 footer {
   background-color: #25282a;
   color: white;
@@ -1453,7 +1475,8 @@ dialog {
 }
 @media screen and (min-width: 2000px) {
   .ourstory .position-playgrounds {
-    border-radius: 1vw;
+    padding: 0.4vw 0.5vw;
+    border-radius: 1.1vw;
   }
   .ourstory .position-playgrounds .text-position {
     font-size: 1.6vw;
