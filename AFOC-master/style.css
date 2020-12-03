@@ -5476,6 +5476,131 @@ body {
   margin-top: 20px;
 }
 
+@media screen and (min-width: 2000px) {
+  .multi-rooms .multirooms-parag {
+    font-size: 2vh;
+    line-height: 3vh;
+  }
+  .multi-rooms h2 {
+    font-size: 4vh;
+    line-height: 4vh;
+  }
+  .multi-rooms p {
+    font-size: 2vh;
+    line-height: 3vh;
+  }
+  .multi-rooms .flex-row ul {
+    font-size: 1vw;
+  }
+
+  .icon-under-h {
+    width: 15vh;
+  }
+
+  .good-vibes-title {
+    font-size: 4vh;
+    line-height: 4vh;
+  }
+
+  .left-title {
+    font-size: 5vh;
+    line-height: 5vh;
+  }
+
+  .vibes-item {
+    width: 16vw;
+  }
+
+  .good-vibes {
+    line-height: 1.5vw;
+  }
+
+  .slides-box {
+    margin-right: 2vw;
+    margin-bottom: 20px;
+  }
+
+  .rooms-cont {
+    width: 25vw;
+    height: auto;
+  }
+
+  .slideshow-container {
+    max-width: unset;
+  }
+
+  .rooms-parag {
+    width: 16vw;
+  }
+
+  .rooms-menu {
+    width: 26vw;
+    height: 3.45vw;
+  }
+
+  .offers-name-title {
+    font-size: 1.7vw;
+    line-height: 1.2vw;
+  }
+
+  .offers-name {
+    width: 11vw;
+    margin-bottom: 0px;
+    margin-left: 16px;
+    margin-top: 1vw;
+  }
+
+  .caract {
+    width: 10vw;
+  }
+
+  .rooms-num {
+    font-size: 2vw;
+  }
+
+  .rooms-cont .flex-row span {
+    margin-right: 1vw;
+  }
+  .rooms-cont .flex-row span img {
+    width: 1.5vw;
+  }
+
+  .icons-width {
+    font-size: 1.5vw;
+  }
+
+  .act::after {
+    position: absolute;
+    border-radius: 20px 20px 0 0;
+    content: "";
+    min-width: 40px;
+    min-height: 20px;
+    display: block;
+    background-color: #926d39;
+    left: 25%;
+    bottom: -85px;
+  }
+
+  .rooms-menu span img {
+    height: 100%;
+    width: 0.5vw;
+  }
+
+  .activities1-box-title {
+    width: 55vw;
+  }
+
+  .multi-rooms-box-title {
+    font-size: 2vw;
+    line-height: 2vw;
+  }
+
+  .slides1 img, .slides2 img, .slides3 img, .slides4 img, .slides5 img, .slides6 img {
+    object-fit: cover;
+    height: 34vw;
+    width: 50vw;
+  }
+}
 @media screen and (max-width: 1050px) {
   .responsive-restaurant {
     order: 1;
@@ -6055,6 +6180,12 @@ body {
 
   .cat-gold-btn {
     padding: 1vw;
+  }
+
+  .request-btn-sm {
+    font-size: 1vw;
+    line-height: 1vw;
+    padding: 0.5vw;
   }
 }
 .carousel-one-in-the-midle .text-hidden {
