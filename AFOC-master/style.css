@@ -915,7 +915,8 @@ a {
 
 @media screen and (min-width: 2000px) {
   h4 {
-    font-size: 2vw !important;
+    font-size: 1.5vw !important;
+    margin: 1vw;
   }
 
   .font-32 {
@@ -1332,7 +1333,7 @@ dialog {
   flex-direction: column;
   background-image: url("assets/sigleOfferImg/Rectangle 1745.png");
   background-repeat: no-repeat;
-  background-size: 1930px 100%;
+  background-size: 100% 100%;
 }
 
 .offer {
@@ -1402,34 +1403,34 @@ dialog {
 
 @media screen and (min-width: 2000px) {
   .single-offer p {
-    font-size: 2vw;
+    font-size: 1.4vw;
     line-height: 3vw;
   }
   .single-offer .font-40 {
-    font-size: 4vw;
-    line-height: 3.5vw;
+    font-size: 3.1vw;
+    line-height: 2.5vw;
   }
   .single-offer .icon-under-h {
     width: 10vw;
   }
   .single-offer .flex-row ul {
     line-height: 2vw;
-    font-size: 1.6vw;
+    font-size: 1.2vw;
   }
   .single-offer .flex-row ul li {
     list-style-image: url("assets/svg/Trace2.svg");
   }
   .single-offer h2 {
-    font-size: 3vh;
+    font-size: 4vh;
   }
   .single-offer .single-offer-list ul li {
-    font-size: 2vw;
+    font-size: 1.2vw;
     line-height: 3vw;
     list-style-image: url("assets/svg/Trace2.svg");
     margin-top: 23px;
   }
   .single-offer .font-25 {
-    font-size: 2vw;
+    font-size: 1.5vw;
   }
 
   .offer-get-in-touch-box {
@@ -3771,6 +3772,7 @@ dialog {
 @media screen and (min-width: 2000px) {
   .textact {
     font-size: 2vw;
+    margin-bottom: 1.8vw;
   }
 }
 .margin-stand-l-r {
@@ -5621,6 +5623,10 @@ body {
   .carousel-cell ul {
     font-size: 1vw;
   }
+
+  .dining-box-padding {
+    padding: 1vw;
+  }
 }
 /* The Modal (background) */
 .modal {
@@ -5993,6 +5999,15 @@ body {
 @media screen and (max-width: 1050px) {
   .story-white-btn {
     padding: 13px 30px 13px 30px;
+  }
+}
+@media screen and (min-width: 2000px) {
+  .cat-white-btn {
+    padding: 1vw;
+  }
+
+  .cat-gold-btn {
+    padding: 1vw;
   }
 }
 .carousel-one-in-the-midle .text-hidden {
@@ -6789,6 +6804,10 @@ ol:last-child::after {
 @media screen and (min-width: 2000px) {
   .carousel-3-div .carousel-cell {
     width: 33% !important;
+    margin-top: 2vw !important;
+    margin-bottom: 2vw;
+    padding-left: 2vw;
+    padding: 1vw;
   }
 }
 .carousel-2-div {

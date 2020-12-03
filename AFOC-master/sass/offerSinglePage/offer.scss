@@ -16,7 +16,7 @@
   flex-direction: column;
   background-image: url("assets/sigleOfferImg/Rectangle 1745.png");
   background-repeat: no-repeat;
-  background-size: 1930px 100%;
+  background-size: 100% 100%;
 }
 
 .offer {
@@ -86,12 +86,12 @@
  @media screen and(min-width:2000px){
 .single-offer{
   p {
-    font-size: 2vw;
+    font-size: 1.4vw;
     line-height: 3vw;
 }
 .font-40 {
-  font-size: 4vw;
-  line-height: 3.5vw;
+  font-size: 3.1vw;
+  line-height: 2.5vw;
 }
 .icon-under-h {
   width: 10vw;
@@ -99,22 +99,22 @@
 
 .flex-row ul {
   line-height: 2vw;
-  font-size: 1.6vw;
+  font-size: 1.2vw;
   li{
     list-style-image: url("assets/svg/Trace2.svg");
   }
 }
 h2 {
-  font-size: 3vh;
+  font-size: 4vh;
 }
 .single-offer-list ul li {
-  font-size: 2vw;
+  font-size: 1.2vw;
   line-height: 3vw;
   list-style-image: url("assets/svg/Trace2.svg");
   margin-top: 23px;
 }
 .font-25 {
-  font-size: 2vw;
+  font-size: 1.5vw;
 }
 
 
