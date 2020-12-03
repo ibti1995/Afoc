@@ -386,3 +386,20 @@ padding: 10px;}
 #menu-mob{
   display: none;
 }
+@media screen and(min-width:2000px){
+  h4 {
+
+    font-size: 2vw !important;
+}
+.font-32 {
+  font-size: 2vw;
+}
+.font-15 {
+  font-size: 1vw;
+}
+.special-offer-img{
+  height: auto;
+  width: 100%;
+  padding: 1vw;
+}
+}

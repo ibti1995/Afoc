@@ -913,6 +913,25 @@ a {
   display: none;
 }
 
+@media screen and (min-width: 2000px) {
+  h4 {
+    font-size: 2vw !important;
+  }
+
+  .font-32 {
+    font-size: 2vw;
+  }
+
+  .font-15 {
+    font-size: 1vw;
+  }
+
+  .special-offer-img {
+    height: auto;
+    width: 100%;
+    padding: 1vw;
+  }
+}
 .keyfact-section {
   height: 501px;
   border-style: solid;
@@ -1381,6 +1400,57 @@ dialog {
   margin-left: 30px;
 }
 
+@media screen and (min-width: 2000px) {
+  .single-offer p {
+    font-size: 2vw;
+    line-height: 3vw;
+  }
+  .single-offer .font-40 {
+    font-size: 4vw;
+    line-height: 3.5vw;
+  }
+  .single-offer .icon-under-h {
+    width: 10vw;
+  }
+  .single-offer .flex-row ul {
+    line-height: 2vw;
+    font-size: 1.6vw;
+  }
+  .single-offer .flex-row ul li {
+    list-style-image: url("assets/svg/Trace2.svg");
+  }
+  .single-offer h2 {
+    font-size: 3vh;
+  }
+  .single-offer .single-offer-list ul li {
+    font-size: 2vw;
+    line-height: 3vw;
+    list-style-image: url("assets/svg/Trace2.svg");
+    margin-top: 23px;
+  }
+  .single-offer .font-25 {
+    font-size: 2vw;
+  }
+
+  .offer-get-in-touch-box {
+    height: auto;
+    width: 40vw;
+    padding-bottom: 3vw;
+  }
+  .offer-get-in-touch-box .info-size {
+    font-size: 1.5vw;
+  }
+  .offer-get-in-touch-box .l-height-30 {
+    line-height: 2vw;
+  }
+  .offer-get-in-touch-box .font-25 {
+    font-size: 2.5vw;
+  }
+
+  .margin-stand-l-r {
+    margin-top: 1vw;
+  }
+}
 @media screen and (min-width: 2000px) {
   .ourstory .position-playgrounds {
     border-radius: 1vw;
@@ -3722,6 +3792,11 @@ dialog {
   line-height: 25px;
 }
 
+@media screen and (min-width: 2000px) {
+  .textact {
+    font-size: 2vw;
+  }
+}
 .margin-stand-l-r {
   margin-right: 5%;
   margin-left: 5%;
@@ -5566,6 +5641,11 @@ body {
     height: 750px;
   }
 }
+@media screen and (min-width: 2000px) {
+  .carousel-cell ul {
+    font-size: 1vw;
+  }
+}
 /* The Modal (background) */
 .modal {
   display: none;
@@ -5862,7 +5942,7 @@ body {
   margin-top: 29px;
   margin-right: 30px;
   background-color: #926D39 !important;
-  width: 390px;
+  width: 100%;
   padding: 16px 20px 15px 20px;
   border-color: #926D39 !important;
   text-decoration: none;
@@ -6730,6 +6810,11 @@ ol:last-child::after {
   margin-left: 1%;
 }
 
+@media screen and (min-width: 2000px) {
+  .carousel-3-div .carousel-cell {
+    width: 33% !important;
+  }
+}
 .carousel-2-div {
   /* cell number */
   /*! Flickity v2.2.1
