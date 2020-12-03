@@ -885,6 +885,11 @@ a {
   display: none;
 }
 
+@media screen and (min-width: 2000px) {
+  h4 {
+    font-size: 2vw !important;
+  }
+}
 .keyfact-section {
   height: 501px;
   border-style: solid;
@@ -1353,6 +1358,35 @@ dialog {
   margin-left: 30px;
 }
 
+@media screen and (min-width: 2000px) {
+  .single-offer p {
+    font-size: 2vw;
+    line-height: 3vw;
+  }
+  .single-offer .font-40 {
+    font-size: 4vw;
+    line-height: 3.5vw;
+  }
+  .single-offer .icon-under-h {
+    width: 10vw;
+  }
+  .single-offer .flex-row ul {
+    line-height: 2vw;
+    font-size: 1.6vw;
+  }
+  .single-offer h2 {
+    font-size: 3vh;
+  }
+  .single-offer .single-offer-list ul li {
+    font-size: 2vw;
+    line-height: 3vw;
+    list-style-image: url("assets/svg/Tracé 8474.svg");
+    margin-top: 23px;
+  }
+  .single-offer .font-25 {
+    font-size: 2vw;
+  }
+}
 @media screen and (min-width: 1000px) {
   .image-story-test {
     margin-top: 50px;
@@ -3670,6 +3704,11 @@ dialog {
   line-height: 25px;
 }
 
+@media screen and (min-width: 2000px) {
+  .textact {
+    font-size: 2vw;
+  }
+}
 .margin-stand-l-r {
   margin-right: 5%;
   margin-left: 5%;
