@@ -1,3 +1,41 @@
+
+@media screen and (min-width: 2000px)
+{
+  header {
+    .logo-header{
+      width: 10vw;
+    }
+    .custom-select-language-index {
+      font-size: 1.5vw;
+      .item-select-language-index{
+        font-size: 20px;
+      }
+    }
+    .ul-menu-home{
+      a {
+        font-size:  1.5vw;
+      }
+    }
+    .title-header-gold{
+      .small-word-header2 {
+        line-height: normal;
+        span {
+          font-size: 2vw;
+        }
+      }
+      .big-word-header2 {
+        line-height: normal;
+        span {
+          font-size: 4vw;
+        }
+      }
+     
+    }
+
+  }
+
+}
+
 .check-btn{
   background-color: white;
   width: 278px;
