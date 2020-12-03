@@ -297,9 +297,16 @@
 }
 @media screen and(min-width:2000px) {
 
+  .offerTitle {
+    h2 {
+      margin-bottom: 0 !important;
+    }
+  }
   .multi-rooms {
+    
+
     .right-menu-occ {
-      margin-top: 1.2vw;
+     // margin-top: 1.2vw;
 
   }
   .right-menu-select {

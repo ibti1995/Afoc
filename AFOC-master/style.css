@@ -961,17 +961,17 @@ a {
   }
 
   .get-in-touch-box .l-height-30 {
-    line-height: 4vh;
+    line-height: 4vw;
   }
   .get-in-touch-box .title {
-    font-size: 4.5vh;
-    padding-top: 2vh;
+    font-size: 4.5vw;
+    padding-top: 2vw;
   }
   .get-in-touch-box .font-28 {
-    font-size: 2.5vh;
+    font-size: 2.5vw;
   }
   .get-in-touch-box .story-info-size {
-    font-size: 1.5vh;
+    font-size: 1.5vw;
   }
 }
 .keyfact-section {
@@ -5496,9 +5496,10 @@ body {
 }
 
 @media screen and (min-width: 2000px) {
-  .multi-rooms .right-menu-occ {
-    margin-top: 1.2vw;
+  .offerTitle h2 {
+    margin-bottom: 0 !important;
   }
+
   .multi-rooms .right-menu-select {
     margin-right: 1vw;
     font-size: 1.2vw;
