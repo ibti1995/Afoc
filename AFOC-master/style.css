@@ -28,6 +28,9 @@
   src: url(assets/font/Poppins/Poppins-SemiBold.ttf);
 }
 @media screen and (min-width: 2000px) {
+  header {
+    padding-top: 50px;
+  }
   header .logo-header {
     width: 10vw;
   }
@@ -43,6 +46,7 @@
   header .title-header-gold .small-word-header2 {
     line-height: normal;
     font-size: 2vw;
+    letter-spacing: 0.9vw;
   }
   header .title-header-gold .small-word-header2 span {
     font-size: 2vw;
@@ -402,10 +406,10 @@
     margin: 4% 10% 3% 7%;
   }
   footer .font-40 {
-    font-size: 4vw;
+    font-size: 3.7vw;
   }
   footer .font-42 {
-    font-size: 2vw;
+    font-size: 1.9vw;
   }
   footer img {
     height: 2.5vw !important;
@@ -416,7 +420,7 @@
   footer li {
     font-family: rossanova;
     margin-bottom: 2vw;
-    font-size: 2vw !important;
+    font-size: 1.9vw !important;
   }
 }
 footer {
@@ -5476,6 +5480,89 @@ body {
   margin-top: 20px;
 }
 
+@media screen and (min-width: 2000px) {
+  .carousel-our-fan .content .ribbon1, .carousel-our-fan .content .ribbon2 {
+    width: 1vw;
+  }
+  .carousel-our-fan .flickity-prev-next-button {
+    width: 4vw !important;
+    height: 4vw !important;
+  }
+  .carousel-our-fan .flickity-prev-next-button.next {
+    left: 4vw !important;
+  }
+  .carousel-our-fan .parag-in-ourfans {
+    height: auto !important;
+  }
+  .carousel-our-fan .carousel-cell {
+    margin-bottom: 8vw !important;
+  }
+  .carousel-our-fan .flex-row span {
+    font-size: 1.5vw;
+  }
+  .carousel-our-fan .flex-row div img {
+    width: 8vw;
+  }
+  .carousel-our-fan .flex-row div div img {
+    width: 2vw;
+  }
+
+  .dining-page .font-20 {
+    font-size: 1.7vw;
+  }
+  .dining-page .dining-right-title .icon-under-h {
+    width: 15vw;
+  }
+  .dining-page .variety-imgs img {
+    height: 40vw !important;
+  }
+  .dining-page p {
+    font-size: 1.2vw !important;
+    line-height: normal;
+  }
+  .dining-page h2 {
+    font-size: 4vw;
+    line-height: normal;
+    line-height: 3vw;
+  }
+  .dining-page h2 .icon-under-h {
+    width: 10vw;
+  }
+  .dining-page .dining-img-style {
+    width: 15vw;
+    height: 5vw;
+  }
+  .dining-page .title-line-width {
+    width: 14vw !important;
+  }
+  .dining-page .font-19 {
+    font-size: 1.2vw !important;
+    line-height: normal;
+  }
+  .dining-page .dining-select-box {
+    width: 11vw !important;
+  }
+  .dining-page .dining-select {
+    width: 9vw !important;
+    font-size: 1.1vw !important;
+  }
+  .dining-page .dining-select .font-20 {
+    font-size: 0.5vw !important;
+  }
+  .dining-page .font-60 {
+    font-size: 4vw !important;
+    line-height: 3vw !important;
+  }
+  .dining-page .responsive-container {
+    height: 52vw !important;
+  }
+  .dining-page .img-responsive-restaurant2 {
+    margin: 50px 0px -10vw 5% !important;
+  }
+  .dining-page .img-responsive-restaurant {
+    margin: 50px 0px -10vw 5% !important;
+  }
+}
 @media screen and (max-width: 1050px) {
   .responsive-restaurant {
     order: 1;
@@ -6511,7 +6598,7 @@ body {
   left: 10px !important;
 }
 .carousel-3-div .carousel-our-fan .flickity-prev-next-button.next {
-  left: 40px !important;
+  left: 40px;
 }
 .carousel-3-div .carousel-our-fan .carousel-cell {
   width: 460px;
@@ -6521,6 +6608,12 @@ body {
 }
 .carousel-3-div .carousel-our-fan .flickity-slider {
   left: 313px !important;
+}
+.carousel-3-div #special-off .carousel-cell {
+  width: 460px;
+  margin-top: 20px !important;
+  margin-bottom: 30px;
+  padding-left: 20px;
 }
 .carousel-3-div #special-off .flickity-slider {
   left: 0 !important;

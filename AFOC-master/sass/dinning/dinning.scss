@@ -1,3 +1,102 @@
+@media screen and (min-width: 2000px) {
+  
+  .carousel-our-fan{
+    .content .ribbon1, .content .ribbon2{
+      width: 1vw;
+    }
+     .flickity-prev-next-button {
+      width: 4vw !important;
+      height: 4vw !important;
+    }
+    .flickity-prev-next-button.next {
+      left: 4vw !important ;
+    }
+    .parag-in-ourfans{
+      height: auto !important;
+    }
+    .carousel-cell {
+      margin-bottom: 8vw !important;
+    }
+    .flex-row
+     {  span {
+       font-size: 1.5vw;
+     }
+       div img {
+         width: 8vw;
+       }
+       div div img {
+         width: 2vw;
+       }
+     }
+
+  }
+
+  .dining-page{
+    .font-20{
+      font-size: 1.7vw;
+    }
+  .dining-right-title  .icon-under-h{
+    width: 15vw;
+      
+    }
+    .variety-imgs img{
+      height: 40vw !important;
+    }
+    p {
+      font-size: 1.2vw !important;
+      line-height: normal;
+      
+    }
+
+    h2 {
+      font-size: 4vw;
+      line-height: normal;
+      line-height: 3vw;
+      .icon-under-h{
+        width: 10vw;
+          
+        }
+    }
+    .dining-img-style {
+      width: 15vw;
+      height: 5vw;}
+    .title-line-width {
+      width: 14vw !important;
+  }
+    .font-19 {
+      font-size: 1.2vw !important ;
+      line-height: normal; 
+    }
+  .dining-select-box {
+    width: 11vw !important;
+  }
+  .dining-select {
+
+    width: 9vw !important;
+    font-size: 1.1vw !important;
+    .font-20{
+      font-size: 0.5vw !important;
+    }
+  }
+  .font-60 {
+    font-size: 4vw !important;
+    line-height: 3vw  !important;
+  }
+  .responsive-container {
+    height: 52vw !important;
+}
+.img-responsive-restaurant2 {
+ 
+  margin: 50px 0px -10vw 5% !important;
+}
+.img-responsive-restaurant{
+  margin: 50px 0px -10vw 5% !important;
+}
+
+}
+}
+
+
 @media screen and (max-width: 1050px) {
   .responsive-restaurant {
     order: 1;
@@ -108,6 +207,8 @@
 }
 .dinning {
   background-image: url("assets/dinnig.png");
+
+
 }
 .dinning-btn {
   margin-top: 10px;

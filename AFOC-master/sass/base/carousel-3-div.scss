@@ -44,7 +44,7 @@
       left: 10px !important;
     }
     .flickity-prev-next-button.next {
-      left: 40px !important;
+      left: 40px;
     }
 
     .carousel-cell {
@@ -61,6 +61,12 @@
     }
   }
   #special-off{
+     .carousel-cell {
+      width: 460px;
+      margin-top: 20px !important;
+      margin-bottom: 30px;
+      padding-left: 20px;
+  }
 
       .flickity-slider{
       left: 0!important;
