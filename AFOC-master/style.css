@@ -1381,6 +1381,28 @@ dialog {
   margin-left: 30px;
 }
 
+@media screen and (min-width: 2000px) {
+  .ourstory .position-playgrounds {
+    border-radius: 1vw;
+  }
+  .ourstory .position-playgrounds .text-position {
+    font-size: 1.6vw;
+  }
+  .ourstory .position-playgrounds img {
+    width: 1.2vw;
+  }
+  .ourstory .story-parag {
+    font-size: 1.3vw;
+    line-height: normal;
+  }
+  .ourstory .icon-under-h {
+    width: 5vw;
+  }
+  .ourstory h2 {
+    font-size: 3vw;
+    margin-bottom: 10px;
+  }
+}
 @media screen and (min-width: 1000px) {
   .image-story-test {
     margin-top: 50px;
@@ -1565,10 +1587,12 @@ dialog {
 }
 
 .story-title {
+  text-align: center;
   width: fit-content;
 }
 
 .title2 {
+  text-align: center;
   width: fit-content;
   margin-left: 10%;
 }
