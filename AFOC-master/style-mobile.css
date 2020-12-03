@@ -27,6 +27,14 @@
   font-family: poppins-semi-bold;
   src: url(assets/font/Poppins/Poppins-SemiBold.ttf);
 }
+@media screen and (min-width: 2000px) {
+  .formul-book {
+    width: 40vw;
+    height: 40vh;
+    background-color: rgba(95, 90, 96, 0.3);
+    margin-right: 3%;
+  }
+}
 .header-book-btn {
   width: 75%;
   background-color: white;

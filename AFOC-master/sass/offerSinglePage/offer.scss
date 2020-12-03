@@ -100,6 +100,9 @@
 .flex-row ul {
   line-height: 2vw;
   font-size: 1.6vw;
+  li{
+    list-style-image: url("assets/svg/Trace2.svg");
+  }
 }
 h2 {
   font-size: 3vh;
@@ -107,7 +110,7 @@ h2 {
 .single-offer-list ul li {
   font-size: 2vw;
   line-height: 3vw;
-  list-style-image: url("assets/svg/Tracé 8474.svg");
+  list-style-image: url("assets/svg/Trace2.svg");
   margin-top: 23px;
 }
 .font-25 {
@@ -115,6 +118,28 @@ h2 {
 }
 
 
+}
+.offer-get-in-touch-box {
+
+  height: auto;
+  width: 40vw;
+  padding-bottom: 3vw;
+  .info-size {
+    font-size: 1.5vw;
+  }
+  .l-height-30 {
+    line-height: 2vw;
+  }
+
+
+ .font-25 {
+    font-size: 2.5vw;
+}
+
+}
+.margin-stand-l-r {
+
+  margin-top: 1vw;
 }
 
  }

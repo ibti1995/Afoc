@@ -492,3 +492,10 @@ ol:last-child::after {
 }
 
 
+@media screen and(min-width:2000px){
+
+  .carousel-3-div .carousel-cell {
+    width: 33% !important;
+}
+
+}
