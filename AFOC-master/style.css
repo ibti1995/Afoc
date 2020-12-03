@@ -5510,16 +5510,16 @@ body {
     font-size: 1.3vw;
   }
   .multi-rooms .multirooms-parag {
-    font-size: 1vw;
-    line-height: 4vh;
+    font-size: 1.2vw;
+    line-height: normal;
   }
   .multi-rooms h2 {
     font-size: 4vh;
     line-height: 4vh;
   }
   .multi-rooms p {
-    font-size: 1vw;
-    line-height: 2.5vh;
+    font-size: 1.2vw;
+    line-height: normal;
   }
   .multi-rooms .flex-row ul {
     font-size: 1vw;
