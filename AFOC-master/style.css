@@ -3624,6 +3624,68 @@ dialog {
   z-index: 111500;
 }
 
+@media screen and (min-width: 2000px) {
+  .meetings-and-act .meetings-menu {
+    font-size: 1.5vw;
+  }
+  .meetings-and-act .meetings-menu input[type=text] {
+    font-size: 1.5vw;
+    padding: 25px;
+    width: 13vw;
+    height: 3vw;
+    margin-top: 17px;
+  }
+  .meetings-and-act .meetings-menu input[type=number] {
+    font-size: 1.5vw;
+    width: 5vw;
+    height: 57px;
+    margin-top: 1vw;
+    padding: 1vw;
+  }
+  .meetings-and-act h2 {
+    font-size: 4vh !important;
+  }
+  .meetings-and-act .meeting-box {
+    flex-basis: 46%;
+    margin-right: -238px;
+    padding: 2% 80px 30px 3%;
+  }
+  .meetings-and-act .meeting-items .flex-column span {
+    width: 6.5vw;
+    font-size: 1vw;
+  }
+  .meetings-and-act .meeting-items .flex-column img {
+    width: 3vw;
+    height: 3vw;
+  }
+  .meetings-and-act .font-17 {
+    font-size: 1vw;
+  }
+  .meetings-and-act .font-30 {
+    font-size: 2.5vw;
+  }
+  .meetings-and-act .l-height-30 {
+    line-height: 2vw;
+  }
+  .meetings-and-act .font-60 {
+    font-size: 3vw;
+    line-height: 2vw;
+  }
+  .meetings-and-act .info-mobile {
+    flex-basis: 25%;
+  }
+  .meetings-and-act .flex-row .list-class ul {
+    font-size: 1.2vw;
+    line-height: normal;
+  }
+  .meetings-and-act .meeting-width-buttons {
+    width: unset;
+  }
+  .meetings-and-act p {
+    font-size: 1.2vw;
+    line-height: normal;
+  }
+}
 .activities {
   background-image: url("assets/activitie.png");
 }
