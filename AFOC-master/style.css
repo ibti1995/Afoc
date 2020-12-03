@@ -5606,6 +5606,10 @@ body {
   }
 }
 @media screen and (min-width: 2000px) {
+  .carousel-our-fan p {
+    font-size: 1.2vw !important;
+    line-height: normal;
+  }
   .carousel-our-fan .content .ribbon1, .carousel-our-fan .content .ribbon2 {
     width: 1vw;
   }
