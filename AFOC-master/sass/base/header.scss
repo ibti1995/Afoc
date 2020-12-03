@@ -2,6 +2,7 @@
 @media screen and (min-width: 2000px)
 {
   header {
+    padding-top:  50px;
     .logo-header{
       width: 10vw;
     }
@@ -20,6 +21,7 @@
       .small-word-header2 {
         line-height: normal;
         font-size: 2vw;
+        letter-spacing: 0.9vw;
         span {
           font-size: 2vw;
         }
