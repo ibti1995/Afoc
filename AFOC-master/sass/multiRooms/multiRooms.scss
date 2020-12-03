@@ -296,7 +296,38 @@
   margin-top: 20px;
 }
 @media screen and(min-width:2000px) {
+
   .multi-rooms {
+    .right-menu-occ {
+      margin-top: 1.2vw;
+
+  }
+  .right-menu-select {
+
+    margin-right: 1vw;
+    font-size: 1.2vw;
+    width: 3vw;
+
+    margin-left: 1vw;
+  }
+    .gold-search-btn {
+      width: 4.5vw;
+  }
+    .right-menu {
+
+      height: auto;
+      font-size: 1.5vw;
+  }
+    #multi-rooms-menu{
+      font-size: 1.5vw;
+    }
+    .offers-icon-under-h {
+      width: 5vw;
+      margin-left: 19%;
+      margin-bottom: 1vw;
+      margin-top: 0.5vw;
+
+  }
     .font-17 {
       font-size: 1.3vw;
     }
@@ -329,7 +360,8 @@
     }
 
     .flex-row ul {
-      font-size: 1vw;
+      font-size: 1.2vw;
+      line-height: normal;
     }
   }
   .icon-under-h {
@@ -359,14 +391,14 @@
     margin-bottom: 20px;
   }
   .rooms-cont {
-    width: 25vw;
+    width: 28vw;
     height: auto;
   }
   .slideshow-container {
     max-width: unset;
   }
   .rooms-parag {
-    width: 14vw;
+    width: 17vw;
   }
 
   .offers-name-title {

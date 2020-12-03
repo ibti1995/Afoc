@@ -5496,6 +5496,31 @@ body {
 }
 
 @media screen and (min-width: 2000px) {
+  .multi-rooms .right-menu-occ {
+    margin-top: 1.2vw;
+  }
+  .multi-rooms .right-menu-select {
+    margin-right: 1vw;
+    font-size: 1.2vw;
+    width: 3vw;
+    margin-left: 1vw;
+  }
+  .multi-rooms .gold-search-btn {
+    width: 4.5vw;
+  }
+  .multi-rooms .right-menu {
+    height: auto;
+    font-size: 1.5vw;
+  }
+  .multi-rooms #multi-rooms-menu {
+    font-size: 1.5vw;
+  }
+  .multi-rooms .offers-icon-under-h {
+    width: 5vw;
+    margin-left: 19%;
+    margin-bottom: 1vw;
+    margin-top: 0.5vw;
+  }
   .multi-rooms .font-17 {
     font-size: 1.3vw;
   }
@@ -5522,7 +5547,8 @@ body {
     line-height: normal;
   }
   .multi-rooms .flex-row ul {
-    font-size: 1vw;
+    font-size: 1.2vw;
+    line-height: normal;
   }
 
   .icon-under-h {
@@ -5556,7 +5582,7 @@ body {
   }
 
   .rooms-cont {
-    width: 25vw;
+    width: 28vw;
     height: auto;
   }
 
@@ -5565,7 +5591,7 @@ body {
   }
 
   .rooms-parag {
-    width: 14vw;
+    width: 17vw;
   }
 
   .offers-name-title {
