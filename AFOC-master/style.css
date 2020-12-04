@@ -964,11 +964,11 @@ a {
     line-height: 4vw;
   }
   .get-in-touch-box .title {
-    font-size: 4.5vw;
+    font-size: 3vw;
     padding-top: 2vw;
   }
   .get-in-touch-box .font-28 {
-    font-size: 2.5vw;
+    font-size: 2vw;
   }
   .get-in-touch-box .story-info-size {
     font-size: 1.5vw;
@@ -1247,8 +1247,10 @@ dialog {
 }
 
 .size60 {
-  font-size: 3vw;
+  font-size: 2.5vw;
   line-height: 2.5vw;
+  text-align: center;
+  width: fit-content;
 }
 
 .cat-slide-img {
@@ -1360,6 +1362,30 @@ dialog {
   list-style-image: url("assets/svg/single room/square.svg");
 }
 
+@media screen and (min-width: 2000px) {
+  .catering-page p {
+    font-size: 1.2vw;
+    line-height: normal;
+  }
+  .catering-page h1 {
+    font-size: 3vw;
+    line-height: 2vw;
+  }
+  .catering-page .font-40 {
+    font-size: 2.5vw;
+    line-height: 2vw;
+  }
+  .catering-page .font-25 {
+    font-size: 1.1vw;
+  }
+  .catering-page .cat-items li {
+    font-size: 1vw;
+    line-height: 2vw;
+  }
+  .catering-page .gallery-normal-screen {
+    font-size: 3vw !important;
+  }
+}
 @media screen and (min-width: 1050px) {
   .carousel-special-offers .flickity-page-dots {
     display: block !important;

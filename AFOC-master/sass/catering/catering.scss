@@ -291,7 +291,8 @@ dialog {
   margin-right: 162px;
 }
 .size60{
-  font-size: 3vw; line-height: 2.5vw;
+  font-size: 2.5vw; line-height: 2.5vw;    text-align: center;
+  width: fit-content;
 }
 .cat-slide-img{
   object-fit: cover;
@@ -392,5 +393,51 @@ dialog {
       list-style-image: url("assets/svg/single room/square.svg");
     }
   }
+}
+
+@media screen and (min-width: 2000px) {
+
+  .catering-page{
+
+
+p{
+  font-size: 1.2vw;
+  line-height: normal;
+}
+
+
+    h1 {
+      font-size: 3vw;
+    line-height: 2vw;
+  }
+  .font-40 {
+    font-size: 2.5vw;
+    line-height: 2vw;
+}
+.font-25 {
+  font-size: 1.1vw;
+}
+
+
+.cat-items{
+  li{
+    font-size: 1vw;
+    line-height: 2vw;
+  }
+}
+
+
+.gallery-normal-screen {
+  font-size: 3vw !important;
+}
+
+
+
+
+
+  }
+
+
+
 }
 
