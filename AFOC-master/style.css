@@ -5662,7 +5662,7 @@ body {
     width: 4.5vw;
   }
   .multi-rooms .gold-search-btn img {
-    width: 1vw;
+    width: 50%;
   }
   .multi-rooms .right-menu {
     height: auto;
@@ -5780,7 +5780,7 @@ body {
   .act::after {
     min-width: 33px;
     min-height: 20px;
-    bottom: -0.6vw;
+    bottom: -1vw;
   }
 
   .rooms-menu {
@@ -5789,7 +5789,7 @@ body {
   }
   .rooms-menu span img {
     height: auto;
-    width: 0.15vw;
+    width: 0.18vw;
   }
 
   .activities-img {
