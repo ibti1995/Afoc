@@ -1200,7 +1200,7 @@ dialog {
   /* On hover, add a black background color with a little bit see-through */
 }
 .slide1 .item-service {
-  height: 698px;
+  height: auto;
   margin: 66px 80px 0px 80px;
   border-radius: 15px;
 }
@@ -3905,7 +3905,8 @@ dialog {
     order: 2;
   }
 
-  .prev6, .next6 {
+  .prev6,
+.next6 {
     bottom: 35%;
   }
 
@@ -3929,9 +3930,67 @@ dialog {
 }
 
 @media screen and (min-width: 2000px) {
+  .cat-slide-img {
+    width: 32vw;
+    height: 32vw;
+  }
+
+  .slideshow-container4 .wedd-box-brital .font-19 {
+    font-size: 1.3vw;
+    margin-top: 0.8vw;
+  }
+  .slideshow-container4 .wedd-box-brital .wedd-list-elem-icon {
+    width: 1vw;
+    float: left;
+  }
+  .slideshow-container4 .wedd-box-brital .padding-top-18 {
+    height: 3vw;
+  }
+  .slideshow-container4 .wedd-box-brital .font-17 {
+    font-size: 1vw;
+  }
+
   .textact {
     font-size: 2vw;
     margin-bottom: 1.8vw;
+  }
+
+  .act-page .l-height-30 {
+    line-height: 2vw;
+  }
+  .act-page h1 {
+    font-size: 3vw;
+    line-height: 2vw;
+  }
+  .act-page h2 {
+    font-size: 3vw;
+  }
+  .act-page p {
+    font-size: 1.2vw;
+    line-height: normal;
+  }
+  .act-page .font-40 {
+    font-size: 2.5vw;
+    line-height: 2vw;
+  }
+  .act-page .activities1-box-title {
+    line-height: 2vw;
+  }
+  .act-page .activities1-box-title .padding-top-18 {
+    padding-top: 18px;
+    height: 2.5vw;
+  }
+  .act-page .activities1-box-title .padding-top-18 .activitie-icon {
+    width: 2vw;
+  }
+  .act-page .activities1-box-title .padding-top-18 .font-14 {
+    font-size: 1vw;
+  }
+  .act-page .activities1-box-title .font-30 {
+    font-size: 2vw;
+  }
+  .act-page .activities1-box-title .act-box-margin .poppins-M img {
+    width: 1.2vw;
   }
 }
 .margin-stand-l-r {
@@ -5602,6 +5661,9 @@ body {
   .multi-rooms .gold-search-btn {
     width: 4.5vw;
   }
+  .multi-rooms .gold-search-btn img {
+    width: 1vw;
+  }
   .multi-rooms .right-menu {
     height: auto;
     font-size: 1.5vw;
@@ -5633,8 +5695,8 @@ body {
     line-height: normal;
   }
   .multi-rooms h2 {
-    font-size: 4vh;
-    line-height: 4vh;
+    font-size: 3vw;
+    line-height: 2vw;
   }
   .multi-rooms p {
     font-size: 1.2vw;
@@ -5646,17 +5708,12 @@ body {
   }
 
   .icon-under-h {
-    width: 11vh;
+    width: 7vw;
   }
 
   .good-vibes-title {
-    font-size: 4vh;
-    line-height: 4vh;
-  }
-
-  .left-title {
-    font-size: 5vh;
-    line-height: 3vh;
+    font-size: 3vw;
+    line-height: 2vw;
   }
 
   .vibes-item {
@@ -5721,9 +5778,9 @@ body {
   }
 
   .act::after {
-    min-width: 30px;
-    min-height: 15px;
-    bottom: -1.5vh;
+    min-width: 33px;
+    min-height: 20px;
+    bottom: -0.6vw;
   }
 
   .rooms-menu {
@@ -5753,7 +5810,7 @@ body {
     line-height: 1.6vw;
   }
   .multi-rooms-box-title .icon-under-h {
-    width: 8vh;
+    width: 8vw;
   }
 
   .slides1 img,
@@ -5765,6 +5822,11 @@ body {
     object-fit: cover;
     height: 34vw;
     width: 50vw;
+  }
+
+  .left-title {
+    font-size: 3vw;
+    line-height: 2vw;
   }
 }
 @media screen and (min-width: 2000px) {
@@ -5792,10 +5854,10 @@ body {
     font-size: 1.5vw;
   }
   .carousel-our-fan .flex-row div img {
-    width: 8vw;
+    width: 7vw;
   }
   .carousel-our-fan .flex-row div div img {
-    width: 2vw;
+    width: 1.5vw;
   }
 
   .dining-page .font-20 {
@@ -6442,9 +6504,9 @@ body {
   }
 
   .getoffre-btn {
-    border-radius: 0.5px;
+    border-radius: 0.3vw;
     font-size: 1vw;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.5vw;
   }
 
   .gold-search-btn {

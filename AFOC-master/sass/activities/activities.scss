@@ -10,10 +10,12 @@
   align-items: center;
   margin-right: 0px !important;
 }
-.act-margin{
-  margin-right: 5% !important; margin-left: 5% !important;    margin-top: 0px!important;
+.act-margin {
+  margin-right: 5% !important;
+  margin-left: 5% !important;
+  margin-top: 0px !important;
 }
-.margin-stand-act{
+.margin-stand-act {
   margin-left: 10%;
 }
 .activitie-icon {
@@ -21,15 +23,16 @@
   float: left;
   margin: 0px 20px 0px 0px;
 }
-.act-box-margin{
-  margin-bottom: 20px; padding-top: 40px;
+.act-box-margin {
+  margin-bottom: 20px;
+  padding-top: 40px;
 }
 .act-box-title {
   margin-top: 0px !important ;
   background-color: white;
   margin-right: -125px;
   z-index: 10;
-  padding: 80px 50px 50px 50px ;
+  padding: 80px 50px 50px 50px;
 }
 .activities-img {
   flex-basis: 80%;
@@ -125,7 +128,7 @@
   margin-top: 0px;
   width: 800px;
   padding-right: 3%;
-  margin-right: -90px!important;
+  margin-right: -90px !important;
   z-index: 400;
   background-color: white;
 }
@@ -152,45 +155,115 @@
     order: 2;
     z-index: 50000 !important;
 
-         margin-right: 0px !important;
+    margin-right: 0px !important;
   }
   .act-box-title {
     margin-top: 0px !important ;
     background-color: white;
     margin-right: -125px;
     z-index: 10;
-    padding: 80px 50px 50px 50px ;
+    padding: 80px 50px 50px 50px;
     order: 2;
   }
-  .prev6, .next6 {
+  .prev6,
+  .next6 {
     bottom: 35%;
-}
+  }
   .textact {
     font-size: 20px;
     font-family: rossanova;
   }
   .prev6 {
-   right: unset;
+    right: unset;
     border-radius: 3px 0 0 3px;
-}
-.slides1{
-  img{
-    height: unset;
+  }
+  .slides1 {
+    img {
+      height: unset;
+    }
   }
 }
-
-}
-.activities1-box-title{
-  p{
+.activities1-box-title {
+  p {
     font-size: 15px;
     line-height: 25px;
   }
 }
 
+@media screen and(min-width:2000px) {
+  .cat-slide-img{
+width: 32vw;
+height: 32vw
+  }
+  .slideshow-container4 .wedd-box-brital{
 
-@media screen and(min-width:2000px){
+.font-19 {
+  font-size: 1.3vw;
+  margin-top: 0.8vw;
+}
+    .wedd-list-elem-icon {
+      width: 1vw;
+      float: left;
 
-.textact {
-  font-size: 2vw;
-margin-bottom: 1.8vw;
-}}
+
+  }
+  .padding-top-18{
+
+    height: 3vw;
+  }
+  .font-17 {
+    font-size: 1vw;
+}
+
+  }
+  .textact {
+    font-size: 2vw;
+    margin-bottom: 1.8vw;
+  }
+
+  .act-page {
+    .l-height-30 {
+      line-height: 2vw;
+    }
+    h1 {
+      font-size: 3vw;
+      line-height: 2vw;
+    }
+    h2 {
+      font-size: 3vw;
+    }
+    p {
+      font-size: 1.2vw;
+      line-height: normal;
+    }
+    .font-40 {
+      font-size: 2.5vw;
+      line-height: 2vw;
+    }
+
+    .activities1-box-title {
+      line-height: 2vw;
+      .padding-top-18 {
+        padding-top: 18px;
+        height: 2.5vw;
+        .activitie-icon {
+          width: 2vw;
+
+      }
+      .font-14 {
+        font-size: 1vw;
+    }
+    }
+      .font-30 {
+        font-size: 2vw;
+      }
+      .act-box-margin {
+        .poppins-M {
+          img {
+            width: 1.2vw;
+          }
+        }
+      }
+    }
+  }
+}
