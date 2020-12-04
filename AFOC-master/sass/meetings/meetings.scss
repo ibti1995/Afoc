@@ -198,7 +198,7 @@
   background-color: white;
   margin-right: -50px;
   z-index: 10;
-  padding: 4% 80px 30px 3%;
+  padding: 2vw;
 }
 .meeting-second-box {
   margin-top: 150px;
@@ -212,7 +212,7 @@
   background-color: white;
   margin-left: -50px;
   z-index: 10;
-  padding: 4% 80px 30px 3%;
+  padding: 2vw;
 }
 .meeting-items {
   align-items: center;
@@ -232,8 +232,10 @@
   margin-bottom: 30px;
 }
 .meeting-img {
-  border-radius: 5px;
+  border-radius: 0.5vw;
   margin-bottom: 30px;
+  width: 100%;
+  height: auto;
 }
 .list-class {
   margin-right: 80px;
@@ -276,7 +278,50 @@
   z-index: 111500;
 }
 @media screen and(min-width:2000px) {
+  .carousel-3-div .flickity-page-dots {
+    .dot {
+      width: 0.8vw !important;
+      height: 0.8vw !important;
+    }
+    .dot.is-selected {
+      width: 1vw !important;
+      height: 1vw !important;
+    }
+  }
   .meetings-and-act {
+    .search-margin {
+      margin: 24px;
+      width: 2vw;
+  }
+    .info-mobile {
+      p {
+        img {
+          width: 1.5vw;
+        }
+      }
+    }
+    .carousel-3-div {
+      .carousel-meetings-packages {
+        .carousel-cell {
+          .meeting-font-margin {
+            font-size: 1.5vw;
+          }
+          .flex-row {
+            img {
+              width: 0.5vw;
+              height: auto;
+            }
+            span {
+              font-size: 1vw;
+            }
+          }
+        }
+      }
+    }
+
+    .carousel-3-div .carousel-meetings-packages .carousel-cell {
+      width: 33% !important;
+    }
     .meetings-menu {
       font-size: 1.5vw;
       input[type="text"] {
@@ -289,10 +334,10 @@
       input[type="number"] {
         font-size: 1.5vw;
         width: 5vw;
-        height: 57px;      margin-top: 1vw;
+        height: 57px;
+        margin-top: 1vw;
         padding: 1vw;
       }
-
     }
 
     h2 {

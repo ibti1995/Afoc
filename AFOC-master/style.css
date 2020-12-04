@@ -680,7 +680,7 @@ a {
 }
 
 .font-19 {
-  font-size: 19px;
+  font-size: 1.3vw;
 }
 
 .font-20 {
@@ -1016,7 +1016,7 @@ h4 {
 
 p {
   font-size: 20px;
-  line-height: 45px;
+  line-height: normal;
 }
 
 body {
@@ -3544,7 +3544,7 @@ dialog {
   background-color: white;
   margin-right: -50px;
   z-index: 10;
-  padding: 4% 80px 30px 3%;
+  padding: 2vw;
 }
 
 .meeting-second-box {
@@ -3559,7 +3559,7 @@ dialog {
   background-color: white;
   margin-left: -50px;
   z-index: 10;
-  padding: 4% 80px 30px 3%;
+  padding: 2vw;
 }
 
 .meeting-items {
@@ -3583,8 +3583,10 @@ dialog {
 }
 
 .meeting-img {
-  border-radius: 5px;
+  border-radius: 0.5vw;
   margin-bottom: 30px;
+  width: 100%;
+  height: auto;
 }
 
 .list-class {
@@ -3625,6 +3627,35 @@ dialog {
 }
 
 @media screen and (min-width: 2000px) {
+  .carousel-3-div .flickity-page-dots .dot {
+    width: 0.8vw !important;
+    height: 0.8vw !important;
+  }
+  .carousel-3-div .flickity-page-dots .dot.is-selected {
+    width: 1vw !important;
+    height: 1vw !important;
+  }
+
+  .meetings-and-act .search-margin {
+    margin: 24px;
+    width: 2vw;
+  }
+  .meetings-and-act .info-mobile p img {
+    width: 1.5vw;
+  }
+  .meetings-and-act .carousel-3-div .carousel-meetings-packages .carousel-cell .meeting-font-margin {
+    font-size: 1.5vw;
+  }
+  .meetings-and-act .carousel-3-div .carousel-meetings-packages .carousel-cell .flex-row img {
+    width: 0.5vw;
+    height: auto;
+  }
+  .meetings-and-act .carousel-3-div .carousel-meetings-packages .carousel-cell .flex-row span {
+    font-size: 1vw;
+  }
+  .meetings-and-act .carousel-3-div .carousel-meetings-packages .carousel-cell {
+    width: 33% !important;
+  }
   .meetings-and-act .meetings-menu {
     font-size: 1.5vw;
   }
@@ -6408,6 +6439,18 @@ body {
     font-size: 1vw;
     line-height: 1vw;
     padding: 0.5vw;
+  }
+
+  .getoffre-btn {
+    border-radius: 0.5px;
+    font-size: 1vw;
+    letter-spacing: 0.5px;
+  }
+
+  .gold-search-btn {
+    border-width: 1px;
+    padding: 0.1vw;
+    width: 3.5vw;
   }
 }
 .carousel-one-in-the-midle .text-hidden {
