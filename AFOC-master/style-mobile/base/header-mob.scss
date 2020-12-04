@@ -31,7 +31,7 @@
 @media screen and (min-width: 2000px){
 .formul-book {
   width: 40vw;
-  height: 40vh;
+  height: auto;
   background-color: rgba(95, 90, 96, 0.3);
   margin-right: 3%;
 }
@@ -45,18 +45,18 @@
     background-color: white;
     color: $primary-color;
     border-radius: 3px;
-    border: none; 
+    border: none;
     padding: 15px;
     font-size: 25px;
     font-family: ressanova;
-  
+
 }
 @media screen and (min-width: 700px) {
     .header-book-btn-responsive{
         display: none;
     }
 
-  
+
   .topnav2 {
     display: none !important;
   }
@@ -76,9 +76,9 @@
     .header-book-btn-responsive{
         display: block;
         width: 100%;
-   
+
         height: 20vh;
-    
+
     }
     .formul-book {
         display: none !important;
@@ -97,24 +97,24 @@
     }
 
     .home{
-       
+
     width: 100vw !important;
     height: 100vh !important;
     background-position-y: center !important;
     background-size: cover !important;
     background-position-x: 35%;
- 
+
 
     }
     .header{
-       
+
       width: 100vw !important;
       height: 70vh !important;
       background-position-y: center !important;
       background-size: cover !important;
       background-position-x: 35%;
-   
-  
+
+
       }
     .border-top-a{
         border-top: solid;
@@ -178,15 +178,15 @@
       width: 70vw;
       float: right;
       height: 100vh;
-      
+
     z-index: 10;
 
     }
-    
+
 
     /* Style navigation menu links */
-    
+
     /* Style the hamburger menu */
- 
+
   }
 }

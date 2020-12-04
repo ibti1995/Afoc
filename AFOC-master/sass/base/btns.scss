@@ -77,20 +77,20 @@
   border-style: solid;
   text-decoration: none;
 }
-.home-white-btn{
- margin-top: 15px;
+.home-white-btn {
+  margin-top: 15px;
   background-color: transparent;
-letter-spacing: 8px;
+  letter-spacing: 8px;
   padding: 13px 60px 13px 60px;
   border-color: $primary-color;
   border-style: solid;
   text-decoration: none;
   color: $primary-color;
 }
-.story-white-btn{
+.story-white-btn {
   margin-top: 29px;
   background-color: transparent;
-letter-spacing: 6px;
+  letter-spacing: 6px;
   padding: 13px 30px 13px 30px;
   border-color: $primary-color;
   border-style: solid;
@@ -110,20 +110,17 @@ letter-spacing: 6px;
   text-decoration: none;
   margin-bottom: 10px;
 }
-.multiple-white-btn{
-
-    margin-top: 29px;
-    background-color: transparent;
-    border-width: 0.5px;
-    padding: 5px 5px 5px 5px;
-    border-color: $primary-color;
-    border-style: solid;
-    text-decoration: none;
-    margin-bottom: 10px;
-
+.multiple-white-btn {
+  margin-top: 29px;
+  background-color: transparent;
+  border-width: 0.5px;
+  padding: 5px 5px 5px 5px;
+  border-color: $primary-color;
+  border-style: solid;
+  text-decoration: none;
+  margin-bottom: 10px;
 }
-.multiple-gold-btn{
-
+.multiple-gold-btn {
   margin-top: 29px;
   background-color: $primary-color;
   border-width: 0.5px;
@@ -133,7 +130,6 @@ letter-spacing: 6px;
   text-decoration: none;
   margin-bottom: 10px;
   color: white;
-
 }
 .cat-gold-btn {
   margin-top: 29px;
@@ -186,23 +182,24 @@ letter-spacing: 6px;
   padding: 19px 39px 19px;
   width: 302px;
 }
-.single-room-buttons{
-  margin-right:50px ; margin-left: 50px ;justify-content: space-around;
+.single-room-buttons {
+  margin-right: 50px;
+  margin-left: 50px;
+  justify-content: space-around;
 }
-.wedd-offer-btn{
-margin-top: 20px;
-font-size: 16px;
-    background-color: $primary-color;
+.wedd-offer-btn {
+  margin-top: 20px;
+  font-size: 16px;
+  background-color: $primary-color;
   letter-spacing: 6px;
-    padding: 5px 100px 5px 100px;
-    border-color: $primary-color;
-    border-style: solid;
-    text-decoration: none;
-    color: white!important;
-    border-radius: 5px;
-
+  padding: 5px 100px 5px 100px;
+  border-color: $primary-color;
+  border-style: solid;
+  text-decoration: none;
+  color: white !important;
+  border-radius: 5px;
 }
-.wedd-white-btn{
+.wedd-white-btn {
   margin-top: 29px;
   background-color: transparent;
 
@@ -213,46 +210,41 @@ font-size: 16px;
   color: $primary-color;
 }
 @media screen and (max-width: 1440px) {
-  .story-white-btn{
-
+  .story-white-btn {
     padding: 13px 20px 13px 20px;
-
   }
 }
 @media screen and (max-width: 1050px) {
-  .story-white-btn{
+  .story-white-btn {
     padding: 13px 30px 13px 30px;
-
   }
 }
 @media screen and (min-width: 2000px) {
   .cat-white-btn {
-
-
-    padding:1vw;
-
+    padding: 1vw;
   }
   .cat-gold-btn {
-
     padding: 1vw;
-
   }
   .request-btn-sm {
-
     font-size: 1vw;
     line-height: 1vw;
     padding: 0.5vw;
+  }
+  .getoffre-btn {
+    border-radius: 0.3vw;
+    font-size: 1vw;
+    letter-spacing: 0.5vw;
+  }
+  .gold-search-btn {
+    border-width: 1px;
 
-}
-.getoffre-btn {
-  border-radius: 0.3vw;
-  font-size: 1vw;
-  letter-spacing: 0.5vw;
-}
-.gold-search-btn {
-  border-width: 1px;
-
-  padding: 0.1vw;
-  width: 3.5vw;
-}
+    padding: 0.1vw;
+    width: 3.5vw;
+  }
+  .story-white-btn {
+    letter-spacing: 0.35vw;
+    padding: 1.4vw;
+    font-size: 1vw;
+  }
 }

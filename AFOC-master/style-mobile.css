@@ -30,7 +30,7 @@
 @media screen and (min-width: 2000px) {
   .formul-book {
     width: 40vw;
-    height: 40vh;
+    height: auto;
     background-color: rgba(95, 90, 96, 0.3);
     margin-right: 3%;
   }

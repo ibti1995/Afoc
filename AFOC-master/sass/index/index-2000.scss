@@ -1,0 +1,196 @@
+@media screen and(min-width:2000px) {
+  .home-section {
+    h2 {
+        font-size: 3vw;
+line-height: 2vw;
+    }
+    .home-title {
+      font-size: 3vw;
+
+      line-height: 2vw;
+    }
+    .font-17 {
+      font-size: 1.2vw;
+      line-height: 2vw;
+    }
+    .box-title {
+      font-size: 3vw;
+      color: #25282a;
+      line-height: 2vw;
+    }
+
+    .home-box-style {
+      .first-box {
+        .box-parag {
+          font-size: 1.2vw;
+          line-height: normal;
+        }
+        .first-box-title {
+          font-size: 3vw;
+
+          line-height: 2vw;
+        }
+      }
+
+      .second-box {
+        .first-box-title {
+          font-size: 3vw;
+
+          line-height: 2vw;
+        }
+        .box-parag {
+          font-size: 1.2vw;
+          line-height: normal;
+        }
+      }
+    }
+    .index-box-second-parag {
+      font-size: 1.2vw;
+      line-height: 2vw;
+    }
+    .stay-elemnt div {
+      font-size: 2vw;
+    }
+    .exclu-title {
+      font-size: 3vw;
+
+      line-height: 2vw;
+      .icon-under-h {
+        width: 10vw;
+        height: 1vw;
+      }
+    }
+    .font-20 {
+      font-size: 1vw;
+    }
+
+    .poppins-20-43-70 {
+      font-size: 1.2vw;
+
+      line-height: 2vw;
+    }
+
+    .flavour-item {
+      height: fit-content;
+      .flavour-item-img {
+        height: auto;
+        width: 100%;
+      }
+
+      .flavour-item-title {
+        font-size: 2vw;
+      }
+      .flavour-item-btn {
+        font-size: 1vw;
+        letter-spacing: 0.5vw;
+        padding: 1vw;
+      }
+      .flavour-item-txt {
+        font-size: 1.2vw;
+        line-height: 2vw;
+      }
+    }
+
+    .home-celebrate-margin {
+      .poppins-17-43 {
+        font-size: 1.2vw;
+        line-height: 2vw;
+      }
+      .font-55 {
+        font-size: 2.5vw;
+      }
+      .home-white-btn {
+        font-size: 1vw;
+        padding: 1vw;
+      }
+    }
+
+    .home-last-parag {
+      font-size: 1.2vw;
+      line-height: 2vw;
+      padding: 2vw;
+    }
+
+    .home-last-sec {
+      font-size: 2vw;
+      line-height: 2vw;
+    }
+    .font-14 {
+      font-size: 1vw;
+    }
+    .gallery-normal-screen {
+      font-size: 3vw !important;
+      line-height: 2vw;
+    }
+
+    .exclu-item {
+      .exclu-item-btn {
+        font-size: 0.5vw;
+        letter-spacing: 0.4vw;
+        padding: 1vw;
+      }
+      .exclu-item-img {
+        width: 60%;
+        height: auto;
+      }
+      .exclu-item-title {
+        font-size: 2vw;
+      }
+      .top-right-prop {
+        font-size: 1vw;
+      }
+      .exclu-item-txt {
+        font-size: 1.2vw;
+
+        padding: 1vw;
+        line-height: 2vw;
+      }
+    }
+  }
+
+  .index-form {
+    .plus-span img {
+        height: 1vw;
+    }
+    .minus-span img{
+    height: 1vw;
+    }
+    .font-12 {
+        font-size: 0.7vw;
+    }
+    .title {
+      font-size: 1vw;
+      height: 2vw;
+      margin-bottom: 3vw;
+    }
+    .period {
+
+      .date-inputs {
+        width: 10vw;
+        height: 3vw;
+     .date-input {
+        font-size:0.8vw ;
+        }
+      }
+    }
+    .persons {
+
+      margin:1vw;
+    }
+    .elemnt-input-head {
+margin-top: 1vw;
+        height: 3vw;
+        width: 10vw;
+        padding: 1vw;
+
+    }
+    .font-17 {
+        font-size: 1vw;
+    }
+    .check-btn {
+padding: 1vw;
+        width: fit-content;
+
+    }
+  }
+}
