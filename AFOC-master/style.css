@@ -2258,7 +2258,7 @@ dialog {
 /* Hide the images by default */
 .mySlides4 {
   display: none;
-  width: fit-content;
+  width: 100%;
 }
 
 /* Next & previous buttons */
@@ -2369,7 +2369,7 @@ dialog {
 /* Hide the images by default */
 .mySlides5 {
   display: none;
-  width: fit-content;
+  width: 100%;
 }
 
 /* Next & previous buttons */
@@ -2691,6 +2691,41 @@ dialog {
   bottom: -25px;
 }
 
+@media screen and (min-width: 2000px) {
+  .offers-page .offers-cont {
+    width: 28vw;
+    height: auto;
+  }
+  .offers-page .offers-name-parag {
+    line-height: 1.5vw;
+    font-size: 1vw !important;
+    width: 100%;
+  }
+  .offers-page .offers-margin-left-64-9 {
+    width: 18vw;
+  }
+  .offers-page .offersmenu {
+    width: 52vw;
+    height: auto;
+  }
+  .offers-page .flex-row ul {
+    font-size: 1.5vw;
+  }
+  .offers-page .width20 {
+    height: 259px;
+    width: 100%;
+  }
+  .offers-page .width20 {
+    height: 14.2vw;
+  }
+  .offers-page .font-40 {
+    font-size: 3vw;
+    line-height: 2vw;
+  }
+  .offers-page h2 {
+    font-size: 3vw;
+  }
+}
 @media screen and (max-width: 1760px) {
   .display-inputs2 {
     display: flex;
