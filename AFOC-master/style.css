@@ -2889,7 +2889,7 @@ dialog {
 }
 
 .vibes-item {
-  margin-right: 7%;
+  margin-right: 5%;
   width: 320px;
 }
 .vibes-item .sub-title {
@@ -7154,7 +7154,7 @@ body {
   left: 313px !important;
 }
 .carousel-3-div #special-off .carousel-cell {
-  width: 460px;
+  width: 400px;
   margin-top: 20px !important;
   margin-bottom: 30px;
   padding-left: 20px;

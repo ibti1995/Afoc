@@ -932,7 +932,7 @@
   .dining-gold-btn {
     margin-top: 0px;
     margin-right: 30px;
-    width: 250px;
+    width: 100%;
     padding: 10px 10px 10px 10px;
     letter-spacing: 5px;
   }
@@ -1278,7 +1278,7 @@
   }
 
   .carousel-3-div .carousels2 .carousel-cell {
-    width: 360px !important;
+    width: 460px !important;
   }
 }
 @media only screen and (max-width: 700px) {
@@ -1553,6 +1553,14 @@
   }
 }
 @media only screen and (max-width: 700px) {
+  .single-room-page #single-room-caroussel2 .carousels2 .flickity-viewport {
+    height: 730px !important;
+  }
+  .single-room-page .slides-story2 {
+    position: relative;
+    height: 670px !important;
+  }
+
   #head-single-room {
     display: none;
   }
