@@ -46,10 +46,10 @@
   header .title-header-gold .small-word-header2 {
     line-height: normal;
     font-size: 2vw;
-    letter-spacing: 0.9vw;
+    letter-spacing: 0.6vw;
   }
   header .title-header-gold .small-word-header2 span {
-    font-size: 2vw;
+    font-size: 1vw;
   }
   header .title-header-gold .big-word-header2 {
     line-height: normal;
@@ -1034,7 +1034,7 @@ body {
 }
 
 .catering {
-  background-image: url("assets/catering.png");
+  background-image: url("assets/Groupe 2252.png");
 }
 
 .our-service-btn {
@@ -2053,6 +2053,20 @@ dialog {
   .wedding-packages .flickity-page-dots {
     display: block !important;
   }
+
+  .wedding-page .wedd-box span {
+    font-size: 0.7vw;
+    margin-right: 1vw;
+  }
+  .wedding-page .wedd-box span img {
+    width: 2.5vw;
+  }
+  .wedding-page .padding-2v {
+    padding: 1.2vh;
+  }
+  .wedding-page .font-20 {
+    font-size: 1vw;
+  }
 }
 @media screen and (max-width: 1050px) {
   .demo3 {
@@ -2485,6 +2499,44 @@ dialog {
   margin-bottom: 20px;
 }
 
+@media screen and (min-width: 2000px) {
+  .wedding-page p {
+    font-size: 1.2vw;
+  }
+  .wedding-page .l-height-30 {
+    line-height: 2vw;
+  }
+  .wedding-page h1 {
+    font-size: 3vw;
+  }
+  .wedding-page .mySlides5 {
+    width: auto;
+  }
+  .wedding-page .wedd-sec2 {
+    flex-basis: 49%;
+    margin-right: -130px;
+  }
+  .wedding-page .wedd-sec2 .wedd-title-box {
+    font-size: 2vw;
+    line-height: 2vw;
+  }
+  .wedding-page .wedd-sec2 .wedd-box span {
+    font-size: 1.2vw;
+  }
+  .wedding-page .wedd-sec2 .wedd-box span img {
+    width: 3vw;
+  }
+  .wedding-page .wedd-white-btn {
+    padding: 1vw;
+    font-size: 1vw;
+  }
+  .wedding-page .padding-2v {
+    padding: 1.2vh;
+  }
+  .wedding-page .font-19 {
+    font-size: 1vw;
+  }
+}
 .offers {
   background-image: url("assets/offers.png");
 }
@@ -4566,7 +4618,7 @@ dialog {
   }
   .story-R-cass .carousel-cell {
     width: 35%;
-    height: 370px;
+    height: auto;
     margin-right: 10px;
     border-radius: 5px;
   }
@@ -4580,7 +4632,7 @@ dialog {
   }
   .story-V-cass .carousel-cell {
     width: 35%;
-    height: 370px;
+    height: auto;
     margin-right: 10px;
     border-radius: 5px;
   }

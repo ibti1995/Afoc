@@ -1,41 +1,50 @@
-@media screen and (min-width: 2000px ){
-
+@media screen and (min-width: 2000px) {
 }
 
-
-.exclusive-title-margin{
+.exclusive-title-margin {
   margin-top: 50px;
-
 }
 
 @media screen and (min-width: 1050px) {
-.wedding-packages {
- .flickity-page-dots {
-   display: block !important;
- }
+  .wedding-packages {
+    .flickity-page-dots {
+      display: block !important;
+    }
+  }
 
-}
+
+  .wedding-page{
+    .wedd-box span{
+      font-size:0.7vw ;
+      margin-right: 1vw;
+      img{
+        width: 2.5vw;
+      }
+
+    }   .padding-2v {
+      padding: 1.2vh;
+  }
+    .font-20{
+      font-size: 1vw;
+    }
+  }
 }
 @media screen and (max-width: 1050px) {
-
-
   .demo3 {
-
     height: 40px !important;
-}
+  }
   .responsive-box-wedding {
     margin-right: 3% !important;
   }
   .wedd-ballroom-img {
     flex-basis: 30%;
     order: 1;
-}
-.wedd-sec2 {
-  margin-top: -50px !important;
-  order: 2;
-  width: 80%;
-
-}
+  }
+  .wedd-sec2 {
+    margin-top: -50px !important;
+    order: 2;
+    width: 80%;
+  }
 }
 
 .weddings-text-title {
@@ -141,7 +150,6 @@
   position: absolute;
   top: 34%;
 
-
   //padding: 10px;
   width: 70px;
   height: 72px;
@@ -230,8 +238,6 @@
 .next4 {
   cursor: pointer;
 
-
-
   margin-top: -22px;
   padding: 16px;
 
@@ -247,8 +253,7 @@
   border-radius: 50%;
   display: flex;
   justify-content: center;
-  align-items: center ;
-
+  align-items: center;
 
   color: $primary-color;
   font-weight: bold;
@@ -259,7 +264,7 @@
 /* Position the "next button" to the right */
 .next4 {
   right: 0;
-//  border-radius: 3px 0 0 3px;
+  //  border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -399,7 +404,7 @@
 }
 .wedd-sec2 {
   flex-basis: 40%;
-  margin-top: 0px ;
+  margin-top: 0px;
   background-color: white;
   margin-right: -50px;
   z-index: 10;
@@ -416,7 +421,6 @@
   }
 }
 .wedd-items {
-
   padding-right: 3% !important;
   padding-left: 3%;
   ul {
@@ -428,35 +432,35 @@
   }
 }
 .img-items {
-  width: 100%;height: auto;
-  border-bottom-left-radius:5px ;
+  width: 100%;
+  height: auto;
+  border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
-
 }
 .wedd-right-img {
   flex-basis: 40%;
   align-self: center;
 }
-.wedd-slide-title{
-  font-size: 32px; margin-bottom: 30px;
+.wedd-slide-title {
+  font-size: 32px;
+  margin-bottom: 30px;
   color: $primary-color;
 }
-.wedd-slide-img{
-  border-radius: 5px; margin-bottom: 30px;
-
+.wedd-slide-img {
+  border-radius: 5px;
+  margin-bottom: 30px;
 }
-.wedd-padding{
-  padding-right: 3% !important; padding-left: 3%;
+.wedd-padding {
+  padding-right: 3% !important;
+  padding-left: 3%;
 }
-.wedd-parag{
-font-size: 19px;
-margin-top: 20px;
-line-height: 25px !important;
-width: 90%;
-
-
+.wedd-parag {
+  font-size: 19px;
+  margin-top: 20px;
+  line-height: 25px !important;
+  width: 90%;
 }
-.gallery-title{
+.gallery-title {
   font-family: rossanova;
   color: $primary-color;
   text-align: center;
@@ -464,5 +468,69 @@ width: 90%;
   font-size: 40px;
   margin-top: 60px;
   margin-bottom: 20px;
+}
 
+@media screen and(min-width:2000px) {
+  .wedding-page {
+    p {
+      font-size: 1.2vw;
+    }
+    .l-height-30 {
+      line-height: 2vw;
+    }
+    h1 {
+      font-size: 3vw;
+    }
+
+
+    .mySlides5 {
+
+      width: auto;
+  }
+
+  .wedd-sec2 {
+   flex-basis: 49%;
+   margin-right: -130px;
+    .wedd-title-box {
+      font-size: 2vw;
+      line-height: 2vw;
+
+  }
+  .wedd-box {
+    span{
+      font-size:1.2vw ;
+      img{
+        width: 3vw;
+      }
+    }
+    }
+  }
+.wedd-white-btn {
+
+  padding:1vw;
+  font-size: 1vw;
+
+}
+.padding-2v {
+  padding: 1.2vh;
+}
+
+.font-19 {
+  font-size: 1vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }
 }
