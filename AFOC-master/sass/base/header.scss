@@ -12,7 +12,16 @@
         font-size: 20px;
       }
     }
-    .ul-menu-home{
+    .single-room .ul-menu-home{
+
+      a {
+        font-size:  1vw;
+      }
+      li{
+        margin-left: 1vw;
+      }
+
+    } .ul-menu-home{
       a {
         font-size:  1.5vw;
       }
@@ -238,6 +247,25 @@ li{
   display: inline;
 }
 }
+
+.single-room{
+  .ul-menu-home{
+    list-style-type: none;
+      margin-top: 25px;
+      margin-bottom: 40px;
+    padding-left: 0px;
+    margin-right: 2vw;
+    li{
+      margin-left: 1vw;
+      display: inline;
+    }
+    }
+
+}
+
+
+
+
 .bottom-header-container{
 justify-content: space-between;
  flex-wrap: wrap;

@@ -1,0 +1,112 @@
+@media screen and(min-width:2000px) {
+  .first-menu {
+    img {
+      width: 5vw !important;
+    }
+  }
+  .rooms-menu-bo1 {
+    height: 3vw;
+    margin-left: 5vw !important;
+  }
+
+  #selection-menu {
+    ul {
+      li {
+        input {
+          font-size: 0.6vw;
+        }
+        select {
+          font-size: 0.6vw;
+        }
+      }
+    }
+  }
+
+  .single-room-page {
+    .font-60 {
+      font-size: 2.5vw;
+      line-height: 2vw;
+    }
+    .font-20 {
+      font-size: 1.2vw;
+    }
+    .font-25 {
+      font-size: 1vw;
+    }
+
+    .font-30 {
+      font-size: 2vw;
+    }
+
+    #amenities1,
+    #amenities2 {
+      img {
+        width: 2.5vw;
+      }
+    }
+
+    .flex-basis-45 {
+      span {
+        font-size: 1.2vw;
+      }
+      img {
+        width: 1.5vw;
+      }
+    }
+
+    .carousel-3-div .carousels2 .carousel-cell {
+      width: 30% !important;
+      .radius-5 {
+        width: 100%;
+      }
+      .single-room-title {
+        font-size: 2vw !important;
+        line-height: 2vw;
+      }
+    }
+
+    .slides-story2 {
+      position: relative;
+      height: 42vw !important;
+    }
+    .multirooms-parag {
+      font-size: 1.2vw;
+      line-height: 2vw;
+    }
+    .single-room-second-menu {
+      width: 20vw;
+      height: 4vw;
+      border-radius: 2vw;
+    }
+
+    h2 {
+      font-size: 2.5vw;
+      line-height: 2vw;
+    }
+    .font-12 {
+      font-size: 1.2vw;
+    }
+    .single-room-buttons {
+      margin-bottom: 2vw;
+    }
+    .ourfans-box {
+      .justify-centent-center {
+        .margin-right-25 {
+          margin-right: 2vw;
+        }
+        span {
+          img {
+            width: 2vw;
+          }
+        }
+      }
+    }
+
+        .flex-row ul {
+            font-size: 1.2vw !important;
+            line-height: 2vw;
+        }
+
+
+  }
+}

@@ -40,6 +40,12 @@
   header .custom-select-language-index .item-select-language-index {
     font-size: 20px;
   }
+  header .single-room .ul-menu-home a {
+    font-size: 1vw;
+  }
+  header .single-room .ul-menu-home li {
+    margin-left: 1vw;
+  }
   header .ul-menu-home a {
     font-size: 1.5vw;
   }
@@ -226,6 +232,18 @@
   }
   .ul-menu-home li {
     margin-left: 40px;
+    display: inline;
+  }
+
+  .single-room .ul-menu-home {
+    list-style-type: none;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    padding-left: 0px;
+    margin-right: 2vw;
+  }
+  .single-room .ul-menu-home li {
+    margin-left: 1vw;
     display: inline;
   }
 
@@ -7198,9 +7216,6 @@ body {
   margin-top: 30px !important;
   padding-left: 20px;
 }
-.carousel-3-div .carousels2 .flickity-viewport {
-  height: 730px !important;
-}
 .carousel-3-div .carousels3 .carousel-cell {
   width: 460px !important;
   margin-top: 30px !important;
@@ -7795,6 +7810,90 @@ ol:last-child::after {
   .index-form .check-btn {
     padding: 1vw;
     width: fit-content;
+  }
+}
+@media screen and (min-width: 2000px) {
+  .first-menu img {
+    width: 5vw !important;
+  }
+
+  .rooms-menu-bo1 {
+    height: 3vw;
+    margin-left: 5vw !important;
+  }
+
+  #selection-menu ul li input {
+    font-size: 0.6vw;
+  }
+  #selection-menu ul li select {
+    font-size: 0.6vw;
+  }
+
+  .single-room-page .font-60 {
+    font-size: 2.5vw;
+    line-height: 2vw;
+  }
+  .single-room-page .font-20 {
+    font-size: 1.2vw;
+  }
+  .single-room-page .font-25 {
+    font-size: 1vw;
+  }
+  .single-room-page .font-30 {
+    font-size: 2vw;
+  }
+  .single-room-page #amenities1 img,
+.single-room-page #amenities2 img {
+    width: 2.5vw;
+  }
+  .single-room-page .flex-basis-45 span {
+    font-size: 1.2vw;
+  }
+  .single-room-page .flex-basis-45 img {
+    width: 1.5vw;
+  }
+  .single-room-page .carousel-3-div .carousels2 .carousel-cell {
+    width: 30% !important;
+  }
+  .single-room-page .carousel-3-div .carousels2 .carousel-cell .radius-5 {
+    width: 100%;
+  }
+  .single-room-page .carousel-3-div .carousels2 .carousel-cell .single-room-title {
+    font-size: 2vw !important;
+    line-height: 2vw;
+  }
+  .single-room-page .slides-story2 {
+    position: relative;
+    height: 42vw !important;
+  }
+  .single-room-page .multirooms-parag {
+    font-size: 1.2vw;
+    line-height: 2vw;
+  }
+  .single-room-page .single-room-second-menu {
+    width: 20vw;
+    height: 4vw;
+    border-radius: 2vw;
+  }
+  .single-room-page h2 {
+    font-size: 2.5vw;
+    line-height: 2vw;
+  }
+  .single-room-page .font-12 {
+    font-size: 1.2vw;
+  }
+  .single-room-page .single-room-buttons {
+    margin-bottom: 2vw;
+  }
+  .single-room-page .ourfans-box .justify-centent-center .margin-right-25 {
+    margin-right: 2vw;
+  }
+  .single-room-page .ourfans-box .justify-centent-center span img {
+    width: 2vw;
+  }
+  .single-room-page .flex-row ul {
+    font-size: 1.2vw !important;
+    line-height: 2vw;
   }
 }
 
