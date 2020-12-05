@@ -2502,6 +2502,7 @@ dialog {
 @media screen and (min-width: 2000px) {
   .wedding-page p {
     font-size: 1.2vw;
+    line-height: normal !important;
   }
   .wedding-page .l-height-30 {
     line-height: 2vw;
@@ -2535,6 +2536,34 @@ dialog {
   }
   .wedding-page .font-19 {
     font-size: 1vw;
+  }
+  .wedding-page .font-40 {
+    font-size: 2vw;
+  }
+  .wedding-page .flex-row ul {
+    font-size: 1.2vw;
+    line-height: 2vw;
+  }
+  .wedding-page .wedd-slide-title {
+    font-size: 1.6vw;
+    line-height: 1vw;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+  }
+  .wedding-page .carousel-3-div .carousel-meetings-packages .carousel-cell {
+    width: 30% !important;
+  }
+  .wedding-page .carousel-3-div .carousel-meetings-packages .carousel-cell .flex-row ul {
+    font-size: 1vw;
+    line-height: 2vw;
+  }
+  .wedding-page .wedd-slide-img {
+    border-radius: 0.5vw;
+    width: 100%;
+  }
+  .wedding-page .wedd-offer-btn {
+    font-size: 1vw;
+    border-radius: 0.5vw;
   }
 }
 .offers {

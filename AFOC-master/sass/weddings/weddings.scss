@@ -474,6 +474,7 @@
   .wedding-page {
     p {
       font-size: 1.2vw;
+      line-height: normal !important;
     }
     .l-height-30 {
       line-height: 2vw;
@@ -519,13 +520,40 @@
   font-size: 1vw;
 }
 
+.font-40 {
+  font-size: 2vw;
+
+}
+.flex-row ul {
+  font-size: 1.2vw;
+  line-height: 2vw;
+}
+.wedd-slide-title {
+  font-size: 1.6vw;
+  line-height: 1vw;
+  margin-bottom: 2vw;
+  margin-top: 2vw;
+}
+.carousel-3-div .carousel-meetings-packages .carousel-cell {
+  width: 30% !important;
+.flex-row ul {
+    font-size: 1vw;
+    line-height: 2vw;
+}
+}
+.wedd-slide-img {
+  border-radius: 0.5vw;
+
+  width: 100%;
+}
+
+.wedd-offer-btn {
+
+  font-size: 1vw;
+border-radius: 0.5vw;
 
 
-
-
-
-
-
+}
 
 
 
