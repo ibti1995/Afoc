@@ -2,7 +2,9 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style.css" /> 
+     <link rel="stylesheet" href="./dtsel.css" />
+
     <title>Single Room Page </title>
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -74,9 +76,8 @@
 
                 <div id="selection-menu" >
                     <ul>
-                        <li> <input class="select-menu-fixed" type="date"></li>
-
-                        <li> <input class="select-menu-fixed" type="date"></li>
+                        <li >  <input class="select-menu-fixed datepicker-input" type="text" placeholder="17-dec" name="datePicker7"></li>
+                        <li >  <input class="select-menu-fixed datepicker-input" type="text" placeholder="17-dec" name="datePicker8"></li>
                         <li class="vertical"></li>
                         <li>
                             <select class=" select-menu-fixed gray" name="rooms" id="select-rooms">
@@ -224,9 +225,8 @@
 
             <div id="selection-menu" >
                 <ul>
-                    <li> <input class="select-menu-fixed" type="date"></li>
-
-                    <li> <input class="select-menu-fixed" type="date"></li>
+                    <li >  <input class="select-menu-fixed datepicker-input" type="text" placeholder="17-dec" name="datePicker9"></li>
+                    <li >  <input class="select-menu-fixed datepicker-input" type="text" placeholder="17-dec" name="datePicker10"></li>
                     <li class="vertical"></li>
                     <li>
                         <select class=" select-menu-fixed  black" name="rooms" id="select-rooms">
@@ -2016,6 +2016,25 @@
     <!-- <script src="js/ourfans.js"></script> -->
 
     <script src="js/type-rooms.js"></script>
+    <script src="js/datepicker/dtsel.js"></script>
+  <script>
+        instance1 = new dtsel.DTS('input[name="datePicker7"]', {
+      direction: 'top',
+      dateFormat: "yyyy-mm-dd",
+    });
+    instance1 = new dtsel.DTS('input[name="datePicker8"]', {
+      direction: 'top',
+      dateFormat: "yyyy-MM-dd",
+    });
+    instance1 = new dtsel.DTS('input[name="datePicker9"]', {
+      direction: 'top',
+      dateFormat: "yyyy-mm-dd",
+    });
+    instance1 = new dtsel.DTS('input[name="datePicker10"]', {
+      direction: 'top',
+      dateFormat: "yyyy-MM-dd",
+    });
+  </script>
     <script>function myFunction(x) {
 
             var x = document.getElementById("myLinks");
