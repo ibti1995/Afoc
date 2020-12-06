@@ -1,12 +1,16 @@
 
 @media only screen and (max-width: 700px) {
     .single-room-page {
+        .single-room-title {
+
+            margin-bottom: 0;
+        }
     #single-room-caroussel2 .carousels2 .flickity-viewport {
         height: 730px !important;
     }
     .slides-story2 {
         position: relative;
-        height: 670px !important;
+        height: 600px !important;
     }
     }
     #head-single-room{
