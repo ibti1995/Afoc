@@ -59,7 +59,7 @@
 
   }
   .wedd-slide-img {
-    border-radius: 0px;
+    border-radius: 5px;
     margin-bottom: 30px;
     width: 100%;
   }
@@ -87,6 +87,9 @@
 
       span{
         font-size: 8px !important;
+        img{
+          width: 22px;
+        }
     }
     }
 

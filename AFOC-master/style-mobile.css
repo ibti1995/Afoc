@@ -684,7 +684,7 @@
     margin-bottom: 5px;
   }
   .home-section .carousel3 div {
-    height: 350px !important;
+    height: 370px !important;
   }
 
   .carousel3 div {
@@ -733,7 +733,7 @@
     padding: 10px 10px 10px 10px;
   }
   .dining-box-padding h3 {
-    font-size: 17px !important;
+    font-size: 22px !important;
   }
   .dining-box-padding li {
     font-size: 11px !important;
@@ -863,7 +863,7 @@
   }
 
   .wedd-slide-img {
-    border-radius: 0px;
+    border-radius: 5px;
     margin-bottom: 30px;
     width: 100%;
   }
@@ -891,6 +891,9 @@
   }
   .wedd-sec2 .wedd-box span {
     font-size: 8px !important;
+  }
+  .wedd-sec2 .wedd-box span img {
+    width: 22px;
   }
 
   .prev5,
@@ -927,6 +930,7 @@
     font-size: 12px;
     letter-spacing: 6px;
     padding: 2% 10% 2% 10%;
+    width: 100%;
   }
 
   .dining-gold-btn {
@@ -1006,6 +1010,11 @@
   h2 {
     font-size: 32px;
     font-weight: unset !important;
+    margin-bottom: 0px;
+  }
+
+  .carousel-cell ul li {
+    list-style-image: url("assets/svg/single room/square1.svg");
   }
 
   .adr {
@@ -1327,6 +1336,13 @@
   .cat-slide-img {
     height: auto;
   }
+
+  .catering-page .slide1 .prev4, .catering-page .slide1 .next4 {
+    top: 29%;
+  }
+  .catering-page .slide1 .next4 {
+    right: 4;
+  }
 }
 @media screen and (max-width: 700px) {
   .offer-get-in-touch {
@@ -1347,6 +1363,7 @@
     margin-bottom: 0px;
     margin-left: 16px;
     margin-top: 15px;
+    line-height: 15px;
   }
 
   .slides-box {
@@ -1443,6 +1460,10 @@
   }
 }
 @media only screen and (max-width: 700px) {
+  .multi-rooms .offers-icon-under-h {
+    margin-left: 10px;
+  }
+
   .no-margin-mobile {
     margin-right: 0px !important;
     margin-left: 0px !important;
@@ -1451,6 +1472,7 @@
   .margin-mobile-stand {
     margin-right: 4% !important;
     margin-left: 4% !important;
+    line-height: 16px;
   }
 
   .carousel-multi-rooms .carousel-cell {
@@ -1459,7 +1481,7 @@
 
   .rooms-cont {
     width: 310px;
-    height: 380px;
+    height: auto;
   }
 
   .single-room-box {
@@ -1477,7 +1499,7 @@
   .rooms-parag {
     margin-left: 20px;
     line-height: 20px;
-    font-size: 12px;
+    font-size: 11px;
     width: 185px;
     margin-top: 0px;
   }
@@ -1524,21 +1546,29 @@
     margin: 0 2px;
   }
 }
+@media only screen and (max-width: 425px) {
+  .carousel-3-div #special-off .carousel-cell {
+    width: 100%;
+  }
+}
 @media only screen and (max-width: 700px) {
   .activities1-box-title {
-    padding-bottom: 79px;
-    padding-left: 5px;
+    padding-bottom: 5vw;
+    padding-left: 5vw;
     line-height: 30px;
     margin-top: -40px;
     width: 95%;
-    padding-right: 2px;
+    padding-right: 5vw;
     order: 2;
     height: auto;
+  }
+  .activities1-box-title .font-30 {
+    font-size: 25px;
   }
 
   .slides1 {
     display: none;
-    width: 320px;
+    width: 100%;
   }
 
   .prev6,
@@ -1550,6 +1580,24 @@
     left: 0px;
     right: unset;
     border-radius: 3px 0 0 3px;
+  }
+
+  .act-page .slide1 .prev4, .act-page .slide1 .next4 {
+    top: 32%;
+  }
+  .act-page .sub-title {
+    margin-bottom: -37px;
+  }
+  .act-page .cat-slide-img {
+    height: 100vw;
+  }
+  .act-page .wedd-box-brital {
+    line-height: 20px;
+    margin-top: 10px;
+  }
+  .act-page .wedd-list-elem-icon {
+    width: 11px;
+    margin-bottom: 19px;
   }
 }
 @media only screen and (max-width: 700px) {
@@ -1609,6 +1657,34 @@
   }
 }
 @media only screen and (max-width: 700px) {
+  .icons img {
+    width: 22px;
+    height: 26px;
+  }
+
+  .getoffre-btn {
+    font-size: 12px;
+  }
+
+  .meetings-and-act .carousel-3-div .carousel-meetings-packages .ourfans-box {
+    padding: 25px;
+  }
+  .meetings-and-act .padding-top-50 {
+    padding-top: 10px;
+  }
+  .meetings-and-act .margin-right-25 {
+    margin-right: 15px;
+    margin-bottom: 12px;
+    margin-top: 3px;
+  }
+  .meetings-and-act .cat-white-btn {
+    margin-top: 11px;
+    padding: 12px 0px 12px 0px;
+  }
+  .meetings-and-act .meeting-width-buttons {
+    width: 188px;
+  }
+
   #slide1meeting .prev-meeting,
 #slide3meeting .prev-meeting {
     right: unset;
@@ -1624,7 +1700,7 @@
   }
 
   .info-mobile p {
-    line-height: 50px !important;
+    line-height: 30px !important;
   }
   .info-mobile .meeting-width-buttons {
     width: -webkit-fill-available;
@@ -1634,19 +1710,7 @@
   }
 
   .carousel-meetings-packages span {
-    font-size: 18px !important;
-  }
-  .carousel-meetings-packages .order-title-mobile1 {
-    order: 1;
-  }
-  .carousel-meetings-packages .order-title-mobile2 {
-    order: 2;
-  }
-  .carousel-meetings-packages .order-title-mobile3 {
-    order: 3;
-  }
-  .carousel-meetings-packages .order-title-mobile4 {
-    order: 4;
+    font-size: 12px !important;
   }
 
   .meeting-font-margin {
@@ -1655,9 +1719,8 @@
   }
 
   .meeting-img {
-    width: -webkit-fill-available;
-    margin: -30px -30px 20px -30px;
-    border-radius: 0px;
+    width: 100%;
+    border-radius: 5px;
   }
 
   .ourfans-box .flex-row span {
@@ -1688,7 +1751,7 @@
   }
 
   .meeting-second-box {
-    margin-top: 50px;
+    margin-top: 10px;
     margin-bottom: 10px;
     padding-bottom: 50px;
   }
@@ -1748,6 +1811,16 @@
   margin-right: 5%;
 }
 
+@media only screen and (max-width: 425px) {
+  .carousel-3-div .carousel-meetings-packages .carousel-cell {
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .meetings-and-act .margin-right-25 {
+    margin-top: 0px;
+  }
+}
 @media screen and (max-width: 700px) {
   .carousel-2-div .carousel-exclu .flickity-viewport {
     height: 228px !important;

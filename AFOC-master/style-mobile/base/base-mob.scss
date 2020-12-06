@@ -3,8 +3,11 @@
   h2 {
     font-size: 32px;
     font-weight: unset !important;
+    margin-bottom: 0px;
 }
-
+.carousel-cell ul li {
+  list-style-image: url("assets/svg/single room/square1.svg");
+}
   .adr {
     flex-basis: 39%;
     margin-bottom: 23px;

@@ -1,4 +1,10 @@
 @media only screen and (max-width: 700px) {
+  .multi-rooms{
+    .offers-icon-under-h {
+      margin-left: 10px;
+  }
+  }
+
   .no-margin-mobile{
     margin-right: 0px !important ;
     margin-left: 0px !important ;
@@ -6,6 +12,7 @@
   .margin-mobile-stand{
     margin-right: 4% !important ;
     margin-left: 4% !important ;
+    line-height: 16px;
   }
   .carousel-multi-rooms{
     .carousel-cell{
@@ -14,7 +21,7 @@
   }
   .rooms-cont {
     width: 310px;
-    height: 380px;
+    height: auto;
   }
   .single-room-box {
     display: none;
@@ -28,7 +35,7 @@
   .rooms-parag {
     margin-left: 20px;
     line-height: 20px;
-    font-size: 12px;
+    font-size: 11px;
     width: 185px;
     margin-top: 0px;
   }
@@ -80,4 +87,13 @@
       margin: 0 2px;
     }
 }
+}
+
+
+@media only screen and (max-width: 425px) {
+  .carousel-3-div #special-off .carousel-cell {
+    width: 100%;
+}
+
+
 }

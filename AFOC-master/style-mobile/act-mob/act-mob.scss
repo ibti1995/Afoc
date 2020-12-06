@@ -1,29 +1,53 @@
 @media only screen and (max-width: 700px) {
-    .activities1-box-title {
-        padding-bottom: 79px;
-        padding-left: 5px;
-        line-height: 30px;
-        margin-top: -40px;
-        width: 95%;
-        padding-right: 2px;
-        order: 2;
-        height: auto;
-
+  .activities1-box-title {
+    padding-bottom: 5vw;
+    padding-left: 5vw;
+    line-height: 30px;
+    margin-top: -40px;
+    width: 95%;
+    padding-right: 5vw;
+    order: 2;
+    height: auto;
+    .font-30 {
+      font-size: 25px;
     }
-    .slides1 {
-        display: none;
-        width: 320px;
-      }
-      .prev6,
-.next6 {
-
-  bottom: 20%;
-
-}
-.prev6 {
+  }
+  .slides1 {
+    display: none;
+    width: 100%;
+  }
+  .prev6,
+  .next6 {
+    bottom: 20%;
+  }
+  .prev6 {
     left: 0px;
-right: unset;
+    right: unset;
     border-radius: 3px 0 0 3px;
   }
+  .act-page {
+    .slide1 .prev4, .slide1 .next4 {
 
+      top: 32%;
+
+  }
+    .sub-title {
+
+      margin-bottom: -37px;
+
+  }
+    .cat-slide-img {
+      height: 100vw;
+    }
+
+    .wedd-box-brital {
+      line-height: 20px;
+      margin-top: 10px;
+    }
+
+    .wedd-list-elem-icon {
+      width: 11px;
+      margin-bottom: 19px;
+    }
+  }
 }

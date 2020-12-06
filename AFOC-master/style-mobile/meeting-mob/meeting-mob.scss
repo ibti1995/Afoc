@@ -1,4 +1,38 @@
 @media only screen and (max-width: 700px) {
+  .icons img {
+    width: 22px;
+    height: 26px;
+}
+.getoffre-btn {
+
+  font-size: 12px;
+
+}
+.meetings-and-act{
+
+
+.carousel-3-div .carousel-meetings-packages .ourfans-box {
+  padding: 25px;
+}
+
+  .padding-top-50 {
+    padding-top: 10px;
+}
+.margin-right-25 {
+  margin-right: 15px;
+  margin-bottom: 12px;
+  margin-top: 3px;
+}
+  .cat-white-btn {
+    margin-top: 11px;
+    padding: 12px 0px 12px 0px;
+}
+.meeting-width-buttons {
+  width: 188px;
+}
+}
+
+
   #slide1meeting .prev-meeting,
   #slide3meeting .prev-meeting {
     right: unset;
@@ -14,7 +48,7 @@
   .info-mobile {
     p {
 
-      line-height: 50px !important;
+      line-height: 30px !important;
     }
     .meeting-width-buttons {
       width: -webkit-fill-available;
@@ -25,20 +59,9 @@
   }
   .carousel-meetings-packages {
     span {
-      font-size: 18px !important;
+      font-size: 12px !important;
     }
-    .order-title-mobile1 {
-      order: 1;
-    }
-    .order-title-mobile2 {
-      order: 2;
-    }
-    .order-title-mobile3 {
-      order: 3;
-    }
-    .order-title-mobile4 {
-      order: 4;
-    }
+
   }
 
   .meeting-font-margin {
@@ -46,9 +69,9 @@
     margin-bottom: 20px;
   }
   .meeting-img {
-    width: -webkit-fill-available;
-    margin: -30px -30px 20px -30px;
-    border-radius: 0px;
+    width: 100%;
+
+    border-radius: 5px;
   }
   .ourfans-box {
     .flex-row {
@@ -80,7 +103,7 @@
     margin-left: 10px;
   }
   .meeting-second-box {
-    margin-top: 50px;
+    margin-top: 10px;
     margin-bottom: 10px;
     padding-bottom: 50px;
   }
@@ -137,3 +160,15 @@
   margin-left: 5%;
   margin-right: 5%;
 }
+@media only screen and (max-width: 425px) {
+
+    .carousel-3-div .carousel-meetings-packages .carousel-cell {
+      width: 100% !important;
+
+  }
+}
+@media only screen and (max-width: 320px){
+.meetings-and-act .margin-right-25 {
+
+     margin-top: 0px;
+}}
