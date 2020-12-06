@@ -5996,6 +5996,10 @@ body {
     line-height: 2vw;
   }
 }
+.multi-rooms .offers-icon-under-h {
+  margin-left: 10px;
+}
+
 @media screen and (min-width: 2000px) {
   .carousel-our-fan p {
     font-size: 1.2vw !important;
